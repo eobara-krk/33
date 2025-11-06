@@ -333,21 +333,22 @@ toggleImage(item: Item) {
 isTodayInTitleRange(title: string): boolean {
   if (!title) return false;
 
-  // Szukamy dwóch dat w formacie DD-MM-YYYY
-  const matches = title.match(/\d{2}-\d{2}-\d{4}/g);
+  // Szukamy dwóch dat w formacie YYYY-MM-DD
+  const matches = title.match(/\d{4}-\d{2}-\d{2}/g);
   if (!matches || matches.length < 2) return false;
 
-  const startParts = matches[0].split('-');
-  const endParts = matches[1].split('-');
+  const startParts = matches[0].split('-').map(Number);
+  const endParts = matches[1].split('-').map(Number);
 
-  const startDate = new Date(+startParts[2], +startParts[1]-1, +startParts[0]);
-  const endDate = new Date(+endParts[2], +endParts[1]-1, +endParts[0]);
+  const startDate = new Date(startParts[0], startParts[1] - 1, startParts[2]);
+  const endDate = new Date(endParts[0], endParts[1] - 1, endParts[2]);
 
   const today = new Date();
-  today.setHours(0,0,0,0); // ignorujemy czas
+  today.setHours(0,0,0,0);
 
   return today >= startDate && today <= endDate;
 }
+
 
 
 isToday(name: string): boolean {
