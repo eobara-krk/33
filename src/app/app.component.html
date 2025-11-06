@@ -3,9 +3,14 @@
 
     <!-- DATA I GODZINA -->
     <div class="top-right-datetime">
-      <div class="date-line">{{ currentDateTime | date:'EEEE dd.MM.yyyy':'':'pl-PL' }} r.</div>
+   <div class="date-line">
+  {{ currentDateTime | date:'EEEE':'':'pl-PL' }} {{ currentDateTime | date:'yyyy-MM-dd':'':'pl-PL' }}
+</div>
+
+
     </div>
-<div> </div>
+    <div></div> <div></div>
+
     <!-- HEADER -->
     <div class="header">
       <h1>DROGA MARYI 33 - dniowe rekolekcje</h1>
@@ -17,6 +22,8 @@
     <!-- EVENTY -->
     <div *ngFor="let item of items; trackBy: trackByTitle" class="event-card">
       <div class="event-header" (click)="toggle(item)">
+        <!-- 👉 jeśli dzisiaj w tytule -->
+        <span *ngIf="isTodayInTitleRange(item.title)">👉</span>
         <span>📌 {{ item.title }}</span>
         <span>{{ item.show ? '▲' : '▼' }}</span>
       </div>
@@ -31,47 +38,65 @@
           </div>
         </div>
 
-       <!-- GRUPY LINKÓW I OPISY -->
-<div class="groups-container" *ngIf="item.show">
-  <ng-container *ngFor="let group of item.links; trackBy: trackByName">
+        <!-- GRUPY LINKÓW I OPISY -->
+        <div class="groups-container" *ngIf="item.show">
+          <ng-container *ngFor="let group of item.links; trackBy: trackByName">
 
-    <!-- Opis -->
-    <div *ngIf="group.type==='opis'" class="grid-link description-link" (click)="toggleLink(group)">
-      <span *ngIf="group.protected">🔒</span>
-      <span *ngIf="!group.protected">📝</span>
-      {{ group.name }}
-      <div *ngIf="group.show && group.text" class="event-description">
-        <pre style="white-space: pre-wrap;">{{ group.text }}</pre>
-      </div>
-    </div>
+            <!-- Opis -->
+            <div *ngIf="group.type==='opis'" class="grid-link description-link" (click)="toggleLink(group)">
+              <span *ngIf="group.protected">🔒</span>
+              <span *ngIf="!group.protected">📝</span>
+              {{ group.name }}
+              <div *ngIf="group.show && group.text" class="event-description">
+                <pre style="white-space: pre-wrap;">{{ group.text }}</pre>
+              </div>
+            </div>
 
-    <!-- Linki -->
-    <div *ngIf="group.type !== 'opis'">
-      <div class="grid-link" (click)="group.links && group.links.length === 1 ? openLink(group.links[0]) : group.show = !group.show">
-        <span *ngIf="group.links && group.links.length > 1">▶</span>
-        {{ group.name }}
-      </div>
+            <!-- Linki -->
+            <div *ngIf="group.type !== 'opis'">
 
-      <div *ngIf="group.show && group.links && group.links.length > 1" class="link-grid">
-        <div *ngFor="let l of group.links" class="grid-link" (click)="openLink(l)">
-          <span [ngSwitch]="l.type">
-            <span *ngSwitchCase="'film'">🎬</span>
-            <span *ngSwitchCase="'pdfy'">📕</span>
-            <span *ngSwitchCase="'exec'">💿</span>
-            <span *ngSwitchCase="'foto'">📷</span>
-            <span *ngSwitchCase="'audio'">🎵</span>
-            <span *ngSwitchCase="'youtube'">📺</span>
-            <span *ngSwitchCase="'html'">🌐</span>
-            <span *ngSwitchDefault>📁</span>
-          </span>
-          {{ l.label || l.url }}
+              <!-- GRUPA PODŚWIETLANA, JEŚLI TO DZISIAJ -->
+              <div 
+                class="grid-link"
+                [class.today-highlight]="isToday(group.name)"
+                (click)="group.links && group.links.length === 1 ? openLink(group.links[0]) : group.show = !group.show">
+                
+                <!-- 👉 jeśli dzisiaj -->
+                <span *ngIf="isToday(group.name)">👉</span>
+                <span *ngIf="group.links && group.links.length > 1">▶</span>
+                {{ group.name }}
+              </div>
+
+              <!-- POJEDYNCZE LINKI -->
+              <div *ngIf="group.show && group.links && group.links.length > 1" class="link-grid">
+                <div 
+                  *ngFor="let l of group.links" 
+                  class="grid-link"
+                  [class.today-highlight]="isToday(l.label || l.url)"
+                  (click)="openLink(l)">
+                  
+                  <!-- 👉 jeśli dzisiaj -->
+                  <span *ngIf="isToday(l.label || l.url)">👉</span>
+
+                  <span [ngSwitch]="l.type">
+                    <span *ngSwitchCase="'film'">🎬</span>
+                    <span *ngSwitchCase="'pdfy'">📕</span>
+                    <span *ngSwitchCase="'exec'">💿</span>
+                    <span *ngSwitchCase="'foto'">📷</span>
+                    <span *ngSwitchCase="'audio'">🎵</span>
+                    <span *ngSwitchCase="'youtube'">📺</span>
+                    <span *ngSwitchCase="'html'">🌐</span>
+                    <span *ngSwitchDefault>📁</span>
+                  </span>
+
+                  {{ l.label || l.url }}
+                </div>
+              </div>
+
+            </div>
+
+          </ng-container>
         </div>
-      </div>
-    </div>
-
-  </ng-container>
-</div>
-
 
       </div>
     </div>

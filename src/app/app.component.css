@@ -180,6 +180,20 @@ main {
   font-size: 1rem;
 }
 
+/* PODŚWIETLENIE DLA DZISIAJ */
+.today-highlight {
+  background: #fffae6;
+  border: 1px solid #f1c40f;
+  font-weight: bold;
+  border-radius: 6px;
+  padding: 0.2rem 0.5rem;
+  transition: background 0.3s ease;
+}
+
+.today-highlight:hover {
+  background: #fff3b0;
+}
+
 /* DATA I CZAS */
 .top-right-datetime {
   position: absolute;
@@ -203,8 +217,14 @@ main {
 .date-line {
   font-size: 0.95rem;
   font-weight: 600;
-  color: #333;
+  color: #3b82f6; /* niebieski tekst */
+  background-color: #fffae6; /* żółte tło zgodne z today-highlight */
+  padding: 0.2rem 0.5rem;
+  border-radius: 6px; /* dopasowane do today-highlight */
+  border: 1px solid #f1c40f; /* ramka zgodna z today-highlight */
 }
+
+
 
 .time-line {
   font-size: 0.85rem;
@@ -336,12 +356,10 @@ main {
   .event-image {
     width: 100%;
   }
-
   .grid-link {
     font-size: 1rem;
     padding: 0.85rem 1rem;
   }
-
   .link-grid {
     gap: 0.7rem;
   }
