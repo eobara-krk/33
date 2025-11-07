@@ -1,3 +1,4 @@
+/* ---------- KONTEKST I ZMIENNE ---------- */
 :host {
   --blue: #3b82f6;
   --pink: #ff4fcf;
@@ -12,7 +13,7 @@
   box-sizing: border-box;
 }
 
-/* GŁÓWNY KONTAINER */
+/* ---------- KONTAINER ---------- */
 main {
   width: 100%;
   min-height: 100vh;
@@ -36,7 +37,7 @@ main {
   gap: 1rem;
 }
 
-/* HEADER */
+/* ---------- HEADER ---------- */
 .header {
   display: flex;
   flex-direction: column;
@@ -55,7 +56,7 @@ main {
   color: var(--gray-700);
 }
 
-/* DIVIDER */
+/* ---------- DIVIDER ---------- */
 .divider {
   width: 100%;
   height: 3px;
@@ -64,7 +65,7 @@ main {
   margin: 0.5rem 0 1rem 0;
 }
 
-/* EVENT CARD */
+/* ---------- EVENT CARD ---------- */
 .event-card {
   background: var(--bg-card);
   padding: 1rem;
@@ -79,7 +80,7 @@ main {
   box-shadow: 0 8px 22px rgba(0,0,0,0.12);
 }
 
-/* EVENT HEADER */
+/* ---------- EVENT HEADER ---------- */
 .event-header {
   display: flex;
   justify-content: space-between;
@@ -90,7 +91,7 @@ main {
   color: var(--gray-900);
 }
 
-/* EVENT DESCRIPTION */
+/* ---------- EVENT DESCRIPTION ---------- */
 .event-description {
   margin-top: 0.5rem;
   padding: 0.5rem;
@@ -103,7 +104,7 @@ main {
   box-shadow: 0 1px 3px rgba(0,0,0,0.05);
 }
 
-/* PILL GROUP */
+/* ---------- PILL GROUP ---------- */
 .pill-group {
   display: flex;
   flex-wrap: wrap;
@@ -128,23 +129,22 @@ main {
   transform: translateY(-1px);
 }
 
-/* LINK GRID – wszystko w pionie, dobrze dla dotyku */
+/* ---------- LINK GRID ---------- */
 .link-grid {
   display: flex;
   flex-direction: column;
-  gap: 0.6rem; /* większy odstęp na telefonie */
+  gap: 0.6rem;
   margin-top: 0.5rem;
   width: 100%;
 }
 
-/* Każdy link/folder */
 .grid-link {
   background: var(--bg-hover);
   color: var(--blue);
-  padding: 0.75rem 1rem; /* większy padding na dotyk */
+  padding: 0.75rem 1rem;
   border-radius: var(--pill-radius);
   font-weight: 500;
-  font-size: 1rem; /* większa czcionka na telefon */
+  font-size: 1rem;
   cursor: pointer;
   display: flex;
   align-items: center;
@@ -160,27 +160,36 @@ main {
   transform: translateY(-1px);
 }
 
-/* Zwykły opis pełną szerokością */
 .grid-link.description-link {
+  display: block;
   background: #f0f0f5;
   color: #333;
-  display: block;
   cursor: default;
   padding: 0.75rem 1rem;
   font-size: 1rem;
 }
 
-/* Chroniony opis pełną szerokością */
-.grid-link.protected-link.description-link {
-  background: #ffeaea;
-  color: #c0392b;
-  display: block;
-  cursor: pointer;
-  padding: 0.75rem 1rem;
-  font-size: 1rem;
+.sub-link {
+  padding-left: 2rem;
+  font-size: 0.95rem;
+  color: #555;
+  background: #f8f8f8;
+  border-radius: 8px;
 }
 
-/* PODŚWIETLENIE DLA DZISIAJ */
+.sub-icon {
+  margin-right: 0.4rem;
+  color: #888;
+  font-size: 0.9rem;
+}
+
+.main-link {
+  font-weight: 600;
+  font-size: 1rem;
+  background: var(--bg-hover);
+  border-radius: var(--pill-radius);
+}
+
 .today-highlight {
   background: #fffae6;
   border: 1px solid #f1c40f;
@@ -194,46 +203,30 @@ main {
   background: #fff3b0;
 }
 
-/* DATA I CZAS */
+/* ---------- DATA I CZAS ---------- */
 .top-right-datetime {
   position: absolute;
   top: 0.5rem;
   right: 2rem;
   text-align: right;
   user-select: none;
-  background: rgba(255, 255, 255, 0.9);
+  background: rgba(255,255,255,0.9);
   padding: 0.5rem 1rem;
   border-radius: 0.5rem;
   box-shadow: 0 2px 6px rgba(0,0,0,0.15);
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.top-right-datetime:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
 }
 
 .date-line {
   font-size: 0.95rem;
   font-weight: 600;
-  color: #3b82f6; /* niebieski tekst */
-  background-color: #fffae6; /* żółte tło zgodne z today-highlight */
+  color: #3b82f6;
+  background-color: #fffae6;
   padding: 0.2rem 0.5rem;
-  border-radius: 6px; /* dopasowane do today-highlight */
-  border: 1px solid #f1c40f; /* ramka zgodna z today-highlight */
+  border-radius: 6px;
+  border: 1px solid #f1c40f;
 }
 
-
-
-.time-line {
-  font-size: 0.85rem;
-  font-weight: 500;
-  color: #555;
-  margin-top: 0.1rem;
-}
-
-/* ZNAK WODNY */
+/* ---------- ZNAK WODNY ---------- */
 .znak-wodny {
   position: absolute;
   bottom: 5px;
@@ -246,121 +239,124 @@ main {
   z-index: 1000;
   white-space: nowrap;
   font-family: 'Lato', Arial, sans-serif;
-  text-shadow:
-    1px 1px 3px rgba(255, 255, 255, 0.3),
-    0 0 6px rgba(0, 0, 0, 0.6);
+  text-shadow: 1px 1px 3px rgba(255,255,255,0.3), 0 0 6px rgba(0,0,0,0.6);
 }
-
 .znak-wodny .ozdobne {
   color: rgba(50,50,50,0.8);
 }
 
-/* EVENT IMAGE */
-.event-image-container {
-  width: 100%;
+/* ---------- MINIATURY ---------- */
+.event-image-container,
+.link-thumb-container {
+  display: flex;
+  justify-content: center;
   margin-bottom: 1rem;
-  display: flex;
-  justify-content: center;
+  position: relative;
 }
 
-.event-image {
-  width: 30%;
-  max-width: 200px;
+.event-thumb {
+  width: 120px;
   height: auto;
-  border-radius: 12px;
   cursor: pointer;
-  transition: all 0.3s ease;
+  border-radius: 5px;
+  transition: transform 0.2s;
 }
 
-.fullscreen-overlay {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background: rgba(0,0,0,0.5);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 10;
-  padding: 0.5rem;
-  border-radius: 12px;
-  transition: all 0.3s ease;
+.event-thumb:hover {
+  transform: scale(1.05);
 }
 
-.fullscreen-overlay .fullscreen-image {
-  max-width: 150%;
-  width: auto;
-  max-height: 90vh;
+.link-thumb {
+  width: 80px;
   height: auto;
-  object-fit: contain;
-  border-radius: 12px;
   cursor: pointer;
-  box-shadow: 0 0 20px rgba(0,0,0,0.3);
-  transition: transform 0.3s ease;
+  border-radius: 4px;
+  margin-right: 0.5rem;
+  transition: transform 0.2s;
+}
+
+.link-thumb:hover {
   transform: scale(1.1);
 }
 
-.fullscreen-overlay .fullscreen-image:hover {
-  transform: scale(1.15);
+/* ---------- FULLSCREEN LOCAL ---------- */
+/* ---------- FULLSCREEN LOCAL ---------- */
+.fullscreen-local {
+  position: fixed; /* aby zajmowało cały ekran */
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0,0,0,0.85);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+  cursor: zoom-out;
 }
 
-/* STYLISH BUTTON */
-.stylish-button {
-  background: linear-gradient(135deg, #ff4fcf, #8a2be2);
-  color: white;
-  font-size: 1rem;
-  padding: 0.75rem 1.5rem;
-  border: none;
-  border-radius: 50px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
-  cursor: pointer;
-  transition: all 0.3s ease;
+.fullscreen-local-image {
+  max-width: 95vw;   /* maksymalna szerokość 95% ekranu */
+  max-height: 95vh;  /* maksymalna wysokość 95% ekranu */
+  width: auto;       /* automatyczna szerokość przy ograniczeniach max */
+  height: auto;      /* automatyczna wysokość przy ograniczeniach max */
+  border-radius: 8px;
+  object-fit: contain;
+  box-shadow: 0 0 40px rgba(0,0,0,0.6);
+  transition: transform 0.3s ease;
 }
 
-.stylish-button:hover {
-  background: linear-gradient(135deg, #ff6fcf, #9a3be2);
-  box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+.fullscreen-local-image:hover {
+  transform: scale(1.03); /* delikatne powiększenie */
 }
 
-.stylish-button:focus {
-  outline: none;
-  box-shadow: 0 0 0 4px rgba(138,43,226,0.5);
+
+/* ---------- STYLISH BUTTON ---------- */
+.fullscreen-local {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0,0,0,0.85);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+  cursor: zoom-out;
+  overflow: hidden; /* dodatkowo blokuje przewijanie */
 }
 
-/* RESPONSIVE */
+.fullscreen-local-image {
+  max-width: 95vw;
+  max-height: 95vh;
+  width: auto;
+  height: auto;
+  border-radius: 8px;
+  object-fit: contain;
+  box-shadow: 0 0 40px rgba(0,0,0,0.6);
+  transition: transform 0.2s ease;
+  display: block;
+  margin: auto; /* wycentrowanie absolutne */
+}
+
+.fullscreen-local-image:hover {
+  transform: scale(1.02); /* minimalne powiększenie */
+}
+
+
+/* ---------- RESPONSIVE ---------- */
 @media (max-width: 768px) {
-  .placeholder {
-    padding: 1.5rem;
-  }
-  .header h1 {
-    font-size: 1.75rem;
-  }
+  .placeholder { padding: 1.5rem; }
+  .header h1 { font-size: 1.75rem; }
 }
 
 @media (max-width: 480px) {
-  .placeholder {
-    padding: 1rem;
-  }
-  .header h1 {
-    font-size: 1.5rem;
-  }
-  .header p {
-    font-size: 0.875rem;
-  }
-  .event-card {
-    padding: 0.75rem;
-  }
-  .event-description {
-    padding-left: 0.25rem;
-  }
-  .event-image {
-    width: 100%;
-  }
-  .grid-link {
-    font-size: 1rem;
-    padding: 0.85rem 1rem;
-  }
-  .link-grid {
-    gap: 0.7rem;
-  }
+  .placeholder { padding: 1rem; }
+  .header h1 { font-size: 1.5rem; }
+  .header p { font-size: 0.875rem; }
+  .event-card { padding: 0.75rem; }
+  .event-description { padding-left: 0.25rem; }
+  .grid-link { font-size: 1rem; padding: 0.85rem 1rem; }
+  .link-grid { gap: 0.7rem; }
 }

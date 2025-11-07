@@ -3,17 +3,12 @@
 
     <!-- DATA I GODZINA -->
     <div class="top-right-datetime">
-   <div class="date-line">
-  {{ currentDateTime | date:'EEEE':'':'pl-PL' }} {{ currentDateTime | date:'yyyy-MM-dd':'':'pl-PL' }}
-</div>
-
-
+      <div class="date-line">{{ currentDateTime | date:'EEEE dd.MM.yyyy':'':'pl-PL' }} r.</div>
     </div>
-    <div></div> <div></div>
 
     <!-- HEADER -->
     <div class="header">
-      <h1>DROGA MARYI 33 - dniowe rekolekcje</h1>
+      <h1>DROGA MARYI <br>33 - dniowe rekolekcje</h1>
       <p>nowenna do św. Ludwika i 33 dniowe rozważania</p>
     </div>
 
@@ -22,7 +17,6 @@
     <!-- EVENTY -->
     <div *ngFor="let item of items; trackBy: trackByTitle" class="event-card">
       <div class="event-header" (click)="toggle(item)">
-        <!-- 👉 jeśli dzisiaj w tytule -->
         <span *ngIf="isTodayInTitleRange(item.title)">👉</span>
         <span>📌 {{ item.title }}</span>
         <span>{{ item.show ? '▲' : '▼' }}</span>
@@ -30,17 +24,42 @@
 
       <div class="pill-group" *ngIf="item.show">
 
-        <!-- Obrazek wydarzenia -->
-        <div class="event-image-container" *ngIf="item.image" style="position: relative;">
-          <img [src]="item.image" alt="Obraz wydarzenia" class="event-image" (click)="toggleImage(item)" />
-          <div *ngIf="item.fullscreen" class="fullscreen-overlay" (click)="toggleImage(item)">
-            <img [src]="item.image" class="fullscreen-image" />
+        <!-- Miniatura obrazka wydarzenia -->
+        <div class="event-image-container" *ngIf="item.image">
+          <img [src]="item.image"
+               alt="Obraz wydarzenia"
+               class="event-thumb"
+               (click)="item.fullscreen = !item.fullscreen" />
+
+          <!-- LOKALNY fullscreen w karcie -->
+          <div class="fullscreen-local" *ngIf="item.fullscreen" (click)="item.fullscreen = false">
+            <img [src]="item.image" class="fullscreen-local-image" />
           </div>
         </div>
 
         <!-- GRUPY LINKÓW I OPISY -->
-        <div class="groups-container" *ngIf="item.show">
+        <div class="groups-container">
           <ng-container *ngFor="let group of item.links; trackBy: trackByName">
+
+            <!-- Miniaturka grupy -->
+            <div class="event-image-container" *ngIf="group.image">
+              <img [src]="group.image"
+                   alt="Obraz grupy"
+                   class="event-thumb"
+                   (click)="group.fullscreen = !group.fullscreen" />
+              <div class="fullscreen-local" *ngIf="group.fullscreen" (click)="group.fullscreen = false">
+                <img [src]="group.image" class="fullscreen-local-image" />
+              </div>
+            </div>
+
+            <!-- GŁÓWNY LINK GRUPY -->
+            <div *ngIf="group.type !== 'opis'" class="grid-link main-link"
+                 [class.today-highlight]="group.name ? isToday(group.name) : false"
+                 (click)="openOnly(group, item)">
+              <span *ngIf="group.name && isToday(group.name)">👉</span>
+              <span *ngIf="group.links && group.links.length > 1">▶</span>
+              {{ group.name }}
+            </div>
 
             <!-- Opis -->
             <div *ngIf="group.type==='opis'" class="grid-link description-link" (click)="toggleLink(group)">
@@ -52,47 +71,36 @@
               </div>
             </div>
 
-            <!-- Linki -->
-            <div *ngIf="group.type !== 'opis'">
+            <!-- PODLINKI -->
+            <div *ngIf="group.show && group.links && group.links.length > 0" class="link-grid">
+              <div *ngFor="let l of group.links" class="grid-link sub-link"
+                   [class.today-highlight]="(l.label || l.url) ? isToday(l.label || l.url || '') : false">
 
-              <!-- GRUPA PODŚWIETLANA, JEŚLI TO DZISIAJ -->
-              <div 
-                class="grid-link"
-                [class.today-highlight]="isToday(group.name)"
-                (click)="group.links && group.links.length === 1 ? openLink(group.links[0]) : group.show = !group.show">
-                
-                <!-- 👉 jeśli dzisiaj -->
-                <span *ngIf="isToday(group.name)">👉</span>
-                <span *ngIf="group.links && group.links.length > 1">▶</span>
-                {{ group.name }}
-              </div>
-
-              <!-- POJEDYNCZE LINKI -->
-              <div *ngIf="group.show && group.links && group.links.length > 1" class="link-grid">
-                <div 
-                  *ngFor="let l of group.links" 
-                  class="grid-link"
-                  [class.today-highlight]="isToday(l.label || l.url)"
-                  (click)="openLink(l)">
-                  
-                  <!-- 👉 jeśli dzisiaj -->
-                  <span *ngIf="isToday(l.label || l.url)">👉</span>
-
-                  <span [ngSwitch]="l.type">
-                    <span *ngSwitchCase="'film'">🎬</span>
-                    <span *ngSwitchCase="'pdfy'">📕</span>
-                    <span *ngSwitchCase="'exec'">💿</span>
-                    <span *ngSwitchCase="'foto'">📷</span>
-                    <span *ngSwitchCase="'audio'">🎵</span>
-                    <span *ngSwitchCase="'youtube'">📺</span>
-                    <span *ngSwitchCase="'html'">🌐</span>
-                    <span *ngSwitchDefault>📁</span>
-                  </span>
-
-                  {{ l.label || l.url }}
+                <!-- Miniaturka zdjęcia -->
+                <div *ngIf="l.type==='foto'" class="link-thumb-container">
+                  <img [src]="l.image" alt="Miniaturka" class="link-thumb" (click)="l.fullscreen = !l.fullscreen" />
+                  <div class="fullscreen-local" *ngIf="l.fullscreen" (click)="l.fullscreen = false">
+                    <img [src]="l.image" class="fullscreen-local-image" />
+                  </div>
                 </div>
-              </div>
 
+                <span *ngIf="(l.label || l.url) && isToday(l.label || l.url || '')">👉</span>
+                <span class="sub-icon">➤</span>
+
+                <span [ngSwitch]="l.type">
+                  <span *ngSwitchCase="'film'">🎬</span>
+                  <span *ngSwitchCase="'pdfy'">📕</span>
+                  <span *ngSwitchCase="'exec'">💿</span>
+                  <span *ngSwitchCase="'foto'">📷</span>
+                  <span *ngSwitchCase="'audio'">🎵</span>
+                  <span *ngSwitchCase="'youtube'">📺</span>
+                  <span *ngSwitchCase="'html'">🌐</span>
+                  <span *ngSwitchDefault>📁</span>
+                </span>
+
+                {{ l.label || l.url }}
+
+              </div>
             </div>
 
           </ng-container>

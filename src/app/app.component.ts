@@ -9,11 +9,15 @@ interface LinkGroup {
     links?: SingleLink[];  // <-- teraz można używać label
   text?: string;
   protected?: boolean;
+  image?: string;  // opcjonalne pole na obrazek
+  fullscreen?: boolean; // <-- dodajemy opcjonalne pole fullscreen
 }
 interface SingleLink {
-  url: string;
+  url?: string;
   type?: string;
   label?: string;  // <-- dodajemy opcjonalne pole label
+  fullscreen?: boolean; // jeśli chcesz obsługiwać fullscreen dla linków
+  image?: string; // 🆕 obrazek do wyświetlenia
 }
 
 interface Meeting {
@@ -49,9 +53,12 @@ interface Item {
 })
 export class AppComponent {
   currentDateTime: Date = new Date(); // <-- dodaj to
+  fullscreenImage: string | null = null; // <-- globalny fullscreen
+
+
 items: Item[] = [
   { 
-    title: '2025-10-27 do 2025-11-04;  Nowenna do św. Ludwika', 
+    title: 'Nowenna do św. Ludwika', 
     show: false,
     links: [
       { 
@@ -64,63 +71,63 @@ Osoby, którym nie udało się rozpocząć nowenny 27 października zachęcamy, 
         type: 'opis'
       },
       {
-        name: '01: Czułe serce św. Ludwika',
+        name: '01: 2025-10-27',
         type: 'html',
         links: [
           { url:'https://drogamaryi.pl/nowenna-do-sw-ludwika/dzien-1', type:'html' }
         ]
       },
       {
-        name: '02: Duchowe wzrastanie św. Ludwika i nasze',
+        name: '02:  2025-10-28',
         type: 'html',
         links: [
           { url:'https://drogamaryi.pl/nowenna-do-sw-ludwika/dzien-2', type:'html' }
         ]
       },
       {
-        name: '03: Zaufanie Bogu',
+        name: '03: 2025-10-29',
         type: 'html',
         links: [
           { url:'https://drogamaryi.pl/nowenna-do-sw-ludwika/dzien-3', type:'html' }
         ]
       },
       {
-        name: '04: Głosiciel Królestwa Jezusa przez Maryję',
+        name: '04:  2025-10-30',
         type: 'html',
         links: [
           { url:'https://drogamaryi.pl/nowenna-do-sw-ludwika/dzien-4', type:'html' }
         ]
       },
       {
-        name: '05: Nauczyciel prawdziwego nabożeństwa do Maryi',
+        name: '05: 2025-10-31',
         type: 'html',
         links: [
           { url:'https://drogamaryi.pl/nowenna-do-sw-ludwika/dzien-5', type:'html' }
         ]
       },
       {
-        name: '06: Miłość do Kościoła',
+        name: '06:  2025-11-01',
         type: 'html',
         links: [
           { url:'https://drogamaryi.pl/nowenna-do-sw-ludwika/dzien-6', type:'html' }
         ]
       },
       {
-        name: '07: Apostoł Krzyża i Chrystusowego zwycięstwa',
+        name: '07:  2025-11-02',
         type: 'html',
         links: [
           { url:'https://drogamaryi.pl/nowenna-do-sw-ludwika/dzien-7', type:'html' }
         ]
       },
       {
-        name: '08: Nauczyciel trwania w łasce',
+        name: '08: 2025-11-03',
         type: 'html',
         links: [
           { url:'https://drogamaryi.pl/nowenna-do-sw-ludwika/dzien-8', type:'html' }
         ]
       },
       {
-        name: '09: Prowadzi nas do miłości do Jezusa',
+        name: '09:  2025-11-04',
         type: 'html',
         links: [
           { url:'https://drogamaryi.pl/nowenna-do-sw-ludwika/dzien-9', type:'html' }
@@ -129,7 +136,7 @@ Osoby, którym nie udało się rozpocząć nowenny 27 października zachęcamy, 
     ]
   },
   { 
-    title: '2025-11-05 do 2025-11-16;  Wyzbycie się ducha tego świata 12 dni', 
+    title: 'Wyzbycie się ducha tego świata 12 dni', 
     show: false,
     links: [
       {
@@ -137,117 +144,120 @@ Osoby, którym nie udało się rozpocząć nowenny 27 października zachęcamy, 
         type: 'html',
         links: [
           { url:'https://drogamaryi.pl/edycje/5-listopada-2025/12-dni-wprowadzenie', type:'html', label:'tekst Wprowadzenia' },
-          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/12-dni-wprowadzenie/audio', type:'audio', label:'nagranie audio Wprowadzenia' }
+          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/12-dni-wprowadzenie/audio', type:'audio', label:'audio Wprowadzenia' }
         ]
       },
       {
-        name: '01: 2025-11-05;  Odkryj łaskę Bożej miłości',
-        type: 'html',
+        name: '01: 2025-11-05',
+        show: false,
         links: [
-          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/12-dni-dzien-1', type:'html', label:'tekst Dnia 1' },
-          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/12-dni-dzien-1/audio', type:'audio', label:'nagranie audio Dnia 1' }
+          { image: 'assets/12dni/01.jpg',type:'foto' },
+          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/12-dni-dzien-1', type:'html', label:'Odkryj łaskę Bożej miłości' },
+          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/12-dni-dzien-1/audio', type:'audio', label:'audio' }
         ]
       },
       {
-        name: '02: 2025-11-06;  Odkryj łaskę Bożej miłości',
-        type: 'html',
+        name: '02: 2025-11-06',
+        show: false,
         links: [
-          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/12-dni-dzien-2', type:'html', label:'tekst Dnia 2' },
-          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/12-dni-dzien-2/audio', type:'audio', label:'nagranie audio Dnia 2' }
+          { image: 'assets/12dni/02.jpg',type:'foto' },
+          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/12-dni-dzien-2', type:'html', label:'Odkryj łaskę poznania prawdy o grzechu' },
+          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/12-dni-dzien-2/audio', type:'audio', label:'audio' }
         ]
       },
       {
-        name: '03: 2025-11-07; Odkryj łaskę zbawienia',
-        type: 'html',
+        name: '03: 2025-11-07',
+        show: false,
         links: [
-          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/12-dni-dzien-3', type:'html', label:'tekst Dnia 3' },
-          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/12-dni-dzien-3/audio', type:'audio', label:'nagranie audio Dnia 3'  }
+          { image: 'assets/12dni/03.jpg',type:'foto' },
+          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/12-dni-dzien-3', type:'html', label:'Odkryj łaskę zbawienia' },
+          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/12-dni-dzien-3/audio', type:'audio', label:'audio'  }
         ]
       },
       {
-        name: '04: 2025-11-08; Odkryj łaskę nawrócenia i oddania życia Panu Jezusowi',
+        name: '04: 2025-11-08',
         type: 'html',
         links: [
-          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/12-dni-dzien-4', type:'html', label:'tekst Dnia 4' },
-          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/12-dni-dzien-4/audio', type:'audio', label:'nagranie audio Dnia 4' }
+          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/12-dni-dzien-4', type:'html', label:'Odkryj łaskę nawrócenia i oddania życia Panu Jezusowi' },
+          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/12-dni-dzien-4/audio', type:'audio', label:'audio' }
         ]
       },
       {
-        name: '05: 2025-11-09; Błogosławieni ubodzy w duchu',
+        name: '05: 2025-11-09',
         type: 'html',
         links: [
-          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/12-dni-dzien-5', type:'html', label:'tekst Dnia 5' },
-          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/12-dni-dzien-5/audio', type:'audio', label:'nagranie audio Dnia 5' }
+          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/12-dni-dzien-5', type:'html', label:'Błogosławieni ubodzy w duchu' },
+          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/12-dni-dzien-5/audio', type:'audio', label:'audio' }
         ]
       },
             {
-        name: '06: 2025-11-10; Błogosławieni, którzy się smucą',
+        name: '06: 2025-11-10',
         type: 'html',
         links: [
-          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/12-dni-dzien-6', type:'html', label:'tekst Dnia 6' },
-          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/12-dni-dzien-6/audio', type:'audio', label:'nagranie audio Dnia 6' }
+          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/12-dni-dzien-6', type:'html', label:'Błogosławieni, którzy się smucą' },
+          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/12-dni-dzien-6/audio', type:'audio', label:'audio' }
         ]
       },
             {
-        name: '07: 2025-11-11; Błogosławieni cisi',
+        name: '07: 2025-11-11',
         type: 'html',
         links: [
-          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/12-dni-dzien-7', type:'html', label:'tekst Dnia 7' },
-          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/12-dni-dzien-7/audio', type:'audio', label:'nagranie audio Dnia 7' }
+          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/12-dni-dzien-7', type:'html', label:'Błogosławieni cisi' },
+          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/12-dni-dzien-7/audio', type:'audio', label:'audio' }
         ]
       },
             {
-        name: '08: 2025-11-12; Błogosławieni, którzy łakną i pragną sprawiedliwości',
+        name: '08: 2025-11-12',
         type: 'html',
         links: [
-          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/12-dni-dzien-8', type:'html', label:'tekst Dnia 8' },
-          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/12-dni-dzien-8/audio', type:'audio', label:'nagranie audio Dnia 8' }
+          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/12-dni-dzien-8', type:'html', label:'Błogosławieni, którzy łakną i pragną sprawiedliwości.' },
+          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/12-dni-dzien-8/audio', type:'audio', label:'audio' }
         ]
       },
             {
-        name: '09: 2025-11-13; Błogosławieni miłosierni',
+        name: '09: 2025-11-13',
         type: 'html',
         links: [
-          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/12-dni-dzien-9', type:'html', label:'tekst Dnia 9' },
-          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/12-dni-dzien-9/audio', type:'audio', label:'nagranie audio Dnia 9' }
+          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/12-dni-dzien-9', type:'html', label:'Błogosławieni miłosierni' },
+          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/12-dni-dzien-9/audio', type:'audio', label:'audio' }
         ]
       },
-        {name: '10: 2025-11-14; Błogosławieni czystego serca',
+        {name: '10: 2025-11-14',
         type: 'html',
         links: [
-          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/12-dni-dzien-10', type:'html', label:'tekst Dnia 10' },
-          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/12-dni-dzien-10/audio', type:'audio', label:'nagranie audio Dnia 10' }
+          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/12-dni-dzien-10', type:'html', label:'Błogosławieni czystego serca' },
+          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/12-dni-dzien-10/audio', type:'audio', label:'audio' }
         ]
       },
-        {name: '11: 2025-11-15; Błogosławieni, którzy wprowadzają pokój ',
+        {name: '11: 2025-11-15',
         type: 'html',
         links: [
-          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/12-dni-dzien-11', type:'html', label:'tekst Dnia 11' },
-          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/12-dni-dzien-11/audio', type:'audio', label:'nagranie audio Dnia 11' }
+          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/12-dni-dzien-11', type:'html', label:'Błogosławieni, którzy wprowadzają pokój' },
+          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/12-dni-dzien-11/audio', type:'audio', label:'audio' }
         ]
       },
-              {name: '12: 2025-11-16; Błogosławieni, którzy cierpią prześladowanie dla sprawiedliwości ',
+              {name: '12: 2025-11-16',
         type: 'html',
         links: [
-          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/12-dni-dzien-12', type:'html', label:'tekst Dnia 12' },
-          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/12-dni-dzien-12/audio', type:'audio', label:'nagranie audio Dnia 12' }
+          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/12-dni-dzien-12', type:'html', label:'Błogosławieni, którzy cierpią prześladowanie dla sprawiedliwości' },
+          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/12-dni-dzien-12/audio', type:'audio', label:'audio' }
         ]
       },
     ]
   },
 
 {
-  title: '2025-11-17 do 2025-11-23;  Tydzień pierwszy - Poznanie samego siebie',
+  title: 'Tydzień pierwszy - Poznanie samego siebie',
   show: false, // opcjonalnie, żeby nie był od razu rozwinięty
   links: []    // pusty array, brak linków na razie
 },
 {
-  title: '2025-11-24 do 2025-11-30;  Tydzień drugi - Poznanie Najświętszej Maryi Panny',
+  title: 'Tydzień drugi - Poznanie Najświętszej Maryi Panny',
   show: false,
   links: [] // brak linków
 },
 {
-  title: '2025-12-01 do 2025-12-07;  Tydzień trzeci - Poznanie Jezusa Chrystusa',
+  title: 'Tydzień trzeci - Poznanie Jezusa Chrystusa',
   show: false,
   links: [] // brak linków
 },
@@ -266,121 +276,108 @@ Osoby, którym nie udało się rozpocząć nowenny 27 października zachęcamy, 
 
 ];
 
+
  private readonly summaryPassword = 'syn';
 
-  // --- OTWIERANIE LINKÓW ---
-openLink(linkOrGroup: SingleLink | SingleLink[]) {
-
-  // jeśli to tablica linków → otwieramy pierwszy
-  if (Array.isArray(linkOrGroup)) {
-    if (linkOrGroup.length > 0) {
-      window.open(linkOrGroup[0].url, '_blank');
-    }
-    return;
-  }
-
-  // jeśli to pojedynczy link → otwieramy jego
-  if (linkOrGroup.url) {
-    window.open(linkOrGroup.url, '_blank');
-  }
-}
-
-// --- ROZWIJANIE EVENTÓW ---
-toggle(obj: { show: boolean }) {
-  obj.show = !obj.show;
-}
-
-  // --- CHRONIONE TEKSTY ---
-toggleLink(group: LinkGroup) {
-  // --- 1 link → zawsze otwieramy od razu ---
-  if (group.links && group.links.length === 1) {
-    window.open(group.links[0].url, '_blank');
-    return;
-  }
-
-  // --- chronione hasłem ---
-  if (group.protected) {
-    if (group.show) {
-      group.show = false;
+   // ----------------------
+  // OTWIERANIE LINKÓW
+  // ----------------------
+  openLink(linkOrGroup: SingleLink | SingleLink[]) {
+    if (Array.isArray(linkOrGroup)) {
+      if (linkOrGroup.length > 0) window.open(linkOrGroup[0].url, '_blank');
       return;
     }
-    const password = prompt('Podaj hasło, aby odczytać podsumowanie:');
-    if (password === this.summaryPassword) {
-      group.show = true;
-    } else {
-      alert('Błędne hasło!');
-    }
-    return;
+    if (linkOrGroup.url) window.open(linkOrGroup.url, '_blank');
   }
 
-  // --- normalne rozwijanie/zwijanie dla grup 0 lub >1 linków ---
-  group.show = !group.show;
-}
+  // ----------------------
+  // ROZWIJANIE/ZWIJANIE EVENTÓW
+  // ----------------------
+  toggle(obj: { show: boolean }) {
+    obj.show = !obj.show;
+  }
 
+  // ----------------------
+  // CHRONIONE TEKSTY
+  // ----------------------
+  toggleLink(group: LinkGroup) {
+    if (group.links && group.links.length === 1) {
+      window.open(group.links[0].url, '_blank');
+      return;
+    }
+    if (group.protected) {
+      if (group.show) { group.show = false; return; }
+      const password = prompt('Podaj hasło, aby odczytać podsumowanie:');
+      if (password === this.summaryPassword) group.show = true;
+      else alert('Błędne hasło!');
+      return;
+    }
+    group.show = !group.show;
+  }
+
+  // ----------------------
+  // TRACKBY dla *ngFor
+  // ----------------------
   trackByTitle(index: number, item: Item) {
     return item.title;
   }
 
-trackByName(index: number, group: LinkGroup) {
-  return group.name;
+  trackByName(index: number, group: LinkGroup) {
+    return group.name;
+  }
+
+  // ----------------------
+  // TRYB PEŁNOEKRANOWY OBRAZKA
+  // ----------------------
+  toggleFullscreen(url?: string) {
+    if (!url) return;
+    this.fullscreenImage = this.fullscreenImage === url ? null : url;
+  }
+
+
+  // ----------------------
+  // CZY DANA DATA JEST DZISIAJ
+  // ----------------------
+  isTodayInTitleRange(title: string): boolean {
+    if (!title) return false;
+    const matches = title.match(/\d{4}-\d{2}-\d{2}/g);
+    if (!matches || matches.length < 2) return false;
+
+    const start = new Date(matches[0]);
+    const end = new Date(matches[1]);
+    const today = new Date();
+    today.setHours(0,0,0,0);
+
+    return today >= start && today <= end;
+  }
+
+  isToday(name: string): boolean {
+    if (!name) return false;
+    const match = name.match(/\d{4}-\d{2}-\d{2}/);
+    if (!match) return false;
+
+    const date = new Date(match[0]);
+    const today = new Date();
+
+    return date.getFullYear() === today.getFullYear() &&
+           date.getMonth() === today.getMonth() &&
+           date.getDate() === today.getDate();
+  }
+
+  // ----------------------
+  // OTWIERANIE TYLKO JEDNEJ GRUPY
+  // ----------------------
+  openOnly(groupToOpen: LinkGroup, item: Item) {
+    item.links?.forEach(g => { if (g !== groupToOpen) g.show = false; });
+    groupToOpen.show = !groupToOpen.show;
+    if (groupToOpen.links?.length === 1) window.open(groupToOpen.links[0].url, '_blank');
+  }
+
+  // ----------------------
+  // ZAMYKANIE STRONY
+  // ----------------------
+  closePage() {
+    window.close();
+    setTimeout(() => { window.location.href = 'about:blank'; }, 100);
+  }
 }
-
-
-toggleImage(item: Item) {
-  item.fullscreen = !item.fullscreen;
-}
-
-isTodayInTitleRange(title: string): boolean {
-  if (!title) return false;
-
-  // Szukamy dwóch dat w formacie YYYY-MM-DD
-  const matches = title.match(/\d{4}-\d{2}-\d{2}/g);
-  if (!matches || matches.length < 2) return false;
-
-  const startParts = matches[0].split('-').map(Number);
-  const endParts = matches[1].split('-').map(Number);
-
-  const startDate = new Date(startParts[0], startParts[1] - 1, startParts[2]);
-  const endDate = new Date(endParts[0], endParts[1] - 1, endParts[2]);
-
-  const today = new Date();
-  today.setHours(0,0,0,0);
-
-  return today >= startDate && today <= endDate;
-}
-
-
-
-isToday(name: string): boolean {
-  if (!name) return false;
-
-  // dopasuj pierwszą datę w formacie YYYY-MM-DD
-  const match = name.match(/\d{4}-\d{2}-\d{2}/);
-  if (!match) return false;
-
-  const dateParts = match[0].split('-');
-  const date = new Date(
-    +dateParts[0],      // rok
-    +dateParts[1] - 1,  // miesiąc (0-11)
-    +dateParts[2]       // dzień
-  );
-
-  const today = new Date();
-  return date.getFullYear() === today.getFullYear() &&
-         date.getMonth() === today.getMonth() &&
-         date.getDate() === today.getDate();
-}
-
-
-
-
-closePage() {
-  // Próba zamknięcia okna
-  window.close();
-
-  // Jeśli okno nadal jest otwarte (np. nie zostało otwarte przez JS),
-  // to przekieruj na pustą stronę
-  setTimeout(() => {
-    window.location.href = 'about:blank';
-  }, 100);
-}}
