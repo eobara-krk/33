@@ -313,6 +313,10 @@ Osoby, którym nie udało się rozpocząć nowenny 27 października zachęcamy, 
   // ----------------------
   ngOnInit() {
     this.openTodayFolders();
+    // Przewiń do dzisiejszego elementu po krótkim opóźnieniu (żeby DOM się załadował)
+    setTimeout(() => {
+      this.scrollToToday();
+    }, 100);
   }
 
   // Automatyczne otwieranie folderów z dzisiejszą datą
@@ -634,6 +638,24 @@ Osoby, którym nie udało się rozpocząć nowenny 27 października zachęcamy, 
           this.isAudioPlaying = false;
         });
     }
+  }
+
+  // ----------------------
+  // AUTOMATYCZNE PRZEWIJANIE DO DZISIEJSZEGO ELEMENTU
+  // ----------------------
+  scrollToToday() {
+    // Znajdź pierwszy element z dzisiejszą datą
+    const todayElement = document.querySelector('.today-highlight');
+    
+    if (todayElement) {
+      // Przewiń do elementu z płynną animacją i wyśrodkuj go na ekranie
+      todayElement.scrollIntoView({
+        behavior: 'smooth',
+        block: 'center', // Wyśrodkuj element pionowo na ekranie
+        inline: 'nearest'
+      });
+    }
+    // Jeśli nie ma dzisiejszego elementu - pozostaw stronę na górze
   }
 
   // ----------------------
