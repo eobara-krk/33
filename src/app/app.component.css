@@ -758,7 +758,7 @@ main {
   
   .header {
     padding-right: 0; /* Usuń padding na mobile */
-    padding-top: 0;
+    padding-top: 3.5rem; /* Miejsce na logo i datę */
   }
   
   .header h1 { 
@@ -806,39 +806,28 @@ main {
     margin-top: 0.5rem;
   }
   
-  /* Responsive logo positioning */
+  /* Responsive logo positioning - zachowaj absolute position */
   .top-left-logo {
-    position: static;
-    text-align: center;
-    margin-bottom: 0.5rem;
-    background: transparent;
-    padding: 0;
-    box-shadow: none;
+    left: 0.5rem;
+    top: 0.5rem;
+    padding: 0.3rem;
   }
   
   .top-left-logo img {
-    width: 30px;
-    height: 30px;
-    display: inline-block;
+    width: 28px;
+    height: 28px;
   }
 
-  /* Responsive date positioning */
+  /* Responsive date positioning - zachowaj absolute position */
   .top-right-datetime {
-    position: static;
-    text-align: center;
-    margin-bottom: 1rem;
-    background: transparent;
-    padding: 0;
-    box-shadow: none;
+    right: 0.5rem;
+    top: 0.5rem;
+    padding: 0.3rem 0.6rem;
   }
   
   .date-line {
     font-size: 0.85rem;
-    background: rgba(255,255,255,0.9);
-    padding: 0.25rem 0.75rem;
-    border-radius: 1rem;
-    display: inline-block;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    margin: 0;
   }
   
   .totus-image {
@@ -846,8 +835,8 @@ main {
   }
   
   .totus-image img {
-    width: 45px;
-    height: 45px;
+    width: 35px;
+    height: 35px;
   }
   
   .footer-section {
