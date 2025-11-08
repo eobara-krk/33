@@ -1,25 +1,29 @@
 <main>
   <div class="placeholder">
 
-    <!-- LOGO W LEWYM GÓRNYM ROGU -->
-    <div class="top-left-logo">
-      <img src="assets/source.png" alt="Logo" 
-           (load)="onImageLoad($event)" 
-           (error)="onImageError($event)"
-           loading="lazy" />
-    </div>
-
-    <!-- DATA I GODZINA -->
-    <div class="top-right-datetime">
-      <div class="date-line">{{ currentDateTime | date:'EEEE dd.MM.yyyy':'':'pl-PL' }} r.</div>
-      <div class="totus-image">
-        <img src="assets/totatua.png" alt="Totus Tuus" 
-             (load)="onImageLoad($event)" 
-             (error)="onImageError($event)"
-             loading="lazy" />
+    <!-- HEADER Z LOGO, DATĄ I AUDIO -->
+    <div class="header">
+      <!-- Pierwsza linia: Logo + Data -->
+      <div class="header-top-line">
+        <div class="logo-section">
+          <img src="assets/source.png" alt="Logo" 
+               (load)="onImageLoad($event)" 
+               (error)="onImageError($event)"
+               loading="lazy" />
+        </div>
+        <div class="date-section">
+          <div class="date-line">{{ currentDateTime | date:'EEEE dd.MM.yyyy':'':'pl-PL' }} r.</div>
+          <div class="totus-image">
+            <img src="assets/totatua.png" alt="Totus Tuus" 
+                 (load)="onImageLoad($event)" 
+                 (error)="onImageError($event)"
+                 loading="lazy" />
+          </div>
+        </div>
       </div>
-      <!-- TOTUS TUUS AUDIO PLAYER -->
-      <div class="totus-audio-player">
+      
+      <!-- Druga linia: Audio Player -->
+      <div class="header-audio-line">
         <button (click)="toggleAudio()" 
                 class="audio-toggle-btn"
                 [class.playing]="isAudioPlaying"
@@ -29,12 +33,12 @@
           <span class="audio-status">{{isAudioPlaying ? 'Odtwarzanie...' : 'Naciśnij aby odtworzyć'}}</span>
         </button>
       </div>
-    </div>
 
-    <!-- HEADER -->
-    <div class="header">
-      <h1>DROGA MARYI <br>33 - dniowe rekolekcje</h1>
-      <p>nowenna do św. Ludwika i 33 dniowe rozważania</p>
+      <!-- Trzecia linia: Tytuł -->
+      <div class="header-title">
+        <h1>DROGA MARYI <br>33 - dniowe rekolekcje</h1>
+        <p>nowenna do św. Ludwika i 33 dniowe rozważania</p>
+      </div>
     </div>
 
     <div class="divider"></div>

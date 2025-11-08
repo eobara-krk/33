@@ -59,17 +59,77 @@ main {
   }
 }
 
-/* HEADER */
+/* HEADER - NOWY UKŁAD */
 .header {
   display: flex;
   flex-direction: column;
-  gap: 0.25rem;
+  gap: 1rem;
   padding-top: 1rem;
-  padding-right: 160px; /* Miejsce na sekcję daty */
   position: relative;
 }
 
-.header h1 {
+/* Pierwsza linia: Logo + Data */
+.header-top-line {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+}
+
+.logo-section img {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+}
+
+.logo-section img:hover {
+  transform: scale(1.05);
+}
+
+.date-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0.5rem;
+}
+
+.date-line {
+  font-size: 0.9rem;
+  color: #374151;
+  font-weight: 600;
+  padding: 0.4rem 0.8rem;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.totus-image img {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
+
+/* Druga linia: Audio Player */
+.header-audio-line {
+  display: flex;
+  justify-content: center;
+  padding: 0 1rem;
+}
+
+/* Trzecia linia: Tytuł */
+.header-title {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  text-align: center;
+}
+
+.header-title h1 {
   font-size: 2rem;
   margin: 0;
   background: linear-gradient(135deg, #667eea, #764ba2);
@@ -77,7 +137,6 @@ main {
   -webkit-text-fill-color: transparent;
   background-clip: text;
   font-weight: 700;
-  text-align: center;
   letter-spacing: -0.02em;
   animation: shimmer 4s ease-in-out infinite;
 }
@@ -87,11 +146,10 @@ main {
   50% { opacity: 0.8; }
 }
 
-.header p {
+.header-title p {
   margin: 0;
   font-size: 1rem;
   color: rgba(118, 75, 162, 0.8);
-  text-align: center;
   font-weight: 500;
   letter-spacing: 0.01em;
 }
@@ -819,21 +877,45 @@ main {
     border-radius: 12px;
   }
   
+  /* Nowy układ header na mobile */
   .header {
-    padding-right: 0; /* Usuń padding na mobile */
-    padding-top: 4.5rem; /* Miejsce na większe logo i datę */
-    padding-left: 0.5rem; /* Wyrównaj z lewą stroną */
+    gap: 0.8rem;
+    padding-top: 0.5rem;
   }
   
-  .header h1 { 
+  .header-top-line {
+    flex-direction: column;
+    gap: 0.8rem;
+    align-items: center;
+    padding: 0 0.5rem;
+  }
+  
+  .logo-section img {
+    width: 65px;
+    height: 65px;
+  }
+  
+  .date-section {
+    align-items: center;
+  }
+  
+  .date-line {
+    font-size: 0.85rem;
+    padding: 0.3rem 0.6rem;
+  }
+  
+  .totus-image img {
+    width: 35px;
+    height: 35px;
+  }
+  
+  .header-title h1 { 
     font-size: 1.4rem; 
     line-height: 1.3;
-    text-align: left; /* Tytuł pod logo po lewej */
   }
   
-  .header p { 
+  .header-title p { 
     font-size: 0.85rem; 
-    text-align: left; /* Podtytuł też po lewej */
     margin-top: 0.25rem;
   }
   
@@ -870,24 +952,7 @@ main {
     margin-top: 0.5rem;
   }
   
-  /* Responsive logo positioning - zachowaj absolute position */
-  .top-left-logo {
-    left: 0.5rem;
-    top: 0.5rem;
-    padding: 0.3rem;
-  }
-  
-  .top-left-logo img {
-    width: 62px;
-    height: 62px;
-  }
-
-  /* Responsive date positioning - zachowaj absolute position */
-  .top-right-datetime {
-    right: 0.5rem;
-    top: 0.5rem;
-    padding: 0.3rem 0.6rem;
-  }
+  /* Audio player responsive */
   
   .date-line {
     font-size: 0.85rem;
