@@ -9,6 +9,22 @@
   font-family: "Inter", sans-serif;
 }
 
+/* KLIKALNY LINK W TEKŚCIE */
+.inline-link {
+  color: var(--blue);
+  text-decoration: underline;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.inline-link:hover {
+  color: var(--violet);
+  text-decoration: none;
+  background: rgba(59, 130, 246, 0.1);
+  padding: 2px 4px;
+  border-radius: 4px;
+}
+
 /* KONTAINER */
 main {
   width: 100%;
@@ -1459,6 +1475,97 @@ main {
   .close-button {
     font-size: 0.85rem;
     padding: 0.6rem 1rem;
+  }
+}
+
+/* FUNKCJONALNOŚĆ POKAZYWANIA/UKRYWANIA TEKSTU */
+.text-item {
+  position: relative;
+  cursor: default;
+  transition: all 0.3s ease;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  padding: 0.75rem;
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.text-item:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.2);
+  transform: translateY(-1px);
+}
+
+/* Nagłówek dla zwiniętego tekstu */
+.text-collapsed-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  cursor: pointer;
+  padding: 0.2rem 0;
+}
+
+.text-collapsed-left {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex: 1;
+}
+
+.text-icon {
+  font-size: 1rem;
+  flex-shrink: 0;
+}
+
+.text-toggle-label {
+  font-weight: 500;
+  color: #333333;
+  flex: 1;
+}
+
+/* Kontener na przycisk toggle w prawym górnym rogu (dla rozwiniętego) */
+.text-toggle-container {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  z-index: 10;
+}
+
+.text-toggle-icon {
+  font-size: 1.2em;
+  color: #666666;
+  cursor: pointer;
+  padding: 0.3rem;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+  background: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.text-toggle-icon:hover {
+  background: rgba(255, 255, 255, 0.95);
+  color: #333333;
+  transform: scale(1.1);
+}
+
+.sub-text {
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  line-height: 1.6;
+  color: #333333;
+  text-align: justify;
+  animation: fadeInText 0.3s ease-in-out;
+}
+
+@keyframes fadeInText {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
 }
 

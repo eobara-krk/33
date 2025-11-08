@@ -22,6 +22,7 @@ interface SingleLink {
   name?: string; // nazwa dla zagnieżdżonych grup
   show?: boolean; // czy grupa zagnieżdżona jest rozwinięta
   links?: SingleLink[]; // zagnieżdżone linki
+  text?: string; // 🆕 tekst do wyświetlenia jako podlink
 }
 
 interface Meeting {
@@ -58,6 +59,7 @@ interface Item {
 export class AppComponent implements OnInit {
   currentDateTime: Date = new Date(); // <-- dodaj to
   fullscreenImage: string | null = null; // <-- globalny fullscreen
+  private hasScrolledToToday: boolean = false; // Flaga czy już przewinięto do dzisiejszej daty
 
   // KONFIGURACJA DAT - tutaj ustawiasz datę startu
   private readonly startDate = new Date(2025, 9, 27); // 27 października 2025 (miesiące 0-11)
@@ -85,68 +87,100 @@ items: Item[] = [
     show: false,
     links: [
       { 
-        name: 'opis', 
-        text: `BARDZO WAŻNYM etapem przygotowania do rekolekcji jest 9-dniowa nowenna do św. Ludwika Marii Grignion de Montfort.
-(nowennę ofiarujmy w intencji naszego osobistego, całkowitego oddania swojego życie Panu Jezusowi przez Maryję)
-Osoby, którym nie udało się rozpocząć nowenny 27 października zachęcamy, aby rozpoczęły ją w dowolnym dniu.`,
+        name: 'O Nowennie', 
         show: false,
+        text: `BARDZO WAŻNYM etapem przygotowania do rekolekcji jest 9-dniowa nowenna do św. Ludwika Marii Grignion de Montfort (linki do dni nowenny znajdziecie poniżej)
+
+Niech św. Ludwik przygotuje nasze serca do wejścia na tą wyjątkową drogę, DROGĘ MARYI, drogę doskonałego nabożeństwa do Matki Bożej, którą przeszli już przed nami między innymi: św. Jan Paweł II, bł. Kardynał Wyszyński, św. Maksymilian Kolbe...   
+
+Zachęcamy Was do czytania Traktatu św. Ludwika. Można każdego dnia poświecić na to 5-10 minut. Święty Jan Paweł II czytał Traktat podczas przerw w pracy, kiedy jeszcze pracował jak młody człowiek. Jego papieskie zawołanie ”Totus Tuus” - Cały Twój, wzięło się wprost z dzieła świętego Ludwika. `,
         protected: false,
         type: 'opis'
       },
       {
         name: `01: ${this.getDatePlusDays(this.startDate, 0)}`,
-        type: 'html',
+        show: false,
         links: [
-          { url:'https://drogamaryi.pl/nowenna-do-sw-ludwika/dzien-1', type:'html' }
+          { image: 'assets/nowenna/01.jpg',type:'foto' },
+          { text: `*Dzień pierwszy: Czułe serce św. Ludwika*
+
+Św. Ludwik miał przedziwną drogę duchową, którą go Bóg prowadził, a on wiernie był jej posłuszny. Miłość do Boga i bliźniego, szczególnie do tych, którzy byli w wielkiej potrzebie, były podstawą tej drogi. 
+
+Już od dzieciństwa i pierwszego poruszenia jego sumienia, Ludwik był pociągniętym miłością do Boga. "Dystansował się od swoich rówieśników by unikać ich zabaw, chował się, by modlić na różańcu przed obrazem Matki Bożej".
+
+Ks. Blain, przyjaciel św. Ludwika i kolega szkolny z okresu Seminarium napisał: "Często między nami wyglądał jakby w ciągłej ekstazie uczuciowej, wykluczony, porwany przez Boga. Nie mógł zapanować nad poruszeniami serca, które było przeniknięte Bożą miłością, i wzdychał przy stole, w rekreacji, wszędzie. Był to skutek gorliwych natchnień Bożej miłości w Duchu Świętym, który przenikał serce, by dać skosztować Jego słodyczy".
+
+Ta miłość do Boga i modlitwy była fundamentem jego świętej, duchowej drogi do najwyższych szczytów modlitwy. Odkrywając swoje serce dla Boga, rozpalone miłością, jako dojrzały kapłan i misjonarz, zapisał: "O mój Boże, pragnę Cie kochać, zaczynam spalać się, Ty mnie zachwycasz. Dopuść mnie, by Cię kochać" (Pieśń 138,1).
+
+Równocześnie ze wzrastaniem miłości do Boga, w czułym sercu św. Ludwika wzrastała miłość do bliźniego. Pewnego dnia, kiedy jeszcze był w Seminarium, matka Ludwika, Iwana, odwiedziła biednych w bożnicy w św. Yves w Rennes. Poznała jedną biedną kobietę i zapytała, kto ją tam wprowadził, a ona odpowiedziała: "Twój syn, pani. To on mi znalazł to miejsce i doprowadził mnie tutaj". Bez wątpienia, jego matka była szczęśliwa i dumna ze swojego syna.
+
+Ludwik z czułością przeżywał boleści bliźnich i przez czyny miłości, które były nadzwyczajne, zwyciężał tych, którzy zamykali swoje serca na potrzeby drugiego. Przez całe swoje życie św. Ludwik podchodził do biednych z wiarą, przeżywając każde takie spotkanie jako przedłużenie swojej miłości do Jezusa w Eucharystii. Z tą samą czułością, miłością i gorliwością, którą okazywał na modlitwie, Ludwik przystępował do każdego biednego, w którym widział samego Jezusa. Biedni nazywali go "dobry ojciec Montfort".
+
+*Modlitwa:*
+Panie Boże nasz, św. Ludwik de Montfort całe swoje życie spędził, aby kochać Ciebie i bliźniego, a my tak mało realizujemy tę miłość. Przez jego wstawiennictwo pomóż nam pokonać nasze małoduszne serca i wszystko to, co nam przeszkadza, aby naprawdę miłować. Usłysz naszą prośbę i przez jego wstawiennictwo daj nam czyste serca, abyśmy kochali miłością czystą. Prosimy Cię także o łaskę...(intencja, za którą się modlimy). Przez Chrystusa Pana naszego. Amen.
+
+Ojcze nasz, Zdrowaś Maryjo, Chwała Ojcu
+
+Na koniec odmawiamy Litanię do św. Ludwika de Montfort
+
+Źródło: https://drogamaryi.pl/litania-do-sw-ludwika`
+, label: 'Czułe serce św. Ludwika', type: 'opis', show: false } 
         ]
       },
       {
         name: `02: ${this.getDatePlusDays(this.startDate, 1)}`,
-        type: 'html',
+        show: false,
         links: [
-          { url:'https://drogamaryi.pl/nowenna-do-sw-ludwika/dzien-2', type:'html' }
+          { image: 'assets/nowenna/02.jpg',type:'foto' },
+          { url:'https://drogamaryi.pl/nowenna-do-sw-ludwika/dzien-2', type:'html', label:'Duchowe wzrastanie św. Ludwika i nasze' }
         ]
       },
       {
         name: `03: ${this.getDatePlusDays(this.startDate, 2)}`,
-        type: 'html',
+        show: false,
         links: [
-          { url:'https://drogamaryi.pl/nowenna-do-sw-ludwika/dzien-3', type:'html' }
+          { image: 'assets/nowenna/03.jpg',type:'foto' },
+          { url:'https://drogamaryi.pl/nowenna-do-sw-ludwika/dzien-3', type:'html', label:'Zaufanie Bogu' }
         ]
       },
       {
         name: `04: ${this.getDatePlusDays(this.startDate, 3)}`,
-        type: 'html',
+        show: false,
         links: [
-          { url:'https://drogamaryi.pl/nowenna-do-sw-ludwika/dzien-4', type:'html' }
+          { image: 'assets/nowenna/04.jpg',type:'foto' },
+          { url:'https://drogamaryi.pl/nowenna-do-sw-ludwika/dzien-4', type:'html', label:'Głosiciel królestwa Jezusa Chrystusa przez Maryję' }
         ]
       },
       {
         name: `05: ${this.getDatePlusDays(this.startDate, 4)}`,
-        type: 'html',
+        show: false,
         links: [
-          { url:'https://drogamaryi.pl/nowenna-do-sw-ludwika/dzien-5', type:'html' }
+          { image: 'assets/nowenna/05.jpg',type:'foto' },
+          { url:'https://drogamaryi.pl/nowenna-do-sw-ludwika/dzien-5', type:'html', label:'Nauczyciel prawdziwego nabożeństwa do Najświętszej Maryi Panny i duchowości ofiarowania się Jezusowi przez ręce Maryi' }
         ]
       },
       {
         name: `06: ${this.getDatePlusDays(this.startDate, 5)}`,
-        type: 'html',
+        show: false,
         links: [
-          { url:'https://drogamaryi.pl/nowenna-do-sw-ludwika/dzien-6', type:'html' }
+          { image: 'assets/nowenna/06.jpg',type:'foto' },
+          { url:'https://drogamaryi.pl/nowenna-do-sw-ludwika/dzien-6', type:'html', label:'Miłość do Kościoła' }
         ]
       },
       {
         name: `07: ${this.getDatePlusDays(this.startDate, 6)}`,
-        type: 'html',
+        show: false,
         links: [
-          { url:'https://drogamaryi.pl/nowenna-do-sw-ludwika/dzien-7', type:'html' }
+          { image: 'assets/nowenna/07.jpg',type:'foto' },
+          { url:'https://drogamaryi.pl/nowenna-do-sw-ludwika/dzien-7', type:'html', label:'Apostoł Krzyża i Chrystusowego zwycięstwa ' }
         ]
       },
       {
         name: `08: ${this.getDatePlusDays(this.startDate, 7)}`,
-        type: 'html',
+        show: false,
         links: [
-          { url:'https://drogamaryi.pl/nowenna-do-sw-ludwika/dzien-8', type:'html' }
+          { image: 'assets/nowenna/08.jpg',type:'foto' },
+          { url:'https://drogamaryi.pl/nowenna-do-sw-ludwika/dzien-8', type:'html', label:'Nauczyciel trwania w łasce' }
         ]
       },
       {
@@ -174,7 +208,7 @@ Osoby, którym nie udało się rozpocząć nowenny 27 października zachęcamy, 
         name: `01: ${this.getDatePlusDays(this.startDate, 9)}`, // 9 dni po starcie nowenny
         show: false,
         links: [
-          { image: 'assets/12dni/01.jpg',type:'foto', label:'kliknij by powiększyć' },
+          { image: 'assets/12dni/01.jpg',type:'foto'},
           { url:'https://drogamaryi.pl/edycje/5-listopada-2025/12-dni-dzien-1', type:'html', label:'Odkryj łaskę Bożej miłości' },
           { url:'https://drogamaryi.pl/edycje/5-listopada-2025/12-dni-dzien-1/audio', type:'audio', label:'audio' }
         ]
@@ -414,6 +448,7 @@ Osoby, którym nie udało się rozpocząć nowenny 27 października zachęcamy, 
   // Obsługa ładowania obrazka
   onImageLoad(event: Event) {
     const img = event.target as HTMLImageElement;
+    console.log('Obrazek załadowany:', img.src);
     img.style.opacity = '1';
     img.classList.add('loaded');
   }
@@ -644,6 +679,11 @@ Osoby, którym nie udało się rozpocząć nowenny 27 października zachęcamy, 
   // AUTOMATYCZNE PRZEWIJANIE DO DZISIEJSZEGO ELEMENTU
   // ----------------------
   scrollToToday() {
+    // Przewijaj tylko jeśli jeszcze tego nie robiono
+    if (this.hasScrolledToToday) {
+      return;
+    }
+
     // Znajdź pierwszy element z dzisiejszą datą
     const todayElement = document.querySelector('.today-highlight');
     
@@ -656,8 +696,12 @@ Osoby, którym nie udało się rozpocząć nowenny 27 października zachęcamy, 
         top: Math.max(0, elementTop - offset),
         behavior: 'smooth'
       });
+      
+      // Oznacz że przewijanie już się odbyło
+      this.hasScrolledToToday = true;
     }
-    // Jeśli nie ma dzisiejszego elementu - pozostaw stronę na górze
+    // Jeśli nie ma dzisiejszego elementu - pozostaw stronę na górze i oznacz jako wykonane
+    this.hasScrolledToToday = true;
   }
 
   // ----------------------
@@ -665,5 +709,29 @@ Osoby, którym nie udało się rozpocząć nowenny 27 października zachęcamy, 
   // ----------------------
   hasPhotoElements(links: any[]): boolean {
     return links && links.some(link => link.type === 'foto');
+  }
+
+  // ----------------------
+  // PRZETWARZANIE TEKSTU NA HTML Z KLIKALNYMI LINKAMI
+  // ----------------------
+  processTextWithLinks(text: string): string {
+    if (!text) return '';
+    
+    // Najpierw zachowujemy formatowanie (nowe linie)
+    let processedText = text.replace(/\n/g, '<br>');
+    
+    // Zamieniamy URL-e na klikalny linki (bardziej precyzyjny regex)
+    const urlRegex = /(https?:\/\/[^\s<>]+)/g;
+    processedText = processedText.replace(urlRegex, '<a href="$1" target="_blank" rel="noopener" class="inline-link">$1</a>');
+    
+    return processedText;
+  }
+
+  // ZARZĄDZANIE WIDOCZNOŚCIĄ TEKSTU
+  // ----------------------
+  toggleTextVisibility(linkItem: any) {
+    if (linkItem.type === 'opis') {
+      linkItem.show = !linkItem.show;
+    }
   }
 }

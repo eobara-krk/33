@@ -209,8 +209,30 @@
                       <span *ngIf="(l.label || l.url) && isToday(l.label || l.url || '')">👉</span>
                     </div>
 
+                    <!-- Element tekstowy (opis w podlinku) -->
+                    <div *ngIf="l.type==='opis' && l.text" class="grid-link sub-link text-item">
+                      
+                      <!-- Etykieta gdy tekst jest zwinięty -->
+                      <div *ngIf="!l.show" class="text-collapsed-header" (click)="toggleTextVisibility(l); $event.stopPropagation();">
+                        <div class="text-collapsed-left">
+                          <span class="text-icon">📝</span>
+                          <span class="text-toggle-label">{{ l.label || 'Czułe serce św. Ludwika' }}</span>
+                        </div>
+                        <span class="text-toggle-icon">▼</span>
+                      </div>
+                      
+                      <!-- Przycisk toggle w prawym górnym rogu gdy tekst jest rozwinięty -->
+                      <div *ngIf="l.show" class="text-toggle-container">
+                        <span class="text-toggle-icon" (click)="toggleTextVisibility(l); $event.stopPropagation();">▲</span>
+                      </div>
+                      
+                      <!-- Zawartość tekstowa -->
+                      <div *ngIf="l.show" class="sub-text" [innerHTML]="processTextWithLinks(l.text)">
+                      </div>
+                    </div>
+
                     <!-- Zwykły link (z URL) -->
-                    <a *ngIf="l.type!=='foto'"
+                    <a *ngIf="l.type!=='foto' && l.type!=='opis'"
                        class="grid-link sub-link"
                        [class.today-highlight]="(l.label || l.url) ? isToday(l.label || l.url || '') : false"
                        [href]="l.url || null"
