@@ -211,7 +211,8 @@ Osoby, którym nie udało się rozpocząć nowenny 27 października zachęcamy, 
         type: 'html',
         links: [
           { url:'https://drogamaryi.pl/edycje/5-listopada-2025/12-dni-dzien-5', type:'html', label:'Błogosławieni ubodzy w duchu' },
-          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/12-dni-dzien-5/audio', type:'audio', label:'audio' }
+          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/12-dni-dzien-5/audio', type:'audio', label:'audio' },
+         { url:'assets/12dni/05dzien.mp3', type:'audio', label:'Ela' }
         ]
       },
       {
@@ -227,7 +228,8 @@ Osoby, którym nie udało się rozpocząć nowenny 27 października zachęcamy, 
         type: 'html',
         links: [
           { url:'https://drogamaryi.pl/edycje/5-listopada-2025/12-dni-dzien-7', type:'html', label:'Błogosławieni cisi' },
-          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/12-dni-dzien-7/audio', type:'audio', label:'audio' }
+          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/12-dni-dzien-7/audio', type:'audio', label:'audio' },
+          { url:'assets/12dni/07dzien.mp3', type:'audio', label:'Ela' }
         ]
       },
       {
