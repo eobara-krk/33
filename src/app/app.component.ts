@@ -500,7 +500,6 @@ Chrystus mówi: „Nie proszę, abyś ich zabrał ze świata, ale byś ich ustrz
         links: [
           { image: 'assets/12dni/01.jpg',type:'foto'},
           { text: `*Dzień 1 - Odkryj łaskę Bożej miłości*
-*12 dni – Wyzbycie się ducha tego świata – Dzień 1*
 
 *Odkryj łaskę Bożej miłości*
 
@@ -562,8 +561,6 @@ przez Maryję, Twoją świętą Matkę. Amen!_
         links: [
           { image: 'assets/12dni/02.jpg',type:'foto' },
           { text: `*Dzień 2 - Odkryj łaskę poznania prawdy o grzechu*
-
-*12 dni – Wyzbycie się ducha tego świata – Dzień 2*
 
 *Odkryj łaskę poznania prawdy o grzechu*
 
@@ -651,8 +648,6 @@ przez Maryję, Twoją świętą Matkę. Amen!_ `
           { image: 'assets/12dni/03.jpg',type:'foto' },
           { text: `*Dzień 3 - Odkryj łaskę zbawienia*
   
-*12 dni – Wyzbycie się ducha tego świata – Dzień 3*
-
 *Odkryj łaskę zbawienia*
 
 *Modlitwa do Ducha Świętego*  
@@ -765,8 +760,6 @@ przez Maryję, Twoją świętą Matkę. Amen!*_`
           { image: 'assets/12dni/04.jpg',type:'foto' },
           { text: `*Dzień 4 - Odkryj łaskę nawrócenia i oddania życia Panu Jezusowi*
   
-*12 dni – Wyzbycie się ducha tego świata – Dzień 4*
-
 *Odkryj łaskę nawrócenia i oddania życia Panu Jezusowi*
 
 *Modlitwa do Ducha Świętego*  
@@ -886,8 +879,6 @@ przez Maryję, Twoją świętą Matkę. Amen!*_`
         links: [
           { image: 'assets/12dni/05.jpg',type:'foto' },
 { text: `*Dzień 5 - Błogosławieni ubodzy w duchu*
-
-*12 dni – Wyzbycie się ducha tego świata – Dzień 5*
 
 *Błogosławieni ubodzy w duchu*
 
