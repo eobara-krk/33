@@ -313,10 +313,10 @@ Osoby, którym nie udało się rozpocząć nowenny 27 października zachęcamy, 
   // ----------------------
   ngOnInit() {
     this.openTodayFolders();
-    // Przewiń do dzisiejszego elementu po 2 sekundach (żeby użytkownik zdążył przeczytać header)
+    // Przewiń do dzisiejszego elementu po 4 sekundach (żeby użytkownik zdążył przeczytać header)
     setTimeout(() => {
       this.scrollToToday();
-    }, 2000);
+    }, 4000);
   }
 
   // Automatyczne otwieranie folderów z dzisiejszą datą
