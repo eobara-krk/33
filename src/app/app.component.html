@@ -3,41 +3,44 @@
 
     <!-- HEADER Z LOGO, DATĄ I AUDIO -->
     <div class="header">
-      <!-- Pierwsza linia: Logo + Data -->
+      <!-- Układ dwukolumnowy: Lewa (logo+tytuł) | Prawa (data+audio) -->
       <div class="header-top-line">
-        <div class="logo-section">
-          <img src="assets/source.png" alt="Logo" 
-               (load)="onImageLoad($event)" 
-               (error)="onImageError($event)"
-               loading="lazy" />
-        </div>
-        <div class="date-section">
-          <div class="date-line">{{ currentDateTime | date:'EEEE dd.MM.yyyy':'':'pl-PL' }} r.</div>
-          <div class="totus-image">
-            <img src="assets/totatua.png" alt="Totus Tuus" 
+        <!-- LEWA STRONA: Logo + Tytuł -->
+        <div class="left-column">
+          <div class="logo-section">
+            <img src="assets/source.png" alt="Logo" 
                  (load)="onImageLoad($event)" 
                  (error)="onImageError($event)"
                  loading="lazy" />
           </div>
+          <div class="header-title">
+            <h1>DROGA MARYI <br>33 - dniowe rekolekcje</h1>
+            <p>nowenna do św. Ludwika i 33 dniowe rozważania</p>
+          </div>
         </div>
-      </div>
-      
-      <!-- Druga linia: Audio Player -->
-      <div class="header-audio-line">
-        <button (click)="toggleAudio()" 
-                class="audio-toggle-btn"
-                [class.playing]="isAudioPlaying"
-                title="{{isAudioPlaying ? 'Zatrzymaj' : 'Odtwórz'}} melodię Totus Tuus">
-          <span class="play-icon">{{isAudioPlaying ? '⏸️' : '▶️'}}</span>
-          <span class="audio-title">Totus Tuus</span>
-          <span class="audio-status">{{isAudioPlaying ? 'Odtwarzanie...' : 'Naciśnij aby odtworzyć'}}</span>
-        </button>
-      </div>
-
-      <!-- Trzecia linia: Tytuł -->
-      <div class="header-title">
-        <h1>DROGA MARYI <br>33 - dniowe rekolekcje</h1>
-        <p>nowenna do św. Ludwika i 33 dniowe rozważania</p>
+        
+        <!-- PRAWA STRONA: Data + Audio -->
+        <div class="right-column">
+          <div class="date-section">
+            <div class="date-line">{{ currentDateTime | date:'EEEE dd.MM.yyyy':'':'pl-PL' }} r.</div>
+            <div class="totus-image">
+              <img src="assets/totatua.png" alt="Totus Tuus" 
+                   (load)="onImageLoad($event)" 
+                   (error)="onImageError($event)"
+                   loading="lazy" />
+            </div>
+          </div>
+          <div class="audio-section">
+            <button (click)="toggleAudio()" 
+                    class="audio-toggle-btn"
+                    [class.playing]="isAudioPlaying"
+                    title="{{isAudioPlaying ? 'Zatrzymaj' : 'Odtwórz'}} melodię Totus Tuus">
+              <span class="play-icon">{{isAudioPlaying ? '⏸️' : '▶️'}}</span>
+              <span class="audio-title">Totus Tuus</span>
+              <span class="audio-status">{{isAudioPlaying ? 'Odtwarzanie...' : 'Naciśnij aby odtworzyć'}}</span>
+            </button>
+          </div>
+        </div>
       </div>
     </div>
 
