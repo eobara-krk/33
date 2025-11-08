@@ -883,99 +883,72 @@ przez Maryję, Twoją świętą Matkę. Amen!*_`
 *Błogosławieni ubodzy w duchu*
 
 *Modlitwa do Ducha Świętego*  
-_Duchu Święty, natchnij mnie. Miłości Boga, pochłoń mnie. Po prawdziwej  
-drodze prowadź mnie, Maryjo, moja Matko, spójrz na mnie, z Jezusem  
-błogosław mnie. Od wszelkiego złego, od wszelkiego złudzenia, od wszelkiego  
-niebezpieczeństwa zachowaj mnie. Maryjo, Oblubienico Ducha Świętego,  
-wyproś mi dar ubóstwa w duchu._
+_Duchu Święty, natchnij mnie. Miłości Boga, pochłoń mnie. Po prawdziwej drodze prowadź mnie, Maryjo, moja Matko, spójrz na mnie, z Jezusem błogosław mnie. Od wszelkiego złego, od wszelkiego złudzenia, od wszelkiego niebezpieczeństwa zachowaj mnie. Maryjo, Oblubienico Ducha Świętego, wyproś mi dar ubóstwa w duchu._
 
 _Amen!_
 
 *Słowo Boże*  
-_„Błogosławieni ubodzy w duchu, albowiem do nich należy królestwo  
-niebieskie” (Mt 5,3)._
+_„Błogosławieni ubodzy w duchu, albowiem do nich należy królestwo niebieskie” (Mt 5,3)._
 
 *Rozważanie*  
-Odkąd opuściliśmy raj, powstała w nas pustka, którą może wypełnić tylko Bóg.  
-Niestety, żyjąc wśród tego świata, szukamy wypełnienia tej przestrzeni.  
-Świat przedstawia nam swoją propozycję i oszukuje, że przez zdobywanie dóbr,  
-czy to zewnętrznych, czy wewnętrznych (różne przywiązania do naszych pragnień,  
-wyobrażeń, sposobu myślenia), możemy osiągnąć wewnętrzne spełnienie.  
+Odkąd opuściliśmy raj, powstała w nas pustka, którą może wypełnić tylko Bóg. Niestety, żyjąc wśród tego świata, szukamy wypełnienia tej przestrzeni.  
+Świat przedstawia nam swoją propozycję i oszukuje, że przez zdobywanie dóbr, czy to zewnętrznych, czy wewnętrznych (różne przywiązania do naszych pragnień, wyobrażeń, sposobu myślenia), możemy osiągnąć wewnętrzne spełnienie.  
 
-Duch tego świata okłamuje nas, mówiąc: _możesz mieć w życiu wszystko_.  
-Masz w centrum swego istnienia postawić swe potrzeby i ciągle się realizować,  
-zdobywając nowe rzeczy. To pokusa diabła, który staje przed Jezusem i mówi:  
-_„Dam Ci wszystko, jeśli upadniesz i oddasz mi pokłon” (Mt 4,9)._  
+Duch tego świata okłamuje nas, mówiąc: _„możesz mieć w życiu wszystko”_.  
+Masz w centrum swego istnienia postawić swe potrzeby i ciągle się realizować, zdobywając nowe rzeczy. To pokusa diabła, który staje przed Jezusem i mówi: _„Dam Ci wszystko, jeśli upadniesz i oddasz mi pokłon”_ (Mt 4,9).  
 
-Na tym polega oszustwo i kłamstwo świata: szczęśliwy jest ten, kto jest bogaty,  
-ma pieniądze i posiada wiele dóbr. Problem pojawia się, gdy coś nie wyjdzie.  
+Na tym polega oszustwo i kłamstwo świata: szczęśliwy jest ten, kto jest bogaty, ma pieniądze i posiada wiele dóbr. Problem pojawia się, gdy coś nie wyjdzie.  
 
-W pierwszej kolejności ubóstwo to świadoma zgoda, by nie być niewolnikiem  
-tego, co posiadam. To droga wolności, w której mogę zadowolić się tym, co konieczne  
-i rezygnować z rzeczy niepotrzebnych. Nie trzeba niepokoić się, jeśli coś stracę,  
-co i tak nie jest niezbędne. To zrezygnowanie z konsumpcyjnego stylu życia,  
-w którym ciągle coś kupuję. Jednak ubóstwo to coś więcej.  
+W pierwszej kolejności ubóstwo to świadoma zgoda, by nie być niewolnikiem tego, co posiadam. To droga wolności, w której mogę zadowolić się tym, co konieczne i rezygnować z rzeczy niepotrzebnych. Nie trzeba niepokoić się, jeśli coś stracę, co i tak nie jest niezbędne. To rezygnowanie z konsumpcyjnego stylu życia, w którym ciągle coś kupuję.  
 
-Ubóstwo nie oznacza braku pieniędzy. _To pewna postawa wewnętrzna_,  
-w której chodzi o to, by wobec braków oprzeć się na Bogu i żyć świadomością,  
-że wszystko mam u Niego. Jemu zależy, żeby nasze zubożenie stało się bogactwem!  
-Ubóstwo jest lekarstwem od Boga, by wyleczył mnie z choroby polegania tylko  
-na sobie. Ubóstwo leczy z przekonania, że nikt mi nie pomoże.  
+Jednak ubóstwo to coś więcej.  
+_Ubóstwo nie oznacza braku pieniędzy. To pewna postawa wewnętrzna_, w której chodzi o to, by wobec braków oprzeć się na Bogu i żyć świadomością, że wszystko mam u Niego. Jemu zależy, żeby nasze zubożenie stało się bogactwem!  
+Ubóstwo jest lekarstwem od Boga, by wyleczył mnie z choroby polegania tylko na sobie. Ubóstwo leczy z przekonania, że nikt mi nie pomoże.  
 
-Bez świadomości, że jesteśmy w rękach kochającego Boga (jak rozważaliśmy  
-w pierwszym dniu), nie moglibyśmy przełknąć tego gorzkiego lekarstwa.  
-Dlatego św. Paweł mówi: _„Przechowujemy zaś ten skarb w naczyniach glinianych,  
-aby z Boga była owa przeogromna moc, a nie z nas” (2 Kor 4,7)._  
+Bez świadomości, że jesteśmy w rękach kochającego Boga, nie moglibyśmy przełknąć tego gorzkiego lekarstwa.  
+Dlatego św. Paweł mówi: _„Przechowujemy zaś ten skarb w naczyniach glinianych, aby z Boga była owa przeogromna moc, a nie z nas”_ (2 Kor 4,7).  
 
-Nosimy w sobie skarb Bożej Miłości, chociaż jesteśmy kruchymi, glinianymi  
-naczyniami. To sytuacje niepowodzeń, cierpień i trudności pokazują, kim  
-naprawdę jestem. Bolesne doświadczenia odsłaniają prawdę o mnie samym.  
+Nosimy w sobie skarb Bożej Miłości, chociaż jesteśmy kruchymi, glinianymi naczyniami. To sytuacje niepowodzeń, cierpień i trudności pokazują, kim naprawdę jestem. Bolesne doświadczenia odsłaniają prawdę o mnie samym.  
 
 Łatwo jest kochać Boga i ufać, gdy wszystko idzie po mojej myśli.  
-W kryzysie wychodzi na jaw, na kim naprawdę polegam. To naturalne, że trudności  
-się zdarzają – były, są i będą.  
+W kryzysie wychodzi na jaw, na kim naprawdę polegam. Trudności się zdarzają – były, są i będą.  
 
 Papierkiem lakmusowym życia w ubóstwie jest nieustanny wewnętrzny stan uwielbienia.  
-Dusza im bardziej uboga, tym bardziej żyje w uwielbieniu.  
-Im dusza bardziej liczy na siebie, tym bardziej pyta: _za co uwielbiać Boga?_  
+_Dusza im bardziej uboga, tym bardziej żyje w uwielbieniu.  
+Im dusza bardziej liczy na siebie, tym bardziej pyta: „za co uwielbiać Boga?”_  
 
 Jeśli zdarzy się trudność, to od kogo oczekuję pomocy?  
 Czy staję „pomimo” mojego ubóstwa przed Bogiem, wiedząc, że jestem w Jego rękach?  
-Trudne sytuacje prowokują pytanie: czy jestem zdany na Boga we wszystkim,  
-czy raczej na siebie? Czy zachowuję ufność w Bożą miłość, wierząc, że Bóg  
-przeprowadzi mnie przez wszystko, czy szukam rozwiązań po swojemu?  
+Trudne sytuacje prowokują pytanie: czy jestem zdany na Boga we wszystkim, czy raczej na siebie?  
+Czy zachowuję ufność w Bożą miłość, wierząc, że Bóg przeprowadzi mnie przez wszystko, czy szukam rozwiązań po swojemu?  
 A jak reaguję w sukcesach? Czy oddaję wszystko Bogu, czy sobie?  
 
 *Ubóstwo Maryi – Magnificat*  
-_„Wielbi dusza moja Pana i raduje się duch mój w Bogu, moim Zbawcy” (Łk 1,46)._  
-Postawa Maryi pokazuje, że ubóstwo daje radość i prowadzi do uwielbienia.  
-To postawa, w której człowiek nie uzależnia siebie od rzeczy, lecz od Boga.  
+_„Wielbi dusza moja Pana i raduje się duch mój w Bogu, moim Zbawcy”_ (Łk 1,46).  
+Postawa Maryi pokazuje, że ubóstwo daje radość i prowadzi do uwielbienia. To postawa, w której człowiek nie uzależnia siebie od rzeczy, lecz od Boga.  
 
 *Walka duchowa*  
-Na czym polega? By być wpatrzonym w Boga, a nie w dobra materialne  
-czy własne porażki. Moja wartość nie zależy od tego, co posiadam, ani od sukcesów.  
-Jeśli ktoś mnie pochwali – wartość ta sama. Jeśli ktoś skrytykuje – wartość ta sama.  
-Jeśli poniosę porażkę – wartość ta sama.  
+Na czym polega? By być wpatrzonym w Boga, a nie w dobra materialne czy własne porażki.  
+_Moja wartość nie zależy od tego, co posiadam, ani od sukcesów.  
+Jeśli ktoś mnie pochwali – wartość ta sama.  
+Jeśli ktoś skrytykuje – wartość ta sama.  
+Jeśli poniosę porażkę – wartość ta sama._  
 
-_*Moja prawdziwa wartość jest w Bogu.*_  
 Duch świata mówi: _musisz sam sobie radzić_.  
 Wiara mówi: _czyń, co możesz, ale ponad wszystko ufaj Bogu_.  
 
 *Lektura duchowa*  
 _„Aby mieć mądrość:  
-1) Trzeba porzucić dobra świata lub oderwać serce od dóbr i posiadać je,  
-jakby ich wcale się nie posiadało (por. 1 Kor 7,30);  
-2) Nie wzorować się na modach ludzi światowych: w ubiorze, umeblowaniu,  
-domach, posiłkach i zwyczajach. *Nolite conformari huic saeculo* (Rz 12,2).”_
+1) Trzeba porzucić dobra świata lub oderwać serce od dóbr i posiadać je, jakby ich wcale się nie posiadało (por. 1 Kor 7,30);  
+2) Nie wzorować się na modach ludzi światowych: w ubiorze, umeblowaniu, domach, posiłkach i zwyczajach. *Nolite conformari huic saeculo* (Rz 12,2).”_  
 
 _– św. Ludwik Maria Grignion de Montfort, Miłość Mądrości Przedwiecznej, 197–198_
 
 *Zadanie*  
-_Poproszę Maryję, aby uczyła mnie żyć w zależności tylko od Boga._
+_Poproszę Maryję, aby uczyła mnie żyć w zależności tylko od Boga._  
 
 *Modlitwa zawierzenia*  
-_*Jestem cały Twój i wszystko, co mam, jest Twoją własnością, umiłowany Jezu,  
-przez Maryję, Twoją świętą Matkę. Amen!*_`
+_*Jestem cały Twój i wszystko, co mam, jest Twoją własnością, umiłowany Jezu, przez Maryję, Twoją świętą Matkę. Amen!*_`
 
  
 , label: 'Błogosławieni ubodzy w duchu', type: 'opis', show: false },
