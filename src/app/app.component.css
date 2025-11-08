@@ -350,8 +350,8 @@ main {
 }
 
 .top-left-logo img {
-  width: 40px;
-  height: 40px;
+  width: 75px;
+  height: 75px;
   object-fit: contain;
   opacity: 0;
   transition: opacity 0.3s ease;
@@ -723,8 +723,8 @@ main {
   }
   
   .top-left-logo img {
-    width: 35px;
-    height: 35px;
+    width: 63px;
+    height: 63px;
   }
 
   /* Adjust date positioning for tablets */
@@ -758,18 +758,19 @@ main {
   
   .header {
     padding-right: 0; /* Usuń padding na mobile */
-    padding-top: 3.5rem; /* Miejsce na logo i datę */
+    padding-top: 4.5rem; /* Miejsce na większe logo i datę */
+    padding-left: 0.5rem; /* Wyrównaj z lewą stroną */
   }
   
   .header h1 { 
     font-size: 1.4rem; 
     line-height: 1.3;
-    text-align: center;
+    text-align: left; /* Tytuł pod logo po lewej */
   }
   
   .header p { 
     font-size: 0.85rem; 
-    text-align: center;
+    text-align: left; /* Podtytuł też po lewej */
     margin-top: 0.25rem;
   }
   
@@ -814,8 +815,8 @@ main {
   }
   
   .top-left-logo img {
-    width: 28px;
-    height: 28px;
+    width: 52px;
+    height: 52px;
   }
 
   /* Responsive date positioning - zachowaj absolute position */
