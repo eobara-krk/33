@@ -749,8 +749,8 @@ Na koniec odmawiamy Litanię do św. Ludwika de Montfort
       .replace(/(\*Dzień [^:]+:\*)/g, '📿 $1')
       // Kursywa dla cytatów
       .replace(/^"([^"]+)"$/gm, '_"$1"_')
-      // UKRYJ LINK W NAWIASACH (żeby WhatsApp nie robił podglądu)
-      .replace(/Źródło: (https?:\/\/[^\s<>]+)/g, '\n📖 Źródło: [ $1 ]');
+      // Link źródła dodawany jest osobno w copyTextToClipboard()
+      .replace(/Źródło: https?:\/\/[^\s<>]+/g, '');
   }
 
   // ZARZĄDZANIE WIDOCZNOŚCIĄ TEKSTU
@@ -770,11 +770,17 @@ Na koniec odmawiamy Litanię do św. Ludwika de Montfort
     }
 
     try {
+      // Usuń oryginalny link źródła z tekstu
+      let cleanText = text.replace(/\n*Źródło: https?:\/\/[^\s<>]+\s*$/g, '');
+      
       // Sformatuj tekst dla WhatsApp (markdown)
-      const whatsappText = this.formatTextForWhatsApp(text);
+      const whatsappText = this.formatTextForWhatsApp(cleanText);
+      
+      // Dodaj link źródła na sam koniec (osobno)
+      const finalText = whatsappText + '\n\n📖 Źródło: https://drogamaryi.pl';
       
       // Skopiuj do schowka
-      await navigator.clipboard.writeText(whatsappText);
+      await navigator.clipboard.writeText(finalText);
       
       console.log('✅ Tekst skopiowany:', whatsappText.length, 'znaków');
       alert(`✅ Tekst został skopiowany do schowka!\n\nDługość: ${whatsappText.length} znaków\n\n📱 Możesz teraz wkleić go gdzie chcesz (np. WhatsApp, Messenger, SMS)`);
