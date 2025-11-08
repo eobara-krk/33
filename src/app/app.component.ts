@@ -748,7 +748,9 @@ Na koniec odmawiamy Litanię do św. Ludwika de Montfort
       .replace(/(\*Modlitwa:\*)/g, '\n🙏 $1')
       .replace(/(\*Dzień [^:]+:\*)/g, '📿 $1')
       // Kursywa dla cytatów
-      .replace(/^"([^"]+)"$/gm, '_"$1"_');
+      .replace(/^"([^"]+)"$/gm, '_"$1"_')
+      // UKRYJ LINK W NAWIASACH (żeby WhatsApp nie robił podglądu)
+      .replace(/Źródło: (https?:\/\/[^\s<>]+)/g, '\n📖 Źródło: [ $1 ]');
   }
 
   // ZARZĄDZANIE WIDOCZNOŚCIĄ TEKSTU
