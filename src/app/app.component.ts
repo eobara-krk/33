@@ -306,8 +306,8 @@ Chrystus mówi: „Nie proszę, abyś ich zabrał ze świata, ale byś ich ustrz
   
   *_Modlitwa do Ducha Świętego_*
 
-  _Duchu Święty, natchnij mnie. Miłości Boga, pochłoń mnie. Po prawdziwej drodze prowadź mnie, Maryjo, moja Matko, spójrz na mnie, z Jezusem błogosław mnie. Od wszelkiego zła, od wszelkiego złudzenia, od wszelkiego niebezpieczeństwa zachowaj mnie. Maryjo, Oblubienico Ducha Świętego, wyproś mi łaskę odkrycia Bożej miłości.
-  Amen!_
+  _Duchu Święty, natchnij mnie. Miłości Boga, pochłoń mnie. Po prawdziwej drodze prowadź mnie, Maryjo, moja Matko, spójrz na mnie, z Jezusem błogosław mnie. Od wszelkiego zła, od wszelkiego złudzenia, od wszelkiego niebezpieczeństwa zachowaj mnie. Maryjo, Oblubienico Ducha Świętego, wyproś mi łaskę odkrycia Bożej miłości._
+  _Amen!_
 
   *Słowo Boże*
   _„Dlatego zginam kolana moje przed Ojcem, od którego bierze nazwę wszelki ród na niebie i na ziemi, aby według bogactwa swej chwały sprawił w was przez Ducha swego, by potężnie wzmocnił się wewnętrzny człowiek. Niech Chrystus zamieszka przez wiarę w waszych sercach; abyście w miłości zakorzenieni i ugruntowani, wraz ze wszystkimi świętymi zdołali ogarnąć duchem, czym jest Szerokość, Długość, Wysokość i Głębokość, i poznać miłość Chrystusa, przewyższającą wszelką wiedzę, abyście zostali napełnieni całą Pełnią Boga. Temu zaś, który mocą działającą w nas może uczynić nieskończenie więcej niż to, o co my prosimy czy rozumiemy, Jemu chwała w Kościele i w Chrystusie Jezusie po wszystkie pokolenia wieku wieków! Amen” (Ef 3,14–21)._
@@ -365,8 +365,8 @@ _Jestem cały Twój i wszystko, co mam, jest Twoją własnością, umiłowany Je
   
   *_Modlitwa do Ducha Świętego_*
 
-  _Duchu Święty, natchnij mnie. Miłości Boga, pochłoń mnie. Po prawdziwej drodze prowadź mnie, Maryjo, moja Matko, spójrz na mnie, z Jezusem błogosław mnie. Od wszelkiego zła, od wszelkiego złudzenia, od wszelkiego niebezpieczeństwa zachowaj mnie. Maryjo, Oblubienico Ducha Świętego, wyproś mi łaskę odkrycia Bożej miłości.
-  Amen!_
+  _Duchu Święty, natchnij mnie. Miłości Boga, pochłoń mnie. Po prawdziwej drodze prowadź mnie, Maryjo, moja Matko, spójrz na mnie, z Jezusem błogosław mnie. Od wszelkiego zła, od wszelkiego złudzenia, od wszelkiego niebezpieczeństwa zachowaj mnie. Maryjo, Oblubienico Ducha Świętego, wyproś mi łaskę odkrycia Bożej miłości._
+  _Amen!_
 
   *Słowo Boże*
   _„A wąż był bardziej przebiegły niż wszystkie zwierzęta lądowe, które Pan Bóg stworzył. On to rzekł do niewiasty: «Czy rzeczywiście Bóg powiedział: Nie jedzcie owoców ze wszystkich drzew tego ogrodu?» Niewiasta odpowiedziała wężowi: «Owoce z drzew tego ogrodu jeść możemy, tylko o owocach z drzewa, które jest w środku ogrodu, Bóg powiedział: Nie wolno wam jeść z niego, a nawet go dotykać, abyście nie pomarli». Wtedy rzekł wąż do niewiasty: «Na pewno nie umrzecie! Ale wie Bóg, że gdy spożyjecie owoc z tego drzewa, otworzą się wam oczy i tak jak Bóg będziecie znali dobro i zło». Wtedy niewiasta spostrzegła, że drzewo to ma owoce dobre do jedzenia, że jest ono rozkoszą dla oczu i że owoce tego drzewa nadają się do zdobycia wiedzy. Zerwała zatem z niego owoc, skosztowała i dała swemu mężowi, który był z nią, a on zjadł. A wtedy otworzyły się im obojgu oczy i poznali, że są nadzy; spletli więc gałązki figowe i zrobili sobie przepaski” (Rdz. 3,1–6)._
