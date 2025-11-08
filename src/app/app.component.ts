@@ -498,7 +498,7 @@ To jest właśnie łaska wiary, przez którą możesz nawiązać więź z Bogiem
 
 
 *Lektura duchowa*
-_„Mądrość Przedwieczna jest głęboko poruszona nieszczęściem biednego Adama i całego jego potomstwa. Widzi ona, i smuci się wielce, że chwalebne jej naczynie jest rozbite, wizerunek jej rozdarty, arcydzieło zniszczone, jej ziemski – namiestnik – upadły. 
+_„Mądrość Przedwieczna jest głęboko poruszona nieszczęściem biednego Adama i całego jego potomstwa. Widzi ona, i smuci się wielce, że chwalebne jej naczynie jest rozbite, wizerunek jej rozdarty, arcydzieło zniszczone, jej ziemski – namiestnik – upadły._
 
 św. Ludwik Maria Grignion de Montfort, Miłość Mądrości Przedwiecznej, 41-43
 
