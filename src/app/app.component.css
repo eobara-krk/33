@@ -932,7 +932,7 @@ main {
   .right-column {
     position: absolute;
     top: 0;
-    right: 0; /* Przylgnięcie do prawej krawędzi kontenera */
+    right: 0; /* Przylgnięcie do prawej krawędzi - padding jest w .placeholder */
     align-items: flex-end;
     gap: 0.6rem;
     text-align: right;
