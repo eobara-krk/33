@@ -1011,8 +1011,15 @@ main {
     font-size: 0.6rem;
   }
   
+  .header-subtitle {
+    text-align: left; /* Wyrównanie do lewej zamiast center */
+    margin-top: 0.5rem; /* Mniejszy margines górny */
+  }
+  
   .header-subtitle p {
-    font-size: 0.85rem;
+    font-size: 0.78rem; /* Zwiększamy z powrotem bo mamy więcej miejsca */
+    letter-spacing: -0.01em;
+    white-space: nowrap;
   }
   
   .event-card { 
