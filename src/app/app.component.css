@@ -902,22 +902,23 @@ main {
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
-    padding: 0 0.3rem;
-    gap: 0.5rem;
+    padding: 0 0.2rem; /* Mniejszy padding */
+    gap: 0.3rem; /* Mniejszy gap */
   }
   
-  /* Lewa kolumna na mobile - mniejsze elementy */
+  /* Lewa kolumna na mobile - przylega do lewej */
   .left-column {
     align-items: flex-start;
     gap: 0.6rem;
-    flex: 1;
+    flex: 0 0 auto; /* Nie rozciąga się */
   }
   
-  /* Prawa kolumna na mobile - mniejsze elementy */
+  /* Prawa kolumna na mobile - maksymalnie w prawo */
   .right-column {
     align-items: flex-end;
     gap: 0.6rem;
-    flex: 1;
+    flex: 0 0 auto; /* Nie rozciąga się */
+    margin-left: auto; /* Pcha maksymalnie w prawo */
   }
   
   .logo-section img {
@@ -943,15 +944,18 @@ main {
     flex-direction: row;
     align-items: center;
     gap: 0.4rem;
+    justify-content: flex-end; /* Wyrównanie do prawej */
   }
   
   .audio-section {
     justify-content: flex-end;
+    width: 100%; /* Pełna szerokość */
   }
   
   .date-line {
     font-size: 0.75rem;
     padding: 0.25rem 0.5rem;
+    text-align: right; /* Tekst do prawej */
   }
   
   .totus-image img {
