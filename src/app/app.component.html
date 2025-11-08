@@ -4,6 +4,12 @@
     <!-- DATA I GODZINA -->
     <div class="top-right-datetime">
       <div class="date-line">{{ currentDateTime | date:'EEEE dd.MM.yyyy':'':'pl-PL' }} r.</div>
+      <div class="totus-image">
+        <img src="assets/totatua.png" alt="Totus Tuus" 
+             (load)="onImageLoad($event)" 
+             (error)="onImageError($event)"
+             loading="lazy" />
+      </div>
     </div>
 
     <!-- HEADER -->
