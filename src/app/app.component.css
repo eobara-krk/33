@@ -899,31 +899,27 @@ main {
   }
   
   .header-top-line {
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: flex-start;
-    padding: 0 0.5rem; /* Więcej padding dla bezpieczeństwa */
-    gap: 0.5rem;
-    width: 100%; /* Nie przekraczaj szerokości */
-    box-sizing: border-box; /* Padding wliczony w szerokość */
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 0;
   }
   
-  /* Lewa kolumna na mobile */
+  /* Lewa kolumna na mobile - normalne pozycjonowanie */
   .left-column {
     align-items: flex-start;
     gap: 0.6rem;
-    flex: 1 1 auto; /* Może się rozciągać ale z ograniczeniami */
-    min-width: 0; /* Pozwala na skurczenie gdy potrzeba */
-    max-width: 60%; /* Maksymalnie 60% szerokości */
+    position: relative;
+    width: auto;
   }
   
-  /* Prawa kolumna na mobile */
+  /* Prawa kolumna na mobile - pozycjonowanie absolutne przy prawej krawędzi */
   .right-column {
+    position: absolute;
+    top: 0;
+    right: 0; /* Przylgnięcie do prawej krawędzi kontenera */
     align-items: flex-end;
     gap: 0.6rem;
-    flex: 1 1 auto;
-    min-width: 0;
-    max-width: 40%; /* Maksymalnie 40% szerokości */
     text-align: right;
   }
   
