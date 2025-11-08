@@ -383,7 +383,7 @@ main {
 }
 
 .sub-link {
-  padding-left: 2rem;
+  padding-left: 0.2rem; /* Bardzo mały padding: 3.2px */
   font-size: 0.95rem;
   color: #555;
   background: #f8f8f8;
@@ -1284,7 +1284,7 @@ main {
 }
 
 .sub-link {
-  margin-left: 40px !important;
+  margin-left: 0.2rem; /* Bardzo mały margines: 3.2px */
   position: relative;
 }
 
@@ -1302,8 +1302,8 @@ main {
 /* NESTED GROUPS */
 .nested-group {
   border-left: 2px solid #e0e0e0;
-  margin-left: 1rem;
-  padding-left: 0.5rem;
+  margin-left: 0.1rem; /* Minimalny margines: 1.6px */
+  padding-left: 0.1rem; /* Minimalny padding: 1.6px */
   margin-bottom: 0.5rem;
 }
 
@@ -1334,7 +1334,7 @@ main {
   display: flex;
   flex-direction: column;
   gap: 0.3rem;
-  margin-left: 1rem;
+  margin-left: 0.1rem; /* Minimalny margines: 1.6px */
 }
 
 .nested-link {
