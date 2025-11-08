@@ -1135,16 +1135,6 @@ main {
   transform: none;
 }
 
-.foto-label {
-  font-size: 0.75rem;
-  color: #666;
-  font-style: italic;
-  background: rgba(0, 0, 0, 0.05);
-  padding: 2px 6px;
-  border-radius: 4px;
-  text-transform: lowercase;
-}
-
 /* PHOTO LAYOUT - wszystkie linki w jednej kolumnie */
 .photo-grid {
   display: grid;
