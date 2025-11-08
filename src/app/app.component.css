@@ -899,65 +899,82 @@ main {
   }
   
   .header-top-line {
-    flex-direction: column;
-    gap: 1.5rem;
-    align-items: center;
-    padding: 0 0.5rem;
-  }
-  
-  /* Na mobile: najpierw lewa kolumna (logo + tytuł) */
-  .left-column {
-    order: 1;
-    align-items: center;
-    gap: 0.8rem;
-    width: 100%;
-  }
-  
-  /* Na mobile: potem prawa kolumna (data + audio) */
-  .right-column {
-    order: 2;
-    align-items: center;
-    gap: 0.8rem;
-    width: 100%;
-  }
-  
-  .logo-section img {
-    width: 65px;
-    height: 65px;
-  }
-  
-  .header-title {
-    text-align: center;
-  }
-  
-  .date-section {
-    flex-direction: column;
-    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0 0.3rem;
     gap: 0.5rem;
   }
   
-  .audio-section {
-    justify-content: center;
+  /* Lewa kolumna na mobile - mniejsze elementy */
+  .left-column {
+    align-items: flex-start;
+    gap: 0.6rem;
+    flex: 1;
   }
   
-  .date-line {
-    font-size: 0.85rem;
-    padding: 0.3rem 0.6rem;
+  /* Prawa kolumna na mobile - mniejsze elementy */
+  .right-column {
+    align-items: flex-end;
+    gap: 0.6rem;
+    flex: 1;
   }
   
-  .totus-image img {
-    width: 35px;
-    height: 35px;
+  .logo-section img {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .header-title {
+    text-align: left;
   }
   
   .header-title h1 { 
-    font-size: 1.4rem; 
-    line-height: 1.3;
+    font-size: 1.2rem; 
+    line-height: 1.2;
   }
   
   .header-title p { 
-    font-size: 0.85rem; 
-    margin-top: 0.25rem;
+    font-size: 0.75rem; 
+    margin-top: 0.2rem;
+  }
+  
+  .date-section {
+    flex-direction: row;
+    align-items: center;
+    gap: 0.4rem;
+  }
+  
+  .audio-section {
+    justify-content: flex-end;
+  }
+  
+  .date-line {
+    font-size: 0.75rem;
+    padding: 0.25rem 0.5rem;
+  }
+  
+  .totus-image img {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .audio-toggle-btn {
+    padding: 0.4rem 0.6rem;
+    font-size: 0.7rem;
+    min-width: 90px;
+  }
+  
+  .play-icon {
+    font-size: 0.9rem;
+  }
+  
+  .audio-title {
+    font-size: 0.7rem;
+  }
+  
+  .audio-status {
+    font-size: 0.6rem;
   }
   
   .event-card { 
