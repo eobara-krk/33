@@ -121,9 +121,7 @@ Panie Boże nasz, św. Ludwik de Montfort całe swoje życie spędził, aby koch
 
 Ojcze nasz, Zdrowaś Maryjo, Chwała Ojcu
 
-Na koniec odmawiamy Litanię do św. Ludwika de Montfort
-
-Źródło: https://drogamaryi.pl/litania-do-sw-ludwika`
+Na koniec odmawiamy Litanię do św. Ludwika de Montfort`
 , label: 'Czułe serce św. Ludwika', type: 'opis', show: false } 
         ]
       },
@@ -789,12 +787,8 @@ Na koniec odmawiamy Litanię do św. Ludwika de Montfort
       // Sformatuj tekst dla WhatsApp (markdown)
       const whatsappText = this.formatTextForWhatsApp(cleanText);
       
-      // Dodaj źródło tylko jeśli istnieje
+      // Tekst bez źródła - czysto dla WhatsApp
       let finalText = whatsappText;
-      if (sourceUrl) {
-        const cleanSourceUrl = sourceUrl.replace(/^https?:\/\//, '');
-        finalText += '\n\n📖 Źródło: [' + cleanSourceUrl + ']';
-      }
       
       // Skopiuj do schowka
       await navigator.clipboard.writeText(finalText);
