@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { CommonModule, NgFor, NgIf, NgSwitch, NgSwitchCase, NgSwitchDefault } from '@angular/common';
 import { RouterModule } from '@angular/router';
 // Typy dla linków i itemów
@@ -6,11 +6,12 @@ interface LinkGroup {
   name: string;
   show?: boolean;
   type?: string;         // opis, html, audio...
-    links?: SingleLink[];  // <-- teraz można używać label
+  links?: SingleLink[];  // <-- teraz można używać label
   text?: string;
   protected?: boolean;
   image?: string;  // opcjonalne pole na obrazek
-  fullscreen?: boolean; // <-- dodajemy opcjonalne pole fullscreen
+  fullscreen?: boolean; 
+  url?: string; // <-- dodajemy opcjonalne pole url
 }
 interface SingleLink {
   url?: string;
@@ -18,6 +19,9 @@ interface SingleLink {
   label?: string;  // <-- dodajemy opcjonalne pole label
   fullscreen?: boolean; // jeśli chcesz obsługiwać fullscreen dla linków
   image?: string; // 🆕 obrazek do wyświetlenia
+  name?: string; // nazwa dla zagnieżdżonych grup
+  show?: boolean; // czy grupa zagnieżdżona jest rozwinięta
+  links?: SingleLink[]; // zagnieżdżone linki
 }
 
 interface Meeting {
@@ -51,7 +55,7 @@ interface Item {
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export class AppComponent {
+export class AppComponent implements OnInit {
   currentDateTime: Date = new Date(); // <-- dodaj to
   fullscreenImage: string | null = null; // <-- globalny fullscreen
 
@@ -176,8 +180,9 @@ Osoby, którym nie udało się rozpocząć nowenny 27 października zachęcamy, 
       },
       {
         name: '04: 2025-11-08',
-        type: 'html',
+        show: false,
         links: [
+          { image: 'assets/12dni/04.jpg',type:'foto' },
           { url:'https://drogamaryi.pl/edycje/5-listopada-2025/12-dni-dzien-4', type:'html', label:'Odkryj łaskę nawrócenia i oddania życia Panu Jezusowi' },
           { url:'https://drogamaryi.pl/edycje/5-listopada-2025/12-dni-dzien-4/audio', type:'audio', label:'audio' }
         ]
@@ -279,6 +284,42 @@ Osoby, którym nie udało się rozpocząć nowenny 27 października zachęcamy, 
 
  private readonly summaryPassword = 'syn';
 
+  // ----------------------
+  // INICJALIZACJA - AUTOMATYCZNE OTWIERANIE DZISIEJSZYCH FOLDERÓW
+  // ----------------------
+  ngOnInit() {
+    this.openTodayFolders();
+  }
+
+  // Automatyczne otwieranie folderów z dzisiejszą datą
+  openTodayFolders() {
+    this.items.forEach(item => {
+      // Sprawdzamy czy tytuł zawiera dzisiejszą datę w zakresie
+      if (this.isTodayInTitleRange(item.title)) {
+        item.show = true;
+      }
+
+      // Sprawdzamy grupy w każdym elemencie
+      item.links?.forEach(group => {
+        // Otwieramy grupę jeśli jej nazwa zawiera dzisiejszą datę
+        if (group.name && this.isToday(group.name)) {
+          group.show = true;
+          // Otwieramy też główny element jeśli grupa się otworzyła
+          item.show = true;
+        }
+
+        // Sprawdzamy zagnieżdżone linki
+        group.links?.forEach(nestedLink => {
+          if (nestedLink.name && this.isToday(nestedLink.name)) {
+            nestedLink.show = true;
+            group.show = true;
+            item.show = true;
+          }
+        });
+      });
+    });
+  }
+
    // ----------------------
   // OTWIERANIE LINKÓW
   // ----------------------
@@ -315,6 +356,11 @@ Osoby, którym nie udało się rozpocząć nowenny 27 października zachęcamy, 
     group.show = !group.show;
   }
 
+  // Metoda do przełączania zagnieżdżonych grup
+  toggleNestedGroup(nestedGroup: SingleLink) {
+    nestedGroup.show = !nestedGroup.show;
+  }
+
   // ----------------------
   // TRACKBY dla *ngFor
   // ----------------------
@@ -332,6 +378,21 @@ Osoby, którym nie udało się rozpocząć nowenny 27 października zachęcamy, 
   toggleFullscreen(url?: string) {
     if (!url) return;
     this.fullscreenImage = this.fullscreenImage === url ? null : url;
+  }
+
+  // Obsługa ładowania obrazka
+  onImageLoad(event: Event) {
+    const img = event.target as HTMLImageElement;
+    img.style.opacity = '1';
+    img.classList.add('loaded');
+  }
+
+  // Obsługa błędu ładowania obrazka
+  onImageError(event: Event) {
+    const img = event.target as HTMLImageElement;
+    img.style.opacity = '0.5';
+    img.classList.add('error');
+    console.warn('Błąd ładowania obrazka:', img.src);
   }
 
 
@@ -364,13 +425,79 @@ Osoby, którym nie udało się rozpocząć nowenny 27 października zachęcamy, 
            date.getDate() === today.getDate();
   }
 
+  // Sprawdza czy grupa ma wewnętrzne elementy z dzisiejszą datą
+  hasInnerTodayElements(group: LinkGroup): boolean {
+    if (!group.links) return false;
+    
+    return group.links.some(link => {
+      // Sprawdzamy czy link ma dzisiejszą datę w nazwie
+      if (link.name && this.isToday(link.name)) return true;
+      if (link.label && this.isToday(link.label)) return true;
+      if (link.url && this.isToday(link.url)) return true;
+      
+      // Sprawdzamy zagnieżdżone linki
+      if (link.links) {
+        return link.links.some(nestedLink => {
+          return (nestedLink.label && this.isToday(nestedLink.label)) ||
+                 (nestedLink.url && this.isToday(nestedLink.url)) ||
+                 (nestedLink.name && this.isToday(nestedLink.name));
+        });
+      }
+      
+      return false;
+    });
+  }
+
+  // Sprawdza czy główny element (Item) ma wewnętrzne grupy z dzisiejszą datą
+  hasInnerTodayGroups(item: Item): boolean {
+    if (!item.links) return false;
+    
+    return item.links.some(group => {
+      // Sprawdzamy czy sama grupa ma dzisiejszą datę w nazwie
+      if (group.name && this.isToday(group.name)) return true;
+      
+      // Sprawdzamy czy grupa ma wewnętrzne elementy z dzisiejszą datą
+      return this.hasInnerTodayElements(group);
+    });
+  }
+
   // ----------------------
   // OTWIERANIE TYLKO JEDNEJ GRUPY
   // ----------------------
   openOnly(groupToOpen: LinkGroup, item: Item) {
+    // Zamykamy wszystkie inne grupy w tym elemencie
     item.links?.forEach(g => { if (g !== groupToOpen) g.show = false; });
+    
+    // Sprawdzamy czy to jest pojedynczy link - jeśli tak, otwieramy go
+    if (groupToOpen.links && groupToOpen.links.length === 1) {
+      window.open(groupToOpen.links[0].url, '_blank');
+      return;
+    }
+    
+    // Obsługa chronionych tekstów
+    if (groupToOpen.protected) {
+      if (groupToOpen.show) { 
+        groupToOpen.show = false; 
+        return; 
+      }
+      const password = prompt('Podaj hasło, aby odczytać podsumowanie:');
+      if (password === this.summaryPassword) {
+        groupToOpen.show = true;
+      } else {
+        alert('Błędne hasło!');
+      }
+      return;
+    }
+    
+    // Zwykłe przełączanie widoczności
     groupToOpen.show = !groupToOpen.show;
-    if (groupToOpen.links?.length === 1) window.open(groupToOpen.links[0].url, '_blank');
+  }
+
+    // NOWA METODA: BEZPIECZNY GŁÓWNY LINK
+  // ----------------------
+  getMainLink(group: LinkGroup): string | null {
+    if (!group.links || group.links.length === 0) return null;
+    return group.links.length === 1 ? group.links[0]?.url || null : null;
   }
 
   // ----------------------

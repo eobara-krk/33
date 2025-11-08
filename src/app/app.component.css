@@ -246,11 +246,18 @@ main {
 }
 
 /* ---------- MINIATURY ---------- */
-.event-image-container,
-.link-thumb-container {
+.event-image-container {
   display: flex;
   justify-content: center;
   margin-bottom: 1rem;
+  position: relative;
+}
+
+.link-thumb-container {
+  display: inline-flex;
+  align-items: center;
+  margin-right: 0.5rem;
+  margin-bottom: 0.25rem;
   position: relative;
 }
 
@@ -258,90 +265,116 @@ main {
   width: 120px;
   height: auto;
   cursor: pointer;
-  border-radius: 5px;
-  transition: transform 0.2s;
+  border-radius: 8px;
+  transition: transform 0.2s ease;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 
 .event-thumb:hover {
   transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
 }
 
 .link-thumb {
-  width: 80px;
-  height: auto;
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
   cursor: pointer;
-  border-radius: 4px;
-  margin-right: 0.5rem;
-  transition: transform 0.2s;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+  border: 2px solid #f0f0f0;
+  background-color: #f8f9fa;
+  background-image: linear-gradient(45deg, #f0f0f0 25%, transparent 25%),
+                    linear-gradient(-45deg, #f0f0f0 25%, transparent 25%),
+                    linear-gradient(45deg, transparent 75%, #f0f0f0 75%),
+                    linear-gradient(-45deg, transparent 75%, #f0f0f0 75%);
+  background-size: 8px 8px;
+  background-position: 0 0, 0 4px, 4px -4px, -4px 0px;
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
+  opacity: 0.7;
+  animation: pulse 1.5s ease-in-out infinite;
+}
+
+.link-thumb.loaded {
+  opacity: 1;
+  animation: none;
+  background-image: none;
+  background-color: transparent;
+}
+
+.link-thumb.error {
+  opacity: 0.5;
+  animation: none;
+  background-color: #ffebee;
+  border-color: #f44336;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 0.7; }
+  50% { opacity: 0.9; }
 }
 
 .link-thumb:hover {
-  transform: scale(1.1);
+  /* Usuwamy scale żeby nie skakało */
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  border-color: #3b82f6;
+  filter: brightness(1.1) contrast(1.05);
 }
 
 /* ---------- FULLSCREEN LOCAL ---------- */
-/* ---------- FULLSCREEN LOCAL ---------- */
-.fullscreen-local {
-  position: fixed; /* aby zajmowało cały ekran */
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-  background: rgba(0,0,0,0.85);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 9999;
-  cursor: zoom-out;
-}
-
-.fullscreen-local-image {
-  max-width: 95vw;   /* maksymalna szerokość 95% ekranu */
-  max-height: 95vh;  /* maksymalna wysokość 95% ekranu */
-  width: auto;       /* automatyczna szerokość przy ograniczeniach max */
-  height: auto;      /* automatyczna wysokość przy ograniczeniach max */
-  border-radius: 8px;
-  object-fit: contain;
-  box-shadow: 0 0 40px rgba(0,0,0,0.6);
-  transition: transform 0.3s ease;
-}
-
-.fullscreen-local-image:hover {
-  transform: scale(1.03); /* delikatne powiększenie */
-}
-
-
-/* ---------- STYLISH BUTTON ---------- */
 .fullscreen-local {
   position: fixed;
   top: 0;
-  left: 0;
-  width: 100vw;
+  left: 50%;
+  transform: translateX(-50%);
+  width: min(720px, 100vw);
   height: 100vh;
-  background: rgba(0,0,0,0.85);
+  background: rgba(0,0,0,0.9);
   display: flex;
   justify-content: center;
   align-items: center;
   z-index: 9999;
   cursor: zoom-out;
-  overflow: hidden; /* dodatkowo blokuje przewijanie */
+  overflow: hidden;
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
 }
 
 .fullscreen-local-image {
-  max-width: 95vw;
+  max-width: min(680px, 95vw);
   max-height: 95vh;
   width: auto;
   height: auto;
-  border-radius: 8px;
+  border-radius: 12px;
   object-fit: contain;
-  box-shadow: 0 0 40px rgba(0,0,0,0.6);
-  transition: transform 0.2s ease;
+  box-shadow: 0 0 50px rgba(0,0,0,0.8);
+  transition: opacity 0.3s ease, filter 0.2s ease;
   display: block;
-  margin: auto; /* wycentrowanie absolutne */
+  margin: auto;
+  user-select: none;
+  -webkit-user-select: none;
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
+  opacity: 0;
+  animation: fadeInImage 0.4s ease forwards;
+}
+
+@keyframes fadeInImage {
+  from {
+    opacity: 0;
+    filter: blur(2px);
+  }
+  to {
+    opacity: 1;
+    filter: blur(0);
+  }
 }
 
 .fullscreen-local-image:hover {
-  transform: scale(1.02); /* minimalne powiększenie */
+  /* Usuwamy scale - nie skacze */
+  filter: brightness(1.05);
 }
 
 
@@ -359,4 +392,101 @@ main {
   .event-description { padding-left: 0.25rem; }
   .grid-link { font-size: 1rem; padding: 0.85rem 1rem; }
   .link-grid { gap: 0.7rem; }
+  
+  /* Responsive images */
+  .link-thumb {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .event-thumb {
+    width: 100px;
+  }
+  
+  .fullscreen-local {
+    left: 0;
+    transform: none;
+    width: 100vw;
+  }
+  
+  .fullscreen-local-image {
+    max-width: 98vw;
+    max-height: 98vh;
+    border-radius: 8px;
+  }
+}
+
+/* ---------- ZAGNIEŻDŻONE GRUPY ---------- */
+.nested-group {
+  border-left: 2px solid #e0e0e0;
+  margin-left: 1rem;
+  padding-left: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.nested-header {
+  cursor: pointer;
+  padding: 0.5rem 0.75rem;
+  background: #f5f5f5;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: background 0.2s ease;
+  margin-bottom: 0.25rem;
+  font-weight: 500;
+}
+
+.nested-header:hover {
+  background: #ebebeb;
+}
+
+.nested-icon {
+  font-size: 0.8rem;
+  color: #666;
+  min-width: 12px;
+}
+
+.nested-links {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  margin-left: 1rem;
+}
+
+.nested-link {
+  padding: 0.5rem 0.75rem;
+  font-size: 0.9rem;
+  background: #fafafa;
+  border-left: 3px solid #ddd;
+  margin-left: 0.5rem;
+}
+
+/* ---------- IKONA ROZWIJANIA ---------- */
+.expand-icon {
+  font-size: 0.8rem;
+  color: #666;
+  margin-right: 0.5rem;
+  min-width: 12px;
+  display: inline-block;
+}
+
+/* ---------- ELEMENT FOTO ---------- */
+.foto-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: default;
+  background: #f8f9fa !important;
+  border: 1px solid #e9ecef;
+}
+
+.foto-item:hover {
+  background: #f1f3f4 !important;
+  transform: none;
+}
+
+.foto-item .link-thumb-container {
+  margin-right: 0;
+  margin-bottom: 0;
 }
