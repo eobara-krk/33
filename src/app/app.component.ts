@@ -59,6 +59,25 @@ export class AppComponent implements OnInit {
   currentDateTime: Date = new Date(); // <-- dodaj to
   fullscreenImage: string | null = null; // <-- globalny fullscreen
 
+  // KONFIGURACJA DAT - tutaj ustawiasz datę startu
+  private readonly startDate = new Date(2025, 9, 27); // 27 października 2025 (miesiące 0-11)
+  
+  // Metoda pomocnicza do generowania nazwy dnia z datą
+  private getDayName(date: Date): string {
+    const dayNames = ['niedziela', 'poniedziałek', 'wtorek', 'środa', 'czwartek', 'piątek', 'sobota'];
+    const dayName = dayNames[date.getDay()];
+    const day = date.getDate().toString().padStart(2, '0');
+    const month = (date.getMonth() + 1).toString().padStart(2, '0');
+    const year = date.getFullYear();
+    return `${dayName} ${day}.${month}.${year} r.`;
+  }
+
+  // Metoda do generowania daty o N dni później
+  private getDatePlusDays(startDate: Date, days: number): string {
+    const newDate = new Date(startDate);
+    newDate.setDate(startDate.getDate() + days);
+    return this.getDayName(newDate);
+  }
 
 items: Item[] = [
   { 
@@ -75,63 +94,63 @@ Osoby, którym nie udało się rozpocząć nowenny 27 października zachęcamy, 
         type: 'opis'
       },
       {
-        name: '01: 2025-10-27',
+        name: `01: ${this.getDatePlusDays(this.startDate, 0)}`,
         type: 'html',
         links: [
           { url:'https://drogamaryi.pl/nowenna-do-sw-ludwika/dzien-1', type:'html' }
         ]
       },
       {
-        name: '02:  2025-10-28',
+        name: `02: ${this.getDatePlusDays(this.startDate, 1)}`,
         type: 'html',
         links: [
           { url:'https://drogamaryi.pl/nowenna-do-sw-ludwika/dzien-2', type:'html' }
         ]
       },
       {
-        name: '03: 2025-10-29',
+        name: `03: ${this.getDatePlusDays(this.startDate, 2)}`,
         type: 'html',
         links: [
           { url:'https://drogamaryi.pl/nowenna-do-sw-ludwika/dzien-3', type:'html' }
         ]
       },
       {
-        name: '04:  2025-10-30',
+        name: `04: ${this.getDatePlusDays(this.startDate, 3)}`,
         type: 'html',
         links: [
           { url:'https://drogamaryi.pl/nowenna-do-sw-ludwika/dzien-4', type:'html' }
         ]
       },
       {
-        name: '05: 2025-10-31',
+        name: `05: ${this.getDatePlusDays(this.startDate, 4)}`,
         type: 'html',
         links: [
           { url:'https://drogamaryi.pl/nowenna-do-sw-ludwika/dzien-5', type:'html' }
         ]
       },
       {
-        name: '06:  2025-11-01',
+        name: `06: ${this.getDatePlusDays(this.startDate, 5)}`,
         type: 'html',
         links: [
           { url:'https://drogamaryi.pl/nowenna-do-sw-ludwika/dzien-6', type:'html' }
         ]
       },
       {
-        name: '07:  2025-11-02',
+        name: `07: ${this.getDatePlusDays(this.startDate, 6)}`,
         type: 'html',
         links: [
           { url:'https://drogamaryi.pl/nowenna-do-sw-ludwika/dzien-7', type:'html' }
         ]
       },
       {
-        name: '08: 2025-11-03',
+        name: `08: ${this.getDatePlusDays(this.startDate, 7)}`,
         type: 'html',
         links: [
           { url:'https://drogamaryi.pl/nowenna-do-sw-ludwika/dzien-8', type:'html' }
         ]
       },
       {
-        name: '09:  2025-11-04',
+        name: `09: ${this.getDatePlusDays(this.startDate, 8)}`,
         type: 'html',
         links: [
           { url:'https://drogamaryi.pl/nowenna-do-sw-ludwika/dzien-9', type:'html' }
@@ -152,7 +171,7 @@ Osoby, którym nie udało się rozpocząć nowenny 27 października zachęcamy, 
         ]
       },
       {
-        name: '01: 2025-11-05',
+        name: `01: ${this.getDatePlusDays(this.startDate, 9)}`, // 9 dni po starcie nowenny
         show: false,
         links: [
           { image: 'assets/12dni/01.jpg',type:'foto' },
@@ -161,7 +180,7 @@ Osoby, którym nie udało się rozpocząć nowenny 27 października zachęcamy, 
         ]
       },
       {
-        name: '02: 2025-11-06',
+        name: `02: ${this.getDatePlusDays(this.startDate, 10)}`,
         show: false,
         links: [
           { image: 'assets/12dni/02.jpg',type:'foto' },
@@ -170,7 +189,7 @@ Osoby, którym nie udało się rozpocząć nowenny 27 października zachęcamy, 
         ]
       },
       {
-        name: '03: 2025-11-07',
+        name: `03: ${this.getDatePlusDays(this.startDate, 11)}`,
         show: false,
         links: [
           { image: 'assets/12dni/03.jpg',type:'foto' },
@@ -179,7 +198,7 @@ Osoby, którym nie udało się rozpocząć nowenny 27 października zachęcamy, 
         ]
       },
       {
-        name: '04: 2025-11-08',
+        name: `04: ${this.getDatePlusDays(this.startDate, 12)}`,
         show: false,
         links: [
           { image: 'assets/12dni/04.jpg',type:'foto' },
@@ -188,60 +207,63 @@ Osoby, którym nie udało się rozpocząć nowenny 27 października zachęcamy, 
         ]
       },
       {
-        name: '05: 2025-11-09',
+        name: `05: ${this.getDatePlusDays(this.startDate, 13)}`,
         type: 'html',
         links: [
           { url:'https://drogamaryi.pl/edycje/5-listopada-2025/12-dni-dzien-5', type:'html', label:'Błogosławieni ubodzy w duchu' },
           { url:'https://drogamaryi.pl/edycje/5-listopada-2025/12-dni-dzien-5/audio', type:'audio', label:'audio' }
         ]
       },
-            {
-        name: '06: 2025-11-10',
+      {
+        name: `06: ${this.getDatePlusDays(this.startDate, 14)}`,
         type: 'html',
         links: [
           { url:'https://drogamaryi.pl/edycje/5-listopada-2025/12-dni-dzien-6', type:'html', label:'Błogosławieni, którzy się smucą' },
           { url:'https://drogamaryi.pl/edycje/5-listopada-2025/12-dni-dzien-6/audio', type:'audio', label:'audio' }
         ]
       },
-            {
-        name: '07: 2025-11-11',
+      {
+        name: `07: ${this.getDatePlusDays(this.startDate, 15)}`,
         type: 'html',
         links: [
           { url:'https://drogamaryi.pl/edycje/5-listopada-2025/12-dni-dzien-7', type:'html', label:'Błogosławieni cisi' },
           { url:'https://drogamaryi.pl/edycje/5-listopada-2025/12-dni-dzien-7/audio', type:'audio', label:'audio' }
         ]
       },
-            {
-        name: '08: 2025-11-12',
+      {
+        name: `08: ${this.getDatePlusDays(this.startDate, 16)}`,
         type: 'html',
         links: [
           { url:'https://drogamaryi.pl/edycje/5-listopada-2025/12-dni-dzien-8', type:'html', label:'Błogosławieni, którzy łakną i pragną sprawiedliwości.' },
           { url:'https://drogamaryi.pl/edycje/5-listopada-2025/12-dni-dzien-8/audio', type:'audio', label:'audio' }
         ]
       },
-            {
-        name: '09: 2025-11-13',
+      {
+        name: `09: ${this.getDatePlusDays(this.startDate, 17)}`,
         type: 'html',
         links: [
           { url:'https://drogamaryi.pl/edycje/5-listopada-2025/12-dni-dzien-9', type:'html', label:'Błogosławieni miłosierni' },
           { url:'https://drogamaryi.pl/edycje/5-listopada-2025/12-dni-dzien-9/audio', type:'audio', label:'audio' }
         ]
       },
-        {name: '10: 2025-11-14',
+      {
+        name: `10: ${this.getDatePlusDays(this.startDate, 18)}`,
         type: 'html',
         links: [
           { url:'https://drogamaryi.pl/edycje/5-listopada-2025/12-dni-dzien-10', type:'html', label:'Błogosławieni czystego serca' },
           { url:'https://drogamaryi.pl/edycje/5-listopada-2025/12-dni-dzien-10/audio', type:'audio', label:'audio' }
         ]
       },
-        {name: '11: 2025-11-15',
+      {
+        name: `11: ${this.getDatePlusDays(this.startDate, 19)}`,
         type: 'html',
         links: [
           { url:'https://drogamaryi.pl/edycje/5-listopada-2025/12-dni-dzien-11', type:'html', label:'Błogosławieni, którzy wprowadzają pokój' },
           { url:'https://drogamaryi.pl/edycje/5-listopada-2025/12-dni-dzien-11/audio', type:'audio', label:'audio' }
         ]
       },
-              {name: '12: 2025-11-16',
+      {
+        name: `12: ${this.getDatePlusDays(this.startDate, 20)}`,
         type: 'html',
         links: [
           { url:'https://drogamaryi.pl/edycje/5-listopada-2025/12-dni-dzien-12', type:'html', label:'Błogosławieni, którzy cierpią prześladowanie dla sprawiedliwości' },
@@ -414,15 +436,31 @@ Osoby, którym nie udało się rozpocząć nowenny 27 października zachęcamy, 
 
   isToday(name: string): boolean {
     if (!name) return false;
-    const match = name.match(/\d{4}-\d{2}-\d{2}/);
-    if (!match) return false;
+    
+    // Sprawdzamy nowy format dd.MM.yyyy
+    const newFormatMatch = name.match(/(\d{2})\.(\d{2})\.(\d{4})/);
+    if (newFormatMatch) {
+      const [, day, month, year] = newFormatMatch;
+      const date = new Date(parseInt(year), parseInt(month) - 1, parseInt(day));
+      const today = new Date();
+      
+      return date.getFullYear() === today.getFullYear() &&
+             date.getMonth() === today.getMonth() &&
+             date.getDate() === today.getDate();
+    }
+    
+    // Fallback na stary format YYYY-MM-DD (jeśli gdzieś jeszcze zostały)
+    const oldFormatMatch = name.match(/\d{4}-\d{2}-\d{2}/);
+    if (oldFormatMatch) {
+      const date = new Date(oldFormatMatch[0]);
+      const today = new Date();
 
-    const date = new Date(match[0]);
-    const today = new Date();
-
-    return date.getFullYear() === today.getFullYear() &&
-           date.getMonth() === today.getMonth() &&
-           date.getDate() === today.getDate();
+      return date.getFullYear() === today.getFullYear() &&
+             date.getMonth() === today.getMonth() &&
+             date.getDate() === today.getDate();
+    }
+    
+    return false;
   }
 
   // Sprawdza czy grupa ma wewnętrzne elementy z dzisiejszą datą

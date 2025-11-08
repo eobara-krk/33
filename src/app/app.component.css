@@ -382,6 +382,17 @@ main {
 @media (max-width: 768px) {
   .placeholder { padding: 1.5rem; }
   .header h1 { font-size: 1.75rem; }
+  
+  /* Adjust date positioning for tablets */
+  .top-right-datetime {
+    right: 1rem;
+    top: 0.25rem;
+    padding: 0.4rem 0.8rem;
+  }
+  
+  .date-line {
+    font-size: 0.875rem;
+  }
 }
 
 @media (max-width: 480px) {
@@ -392,6 +403,25 @@ main {
   .event-description { padding-left: 0.25rem; }
   .grid-link { font-size: 1rem; padding: 0.85rem 1rem; }
   .link-grid { gap: 0.7rem; }
+  
+  /* Responsive date positioning */
+  .top-right-datetime {
+    position: static;
+    text-align: center;
+    margin-bottom: 1rem;
+    background: transparent;
+    padding: 0;
+    box-shadow: none;
+  }
+  
+  .date-line {
+    font-size: 0.85rem;
+    background: rgba(255,255,255,0.9);
+    padding: 0.25rem 0.75rem;
+    border-radius: 1rem;
+    display: inline-block;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  }
   
   /* Responsive images */
   .link-thumb {
