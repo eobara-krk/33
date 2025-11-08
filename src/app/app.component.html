@@ -111,7 +111,7 @@
               {{ group.name }}
 
               <div *ngIf="group.show && group.text" class="event-description">
-                <pre style="white-space: pre-wrap;">{{ group.text }}</pre>
+                <div class="justified-text" [innerHTML]="processTextWithLinks(group.text)"></div>
               </div>
             </div>
 

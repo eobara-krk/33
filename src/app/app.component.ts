@@ -104,24 +104,36 @@ Zachęcamy Was do czytania Traktatu św. Ludwika. Można każdego dnia poświeci
           { image: 'assets/nowenna/01.jpg', type:'foto' },
           { text: `*Dzień pierwszy: Czułe serce św. Ludwika*
 
-Św. Ludwik miał przedziwną drogę duchową, którą go Bóg prowadził, a on wiernie był jej posłuszny. Miłość do Boga i bliźniego, szczególnie do tych, którzy byli w wielkiej potrzebie, były podstawą tej drogi. 
+Św. Ludwik miał przedziwną drogę duchową, którą Bóg prowadził, a on wiernie jej był posłuszny.  
+Miłość do Boga i bliźniego, szczególnie do tych w wielkiej potrzebie, była podstawą tej drogi.  
 
-Już od dzieciństwa i pierwszego poruszenia jego sumienia, Ludwik był pociągniętym miłością do Boga. "Dystansował się od swoich rówieśników by unikać ich zabaw, chował się, by modlić na różańcu przed obrazem Matki Bożej".
+Już od dzieciństwa i pierwszego poruszenia sumienia, Ludwik był pociągnięty miłością do Boga.  
+_„Dystansował się od swoich rówieśników by unikać ich zabaw, chował się, by modlić na różańcu przed obrazem Matki Bożej”_ – Ks. Blain, przyjaciel św. Ludwika.  
 
-Ks. Blain, przyjaciel św. Ludwika i kolega szkolny z okresu Seminarium napisał: "Często między nami wyglądał jakby w ciągłej ekstazie uczuciowej, wykluczony, porwany przez Boga. Nie mógł zapanować nad poruszeniami serca, które było przeniknięte Bożą miłością, i wzdychał przy stole, w rekreacji, wszędzie. Był to skutek gorliwych natchnień Bożej miłości w Duchu Świętym, który przenikał serce, by dać skosztować Jego słodyczy".
+_Często wyglądał, jakby był w ciągłej ekstazie uczuciowej, porwany przez Boga. Nie mógł zapanować nad poruszeniami serca, które było przeniknięte Bożą miłością, i wzdychał przy stole, w rekreacji, wszędzie. Był to skutek gorliwych natchnień Bożej miłości w Duchu Świętym, który przenikał serce, by dać skosztować Jego słodyczy._  
 
-Ta miłość do Boga i modlitwy była fundamentem jego świętej, duchowej drogi do najwyższych szczytów modlitwy. Odkrywając swoje serce dla Boga, rozpalone miłością, jako dojrzały kapłan i misjonarz, zapisał: "O mój Boże, pragnę Cie kochać, zaczynam spalać się, Ty mnie zachwycasz. Dopuść mnie, by Cię kochać" (Pieśń 138,1).
+Ta miłość do Boga i modlitwy była fundamentem jego świętej drogi do najwyższych szczytów modlitwy.  
+Jako dojrzały kapłan i misjonarz pisał:  
+_„O mój Boże, pragnę Cię kochać, zaczynam spalać się, Ty mnie zachwycasz. Dopuść mnie, by Cię kochać”_ (Pieśń 138,1).  
 
-Równocześnie ze wzrastaniem miłości do Boga, w czułym sercu św. Ludwika wzrastała miłość do bliźniego. Pewnego dnia, kiedy jeszcze był w Seminarium, matka Ludwika, Iwana, odwiedziła biednych w bożnicy w św. Yves w Rennes. Poznała jedną biedną kobietę i zapytała, kto ją tam wprowadził, a ona odpowiedziała: "Twój syn, pani. To on mi znalazł to miejsce i doprowadził mnie tutaj". Bez wątpienia, jego matka była szczęśliwa i dumna ze swojego syna.
+Równocześnie ze wzrastaniem miłości do Boga, w czułym sercu św. Ludwika wzrastała miłość do bliźniego.  
+Pewnego dnia, gdy jeszcze był w Seminarium, jego matka odwiedziła biednych w bożnicy w św. Yves w Rennes.  
+Jedna kobieta powiedziała: _„Twój syn, pani. To on mi znalazł to miejsce i doprowadził mnie tutaj”_.  
 
-Ludwik z czułością przeżywał boleści bliźnich i przez czyny miłości, które były nadzwyczajne, zwyciężał tych, którzy zamykali swoje serca na potrzeby drugiego. Przez całe swoje życie św. Ludwik podchodził do biednych z wiarą, przeżywając każde takie spotkanie jako przedłużenie swojej miłości do Jezusa w Eucharystii. Z tą samą czułością, miłością i gorliwością, którą okazywał na modlitwie, Ludwik przystępował do każdego biednego, w którym widział samego Jezusa. Biedni nazywali go "dobry ojciec Montfort".
+Ludwik z czułością przeżywał boleści bliźnich i przez nadzwyczajne czyny miłości zwyciężał tych, którzy zamykali serce na potrzeby drugiego.  
+Przez całe życie podchodził do biednych z wiarą, widząc w nich Jezusa.  
+Biedni nazywali go _„dobry ojciec Montfort”_.  
 
-*Modlitwa:*
-Panie Boże nasz, św. Ludwik de Montfort całe swoje życie spędził, aby kochać Ciebie i bliźniego, a my tak mało realizujemy tę miłość. Przez jego wstawiennictwo pomóż nam pokonać nasze małoduszne serca i wszystko to, co nam przeszkadza, aby naprawdę miłować. Usłysz naszą prośbę i przez jego wstawiennictwo daj nam czyste serca, abyśmy kochali miłością czystą. Prosimy Cię także o łaskę...(intencja, za którą się modlimy). Przez Chrystusa Pana naszego. Amen.
+*Modlitwa*  
+_Panie Boże nasz, św. Ludwik de Montfort całe swoje życie spędził, aby kochać Ciebie i bliźniego, a my tak mało realizujemy tę miłość.  
+Przez jego wstawiennictwo pomóż nam pokonać nasze małoduszne serca i wszystko, co nam przeszkadza, aby naprawdę miłować.  
+Usłysz naszą prośbę i przez jego wstawiennictwo daj nam czyste serca, abyśmy kochali miłością czystą.  
+Prosimy Cię także o łaskę… (intencja, za którą się modlimy). Przez Chrystusa Pana naszego. Amen._  
 
-_Ojcze nasz, Zdrowaś Maryjo, Chwała Ojcu_ 
+_Ojcze nasz, Zdrowaś Maryjo, Chwała Ojcu_  
 
-Na koniec odmawiamy Litanię do św. Ludwika de Montfort`
+Na koniec odmawiamy *Litanię do św. Ludwika de Montfort*.
+`
 , label: 'Czułe serce św. Ludwika', type: 'opis', show: false } 
         ]
       },
@@ -132,14 +144,37 @@ Na koniec odmawiamy Litanię do św. Ludwika de Montfort`
           { image: 'assets/nowenna/02.jpg',type:'foto' },
           { text: `*Dzień drugi: Duchowe wzrastanie św. Ludwika i nasze*
 
-Św. Ludwik dał nam świadectwo tego, że osiągnął szczyt duchowego i mistycznego życia na ziemi, zjednoczenia z Chrystusem, którego nazywa Mądrością: „W nowej rodzinie, do której należę, poślubiłem Mądrość i krzyż, tu jest cały mój skarb, w czasie i w wieczności, ziemski i niebieski, a jest on tak wielki, że kiedy zostałby on poznany, mojemu losowi zazdrościliby najbogatsi i najmocniejsi królowie ziemi. Nikt nie zna tajemnicy, o której mówię, albo zna ją bardzo mało”. (List 20). Św. Ludwik pisał do swojego przyjaciela Blaina, że odczuwał trwałą obecność Jezusa i Maryi w swojej duszy. Montfort wyjaśnia charakterystykę tego mistycznego zjednoczenia się z Maryją w pieśni: „Ta dobra matka i nauczycielka na każdym kroku mocno mnie wspomaga i kiedy przez słabości upadnę, Ona mnie zaraz podnosi. Oto, mówię wam, niepojmowana rzecz. Ja niosę w sobie Maryję, ale w cieniu wiary”. (Pieśń 77,11-15). Św. Ludwik jasno przekazuje, że jeżeli ktoś naprawdę w autentyczny sposób chce żyć duchowością poświęcenia się, której on naucza, to duchowość ta poprowadzi go wąską drogą ewangelii do uwolnienia od egoizmu i samolubstwa. Celem jest oczyszczenie i wzrastanie w miłości. Naprawdę, Maryja, wiernych, którzy Jej się poświęcają, prowadzi drogą większej i czystszej miłości. Taka jest ta droga, z jednej strony - umieranie dla grzechu i dla samego siebie, a z drugiej strony - przemienianie i rodzenie nowego człowieka w Jezusie Chrystusie. W pieśni sama miłość mówi o sobie: „Samolubstwo jest całkowicie przeciwne świętemu ogniu boskiej miłości, trzeba wszystko cierpieć i wszystko uczynić, by pokonać tę subtelną złośliwość. Aby płonąć Moim czystym płomieniem, aby kosztować Moje święte namaszczenie, musimy znienawidzić się aż do umartwienia. Mój zbawczy ogień gasi się wodą lekkich grzechów. Kto ich nie popełnia dobrowolne, dojdzie do czystej miłości nieba”. (Pieśń 5,29-31). Św. Ludwik drogą, którą sam przeszedł, chce prowadzić duszę do czystej miłości i zjednoczenia się z Jezusem - Mądrością. Jest on świadomy tego, że może nie być łatwo zrozumieć i przyjąć znaczenie i istotę tej duchowości. „Ponieważ istota tego nabożeństwa tkwi we wnętrzu człowieka, które ma ono kształtować, nie znajdzie ono jednakowego u wszystkich zrozumienia”. (TPN n.119). Nie trzeba wielkiego trudu, by zapisać się do jakiegoś bractwa, odmawiać co dziennie kilka różnych modlitw; lecz prawdziwą trudność stanowi wniknięcie w ducha tego nabożeństwa, które ma wewnętrznie uczynić duszę niewolniczo zależną od Najświętszej Dziewicy, a przez Nią – od Jezusa”. (TM n.44). Aby prawdziwie zrozumieć i żyć na co dzień duchem poświęcenia się Jezusowi przez Maryję, trzeba ponad wszystko dbać o właściwą akceptację fundamentu tej duchowości, który polega na całkowitym oddaniu się Maryi, aby  to Ona prowadziła nas drogą do zjednoczenia się z Jezusem poprzez sytuacje i wydarzenia naszego życia. Trzeba czuwać nad wewnętrznym duchem tego ofiarowania się, akceptując drogę umierania  dla grzechu i samolubstwa, abyśmy duchowo wzrastali i dojrzewali, akceptując wszystkie potrzebne i konieczne narzędzia duchowego życia, abyśmy drogą czystej miłości doszli do zjednoczenia się z Jezusem. Skutkiem takiej postawy jest duchowy dynamizm, który trwa całe życie. Jego realizacja nie zależy tylko od naszej pracy, ale jest to także dar Bożej łaski.
+Św. Ludwik dał nam świadectwo, że osiągnął szczyt duchowego i mistycznego życia na ziemi, zjednoczenia z Chrystusem, którego nazywa Mądrością:  
+_„W nowej rodzinie, do której należę, poślubiłem Mądrość i krzyż, tu jest cały mój skarb, w czasie i w wieczności, ziemski i niebieski, a jest on tak wielki, że kiedy zostałby poznany, mojemu losowi zazdrościliby najbogatsi i najmocniejsi królowie ziemi. Nikt nie zna tajemnicy, o której mówię, albo zna ją bardzo mało”_ (List 20).  
 
-*Modlitwa:* 
-Panie Boże nasz, przez swojego umiłowanego Syna, z łaski nas odkupiłeś i przyjąłeś nas jak swoje kochanie dzieci, tak, że możemy Cię nazywać Abba – Ojcze. Na wzór i za wstawiennictwem św. Ludwika uwolnij nasze serca od wszystkiego, co przeszkadza nam duchowo wzrastać i od tego, co Tobie nie jest miłe, abyśmy w duchu naprawdę żyli naszym synostwem w Synu, Tobie na chwałę. Usłysz naszą prośbę i przez wstawiennictwo św. Ludwika, daj nam, abyśmy nigdy nie wycofali się z tej duchowej drogi i wzrastania w wierze. Prosimy Cię także o łaskę…(intencja, za którą się modlimy. Przez Chrystusa Pana naszego. Amen.
+Św. Ludwik pisał do przyjaciela Blaina, że odczuwał trwałą obecność Jezusa i Maryi w swojej duszy.  
+Montfort opisuje zjednoczenie z Maryją:  
+_„Ta dobra matka i nauczycielka na każdym kroku mocno mnie wspomaga i kiedy przez słabości upadnę, Ona mnie zaraz podnosi. Oto, mówię wam, niepojmowana rzecz. Ja niosę w sobie Maryję, ale w cieniu wiary”_ (Pieśń 77,11-15).  
 
-_Ojcze nasz, Zdrowaś Maryjo, Chwała Ojcu_ 
+Św. Ludwik jasno przekazuje, że duchowość poświęcenia się prowadzi wąską drogą Ewangelii do uwolnienia od egoizmu i samolubstwa. Celem jest oczyszczenie i wzrastanie w miłości.  
+Maryja prowadzi wiernych, którzy Jej się poświęcają, drogą większej i czystszej miłości.  
+To droga umierania dla grzechu i samego siebie, a z drugiej strony – rodzenie nowego człowieka w Jezusie Chrystusie.  
 
-Na koniec odmawiamy Litanię do św. Ludwika de Montfort`
+W pieśni sama miłość mówi:  
+_„Samolubstwo jest całkowicie przeciwne świętemu ogniu boskiej miłości, trzeba wszystko cierpieć i wszystko uczynić, by pokonać tę subtelną złośliwość. Aby płonąć Moim czystym płomieniem, aby kosztować Moje święte namaszczenie, musimy znienawidzić się aż do umartwienia. Mój zbawczy ogień gasi się wodą lekkich grzechów. Kto ich nie popełnia dobrowolnie, dojdzie do czystej miłości nieba”_ (Pieśń 5,29-31).  
+
+Św. Ludwik chce prowadzić duszę do czystej miłości i zjednoczenia z Jezusem – Mądrością.  
+Jest świadomy, że duchowość ta może być trudna do zrozumienia:  
+_„Ponieważ istota tego nabożeństwa tkwi we wnętrzu człowieka, które ma ono kształtować, nie znajdzie ono jednakowego u wszystkich zrozumienia”_ (TPN n.119).  
+
+Prawdziwa trudność nie polega na odmawianiu modlitw czy przynależności do bractwa, lecz na wniknięciu w ducha nabożeństwa, które ma uczynić duszę zależną od Najświętszej Maryi, a przez Nią – od Jezusa (TM n.44).  
+Trzeba dbać o właściwą akceptację fundamentu tej duchowości: całkowite oddanie się Maryi, aby Ona prowadziła nas do zjednoczenia z Jezusem poprzez sytuacje i wydarzenia życia.  
+Skutkiem takiej postawy jest duchowy dynamizm, trwający całe życie – dar Bożej łaski, nie tylko nasza praca.  
+
+*Modlitwa*  
+_Panie Boże nasz, przez swojego umiłowanego Syna, z łaski nas odkupiłeś i przyjąłeś jak swoje kochane dzieci, tak że możemy Cię nazywać Abba – Ojcze.  
+Na wzór i za wstawiennictwem św. Ludwika uwolnij nasze serca od wszystkiego, co przeszkadza nam duchowo wzrastać i od tego, co Tobie nie jest miłe, abyśmy w duchu naprawdę żyli naszym synostwem w Synu, Tobie na chwałę.  
+Usłysz naszą prośbę i przez wstawiennictwo św. Ludwika, daj nam, abyśmy nigdy nie wycofali się z tej duchowej drogi i wzrastania w wierze.  
+Prosimy Cię także o łaskę… (intencja, za którą się modlimy). Przez Chrystusa Pana naszego. Amen._  
+
+_Ojcze nasz, Zdrowaś Maryjo, Chwała Ojcu_  
+
+Na koniec odmawiamy *Litanię do św. Ludwika de Montfort*.`
 , label: 'Duchowe wzrastanie św. Ludwika i nasze', type: 'opis', show: false } 
         ]
       },
@@ -149,14 +184,34 @@ Na koniec odmawiamy Litanię do św. Ludwika de Montfort`
         links: [
           { image: 'assets/nowenna/03.jpg',type:'foto' },
           { text: `*Dzień trzeci: Zaufanie Bogu*
-Ludwik zostawił swoją rodzinę i pojechał do Paryża, aby w Seminarium przygotować się do kapłaństwa. Pierwszy raz poczuł się bardzo wolnym i odpowiedzialnym za swoje życie. Miał świadomość, że przed nim jeszcze wiele pokus i życiowych doświadczeń. Wybrał swoją drogę, opierając się tylko na Bogu i Jego opatrzności. Pieniądze, które miał w kieszeni, i rzeczy przygotowane od swojej mamy na podróż oddał pierwszemu biednemu, którego spotykał po drodze. Trochę dalej,  gdy spotkał innego biednego żebraka, i nie miał już niczego do oddania, zamienił się z nim na ubrania - oddał mu swój nowy strój, w zamian za jego stary i brudny. Wolny, nie posiadający nic na własność, Ludwik uczynił ślub całkowitego ubóstwa i ofiarowania się Bożej Opatrzności, ślub, którego całkowicie przestrzegał do końca swojego życia. Blain, towarzysząc swojemu przyjacielowi na drodze formacji do kapłaństwa, zapisał: „W tym czasie Ludwik bez miary oddaje się w ręce Bożej Opatrzności, z zaufaniem i spokojem, jakby ona całkowicie nad nim czuwała. Nawet torba pełna złota, która by go czekała w Paryżu, nie dałaby mu więcej pewności”. Św. Ludwik w ciągu całego swojego życia zachował wielkie, całkowite i bezgraniczne zaufanie w Boga i Jego ojcowską opatrzność. Został osobiście doświadczony wieloma wewnętrznymi i zewnętrznymi trudnościami. Żył w skrajnym ubóstwie, często nierozumiany przez innych, odrzucony i prześladowany, w wewnętrznych i zewnętrznych ciemnościach związanych z realizacją swojego misjonarskiego powołania i założenia Zakonu. Ale we wszystkim zawsze spokojnie oddawał się z całkowitym zaufaniem Bogu, jak sam mówił, Ojcu, który zawsze okazuje swą obecność i troskę. Właśnie to św.Ludwik wyraża w jednej ze swoich pieśni: „Dziwimy się Opatrzności, która wszystko prowadzi do celu, wszystko wie, wszystkim rządzi, mocno i łagodne ustawia wszystko, co do najdrobniejszej rzeczy. Cały wszechświat ją ujawnia, zawsze i wszędzie, cała ziemia jest pełna jej przedziwnego porządku: zmiany pór roku, obłoki na niebie, wszystko, co żyje, jest kierowane, by sobie wzajemnie pomagać. Ta mądrość jest rozciągnięta z jednego krańca do drugiego, jednym mrugnięciem oka, jednym spojrzeniem wszystko poznaje i uporządkowuje. Bóg zna naszą biedę, On wie o naszych potrzebach, i jako dobry nasz Ojciec, troszczy się na tysiąc sposobów, by nam dać swoją pomoc. Złóżmy swoją nadzieję w Jego niezmierzoną dobroć. Złóżmy całkowitą nadzieję w Jego ojcowską miłość, bo On pragnie, byśmy od niego oczekiwali także dóbr czasowych, dóbr przyrody, którymi się posługujemy na każdy dzień, jak odzież, pokarm i każda inna pomoc. Spróbujmy rozumieć tą wielką tajemnicę Zbawiciela, którą nas chce nauczyć przez swoją miłość: złóżcie nadzieję u wiernego Boga, odpocznijcie na piersi jego ojcowskiej dobroci”. (Pieśń 28). 
 
-*Modlitwa:* 
-Panie Boże nasz, św. Ludwik zawsze pokładał ufność w Twoją Ojcowską pomoc, a my wciąż za mało Tobie ufamy. Pomóż nam i przez wstawiennictwo św. Ludwika, udziel nam łaski, byśmy mocno i ufnie wierzyli Tobie. Prosimy Cię także o łaskę… (intencja, za którą się modlimy). Przez Chrystusa Pana naszego. Amen.
+Ludwik zostawił swoją rodzinę i pojechał do Paryża, aby w Seminarium przygotować się do kapłaństwa. Po raz pierwszy poczuł się bardzo wolnym i odpowiedzialnym za swoje życie.  
+Miał świadomość, że przed nim jeszcze wiele pokus i życiowych doświadczeń. Wybrał swoją drogę, opierając się tylko na Bogu i Jego Opatrzności.  
 
-_Ojcze nasz, Zdrowaś Maryjo, Chwała Ojcu_ 
+Pieniądze, które miał w kieszeni, i rzeczy przygotowane przez jego mamę na podróż oddał pierwszemu biednemu, którego spotkał po drodze. Trochę dalej, gdy spotkał innego żebraka, i nie miał już nic do oddania, zamienił się z nim na ubrania – oddał swój nowy strój, w zamian za jego stary i brudny.  
 
-Na koniec odmawiamy Litanię do św. Ludwika de Montfort`
+Wolny, nieposiadający nic na własność, Ludwik uczynił ślub całkowitego ubóstwa i ofiarowania się Bożej Opatrzności, ślub, którego przestrzegał do końca życia.  
+Blain, jego przyjaciel i towarzysz na drodze formacji do kapłaństwa, zapisał:  
+_„W tym czasie Ludwik bez miary oddaje się w ręce Bożej Opatrzności, z zaufaniem i spokojem, jakby ona całkowicie nad nim czuwała. Nawet torba pełna złota, która by go czekała w Paryżu, nie dałaby mu więcej pewności”_.  
+
+Św. Ludwik przez całe życie zachował wielkie, całkowite i bezgraniczne zaufanie w Boga i Jego ojcowską opatrzność, mimo wewnętrznych i zewnętrznych trudności.  
+Żył w skrajnym ubóstwie, często nierozumiany, odrzucony i prześladowany, w ciemnościach związanych z realizacją powołania i założeniem Zakonu.  
+We wszystkim spokojnie oddawał się Bogu, Ojcu, który zawsze okazuje swoją obecność i troskę.  
+
+Wyraża to w Pieśni 28:  
+_„Dziwimy się Opatrzności, która wszystko prowadzi do celu, wszystko wie, wszystkim rządzi, mocno i łagodne ustawia wszystko, co do najdrobniejszej rzeczy. Cały wszechświat ją ujawnia, zawsze i wszędzie, cała ziemia jest pełna jej przedziwnego porządku: zmiany pór roku, obłoki na niebie, wszystko, co żyje, jest kierowane, by sobie wzajemnie pomagać.  
+Bóg zna naszą biedę, On wie o naszych potrzebach, i jako dobry Ojciec troszczy się na tysiąc sposobów, by nam dać swoją pomoc.  
+Złóżmy swoją nadzieję w Jego niezmierzoną dobroć. Złóżmy całkowitą nadzieję w Jego ojcowską miłość, bo On pragnie, byśmy od Niego oczekiwali także dóbr czasowych, dóbr przyrody, którymi się posługujemy na każdy dzień, jak odzież, pokarm i każda inna pomoc.  
+Spróbujmy rozumieć tę wielką tajemnicę Zbawiciela, którą nas chce nauczyć przez swoją miłość: złóżcie nadzieję u wiernego Boga, odpocznijcie na piersi Jego ojcowskiej dobroci”_.
+
+*Modlitwa*  
+_Panie Boże nasz, św. Ludwik zawsze pokładał ufność w Twoją Ojcowską pomoc, a my wciąż za mało Tobie ufamy.  
+Pomóż nam i przez wstawiennictwo św. Ludwika udziel nam łaski, byśmy mocno i ufnie wierzyli Tobie.  
+Prosimy Cię także o łaskę… (intencja, za którą się modlimy). Przez Chrystusa Pana naszego. Amen._  
+
+_Ojcze nasz, Zdrowaś Maryjo, Chwała Ojcu_  
+
+Na koniec odmawiamy *Litanię do św. Ludwika de Montfort*.`
 , label: 'Zaufanie Bogu', type: 'opis', show: false } 
         ]
       },
@@ -166,14 +221,33 @@ Na koniec odmawiamy Litanię do św. Ludwika de Montfort`
         links: [
           { image: 'assets/nowenna/04.jpg',type:'foto' },
           { text: `*Dzień czwarty: Głosiciel królestwa Jezusa Chrystusa przez Maryję*
-Głoszenie Radosnej Nowiny albo, jak św. Ludwik lubił mówić, Królestwa Jezusa Chrystusa przez Maryję, pojawia się jako owoc i cel osobistego i kościelnego duchowego wzrastania, a w jego fundamentach leży Jezusowe posłanie: „Idźcie na cały świat i głoście Ewangelię wszelkiemu stworzeniu” (por. Mk 16,15).  Apostolat jest ważnym elementem osobistego dojrzewania w wierze. To znaczy, że oczyszczenie duszy z grzechu i zaakceptowanie ewangelicznych wartości, pogłębienie relacji z Bogiem przez wiarę, nadzieję i miłość, świadectwo chrześcijańskiego życia, troska i aktywne głoszenie Ewangelii, oraz dzieła rozszerzenia Królestwa Bożego, wszystko to jest częścią autentycznego duchowego wzrastania. Apostolski i misjonarski wymiar rozwoju duchowego życia uwalnia wiernych od zamknięcia duchowej drogi w sferze prywatności i intymności, co może pojawić się jako pokusa w osobistym życiu wiary. Apostolat razem z modlitwą rodzi się z autentycznej relacji z Chrystusem. Apostolat jest owocem dojrzewania autentycznej chrześcijańskiej miłości wobec Boga i człowieka, która nakłania wiernych, by zobaczyć potrzebę bliźniego i zachęca, by apostolsko świadczyć Bożą miłość. Według św. Ludwika, brak apostolskiego wymiaru jest znakiem niewłaściwej osobistej drogi wzrastania w wierze: „Wybrałem, aby iść przez świat, wybrałem duszę wędrowca, by zbawić mojego biednego bliźniego. Czy mam patrzeć, jak wszędzie dusza mojego drogiego brata zostaje zatracona przez grzech, a moje serce nie byłoby tym dotknięte? Nie, nie, Panie, jego dusza jest drogocenna. Czy będę patrzeć jak ta piękna dusza zapada w wieczną śmierć, a nikt na to nie reaguje? Czy będę patrzeć jak Krew Boga, który kocha tę duszę, będzie bezowocnie przelana, a jej wartość na zawsze zmarnowana? Raczej byłbym przeklęty. Ach, Panie, wszyscy Cię oskarżają w człowieku, który jest Twoim obrazem. Czy mam cierpieć w milczeniu? Twoi nieprzyjaciele zabierają Twoja chwalę, a ja miałbym być po ich stronie? Naprawdę, raczej śmierć! Z Tobą, Panie, ja zwyciężę” (Pieśń 22). Św. Ludwik był świadomy, że nieprzyjaciel dusz ludzkich walczył z nim w trakcie głoszenia przez niego misji: „Kiedy przyjadę do jakiegoś miejsca prowadzić misje, szatan używa wszystkich mocy, by przeszkadzać i niszczyć, ale ja przychodzę z Jezusem, Maryją i św. Michałem i zwyciężam go”. Św. Ludwik był głęboko świadomy tej duchowej walki dla nawrócenia i zbawienia dusz, która się toczyła w jego życiu w ciągu wszystkich jego misji.
 
-*Modlitwa:* 
-Panie Boże nasz, św. Ludwik de Montfort całe swoje życie spędził, aby kochać Ciebie i bliźniego, a my tak mało realizujemy miłość na tej drodze. Przez jego wstawiennictwo pomóż nam pokonać nasze małoduszne serca i wszystko to, co nam przeszkadza, by naprawdę miłować. Usłysz naszą prośbę i przez jego wstawiennictwo daj nam serce czyste, pełne miłości. Prosimy Cię także o łaskę…(intencja, za która się modlimy). Przez Chrystusa Pana Naszego. Amen.
+Głoszenie Radosnej Nowiny, albo jak św. Ludwik mówił, *Królestwa Jezusa Chrystusa przez Maryję*, jest owocem i celem osobistego oraz kościelnego duchowego wzrastania.  
+W jego fundamentach leży Jezusowe posłanie:  
+_„Idźcie na cały świat i głoście Ewangelię wszelkiemu stworzeniu”_ (por. Mk 16,15).  
 
-_Ojcze nasz, Zdrowaś Maryjo, Chwała Ojcu_ 
+Apostolat jest ważnym elementem osobistego dojrzewania w wierze.  
+Oznacza oczyszczenie duszy z grzechu, zaakceptowanie ewangelicznych wartości, pogłębianie relacji z Bogiem przez wiarę, nadzieję i miłość, świadectwo chrześcijańskiego życia, troskę i aktywne głoszenie Ewangelii oraz dzieła rozszerzenia Królestwa Bożego.  
 
-Na koniec odmawiamy Litanię do św. Ludwika de Montfort`
+Apostolski i misjonarski wymiar życia duchowego uwalnia wiernych od zamknięcia w sferze prywatności i intymności, co może być pokusą w osobistym życiu wiary.  
+Apostolat rodzi się z autentycznej relacji z Chrystusem i jest owocem dojrzewania chrześcijańskiej miłości wobec Boga i człowieka.  
+
+Św. Ludwik ostrzegał, że brak apostolskiego wymiaru jest znakiem niewłaściwej duchowej drogi:  
+_„Wybrałem, aby iść przez świat, wybrałem duszę wędrowca, by zbawić mojego biednego bliźniego. Czy mam patrzeć, jak wszędzie dusza mojego drogiego brata zostaje zatracona przez grzech, a moje serce nie byłoby tym dotknięte? Nie, nie, Panie, jego dusza jest drogocenna. Czy będę patrzeć jak ta piękna dusza zapada w wieczną śmierć, a nikt na to nie reaguje? Czy będę patrzeć jak Krew Boga, który kocha tę duszę, będzie bezowocnie przelana, a jej wartość na zawsze zmarnowana? Raczej byłbym przeklęty. Ach, Panie, wszyscy Cię oskarżają w człowieku, który jest Twoim obrazem. Czy mam cierpieć w milczeniu? Twoi nieprzyjaciele zabierają Twoją chwałę, a ja miałbym być po ich stronie? Naprawdę, raczej śmierć! Z Tobą, Panie, ja zwyciężę”_ (Pieśń 22).  
+
+Św. Ludwik był świadomy, że nieprzyjaciel dusz ludzkich walczył z nim w trakcie jego misji:  
+_„Kiedy przyjadę do jakiegoś miejsca prowadzić misje, szatan używa wszystkich mocy, by przeszkadzać i niszczyć, ale ja przychodzę z Jezusem, Maryją i św. Michałem i zwyciężam go”_.  
+Był głęboko świadomy duchowej walki dla nawrócenia i zbawienia dusz, która toczyła się przez całe jego życie misyjne.  
+
+*Modlitwa*  
+_Panie Boże nasz, św. Ludwik de Montfort całe swoje życie spędził, aby kochać Ciebie i bliźniego, a my tak mało realizujemy miłość na tej drodze.  
+Przez jego wstawiennictwo pomóż nam pokonać nasze małoduszne serca i wszystko to, co nam przeszkadza, by naprawdę miłować.  
+Usłysz naszą prośbę i przez jego wstawiennictwo daj nam serce czyste, pełne miłości.  
+Prosimy Cię także o łaskę… (intencja, za którą się modlimy). Przez Chrystusa Pana Naszego. Amen._  
+
+_Ojcze nasz, Zdrowaś Maryjo, Chwała Ojcu_  
+
+Na koniec odmawiamy *Litanię do św. Ludwika de Montfort*.`
 , label: 'Głosiciel królestwa Jezusa Chrystusa przez Maryję', type: 'opis', show: false } 
         ]
       },
@@ -183,14 +257,31 @@ Na koniec odmawiamy Litanię do św. Ludwika de Montfort`
         links: [
           { image: 'assets/nowenna/05.jpg',type:'foto' },
           { text: `*Dzień piaty: Nauczyciel prawdziwego nabożeństwa do Najświętszej Maryi Panny i duchowości ofiarowania się Jezusowi przez ręce Maryi*
-Św. Ludwik już od dzieciństwa w swojej modlitwie, z prostotą i mocą swojego czułego serca, z dziecięcym zaufaniem otwierał swoje serce przed Maryją, Matką, którą nam dał Jezus. Blain, przyjaciel św. Ludwika, napisał: „Wszyscy wiedzą, że on Maryję nazywał swoją dobra Matką, ale nie wszyscy wiedzą, że już od swojego dzieciństwa do Niej się uciekał z dziecinną prostotą, ofiarując jej wszystkie swoje potrzeby, tak czasowe, jak i duchowe. Kiedy stawał przed Maryjnym obrazem, zachowywał się, jakby nikogo już nie było obok niego. Do Niej się uciekał z wielkim zaufaniem i był pewny, że zostanie wysłuchany. Nigdy nie tracił pokoju, nie wątpił. Według niego wszystko już było załatwione, kiedy modlił się do swojej dobrej Matki”. W nabożeństwie i poświęceniu się Maryi św. Ludwik trwał całe swoje życie i tego nauczał innych. Fundament nabożeństwa do Maryi odnalazł w Ewangelii i woli Jezusa. Jezus pragnął ukierunkować duchową drogę swoich uczniów tak, żeby wcześniej czy później spotkali się z Maryją i obrali Ją za swoja Matkę. Maryja jest Jezusowym darem dla uczniów, który trzeba zaakceptować w swoim duchowym życiu. Św. Ludwik przyjął ten dar i polecił go innym: „Wolę raczej umrzeć aniżeli żyć, nie należąc całkowicie do Maryi. Po tysiąckroć uznałem Ją za całe moje dobro, jak święty Jan Ewangelista u stóp Krzyża” (TM n.66). „O, jakże szczęśliwy jest człowiek, co wszystko oddał Maryi, który się Maryi ze wszystkim i we wszystkim powierza i dla Niej zatraca. Całkowicie należy on już do Maryi, a Maryja do niego. Śmiało może on mówić z umiłowanym uczniem: Wziąłem Ją za całe moje dobro” (TPN n.179). Według św. Ludwika, poświęcenie się Jezusowi przez Maryję jest doskonałym odnowieniem chrzcielnych przyrzeczeń. Poleca on także, aby każdy chrześcijanin całkowicie poświęcił się Maryi, aby całkowicie był Jezusowym. To poświęcenie odwołuje się bezpośrednio do chrzcielnych przyrzeczeń i świadomego zaakceptowania obowiązków chrześcijańskiego życia i prowadzi osobę do wzrastania w wierze. Maryja, która zawsze była wierna Bogu, pomaga na tej drodze duszy, która się Jej poświęca. Montfort pisze: „Cała nasza doskonałość polega na tym, by upodobnić się do Jezusa Chrystusa, zjednoczyć się z Nim i Jemu się poświęcić, dlatego najdoskonalszym nabożeństwem jest bezsprzecznie to, które najwierniej upodobnia nas do Jezusa, najściślej z Nim jednoczy i poświęca nas wyłącznie Jemu. A ponieważ ze wszystkich ludzi najbardziej podobna do Jezusa jest Najświętsza Maryja Panna, stąd wynika, że spośród wszystkich innych nabożeństw, nabożeństwo do Najświętszej Maryi Panny najbardziej jednoczy z Panem Jezusem duszę naszą i sprawia, że staje się Jemu najbardziej podobna. Im bardziej dusza poświęcona jest Maryi, tym bliższa jest Panu Jezusowi. I dlatego doskonałe poświęcenie się Panu Jezusowi to nic innego, jak doskonałe i całkowite poświęcenie się Najświętszej Dziewicy. I takie właśnie jest nabożeństwo, które głoszę i które w istocie swej stanowi tylko doskonałe odnowienie ślubów i przyrzeczeń złożonych na Chrzcie św.” (TPN n.120).
 
-*Modlitwa:* 
-Panie Boże nasz, Ty udzieliłeś św. Ludwikowi łaski prawdziwego nabożeństwa do Najświętszej Maryi i uczyniłeś go nauczycielem poświęcenia się Jezusowi przez Maryję. Przez jego wstawiennictwo udziel nam łaski, abyśmy  byli formowani przez Najświętszą Maryję Pannę i żyli prawdziwym życiem chrześcijanina. Prosimy Cię także o łaskę…(intencja, za którą się modlimy). Przez Chrystusa Pana Naszego. Amen.
+Św. Ludwik już od dzieciństwa w modlitwie, z prostotą i mocą swojego czułego serca, z dziecięcym zaufaniem otwierał serce przed Maryją, Matką, którą nam dał Jezus.  
 
-_Ojcze nasz, Zdrowaś Maryjo, Chwała Ojcu_ 
+Blain, przyjaciel św. Ludwika, napisał:  
+_„Wszyscy wiedzą, że on Maryję nazywał swoją dobrą Matką, ale nie wszyscy wiedzą, że już od dzieciństwa do Niej się uciekał z dziecinną prostotą, ofiarując jej wszystkie swoje potrzeby, tak czasowe, jak i duchowe. Kiedy stawał przed Maryjnym obrazem, zachowywał się, jakby nikogo już nie było obok niego. Do Niej się uciekał z wielkim zaufaniem i był pewny, że zostanie wysłuchany. Nigdy nie tracił pokoju, nie wątpił. Według niego wszystko już było załatwione, kiedy modlił się do swojej dobrej Matki”_.  
 
-Na koniec odmawiamy Litanię do św. Ludwika de Montfort`
+W nabożeństwie i poświęceniu się Maryi św. Ludwik trwał całe życie i tego nauczał innych. Fundament nabożeństwa do Maryi odnalazł w Ewangelii i woli Jezusa. Jezus pragnął ukierunkować duchową drogę swoich uczniów tak, żeby wcześniej czy później spotkali się z Maryją i obrali Ją za swoją Matkę.  
+
+Św. Ludwik przyjął ten dar i polecił go innym:  
+_„Wolę raczej umrzeć aniżeli żyć, nie należąc całkowicie do Maryi. Po tysiąckroć uznałem Ją za całe moje dobro, jak święty Jan Ewangelista u stóp Krzyża”_ (TM n.66).  
+_„O, jakże szczęśliwy jest człowiek, co wszystko oddał Maryi, który się Maryi ze wszystkim i we wszystkim powierza i dla Niej zatraca. Całkowicie należy on już do Maryi, a Maryja do niego. Śmiało może on mówić z umiłowanym uczniem: Wziąłem Ją za całe moje dobro”_ (TPN n.179).  
+
+Według św. Ludwika poświęcenie się Jezusowi przez Maryję jest doskonałym odnowieniem chrzcielnych przyrzeczeń. Każdy chrześcijanin powinien całkowicie poświęcić się Maryi, aby całkowicie być Jezusowym. To poświęcenie odwołuje się bezpośrednio do chrzcielnych przyrzeczeń i świadomego zaakceptowania obowiązków chrześcijańskiego życia, prowadząc duszę do wzrastania w wierze.  
+
+Montfort pisze:  
+_„Cała nasza doskonałość polega na tym, by upodobnić się do Jezusa Chrystusa, zjednoczyć się z Nim i Jemu się poświęcić, dlatego najdoskonalszym nabożeństwem jest bezsprzecznie to, które najwierniej upodobnia nas do Jezusa, najściślej z Nim jednoczy i poświęca nas wyłącznie Jemu. A ponieważ ze wszystkich ludzi najbardziej podobna do Jezusa jest Najświętsza Maryja Panna, stąd wynika, że spośród wszystkich innych nabożeństw, nabożeństwo do Najświętszej Maryi Panny najbardziej jednoczy z Panem Jezusem duszę naszą i sprawia, że staje się Jemu najbardziej podobna. Im bardziej dusza poświęcona jest Maryi, tym bliższa jest Panu Jezusowi. I dlatego doskonałe poświęcenie się Panu Jezusowi to nic innego, jak doskonałe i całkowite poświęcenie się Najświętszej Dziewicy. I takie właśnie jest nabożeństwo, które głoszę i które w istocie swej stanowi tylko doskonałe odnowienie ślubów i przyrzeczeń złożonych na Chrzcie św.”_ (TPN n.120).  
+
+*Modlitwa*  
+_Panie Boże nasz, Ty udzieliłeś św. Ludwikowi łaski prawdziwego nabożeństwa do Najświętszej Maryi i uczyniłeś go nauczycielem poświęcenia się Jezusowi przez Maryję.  
+Przez jego wstawiennictwo udziel nam łaski, abyśmy byli formowani przez Najświętszą Maryję Pannę i żyli prawdziwym życiem chrześcijanina.  
+Prosimy Cię także o łaskę…(intencja, za którą się modlimy). Przez Chrystusa Pana Naszego. Amen._  
+
+_Ojcze nasz, Zdrowaś Maryjo, Chwała Ojcu_  
+
+Na koniec odmawiamy *Litanię do św. Ludwika de Montfort*.`
 , label: 'Nauczyciel prawdziwego nabożeństwa do Najświętszej Maryi Panny i duchowości ofiarowania się Jezusowi przez ręce Maryi', type: 'opis', show: false } 
         ]
       },
@@ -200,14 +291,50 @@ Na koniec odmawiamy Litanię do św. Ludwika de Montfort`
         links: [
           { image: 'assets/nowenna/06.jpg',type:'foto' },
           { text: `*Dzień szósty: Miłość do Kościoła*
-Św. Ludwik, który przygotował się do kapłańskiej, misjonarskiej pracy z ludźmi, żywił głębokie uczucia do Kościoła i rozumiał jego wymiar, który oznacza Naród Boży, Królestwo Boże i misjonarskie posłanie Kościoła. Aby lepiej zrozumieć ducha, który prowadził św. Ludwika, wystarczy przytoczyć dwa teksty z jego życia. Jako młody kapłan, po kilku miesiącach pastoralnego doświadczenia, pisał on swojemu kierownikowi duchowemu: „Z drugiej strony, czuję wielkie pragnienie, aby rozszerzać miłość wobec Pana i Jego świętej Matki, tak, żeby na prosty i ubogi sposób zacząć ewangelizować biednych w wioskach i zachęcać grzeszników do nabożeństwa do Najświętszej Maryi Panny. Tak czynił jeden dobry kapłan, który niedawno umarł w opinii świętości. Podróżował od parafii do parafii, ewangelizując biednych, licząc tylko na Opatrzność Bożą. Naprawdę, mój kochany Ojcze, ja nie jestem godzien tak godnej służby, ale widząc potrzebę Kościoła, nie mogę nie prosić nieustannie o ubogie towarzystwo dobrych kapłanów, którzy by pod obroną Przenajświętszej Dziewicy prowadzili tę misję. Ja z męką chcę uciszyć te dobre i ciągłe pragnienie, całkowicie zapominając o mojej roli, zostawiając wszystko w rękach Bożej Opatrzności i całkowicie poddając się Twoim nakazom, które mi będą zawsze jak przykazanie”. (List 5). Pod koniec swojego życia, św. Ludwik w rozmowie z swoim przyjacielem Blainem tłumaczył swoje misjonarskie życie mądrością, która wszystko czyni dla potrzeb Kościoła: „Jedna jest mądrość w osobach, które żyją we wspólnocie i według reguł, inna jest mądrość misjonarza i apostolskich mężów. Pierwsi nie podejmują nic nowego, ale żyją według reguł ich domów, ale drudzy muszą przynosić chwałę Bogu przez swoją ofiarę i podejmując nowe dzieła. Nie trzeba być zdziwionym, jeżeli się o pierwszych nie mówi, bo oni są spokojni i nie czynią nic szczególnego; ale drudzy trwale walczą naprzeciw świata, ducha ciemności i wad, muszą zaakceptować, że będą od przeciwnika doświadczać wielkie prześladowania. Jeżeli ci pierwsi są zaakceptowani przez świat, to jest to znakiem, że piekło ich się za bardzo nie boi. Tak to jest, kiedy się żyje jak przyjaciel świata. Drudzy to apostolscy mężowie, którzy zawsze podejmują coś nowego. Nie jest możliwe, żeby o nich się nie mówiło. Św. Paweł przeszedł cały grecki i łaciński świat, a św. Piotr poszedł do Rzymu i chciał podłożyć królewskie miejsce Jezusowi Chrystusowi. Działając według tej pierwszej mądrości Synagoga nie reagowałaby i nie prześladowaliby tego małego stada Jezusowego, ale i to małe stado nie rozrosłoby się, a świat i dziś byłby pełen bożków, pogański”. Kiedy św. Ludwik rozważa o Kościele i o jego życiu i posłaniu w świecie, nie jest naiwnym idealistą. Jest głęboko świadomy, że grzech naznacza życie chrześcijan w Kościele. Opis tego stanu świata i Kościoła jest zawarty w dziełach św. Ludwika. „Wspomnij, Panie, na tę Wspólnotę w wymiarze Twojej sprawiedliwości. Dla Pana czas już jest działać: pogwałcili Twoje Prawo. Już czas dokonać tego, co przyobiecałeś! Podeptane jest Twoje święte Prawo i odrzucona Ewangelia. Potoki nieprawości zalewają całą ziemię i porywają ze sobą nawet twoje sługi. Cała ziemia jest spustoszona, niegodziwość wysoko wyniesiona, przybytki Twoje są zbezczeszczone, a ohyda spustoszenia wkradła się nawet do miejsc świętych” (MP n.5). „Twój Kościół tak bardzo osłabiony i zbrukany zbrodniami jego dzieci” (MP n.20). Św. Ludwik szukał narzędzia, jak pomóc ludziom, by wytrwali w nawróceniu. Wszystkim podczas misji polecał odnowienie wiary przed Biblią, odnowienie chrzcielnych przyrzeczeń i poświęcenie się Jezusowi przez Maryję. Pytał: „Skąd pochodzi to ogólne rozprzężenie moralne, jeśli nie stąd, że żyjemy zapominając o obietnicach i zobowiązaniach Chrztu św. i że mało kto osobiście zatwierdza i odnawia przymierze z Bogiem, zawarte przez rodziców chrzestnych” (TPN n.127).
 
-*Modlitwa:* 
-Panie Boże nasz, Ty chcesz, aby Twoje Królestwo rozszerzało się na cały świat, dajesz nam swoje Słowo, które przynosi zbawienie. Ty św. Ludwikowi udzieliłeś łaski głoszenia Słowa z odwagą i bez ustanku. Przez jego wstawiennictwo udziel nam łaski, abyśmy to, co od Ciebie przyjęliśmy, mogli dawać innym, by w ten sposób być Twoimi świadkami w świecie. Prosimy Cię także o łaskę…(intencja, za którą się modlimy). Przez Chrystusa Pana Naszego. Amen.
+Św. Ludwik, który przygotował się do kapłańskiej, misjonarskiej pracy z ludźmi,
+żywił głębokie uczucia do Kościoła i rozumiał jego wymiar, który oznacza Naród
+Boży, Królestwo Boże i misjonarskie posłanie Kościoła. Aby lepiej zrozumieć
+ducha, który prowadził św. Ludwika, przytoczmy dwa teksty z jego życia.
 
-_Ojcze nasz, Zdrowaś Maryjo, Chwała Ojcu_ 
+Jako młody kapłan, po kilku miesiącach pastoralnego doświadczenia, pisał
+swojemu kierownikowi duchowemu:  
+_„Z drugiej strony, czuję wielkie pragnienie, aby rozszerzać miłość wobec
+Pana i Jego świętej Matki, tak, żeby na prosty i ubogi sposób zacząć
+ewangelizować biednych w wioskach i zachęcać grzeszników do nabożeństwa
+do Najświętszej Maryi Panny (…) Ja z męką chcę uciszyć te dobre i ciągłe
+pragnienie, całkowicie zapominając o mojej roli, zostawiając wszystko w rękach
+Bożej Opatrzności i całkowicie poddając się Twoim nakazom, które mi będą
+zawsze jak przykazanie”_ (List 5).
 
-Na koniec odmawiamy Litanię do św. Ludwika de Montfort`
+Pod koniec życia św. Ludwik tłumaczył swoje misjonarskie życie mądrością:
+_„Jedna jest mądrość w osobach, które żyją we wspólnocie i według reguł,
+inna jest mądrość misjonarza i apostolskich mężów (…) Drudzy to apostolscy
+mężowie, którzy zawsze podejmują coś nowego (…) Św. Paweł przeszedł cały
+grecki i łaciński świat, a św. Piotr poszedł do Rzymu (…)”_.
+
+Św. Ludwik był świadomy, że grzech naznacza życie chrześcijan w Kościele:
+_„Wspomnij, Panie, na tę Wspólnotę w wymiarze Twojej sprawiedliwości (…) 
+Twój Kościół tak bardzo osłabiony i zbrukany zbrodniami jego dzieci”_ (MP n.5,20).
+
+Podczas misji polecał odnowienie wiary przed Biblią, odnowienie chrzcielnych
+przyrzeczeń i poświęcenie się Jezusowi przez Maryję:  
+_„Skąd pochodzi to ogólne rozprzężenie moralne, jeśli nie stąd, że żyjemy
+zapominając o obietnicach i zobowiązaniach Chrztu św. (…)”_ (TPN n.127).
+
+*Modlitwa*  
+_Panie Boże nasz, Ty chcesz, aby Twoje Królestwo rozszerzało się na cały
+świat, dajesz nam swoje Słowo, które przynosi zbawienie. Ty św. Ludwikowi
+udzieliłeś łaski głoszenia Słowa z odwagą i bez ustanku. Przez jego
+wstawiennictwo udziel nam łaski, abyśmy to, co od Ciebie przyjęliśmy,
+mogli dawać innym, by w ten sposób być Twoimi świadkami w świecie.  
+Prosimy Cię także o łaskę…(intencja, za którą się modlimy).  
+Przez Chrystusa Pana Naszego. Amen._
+
+_Ojcze nasz, Zdrowaś Maryjo, Chwała Ojcu_
+
+Na koniec odmawiamy *Litanię do św. Ludwika de Montfort*.
+`
 , label: 'Miłość do Kościoła', type: 'opis', show: false }        
         ]
       },
@@ -217,14 +344,41 @@ Na koniec odmawiamy Litanię do św. Ludwika de Montfort`
         links: [
           { image: 'assets/nowenna/07.jpg',type:'foto' },
           { text: `*Dzień siódmy: Apostoł Krzyża i Chrystusowego zwycięstwa*
-Życie duchowe wiąże się nierozerwalnie z duchowym pojmowaniem krzyża, który każdy spotyka w swoim życiu. Posiadanie dojrzałego i zrównoważonego stosunku wobec krzyża jest wielką sztuką duchową. Łatwo jest źle rozumieć i  nie akceptować duchowości krzyża, czego skutkiem może być blokada w rozwoju i dojrzewaniu duchowym. Św. Ludwik jest wielkim nauczycielem duchowości krzyża Chrystusowego i pragnie formować nas, abyśmy naśladowali Chrystusa przez nasze krzyże. Patrząc na krzyż, św. Ludwik patrzył na paschalną tajemnicę Jezusowej męki, śmierci i zmartwychwstania: „Oto, jak sądzę, największa „tajemnica królewska”, największa tajemnica Mądrości Przedwiecznej: to Krzyż. Och! Jakże bardzo myśli i drogi Mądrości Przedwiecznej oddalone są i różne od myśli i dróg ludzkich, nawet najmądrzejszych! Ów wielki Bóg chce odkupić świat, przepędzić i spętać złe duchy; zamknąć piekło i otworzyć ludziom Niebo; Ojcu Przedwiecznemu oddać nieskończoną chwałę. Oto wielki cel, trudne dzieło i ogromne przedsięwzięcie. Czym posłuży się Mądrość, której poznanie obejmuje świat od krańca do krańca, która włada łagodnie i wszystko czyni z mocą? Ma ona wszechmocne ramię; jednym ruchem ręki może zniszczyć wszystko, co jest jej przeciwne, i wszystko uczynić, co zechce; słowem jednym ust swoich może stworzyć i unicestwić wszystko. Wystarczy jej tylko zapragnąć, aby wszystko się stało. Jej Miłość wszelako dyktuje prawa jej mocy. Pragnie ona wcielić się, by dać człowiekowi świadectwo swej przyjaźni; chce sama zstąpić na ziemię, by umożliwić mu wzniesienie się do Nieba. Niech tak się stanie!(..) Ona to właśnie na krzyż spogląda; znajduje w nim upodobanie; ceni go pośród wszystkiego, co największe i wspaniałe w Niebie i na ziemi, jako narzędzie jej podbojów i ozdobę jej majestatu, bogactwo i rozkosz jej panowania, przyjaciółkę i oblubienicę jej Serca. O głębokości bogactw, mądrości i wiedzy Bożej. Jakże Jego wybór jest zadziwiający, a Jego zamysły i sądy – wzniosłe i niepojęte! Jak niewysłowiona jest jednakowoż Jego miłość do tego krzyża! (MMP n.167,168). Jezusowa męka i śmierć na krzyżu jest Bożym wyborem i największym dowodem i realizacją zbawczej miłości Syna Bożego, który będąc w pełni wolny, ofiarowuje się dla naszego odkupienia.  Jezusowa męka jest dowodem i realizacją miłości i to ona woła, by ludzie jej odpowiedzieli miłością. Chrześcijańskie życie jest naśladowaniem Jezusa Chrystusa i odpowiedzią na Jego powołanie do miłości, która się wyraża na co dzień w naszych krzyżach. W ten sposób można zrozumieć duchowość krzyża, którą naucza św. Ludwik: „Pośród wszystkich argumentów, które mogą nas skłonić do miłowania Jezusa Chrystusa, Mądrości Wcielonej – moim zdaniem – najmocniejszy stanowią boleści, jakie zechciał On wycierpieć, by dać nam dowód swojej miłości” (MMP n.154).
 
-*Modlitwa:* 
-Panie Boże nasz, Ty w swojej wszechmocnej Mądrości zapragnąłeś, aby Twój Syn, Jezus Chrystus zbawił ten świat przez śmierć na Krzyżu i Zmartwychwstanie. Ty Boże, uczyniłeś św. Ludwika gorliwym apostołem Krzyża Chrystusowego, który głosił Go przykładem i słowem. Przez jego wstawiennictwo udziel nam łaski, aby dobrze nieść nasz krzyż, naśladując twojego Syna. Prosimy Cię także o łaskę…(intencja, za którą się modlimy).  Przez Chrystusa Pana Naszego. Amen.
+Życie duchowe wiąże się nierozerwalnie z duchowym pojmowaniem krzyża,
+który każdy spotyka w swoim życiu. Posiadanie dojrzałego i zrównoważonego
+stosunku wobec krzyża jest wielką sztuką duchową.
 
-_Ojcze nasz, Zdrowaś Maryjo, Chwała Ojcu_ 
+Św. Ludwik jest wielkim nauczycielem duchowości krzyża Chrystusowego
+i pragnie formować nas, abyśmy naśladowali Chrystusa przez nasze krzyże.
 
-Na koniec odmawiamy Litanię do św. Ludwika de Montfort`
+Patrząc na krzyż, św. Ludwik mówił:  
+_„Oto, jak sądzę, największa „tajemnica królewska”, największa tajemnica
+Mądrości Przedwiecznej: to Krzyż. Och! Jakże bardzo myśli i drogi
+Mądrości Przedwiecznej oddalone są i różne od myśli i dróg ludzkich,
+nawet najmądrzejszych! (…) Jak niewysłowiona jest jednakowoż Jego
+miłość do tego krzyża!”_ (MMP n.167,168)
+
+Jezusowa męka i śmierć na krzyżu jest dowodem zbawczej miłości Syna Bożego,
+który będąc w pełni wolny, ofiarowuje się dla naszego odkupienia.  
+Św. Ludwik uczył:  
+_„Pośród wszystkich argumentów, które mogą nas skłonić do miłowania
+Jezusa Chrystusa, Mądrości Wcielonej – moim zdaniem –
+najmocniejszy stanowią boleści, jakie zechciał On wycierpieć,
+by dać nam dowód swojej miłości”_ (MMP n.154).
+
+*Modlitwa*  
+_Panie Boże nasz, Ty w swojej wszechmocnej Mądrości zapragnąłeś,
+aby Twój Syn, Jezus Chrystus, zbawił ten świat przez śmierć na Krzyżu
+i Zmartwychwstanie. Ty Boże, uczyniłeś św. Ludwika gorliwym apostołem
+Krzyża Chrystusowego, który głosił Go przykładem i słowem.
+Przez jego wstawiennictwo udziel nam łaski, aby dobrze nieść nasz krzyż,
+naśladując Twojego Syna. Prosimy Cię także o łaskę…(intencja, za którą się modlimy).
+Przez Chrystusa Pana Naszego. Amen._
+
+_Ojcze nasz, Zdrowaś Maryjo, Chwała Ojcu_
+
+Na koniec odmawiamy *Litanię do św. Ludwika de Montfort*.`
 , label: 'Apostoł Krzyża i Chrystusowego zwycięstwa', type: 'opis', show: false } 
         ]
       },
@@ -234,14 +388,41 @@ Na koniec odmawiamy Litanię do św. Ludwika de Montfort`
         links: [
           { image: 'assets/nowenna/08.jpg',type:'foto' },
           { text: `*Dzień ósmy: Nauczyciel trwania w łasce*
-Z pastoralnego doświadczenia, jako misjonarz, Montfort był głęboko przekonany, że wytrwałość jest wielkim problemem dusz ludzkich i dlatego zachęcał, by zaakceptować duchowość poświęcenia się. Problem wytrwania w dobrym jest bardzo istotny w życiu wiary. Jest to rzeczywistość, w której obecne są: Boża łaska, ludzka wolność i kruchość ludzkiej natury, spowodowana przez przeszłość, słabości i rany, przez negatywne działanie świata i szatana, przez pokusy i wyobraźnię. Abyśmy mogli zbierać owoce, musimy trwać w łasce, musimy być wierni łasce Bożej. Ziarno, które padło na ziemię, musi umrzeć, potem powoli i w ukryciu wzrastać, i w swoim czasie przynieść owoce. Maryja, która była zawsze wierna i wytrwała, pomaga duszy, która Jej się oddaje, aby trwała w wierności i w ten sposób przyniosła owoce. Św. Ludwik zachęca: „Do owego nabożeństwa do Najświętszej Dziewicy zachęca nas skutecznie ta okoliczność, iż stanowi ono cudowny środek wytrwania w cnocie i wierności. Skąd bowiem bierze się to, iż większość nawróconych grzeszników nie potrafi wytrwać? Skąd bierze się to, że tak łatwo znów popadamy w grzech? Skądże pochodzi to, że większa część sprawiedliwych, zamiast postępować w cnocie i wzrastać w łasce, częstokroć traci tę odrobinę posiadanych cnót i łask? Jak wykazałem poprzednio, nieszczęście to pochodzi stąd, że człowiek – przecież tak bardzo skażony, słaby i niestały – przecenia siebie samego, opiera się na własnych siłach i sądzi, że sam zdoła zachować skarb łask, cnót i zasług. Przez to nabożeństwo Najświętszej Dziewicy, która jest wierna, powierzamy wszystko, co posiadamy; uznajemy Ją za Powiernicę wszelkich naszych dóbr natury i łaski; zawierzamy Jej wierności; opieramy się na Jej potędze, na Jej miłosierdziu i miłości, ażeby to Ona zachowała i pomnażała nasze cnoty i zasługi – wbrew diabłu, światu i ciału, czyniących wszystko, by je nam odebrać. Człowiek mówi do Maryi jak dziecko do matki, jak wierny sługa do swej pani: strzeż depozytu wiary. Moja dobra Matko i Pani, uznaję, że dotąd za Twoją przyczyną otrzymałem więcej łask od Pana Boga, niż na to zasługiwałem, a smutne doświadczenia, jakie zdobyłem, pouczyły mnie, że skarb łaski noszę w bardzo kruchym naczyniu i że jestem zbyt słaby i nędzny, by go sam zachować. Błagam Cię więc: wszystko, co posiadam weź w depozyt, i zachowaj Swą wiernością i potęgą. Jeśli Ty będziesz się mną opiekować, nie stracę nic; jeśli Ty mnie podtrzymywać będziesz, nie upadnę; jeśli Ty mnie osłaniać będziesz, uchronię się przed nieprzyjaciółmi” (TPN n.173).
 
-*Modlitwa:* 
-Panie Boże nasz, Ty nas powołujesz, abyśmy wytrwali na drodze wiary do końca życia. Przez wstawiennictwo Najświętszej Panny Maryi i św. Ludwika udziel nam łaski, aby dobrze żyć, życiem prawdziwie chrześcijańskim i szczęśliwie umrzeć. Prosimy Cię także o łaskę…(intencja, za którą się modlimy).  Przez Chrystusa Pana Naszego. Amen.
+Z pastoralnego doświadczenia, jako misjonarz, Montfort był głęboko przekonany,
+że wytrwałość jest wielkim problemem dusz ludzkich i dlatego zachęcał, by
+zaakceptować duchowość poświęcenia się.
 
-_Ojcze nasz, Zdrowaś Maryjo, Chwała Ojcu_ 
+Problem wytrwania w dobrym jest bardzo istotny w życiu wiary. Obecne są w nim:
+Boża łaska, ludzka wolność i kruchość ludzkiej natury, spowodowana przez
+przeszłość, słabości i rany, przez negatywne działanie świata i szatana,
+przez pokusy i wyobraźnię.
 
-Na koniec odmawiamy Litanię do św. Ludwika de Montfort`
+Abyśmy mogli zbierać owoce, musimy trwać w łasce, być wierni łasce Bożej.
+Maryja, która była zawsze wierna i wytrwała, pomaga duszy, która Jej
+się oddaje, aby trwała w wierności i w ten sposób przyniosła owoce.
+
+Św. Ludwik zachęcał:  
+_„Do owego nabożeństwa do Najświętszej Dziewicy zachęca nas skutecznie
+ta okoliczność, iż stanowi ono cudowny środek wytrwania w cnocie i wierności.
+Skąd bowiem bierze się to, iż większość nawróconych grzeszników nie potrafi
+wytrwać? (…) Człowiek mówi do Maryi jak dziecko do matki, jak wierny sługa
+do swej pani: strzeż depozytu wiary. Moja dobra Matko i Pani, uznaję, że
+dotąd za Twoją przyczyną otrzymałem więcej łask od Pana Boga, niż na to
+zasługiwałem (…) Jeśli Ty mnie podtrzymywać będziesz, nie upadnę;
+jeśli Ty mnie osłaniać będziesz, uchronię się przed nieprzyjaciółmi”_ (TPN n.173).
+
+*Modlitwa*  
+_Panie Boże nasz, Ty nas powołujesz, abyśmy wytrwali na drodze wiary do końca życia.  
+Przez wstawiennictwo Najświętszej Panny Maryi i św. Ludwika udziel nam łaski,
+aby dobrze żyć, życiem prawdziwie chrześcijańskim i szczęśliwie umrzeć.
+Prosimy Cię także o łaskę…(intencja, za którą się modlimy).
+Przez Chrystusa Pana Naszego. Amen._
+
+_Ojcze nasz, Zdrowaś Maryjo, Chwała Ojcu_
+
+Na koniec odmawiamy *Litanię do św. Ludwika de Montfort*.
+`
 , label: 'Nauczyciel trwania w łasce', type: 'opis', show: false } 
         ]
       },
@@ -251,14 +432,30 @@ Na koniec odmawiamy Litanię do św. Ludwika de Montfort`
         links: [
           { image: 'assets/nowenna/09.jpg',type:'foto' },
           { text: `*Dzień dziewiąty: Prowadzi nas do miłości do Jezusa*
-Nabożeństwo do Maryi musi nas prowadzić do Jezusa Chrystusa. Jest to głębokie przekonanie św. Ludwika, o którym wiele razy mówił. Na różne sposoby św. Ludwik wyrażał tę centralną prawdę naszej wiary w Jezusa Chrystusa. Istotą każdej duchowości, także i Maryjnej,  jest fakt, że powinna ona  prowadzić do Jezusa. Maryja jest nieodłączone związana z życiem Jezusa Chrystusa, a więc także i z chrześcijanami. Św. Ludwik tak głosił, opierając się na Słowie Bożym: „Jezus Chrystus, nasz Zbawiciel, prawdziwy Bóg i prawdziwy człowiek, musi być ostatecznym celem wszelkiej naszej pobożności, inaczej byłaby ona fałszywa i zwodnicza. Jezus Chrystus to Alfa i Omega (por. Ap 1,8), początek i koniec wszystkiego (por. Ap 21,16). Pracujemy na to, jak mówi Apostoł, by każdego człowieka uczynić doskonałym w Jezusie Chrystusie (por. Ef 4,13), gdyż tylko w Nim mieszka cała pełnia Bóstwa (por. Kol 2,9) i cała pełnia łaski, cnoty i doskonałości. Tylko w Nim otrzymaliśmy pełnię błogosławieństwa duchowego (por. Ef 1,3). Chrystus jest naszym jedynym Mistrzem, który ma nas nauczać; jedynym Panem, od którego zależymy; jedyną Głową, z którą mamy być zjednoczeni; jedynym Wzorem, do którego mamy się upodobnić; naszym jedynym Lekarzem, który ma nas uzdrowić; jedynym Pasterzem, który ma nas żywić; jedyną Drogą, która ma nas prowadzić; jedyną Prawdą, której musimy wierzyć; jedynym Życiem, które ma nas ożywiać; słowem - jest naszym jedynym Wszystkim we wszystkim, które ma nam wystarczyć. Albowiem nie dano ludziom pod niebem żadnego innego Imienia, w którym moglibyśmy być zbawieni (por. Dz 4,12). Bóg nie położył innego fundamentu dla naszego zbawienia, dla naszej doskonałości i naszej chwały, niż Jezusa Chrystusa. Każda budowla, która nie spoczywa na tej Opoce, stoi na lotnym piasku i wcześniej czy później runie. Każdy wierny, który nie trwa w Nim jak latorośl w winnym szczepie, opadnie, uschnie i będzie wart tylko wrzucenia w ogień (por. J 15,6). Gdy jesteśmy w Jezusie Chrystusie, a Jezus Chrystus jest w nas, nie potrzebujemy obawiać się potępienia (por. Rz 8,1). Ani aniołowie w niebie, ani ludzie na ziemi, ani demony w piekle, ani jakiekolwiek inne stworzenie nie może nam szkodzić, bo nie może nas odłączyć od miłości Bożej, która jest w Jezusie Chrystusie (por. Rz 8,39). Przez Niego, z Nim i w Nim możemy wszystko: możemy oddać Bogu Ojcu w jedności Ducha Świętego wszelką cześć i chwałę; stać się doskonałymi; a dla naszego bliźniego – być miłą wonią Chrystusową na żywot wieczny. Jeśli więc ustanawiamy doskonałe nabożeństwo do Najświętszej Dziewicy, to jedynie po to, by nasze nabożeństwo do Jezusa Chrystusa stało się gruntowniejsze i doskonalsze, oraz by podać łatwy i pewny środek do znalezienia Chrystusa. Gdyby nabożeństwo do Najświętszej Dziewicy oddalało nas od Jezusa Chrystusa, to trzeba by je odrzucić jako złudzenie szatańskie. Tymczasem rzecz ma się przeciwnie, jak to już wykazałem i jeszcze wykażę. Nabożeństwo to jest konieczne, ale po to, by Jezusa Chrystusa całkowicie znaleźć, ukochać Go i wiernie Mu służyć” (TPN n.61,62).
 
-*Modlitwa:* 
-Panie Boże nasz, Ty nas powołujesz, abyśmy wierzyli w Twojego Syna, Jezusa Chrystusa i abyśmy Go miłowali. Przez wstawiennictwo Najświętszej Maryi Panny i św. Ludwika udziel nam łaski prawdziwej miłość do Jezusa. Prosimy Cię także o łaskę…(intencja, za którą się modlimy).  Przez Chrystusa Pana Naszego. Amen.
+Nabożeństwo do Maryi musi nas prowadzić do Jezusa Chrystusa. Jest to głębokie
+przekonanie św. Ludwika, o którym wiele razy mówił. Na różne sposoby św. Ludwik
+wyrażał tę centralną prawdę naszej wiary w Jezusa Chrystusa. Istotą każdej
+duchowości, także i Maryjnej, jest fakt, że powinna ona prowadzić do Jezusa.
 
-_Ojcze nasz, Zdrowaś Maryjo, Chwała Ojcu_ 
+Św. Ludwik tak głosił, opierając się na Słowie Bożym:  
+_„Jezus Chrystus, nasz Zbawiciel, prawdziwy Bóg i prawdziwy człowiek, musi
+być ostatecznym celem wszelkiej naszej pobożności, inaczej byłaby ona fałszywa
+i zwodnicza. (…) Gdyby nabożeństwo do Najświętszej Dziewicy oddalało nas od
+Jezusa Chrystusa, trzeba by je odrzucić jako złudzenie szatańskie. Tymczasem
+rzecz ma się przeciwnie (…) Nabożeństwo to jest konieczne, ale po to, by Jezusa
+Chrystusa całkowicie znaleźć, ukochać Go i wiernie Mu służyć”_ (TPN n.61,62).
 
-Na koniec odmawiamy Litanię do św. Ludwika de Montfort`
+*Modlitwa*  
+_Panie Boże nasz, Ty nas powołujesz, abyśmy wierzyli w Twojego Syna, Jezusa
+Chrystusa i abyśmy Go miłowali. Przez wstawiennictwo Najświętszej Maryi Panny
+i św. Ludwika udziel nam łaski prawdziwej miłości do Jezusa.  
+Prosimy Cię także o łaskę…(intencja, za którą się modlimy).  
+Przez Chrystusa Pana Naszego. Amen._
+
+_Ojcze nasz, Zdrowaś Maryjo, Chwała Ojcu_
+
+Na koniec odmawiamy *Litanię do św. Ludwika de Montfort*.`
 , label: 'Prowadzi nas do miłości do Jezusa', type: 'opis', show: false } 
         ]
       }
@@ -303,56 +500,57 @@ Chrystus mówi: „Nie proszę, abyś ich zabrał ze świata, ale byś ich ustrz
         links: [
           { image: 'assets/12dni/01.jpg',type:'foto'},
           { text: `*Dzień 1 - Odkryj łaskę Bożej miłości*
+*12 dni – Wyzbycie się ducha tego świata – Dzień 1*
 
-*_Modlitwa do Ducha Świętego_*
+*Odkryj łaskę Bożej miłości*
 
-_Duchu Święty, natchnij mnie. Miłości Boga, pochłoń mnie. Po prawdziwej drodze prowadź mnie, Maryjo, moja Matko, spójrz na mnie, z Jezusem błogosław mnie._
-_Od wszelkiego zła, od wszelkiego złudzenia, od wszelkiego niebezpieczeństwa zachowaj mnie._
-_Maryjo, Oblubienico Ducha Świętego, wyproś mi łaskę odkrycia Bożej miłości._
-_Amen!_
+*Modlitwa do Ducha Świętego*  
+_Duchu Święty, natchnij mnie. Miłości Boga, pochłoń mnie. Po prawdziwej drodze  
+prowadź mnie, Maryjo, moja Matko, spójrz na mnie, z Jezusem błogosław mnie.  
+Od wszelkiego zła, od wszelkiego złudzenia, od wszelkiego niebezpieczeństwa zachowaj mnie.  
+Maryjo, Oblubienico Ducha Świętego, wyproś mi łaskę odkrycia Bożej miłości. Amen!_
 
-  *Słowo Boże*
-  _„Dlatego zginam kolana moje przed Ojcem, od którego bierze nazwę wszelki ród na niebie i na ziemi, aby według bogactwa swej chwały sprawił w was przez Ducha swego, by potężnie wzmocnił się wewnętrzny człowiek. Niech Chrystus zamieszka przez wiarę w waszych sercach; abyście w miłości zakorzenieni i ugruntowani, wraz ze wszystkimi świętymi zdołali ogarnąć duchem, czym jest Szerokość, Długość, Wysokość i Głębokość, i poznać miłość Chrystusa, przewyższającą wszelką wiedzę, abyście zostali napełnieni całą Pełnią Boga. Temu zaś, który mocą działającą w nas może uczynić nieskończenie więcej niż to, o co my prosimy czy rozumiemy, Jemu chwała w Kościele i w Chrystusie Jezusie po wszystkie pokolenia wieku wieków! Amen” (Ef 3,14–21)._
+*Słowo Boże*  
+_„Dlatego zginam kolana moje przed Ojcem, od którego bierze nazwę wszelki ród na niebie  
+i na ziemi, aby według bogactwa swej chwały sprawił w was przez Ducha swego, by potężnie  
+wzmocnił się wewnętrzny człowiek. Niech Chrystus zamieszka przez wiarę w waszych sercach;  
+abyście w miłości zakorzenieni i ugruntowani, wraz ze wszystkimi świętymi zdołali ogarnąć  
+duchem, czym jest Szerokość, Długość, Wysokość i Głębokość, i poznać miłość Chrystusa,  
+przewyższającą wszelką wiedzę, abyście zostali napełnieni całą Pełnią Boga… Amen”_ (Ef 3,14–21).
 
-  *Rozważanie*
-  Jaki naprawdę jest Bóg? Możemy mieć różne wyobrażenia o Bogu, o tym, kim On jest. Być może różnie nam Go przedstawiano i mamy zdeformowane wyobrażenie o Nim. Czasami wtedy można myśleć, że jest jakimś dziadkiem siedzącym na chmurce, którego nie traktuje się poważnie, a jeśli mówi się o wierze, to bardziej kojarzy się to z przekonaniami starszych ludzi albo z jakąś sferą kultury czy sztuki. Zwykliśmy też myśleć, że Bóg jest wszystkowiedzącym tyranem, przed którym nic się nie ukryje. Trzeba się Go bać i cierpieć, bo On zsyła na nas choroby i trudności. Echo takich przekonań słychać w powiedzeniu: Pan Bóg nierychliwy, ale sprawiedliwy. Może być też, że myślimy o Bogu jako o egzekutorze, który ciągle nas widzi i wzbudza lęk przed karą. Ostatecznie może być także niedostępny, gdzieś daleko, albo być jakąś bliżej niesprecyzowaną, niezainteresowaną mną energią. Zatrzymaj się i pomyśl o tym przez chwilę. Czy nie ma echa tych wykrzywień w twoim sercu?
+*Rozważanie*  
+Jaki naprawdę jest Bóg? Czasami mamy zdeformowane wyobrażenie o Nim – jak dziadek na chmurce,  
+tyran, egzekutor, niedostępna energia… Zatrzymaj się i pomyśl – czy w twoim sercu też są echa tych wyobrażeń?  
 
-  To są różne karykatury Boga. Ale chcemy poznać prawdę „i poznacie prawdę, a prawda was wyzwoli” (J 8,32). Apostoł Filip zapytał kiedyś Jezusa: „Panie, pokaż nam Ojca” (J 14,8). Jaki więc jest Ojciec? Oto, Jego obraz w słowie Bożym: 
+Prawda o Bogu: _„i poznacie prawdę, a prawda was wyzwoli”_ (J 8,32). Apostoł Filip zapytał:  
+_„Panie, pokaż nam Ojca”_ (J 14,8). Oto obraz Ojca w Biblii (Ps 139,1–18,24):  
+Bóg przenika, zna, prowadzi, otacza swoją opieką, stworzył nas cudownie, pragnie dobra każdego,  
+a Jego miłość przewyższa wszelką wiedzę.  
 
-  „Panie, przenikasz i znasz mnie, Ty wiesz, kiedy siadam i wstaję. Z daleka przenikasz moje zamysły, widzisz moje działanie i mój spoczynek i wszystkie moje drogi są Ci znane. Choć jeszcze nie ma słowa na moim języku,  Ty, Panie, już znasz je w całości. Ty ogarniasz mnie zewsząd i kładziesz na mnie swą rękę.  Przedziwna  jest dla mnie Twa wiedza, zbyt wzniosła, nie mogę jej pojąć. Gdzież odejdę daleko od Twojego ducha? Gdzie ucieknę od Twego oblicza? Gdy wstąpię do nieba, tam jesteś; jesteś przy mnie, gdy się w Szeolu położę. Gdybym wziął skrzydła jutrzenki, zamieszkał na krańcu morza, tam również Twa ręka będzie mnie wiodła i podtrzyma mnie Twoja prawica. Jeśli powiem: «Niech mnie przynajmniej ciemności okryją i noc mnie otoczy jak światło», nawet ciemność nie będzie ciemna dla Ciebie, a noc jak dzień zajaśnieje: <mrok jest dla Ciebie jak światło>. Ty bowiem utworzyłeś moje nerki, Ty utkałeś mnie w łonie mej matki. Dziękuję Ci, że mnie stworzyłeś tak cudownie, godne podziwu są Twoje dzieła. I dobrze znasz moją duszę,  nie tajna Ci moja istota, kiedy w ukryciu powstawałem, utkany w głębi ziemi. Mnie w zalążku widziały Twoje oczy i w Twojej księdze zostały spisane wszystkie dni, które zostały przeznaczone,  chociaż żaden z nich [jeszcze] nie nastał. Jak niezgłębione są dla mnie myśli Twe, Boże, jak wielkie ich mnóstwo! Gdybym je przeliczył, więcej ich niż piasku; gdybym dosięgnął kresu, jeszcze jestem z Tobą. (...) i zobacz, czy nie podążam drogą nieprawości, a prowadź mnie drogą odwieczną!” (Ps 139,1–18, 24).
+Bóg kocha każdego indywidualnie. Nawet gdybyś był jedynym mieszkańcem wszechświata,  
+Bóg nie mógłby kochać cię bardziej niż teraz. _„Ukochałem Cię odwieczną miłością”_ (Jr 31,3).  
+Bóg pierwszy nas ukochał i nadal kocha – wszystko, co robimy, jest odpowiedzią na Jego miłość.  
 
-  Jak bardzo poruszający i jak bardzo odmienny od naszych fałszywych wyobrażeń jest prawdziwy obraz Boga!
+Bóg kocha grzesznika, bezwarunkowo i czule. Nie wymaga świętości ani perfekcji.  
+Nie przestanie cię kochać – _„Bo góry mogą się poruszyć i pagórki się zachwiać,  
+ale miłość moja nigdy nie odstąpi od ciebie!”_ (Iz 54,10).  
 
-  Czasami zadajemy sobie pytanie: czy da się mnie kochać? Wpatrując się w siebie przez pryzmat wad, porażek, ułomności ,mogę nie tylko mieć niewłaściwe wyobrażenie o Bogu, ale też o sobie. Bo czy moje słabości, zranienia i grzechy stanowią całą prawdę o mnie?
+Bóg chce, abyś przyjął Jego miłość. To nie my doskakujemy do Boga – On schodzi do nas.  
 
-  Pewnego razu w kościele ksiądz na kazaniu dla dzieci mówił o Bogu, który jest Stworzycielem. I opowiadał dzieciom: Drogie dzieci, Pan Bóg jest wspaniałym Stworzycielem – stworzył cały wszechświat, galaktyki, planety, słońce, gwiazdy, księżyc, morza, rzeki, góry i pagórki, stworzył też różne zwierzęta, od tych największych wielorybów i słoni, przez tygrysy, lwy, małpy, pieski i kotki, aż do tych malutkich mróweczek i nawet jeszcze takie organizmy, których nie widać gołym okiem, ale tylko pod mikroskopem. Pan Bóg stworzył drzewa, rośliny i kwiaty. Cały ten wspaniały świat, a na końcu Bóg stworzył najpiękniejsze, najwspanialsze, najdoskonalsze stworzenie. Czy ktoś z was drogie dzieci, wie co to za stworzenie? Na to zgłasza się jedna dziewczynka i mówi: To byłam ja!
+*Lektura duchowa*  
+_„Piękno przedwieczne pragnie przyjaźni z ludźmi i przygotowało księgę, by ją zdobyć…  
+Wszyscy, którzy mnie znajdą, znajdą żywot i zbawienie od Pana… Kto mnie znajdzie, nie będzie się trudził, aby mnie znaleźć; bo znajdzie mnie siedzącą u drzwi swoich”_ (Prz 8,13b–15; 32–36).  
 
-Bóg kocha wszystkich ludzi, ale też kocha każdego indywidualnie w sposób, w jaki każdy potrzebuje być kochanym. Ta dziewczynka miała wyjątkowe przekonanie o swojej niepowtarzalności. Bóg chce ci je dać tak, żebyś był pewien, że gdybyś był jedynym mieszkańcem całego wszechświata, to Bóg nie mógłby cię kochać bardziej niż teraz, bo kocha cię najbardziej. Rozumiesz? Spróbuj zatrzymać się w czytaniu w tym momencie i pomyśl o tym przez chwilę. Wiesz, co to znaczy? Bóg mówi: „Ukochałem Cię odwieczną miłością” (Jr 31,3). „Ale teraz tak mówi Pan, Stworzyciel twój, Jakubie, i Twórca twój, o Izraelu: «Nie lękaj się, bo cię wykupiłem, wezwałem cię po imieniu; tyś mój!” (Iz 43,1).
+– św. Ludwik Maria Grignion de Montfort, Miłość Mądrości Przedwiecznej, 65–69
 
-*Bóg ukochał ciebie jako pierwszy.* Jego miłość jest odwieczna. Zanim stworzył wszystko, już myślał o tobie i kochał cię. Jesteś chciany przez Boga. Niezależnie od okoliczności, w których przyszedłeś na ten świat, niezależnie od tego, co słyszałeś od innych i co ci się wydawało: Bóg Ciebie chciał od wieków, już wtedy pragnął ciebie i pokochał. Jesteś kochany i chciany przez Boga! Bóg pierwszy nas ukochał i nadal nas kocha jako pierwszy. On przejął inicjatywę w miłowaniu nas. Wszystko to, co robimy, jest tylko odpowiedzią na Bożą miłość. To ona nas wyprzedza we wszystkim i otacza ze wszystkich stron. Dobry Bóg ukochał nas, zanim jeszcze się narodziliśmy, dlatego nas stworzył, mimo iż w swej Wszechwiedzy wiedział o tym, że będziemy Go obrażać. Jedynym powodem, dla którego Bóg stwarza, jest Jego miłość i dobroć. Prawdziwa Miłość nigdy nie stawia warunków, aby mogła zaistnieć.
+*Zadanie*  
+_Przeżyję dzisiejszy dzień ze świadomością, że jestem kochany przez Boga bezwarunkowo._
 
-*Bóg ukochał ciebie jako grzesznika.* Pan nie daje nam tego, na co zasługujemy, ale daje nam to, czego najbardziej potrzebujemy! On nie kocha nas jako świętych, nieskazitelnych i moralnie czystych. Nie ma potrzeby udawania, że jesteś kimś innym, niż jesteś w rzeczywistości. Nie kocha nas takimi, jakimi chcielibyśmy być, ale takimi, jakimi jesteśmy naprawdę! On nie brzydzi się nikim, kocha każdego. A im większy grzesznik, tym bardziej potrzebuje Jego miłości!
+*Modlitwa zawierzenia*  
+_Jestem cały Twój i wszystko, co mam, jest Twoją własnością, umiłowany Jezu,  
+przez Maryję, Twoją świętą Matkę. Amen!_
 
-*Bóg ukochał cię bezinteresownie* – nie istnieje żaden warunek do spełnienia, aby Bóg cię kochał. On nawet nie stawia ci żadnych warunków by cię kochać. Nie mówi: gdy będziesz więcej się modlił, gdy będziesz lepszym człowiekiem, gdy nie będziesz kłamał, gdy nie będziesz się kłócił z innymi – wtedy będę cię kochał. Nie mówi: będę cię kochał, ale stawiam warunek: nie będziesz grzeszyć. Nie! Bóg kocha cię dokładnie takim, jakim jesteś w tym momencie. Pomimo twoich grzechów, wad, błędów – On wcale ich nie neguje – tak, one są, ale Jego miłość jest większa!
-
-*Bóg nigdy nie przestanie Cię kochać!* Jest wszechmogący, ale nie może jednej rzeczy: nie może przestać cię kochać!„Bo góry mogą się poruszyć i pagórki się zachwiać, ale miłość moja nigdy nie odstąpi od ciebie!” (Iz 54,10). Kocha cię nie dlatego, że jesteś dobry, ale dlatego, że On jest dobry!
-
-*Bóg kocha Cię czule!* W Biblii (Księga Ozeasza) Bóg mówi o swojej ciągłej opiece. Odwołuje się do obrazów dzieciństwa: noszenie na rękach, nauczanie, opieka. Tak jak to robi tata czy mama. Z wielką czułością. Bóg chce przytulić cię do swojego serca, żebyś w Nim znalazł ukojenie.
-
-Gdy przypatrujemy się Bożej miłości w taki sposób, to przychodzi jedna myśl – to jest raj! Dokładnie! Do życia w takiej miłości zostaliśmy stworzeni przez Boga. Jedyną rzeczą o który cię dzisiaj prosi Bóg, jest to, żebyś uwierzył w Jego miłość do ciebie, byś zaufał Jego słowom o tobie bardziej niż swoim słowom o sobie. Powiedz Mu, że chcesz doświadczyć Jego miłości. To nie my musimy starać się by „doskoczyć” do Boga, ale raczej chodzi o to, by przyjąć Jego miłość, On się uniża, schodzi do ciebie, by cię kochać.
-
-*Lektura duchowa*
-_„Piękno owo przedwieczne i wyjątkowo łaskawe, tak bardzo pragnie przyjaźni z ludźmi, iż przygotowało specjalną księgę, by tę przyjaźń zdobyć,_ _odsłaniając przed ludźmi to, jak jest wspaniałe oraz czego pragnie. Księga owa jest niczym list ukochanej do ukochanego, wysłany, by zdobyć jego uczucie._ _Pragnienia serca człowieka, o jakich zaświadcza, są tak naglące, podejmowane poszukiwania człowieczej przyjaźni - tak czułe;_ _wezwania i życzenia są tak pełne miłości, że słysząc, jak [Mądrość] o tym mówi, rzeklibyście, iż to nie Władczyni Nieba i ziemi,_ _lecz że potrzebuje ona człowieka, aby być szczęśliwą._
-
-_By znaleźć człowieka, czasem przebiega szerokie drogi; czasem wspina się na szczyt najwyższych gór;_ _niekiedy przychodzi do bram miast; znów kiedy indziej wstępuje nawet na place publiczne,_ _pośród zgromadzeń wołając najgłośniej, jak może: O viri, ad vos clamito, et vox mea ad filios hominum:_ _O, ludzie! O, synowie człowieczy! do was wołam od tak dawna; do was zwracam mój głos;_ _was pragnę; was szukam; o was się upominam. Słuchajcie, przyjdźcie do mnie; ja was uczynię szczęśliwymi. _I aby pociągnąć ich z mocą, mówi im: „Przeze mnie i z mojej łaski królowie królują,_ _książęta panują, a władcy i monarchowie dzierżą berła i korony._ _To ja w ustanawiających prawo tchnę umiejętność kreślenia praw dobrych, by wprowadzać porządek w państwach,_ _i daję siłę urzędnikom sądowym, by wymierzali sprawiedliwość uczciwie i bez lęku. _Ja miłuję tych, którzy mnie miłują; a którzy rano wstają do mnie, znajdą mnie;_ _a znajdując zaś mnie, znajdzie obfitość wszelkich dóbr._ _Gdyż bogactwa i sława, zaszczyty, godności, pyszne namiętności i prawdziwe cnoty są przy mnie;_ _i bowiem lepiej jest dla człowieka jest mnie posiadać, aniżeli całe złoto i srebro świata,_ _drogie kamienie i dobra całej ziemi. _Tych, co do mnie przychodzą, wiodę drogami sprawiedliwości i roztropności_ _oraz ubogacam ich posiadaniem bogactw, aż do pełni (por. Prz 8, 15–21)._ _I bądźcie pewni, że moją najdroższą rozkoszą jest rozmawiać i przebywać z synami człowieczymi. _Teraz tedy, synowie, słuchajcie mnie: błogosławieni, którzy strzegą dróg moich!_ _Słuchajcie napomnienia i bądźcie mądrymi, a nie odrzucajcie go._ _Błogosławiony człowiek, który mnie słucha i który czuwa u drzwi moich na każdy dzień,_ _i pilnuje u podwojów drzwi moich. _Kto mnie znajdzie, znajdzie żywot i wyczerpie zbawienie od Pana;_ _ale kto przeciw mnie zgrzeszy, zrani duszę swoją._ _Wszyscy, którzy mnie nienawidzą, kochają się w śmierci (Prz 8,32–36). Wyrzekłszy wszystko, co najbardziej czułe i najbardziej ujmujące, by zdobyć przyjaźń ludzi, [Mądrość] jeszcze się obawia, że ze względu jej cudowny blask i najwyższy majestatu, ludziom ją szanującym – brak odwagi by się do niej zbliżyć. Dlatego każe im powiedzieć, że: nie broni do siebie przystępu; że łatwo spostrzegą ją ci, którzy ją miłują, że uprzedza tych, którzy jej pożądają, że ukazuje się im pierwsza i że kto do niej rano wstanie, aby jej szukać, nie będzie się trudził, aby ją znaleźć; bo znajdzie ją siedzącą u drzwi swoich (por. Mdr 6,13b–15)”._
-
-św. Ludwik Maria Grignion de Montfort, Miłość Mądrości Przedwiecznej, 65–69
-
-*Zadanie*
-Przeżyję dzisiejszy dzień ze świadomością, że jestem kochany przez Boga bezwarunkowo.
-
-*Modlitwa zawierzenia*
-_Jestem cały Twój i wszystko, co mam, jest Twoją własnością, umiłowany Jezu, przez Maryję, Twoją świętą Matkę. Amen!_`
+`
  
 , label: 'Odkryj łaskę Bożej miłości', type: 'opis', show: false },
           { url:'https://drogamaryi.pl/edycje/5-listopada-2025/12-dni-dzien-1/audio', type:'audio', label:'audio' }
@@ -364,49 +562,82 @@ _Jestem cały Twój i wszystko, co mam, jest Twoją własnością, umiłowany Je
         links: [
           { image: 'assets/12dni/02.jpg',type:'foto' },
           { text: `*Dzień 2 - Odkryj łaskę poznania prawdy o grzechu*
-  
-  *_Modlitwa do Ducha Świętego_*
 
- _Duchu Święty, natchnij mnie. Miłości Boga, pochłoń mnie. Po prawdziwej drodze prowadź mnie, Maryjo, moja Matko, spójrz na mnie, z Jezusem błogosław mnie._ _Od wszelkiego zła, od wszelkiego złudzenia, od wszelkiego niebezpieczeństwa zachowaj mnie._
-  _ Maryjo, Oblubienico Ducha Świętego, wyproś mi łaskę odkrycia Bożej miłości._
-  _Amen!_
+*12 dni – Wyzbycie się ducha tego świata – Dzień 2*
 
-  *Słowo Boże*
-  _„A wąż był bardziej przebiegły niż wszystkie zwierzęta lądowe, które Pan Bóg stworzył. On to rzekł do niewiasty: «Czy rzeczywiście Bóg powiedział: Nie jedzcie owoców ze wszystkich drzew tego ogrodu?» Niewiasta odpowiedziała wężowi: «Owoce z drzew tego ogrodu jeść możemy, tylko o owocach z drzewa, które jest w środku ogrodu, Bóg powiedział: Nie wolno wam jeść z niego, a nawet go dotykać, abyście nie pomarli». Wtedy rzekł wąż do niewiasty: «Na pewno nie umrzecie! Ale wie Bóg, że gdy spożyjecie owoc z tego drzewa, otworzą się wam oczy i tak jak Bóg będziecie znali dobro i zło». Wtedy niewiasta spostrzegła, że drzewo to ma owoce dobre do jedzenia, że jest ono rozkoszą dla oczu i że owoce tego drzewa nadają się do zdobycia wiedzy. Zerwała zatem z niego owoc, skosztowała i dała swemu mężowi, który był z nią, a on zjadł. A wtedy otworzyły się im obojgu oczy i poznali, że są nadzy; spletli więc gałązki figowe i zrobili sobie przepaski” (Rdz. 3,1–6)._
+*Odkryj łaskę poznania prawdy o grzechu*
 
-  *Rozważanie*
- Prawda o Bożej miłości nie jest dla nas oczywista. Wielu mówi: życie to nie bajka, i rzeczywiście tak jest. Czasami rodzi się nawet krzyk z serca: Boże, gdzie Ty jesteś?! Dlaczego na to wszystko pozwalasz?! Można więc zapytać: dlaczego nie doświadczam Bożej miłości na co dzień? Dlaczego to nie jest takie oczywiste? Skąd się biorą te wszystkie wykrzywione wyobrażenia na temat Boga? Skoro tak bardzo pragniemy miłości, to dlaczego jej nie wybieramy? Przecież to nielogiczne. Właśnie.
+*Modlitwa do Ducha Świętego*  
+_Duchu Święty, natchnij mnie. Miłości Boga, pochłoń mnie. Po prawdziwej drodze  
+prowadź mnie, Maryjo, moja Matko, spójrz na mnie, z Jezusem błogosław mnie.  
+Od wszelkiego zła, do wszelkiego złudzenia, od wszelkiego niebezpieczeństwa  
+zachowaj mnie._
 
- Doświadczamy w życiu różnego rodzaju zła. To właśnie doświadczenie zła przeszkadza nam w byciu szczęśliwymi. Najczęściej zło jest skutkiem działania konkretnych ludzi. Czasami jest zło niezawinione przez nas – ludzie rodzą się w kraju, gdzie jest wojna, w rodzinach z problemami alkoholowymi, doświadczamy chorób, śmierci. To rodzi cierpienie, którego nie potrafimy przezwyciężyć. Jest także w naszym życiu takie zło, które jest zawinione przez nas. Z jednej strony wiemy, że grzeszymy, ale widzimy, że często także grzechów nie planujemy. To nie jest tak, że się budzimy rano i myślimy sobie, że o 10.38 na kogoś nakrzyczymy. To często dzieje się nagle. Właśnie dlaczego? Toczy się jakaś walka. Nie rozumiem bowiem tego, co czynię, bo nie czynię tego, co chcę, ale to, czego nienawidzę – to właśnie czynię (Rz 7,15) – przecież chcę dobra, ale mi nie wychodzi. To jest nasz dramat. Jest ścisły związek pomiędzy złem a grzechem. Nie jest nam łatwo przyznać się do grzechu, bo “lecz ludzie bardziej umiłowali ciemność aniżeli światło (...) bo złe były ich uczynki”( J 3,19b). Jednak nie ma nikogo, kto mógłby czuć się wolnym od odpowiedzialności za zło, które czyni. Problem grzechu dotyczy każdego człowieka. To grzech nie pozwala nam doświadczać Bożej miłości, radości i szczęścia w codzienności.
+_Maryjo, Oblubienico Ducha Świętego, wyproś mi łaskę odkrycia prawdy o grzechu! Amen!_
 
- Księga Rodzaju obrazuje tę prawdę w opowieści o kuszeniu, gdy szatan rozpoczyna je od oczywistego kłamstwa, które ma na celu zasianie wątpliwości w sercach ludzi, a gdy człowiek temu ulega, wtedy daje się pociągnąć w wizję stania się Bogiem i decydowania o tym co dobre, a co złe. Tu chodzi nie tylko o nieposłuszeństwo wobec Boga, ale o odrzucenie Jego miłości i porządku, który On ustanowił. „Dlatego też, jak przez jednego człowieka grzech wszedł do świata, a przez grzech śmierć” (Rz 5,12). Każdy nasz grzech jest w ostateczności niczym innym, jak powieleniem pierwszego grzechu, którego opis znajdujemy w pierwszej księdze Biblii.
+*Słowo Boże*  
+_„A wąż był bardziej przebiegły niż wszystkie zwierzęta lądowe, które Pan Bóg  
+stworzył. On to rzekł do niewiasty: «Czy rzeczywiście Bóg powiedział: Nie jedzcie  
+owoców ze wszystkich drzew tego ogrodu?» Niewiasta odpowiedziała wężowi: «Owoce  
+z drzew tego ogrodu jeść możemy, tylko o owocach z drzewa, które jest w środku ogrodu,  
+Bóg powiedział: Nie wolno wam jeść z niego, a nawet go dotykać, abyście nie pomarli».  
+Wtedy rzekł wąż do niewiasty: «Na pewno nie umrzecie! Ale wie Bóg, że gdy spożyjecie  
+owoc z tego drzewa, otworzą się wam oczy i tak jak Bóg będziecie znali dobro i zło».  
+Wtedy niewiasta spostrzegła, że drzewo to ma owoce dobre do jedzenia, że jest ono  
+rozkoszą dla oczu i że owoce tego drzewa nadają się do zdobycia wiedzy. Zerwała zatem  
+z niego owoc, skosztowała i dała swemu mężowi, który był z nią, a on zjadł. A wtedy  
+otworzyły się im obojgu oczy i poznali, że są nadzy; spletli więc gałązki figowe i zrobili  
+sobie przepaski”_ (Rdz. 3,1–6).
 
- Osobowym źródłem grzechu jest szatan. To od niego pochodzi trucizna. On jest sprawcą zła i tym, który nas zwodzi i oszukuje. „diabeł, jak lew ryczący krąży szukając kogo pożreć” (1P 5,8). Był kiedyś jednym z aniołów, którzy byli najbliżej Boga, ale przez swoją pychę sprzeciwił się Mu i zaczął z Nim walczyć. Zły wie, że Boga nie pokona, bo jest tylko stworzeniem, ale toczy z nami walkę – nienawidzi nas, bo przypominamy mu o wszystkim, co on stracił, a patrząc na nas, widzi w nas podobieństwo do Boga. Dlatego oszukuje nas i zwodzi, aby nas oddzielić od Boga nie tylko w tym życiu, ale na całą wieczność.
+*Rozważanie*  
+Prawda o Bożej miłości nie jest dla nas oczywista. Wielu mówi: życie to nie bajka, i  
+rzeczywiście tak jest. Czasami rodzi się krzyk z serca: Boże, gdzie Ty jesteś?!  
+Dlaczego na to wszystko pozwalasz?! Dlaczego nie doświadczam Bożej miłości na co dzień?  
+Skąd biorą się wykrzywione wyobrażenia o Bogu? Skoro pragniemy miłości, to dlaczego  
+jej nie wybieramy?  
 
- Grzech ma swoje konsekwencje. W relacji do Boga pojawia się dystans. Pismo Święte mówi, że nasze grzechy wykopują przepaść między nami a Bogiem, dlatego Bóg wydaje się daleki, wręcz nieobecny. To trucizna grzechu w taki sposób nas infekuje. Zostaje zerwana więź, jedność i zaczynamy być jak gałązka odcięta od krzewu, która nie przynosi owocu. „Podobnie jak latorośl nie może przynosić owocu sama z siebie – jeśli nie trwa w winnym krzewie – tak samo i wy, jeżeli we Mnie trwać nie będziecie” (J 15,4b).
+Doświadczamy różnego rodzaju zła – skutki działań innych ludzi, chorób, wojny, śmierci,  
+cierpienia. Są też nasze własne grzechy, często nieplanowane. „Nie czynię tego, co chcę,  
+ale to, czego nienawidzę – to właśnie czynię” (Rz 7,15). Grzech nie pozwala doświadczać  
+Bożej miłości i szczęścia.  
 
- Wobec Boga pojawiają się dwa rodzaje agresji: czynna – wyrażana przez bunt, oraz bierna – wyrażana przez obojętność, bierny sprzeciw wobec Boga, lub życie w taki sposób jakby Bóg nie istniał. To prowadzi do oddzielenia od Boga. Bo wynika z kłamliwego przekonania, że przecież Bóg chce mnie ograniczyć i nie pragnie mojego szczęścia – to syk węża z raju, który zakłamuje rzeczywistość i podpowiada nam karykaturalne wyobrażenia o Bogu. Z tymi wyobrażeniami chcieliśmy się rozprawić pierwszego dnia naszych rozważań. Przepaść, która jest między Bogiem a ludźmi na ziemi nazywa się grzechem, a w wieczności jest to piekło. Tak jak teraźniejszość prowadzi do wieczności, tak oddzielenie od Boga przez grzech w teraźniejszości, prowadzi do oddzielenia od Boga w wieczności – do piekła. Bo „Albowiem zapłatą za grzech jest śmierć” (R 6,23) – ostatecznie to jest śmierć wieczna.
+Księga Rodzaju obrazuje kuszenie przez szatana – kłamstwo, które ma zasiać wątpliwości,  
+prowadząc człowieka do wizji bycia Bogiem, decydowania o dobru i złu. „Jak przez jednego  
+człowieka grzech wszedł do świata, a przez grzech śmierć” (Rz 5,12).  
 
- Grzech ma także swoje skutki. Wpływają one na moją teraźniejszość i wieczność. Pomimo wielu różnych ludzkich wysiłków, nie da się zasypać tej przepaści.
+Osobowym źródłem grzechu jest szatan. „Diabeł, jak lew ryczący krąży szukając kogo pożreć”  
+(1P 5,8). Był aniołem najbliżej Boga, sprzeciwił się Mu i walczy z nami. Nienawidzi nas,  
+bo przypominamy mu Boga. Zwodzi nas, by oddzielić od Niego na życie wieczne.  
 
-Kolejną konsekwencją grzechu jest zaburzenie spojrzenia na siebie i na drugiego człowieka. Pojawia się podejrzliwość, oskarżenia, nieufność, więc muszę się bronić. A jeśli muszę się bronić, to okazuje się, że drugi człowiek jest moim wrogiem – wtedy zaczynam z nim walczyć. Zaczynam ranić, przestaję wierzyć w miłość, zamykam się na czułość, staję się zimny. Zakładam wtedy maskę, udaję kogoś, kim nie jestem. Jest w nas mnóstwo lęku, nie chcemy, żeby ktokolwiek odkrył prawdę o nas, o naszych słabościach, wadach, grzechach, trudnej historii. Lęk zaczyna nas wtedy tresować i podpowiada: jeśli nie spełnisz ich oczekiwań odrzucą cię!
+Grzech powoduje dystans do Boga. „Podobnie jak latorośl nie może przynosić owocu sama  
+z siebie – jeśli nie trwa w winnym krzewie – tak samo i wy, jeżeli we Mnie trwać nie będziecie”  
+(J 15,4b). Powoduje agresję czynna i bierną, oddziela od Boga, tworzy piekło w sercu.  
+„Albowiem zapłatą za grzech jest śmierć” (R 6,23).  
 
-Grzech zatruwa także twoje spojrzenie na siebie samego. Księga Rodzaju obrazuje ten nasz wewnętrzny stan w taki sposób, że gdy pierwsi rodzice popełnili grzech, powstało w nich pewne pęknięcie. Z jednej strony nadal byli stworzeni na obraz i podobieństwo Boże, a z drugiej strony pojawiła się w nich przedziwna skłonność do zła. Odtąd jest w nas pewien wewnętrzny rozdźwięk, jakby rozdwojenie. Zło i bylejakość jakoś łatwiej się pojawiają. Dobro wymaga wysiłku, samozaparcia, dyscypliny. Z jednej strony pragniesz być kochany, ale kiedy doświadczasz zła, które przynosi cierpienie i rani, wtedy właśnie rodzi się w nas pytanie: czy ktoś może mnie pokochać? Zaczynasz patrzeć na siebie przez pryzmat swoich porażek, słabości, wad, źle podjętych decyzji. Tutaj pole do popisu ma twój wewnętrzny oskarżyciel, który wzbudza w tobie poczucie winy i, przypominając to wszystko, wbija cię coraz bardziej w ziemię. Czujesz się przygnieciony. Nie umiesz sobie z tym poradzić. Potrzebujesz jakiejś odskoczni. Zaczynasz pocieszać się grzechem. Choć na chwilę szukasz czegoś co jest przyjemne. Wpadasz w pułapkę, bo grzech cię oszukuje. Płacisz za chwilę przyjemności jeszcze większym upadkiem w spirali oskarżeń.
+Grzech zaburza spojrzenie na siebie i innych: podejrzliwość, obrona, walka, zamknięcie na  
+miłość. Wewnętrzny oskarżyciel podsyca poczucie winy. Szukamy pocieszenia w grzechu,  
+co prowadzi do spirali upadku.  
 
-W końcu patrzysz na swoje życie i na świat i przestajesz widzieć sens tego wszystkiego. Świat wydaje się obcy, problemy życiowe cię przerastają, bo jesteś sam i wszystko ci podpowiada, że sobie z tym nie poradzisz. Widzisz brutalność świata i nie masz na to recepty. Rodzi się lęk przed przyszłością. Nie wiesz, czy podołasz zadaniom, które przyniesie życie. Analizujesz, próbujesz kontrolować i niepokoisz się za każdym razem, kiedy coś się wydarzy, co jest nie po twojej myśli. Widzisz, że nie jesteś w stanie zapanować nad rzeczywistością.
+Świat wydaje się obcy, życie przeraża, rodzi się lęk przed przyszłością. Bóg kocha grzesznika,  
+ale nie grzechu. Potrzebujemy pomocy, sami nie damy rady w relacji z Bogiem, sobą,  
+innymi i światem.  
 
-Bóg kocha grzesznika, ale nienawidzi grzechu. Bóg i grzech, to przeciwności. Święty Bóg nie toleruje grzechu. Potrzebujemy uznać, że zło jest silniejsze od nas i zdać sobie sprawę z tego, że potrzebujemy pomocy, ponieważ zło się do nas „przykleja”. Sami nie damy rady, zarówno w relacji z Bogiem, innymi, sobą samymi i światem.
+*Lektura duchowa*  
+_„Wszystko w człowieku było jaśniejące, bez ciemności, piękne bez brzydoty, czyste bez brudu…  
+Oto człowiek, który grzeszy, i grzesząc traci swą mądrość, niewinność, piękno, nieśmiertelność…  
+Staje się niewolnikiem złych duchów, przedmiotem gniewu Boga, ofiarą piekieł! …  
+Adam w tym stanie jest jakby pogrążony w rozpaczy; nie może otrzymać pomocy…  
+Widzi Bożą sprawiedliwość, która ściga go i całe jego potomstwo; widzi Niebo zamknięte  
+i otwarte piekło...”_
 
-*Lektura duchowa*
-_„Wszystko w człowieku było jaśniejące, bez ciemności, piękne bez brzydoty, czyste bez brudu,_ _uładzone bez nieporządku i bez żadnej skazy czy niedoskonałości._ _Miał człowiek w swym umyśle przywilej światła Mądrości, przez które poznawał doskonale i swojego Stwórcę, i stworzenia._ _Miał łaskę Bożą w duszy, dzięki której był niewinny i miły w oczach Najwyższego. Miał w ciele nieśmiertelność._ _Miał w sercu czystą miłość Boga, nielękającą się śmierci; miłował więc Boga, bez ustanku, w sposób czysty, dla samej tylko Jego miłości. _Był człowiek tak Boży, że nieustannie pozostawał poza sobą, w Bogu,_ _nie mając żadnej namiętności do przezwyciężenia ani też żadnego do pokonania nieprzyjaciela._ _O, hojności względem ludzi Przedwiecznej Mądrości! O, szczęśliwy stanie człowieka w jego niewinności!_ _Lecz oto nieszczęście nad nieszczęściami! Oto owo boskie naczynie kruszy się na tysiąc kawałków;_ _oto spada owa piękna gwiazda; oto piękne słońce pokrywa się błotem;_ _oto człowiek, który grzeszy, i grzesząc traci swą mądrość, niewinność, piękno, nieśmiertelność. _I wreszcie, traci wszelkie dobra, jakie otrzymał, i zostaje poddany atakom nieskończonego zła._ _Jego umysł jest tępy i ciemny: już nic nie widzi. Ma serce całkowicie obojętne wobec Boga: już Go nie kocha._ _Ma duszę zupełnie poczerniałą od grzechów: przypomina ona złego ducha._ _Ma wszelkie nieuporządkowane namiętności: nie jest już ich panem._ _Do towarzystwa ma tylko złe duchy, stał się ich mieszkaniem i niewolnikiem. Atakują go stworzenia: wypowiedziały mu wojnę. _Tak w jednej chwili człowiek stał się niewolnikiem złych duchów, przedmiotem gniewu Boga (Por. Ef 2,3) i ofiarą piekieł!_ _Sam sobie wydaje się tak ohydny, że kryje się ze wstydu._ _Jest przeklęty i skazany na śmierć; zostaje wygnany z ziemskiego raju i nie ma już go w Niebie._ _Bez żadnej nadziei, że będzie szczęśliwy, musi wieść nieszczęśliwe życie na przeklętej ziemi. _Musi tu umrzeć jak zbrodniarz, a po śmierci upodobnić się do diabła,_ _na zawsze potępiony na ciele i duszy, on i wszystkie jego dzieci._ _Oto straszne nieszczęście, w jakie popada człowiek, grzesząc; taki jest sprawiedliwy wyrok, jaki wydała na niego Boża sprawiedliwość._ _Adam w tym stanie jest jakby pogrążony w rozpaczy; nie może otrzymać pomocy ani od aniołów, ani od innych stworzeń. Nic nie jest w stanie go naprawić, ponieważ był zbyt piękny i nadto dobrze ukształtowany w akcie stworzenia, a przez swój grzech stał się zbyt ohydny i zbrukany. Widzi się wypędzonym z raju i sprzed oblicza Boga. Widzi Bożą sprawiedliwość, która ściga go i całe jego potomstwo; widzi Niebo zamknięte i otwarte piekło. Nie masz nikogo, kto mógłby mu to pierwsze otworzyć, a to drugie zamknąć”._
+_– św. Ludwik Maria Grignion de Montfort, Miłość Mądrości Przedwiecznej, 38–40_
 
-św. Ludwik Maria Grignion de Montfort, Miłość Mądrości Przedwiecznej, 38–40
+*Zadanie*  
+_Spróbuję dziś dostrzec i uznać moją bezradność wobec zła i grzechu._
 
-*Zadanie*
-Spróbuję dziś dostrzec i uznać moją bezradność wobec zła i grzechu.
-
-*Modlitwa zawierzenia*
-_Jestem cały Twój i wszystko, co mam, jest Twoją własnością, umiłowany Jezu, przez Maryję, Twoją świętą Matkę. Amen!_`
+*Modlitwa zawierzenia*  
+_Jestem cały Twój i wszystko, co mam, jest Twoją własnością, umiłowany Jezu,  
+przez Maryję, Twoją świętą Matkę. Amen!_ `
  
 , label: 'Odkryj łaskę poznania prawdy o grzechu', type: 'opis', show: false },
 
@@ -420,45 +651,108 @@ _Jestem cały Twój i wszystko, co mam, jest Twoją własnością, umiłowany Je
           { image: 'assets/12dni/03.jpg',type:'foto' },
           { text: `*Dzień 3 - Odkryj łaskę zbawienia*
   
-  *_Modlitwa do Ducha Świętego_*
+*12 dni – Wyzbycie się ducha tego świata – Dzień 3*
 
-  _Duchu Święty, natchnij mnie. Miłości Boga, pochłoń mnie. Po prawdziwej drodze prowadź mnie, Maryjo, moja Matko, spójrz na mnie, z Jezusem błogosław mnie. Od wszelkiego zła, od wszelkiego złudzenia, od wszelkiego niebezpieczeństwa zachowaj mnie._
-  _ Maryjo, Oblubienico Ducha Świętego, wyproś mi łaskę odkrycia Bożej miłości._
-  _Amen!_
+*Odkryj łaskę zbawienia*
 
-  *Słowo Boże*
-  _„Tak bowiem Bóg umiłował świat, że Syna swego Jednorodzonego dał, aby każdy, kto w Niego wierzy, nie zginął, ale miał życie wieczne. Albowiem Bóg nie posłał swego Syna na świat po to, aby świat potępił, ale po to, by świat został przez Niego zbawiony” (J 3,16–17)._
+*Modlitwa do Ducha Świętego*  
+_Duchu Święty, natchnij mnie. Miłości Boga, pochłoń mnie. Po prawdziwej drodze  
+prowadź mnie, Maryjo, moja Matko, spójrz na mnie, z Jezusem błogosław mnie.  
+Od wszelkiego zła, od wszelkiego złudzenia, od wszelkiego niebezpieczeństwa  
+zachowaj mnie._
 
-  *Rozważanie*
- Stając wobec zła i grzechu, uświadamiając sobie ich realność, rozpaczliwie podejmujemy różne próby poradzenia sobie po ludzku i szukania zabezpieczenia przed tym, co nas przerasta.
+_Maryjo, Oblubienico Ducha Świętego, wyproś mi łaskę zbawienia. Amen!_
 
-Niektórzy szukają jakiegoś rodzaju zabezpieczenia w dobrach materialnych i rzeczywiście mogą one do pewnego stopnia dać złudne poczucie bezpieczeństwa, bo rozwiązują część problemów, jednak w obliczu choroby czy śmierci okazują się bez wartości.
+*Słowo Boże*  
+_„Tak bowiem Bóg umiłował świat, że Syna swego Jednorodzonego dał, aby każdy,  
+kto w Niego wierzy, nie zginął, ale miał życie wieczne. Albowiem Bóg nie posłał  
+swego Syna na świat po to, aby świat potępił, ale po to, by świat został przez  
+Niego zbawiony” (J 3,16–17)._
 
-Możemy także poszukiwać schronienia w poczuciu bezpieczeństwa, które płynie z relacji z drugim człowiekiem. Gdy zaczynamy opierać nasze życie i uzależniać nasze szczęście od kogoś, to w momencie, gdy ta osoba nas zrani, zawiedzie, odejdzie lub umrze, okaże się, że taka postawa życiowa jest tkwieniem w iluzji, która jeszcze boleśniej rani.
+*Rozważanie*  
+Stając wobec zła i grzechu, uświadamiając sobie ich realność, rozpaczliwie podejmujemy  
+różne próby poradzenia sobie po ludzku i szukania zabezpieczenia przed tym, co nas przerasta.  
 
-Również rozwój nauki i techniki zdaje się niektórych tak uwodzić, że jedynego ratunku szukają w osiągnięciach człowieka. Niewątpliwie są to dziedziny, które w naszych czasach bardzo szybko i ekspansywnie się rozwijają, jednak te postępy nie eliminują zła i nie są w stanie zapewnić szczęścia, bo rozwiązując jedne problemy, stwarzają nowe.
+Niektórzy szukają zabezpieczenia w dobrach materialnych i mogą one do pewnego stopnia  
+dać złudne poczucie bezpieczeństwa, bo rozwiązują część problemów, jednak w obliczu  
+choroby czy śmierci okazują się bez wartości.  
 
-Można też próbować po ludzku zaprowadzić pokój i ład na świecie. Pomimo nieustannych deklaracji o pokoju, ciągle wybuchają nowe konflikty, a osoby, które najgłośniej krzyczą o tolerancji, sami nie tolerują tych, którzy inaczej myślą.
+Możemy także szukać schronienia w poczuciu bezpieczeństwa, które płynie z relacji z  
+drugim człowiekiem. Gdy opieramy życie i szczęście od kogoś, to gdy ta osoba nas zrani,  
+zawiedzie, odejdzie lub umrze, taka postawa okazuje się iluzją, która boleśniej rani.  
 
-Człowiek, mając różne pragnienia duchowe, próbuje znaleźć ukojenie i równowagę wewnętrzną w różnych energiach, amuletach i „przedmiotach na szczęście”, różnych filozofiach i medytacjach wschodnich, jednak często okazuje się, że są one iluzją i pozornym dobrem, za którym ostatecznie kryje się zły duch, by nas zwieść.
+Rozwój nauki i techniki zdaje się niektórych tak uwodzić, że jedynego ratunku szukają  
+w osiągnięciach człowieka. Są to dziedziny dynamiczne, ale nie eliminują zła i nie dają  
+prawdziwego szczęścia – rozwiązując jedne problemy, stwarzają nowe.  
 
-Dla tradycyjnych katolików może być też subtelniejsza pokusa – gorliwe podejmowanie różnych praktyk religijnych, postnych, żeby ich mocą wyrwać się z sideł grzechu i zła. Kolejne niepowodzenia wprowadzają człowieka coraz bardziej w oskarżenia i wyrzuty sumienia, bo nie jest on sam w stanie wynagrodzić Bogu i wyrwać się z tej spirali zła. Najlepsze dobre postanowienia, uczynki czy też wyjątkowe przeżycia religijne nie są w stanie nas zbawić.
+Można też próbować po ludzku zaprowadzić pokój i ład na świecie. Pomimo deklaracji  
+o pokoju, ciągle wybuchają nowe konflikty, a osoby, które najgłośniej krzyczą o tolerancji,  
+sami nie tolerują tych, którzy inaczej myślą.  
 
-Ponad tymi wszystkimi naszymi staraniami i wysiłkami jest światło Dobrej Nowiny! Nasza nadzieja jest w Bogu. Bóg nie jest obojętny na sytuację, w której się znaleźliśmy. To On sam wychodzi pierwszy w kierunku człowieka – dał nam swojego Syna. Ponieważ „zapłatą za grzech jest śmierć” (Rz 6,23), ktoś musiał umrzeć – On umarł zamiast ciebie, abyś nie musiał umrzeć na wieki. To tak, jakbyś miał do spłacenia kredyt, który byłby tak wielki, że wobec twoich możliwości finansowych byłbyś bezradny i bez żadnych szans na spłacenie go. Pomimo różnych prób, pożyczek od różnych ludzi i tak sprawa byłaby skazana na porażkę, bo życia nie starczyłoby, aby to wszystko spłacić. I nagle pojawia się ktoś, kto mówi, że bierze wszystkie twoje długi na siebie i nie chce nic w zamian. Czy to możliwe? A może to jakiś podstęp? Nikt o zdrowych zmysłach by tak nie zrobił!
+Człowiek, mając różne pragnienia duchowe, próbuje ukojenia w energiami, amuletach,  
+„przedmiotach na szczęście”, filozofiach i medytacjach wschodnich, ale często są to iluzje,  
+za którymi kryje się zły duch, by nas zwieść.  
 
-Bóg w swoim odwiecznym zamyśle miłości przygotował drogę odkupienia człowieka, która jest jeszcze bardziej niesamowita niż samo dzieło stworzenia. „Wiemy też, że (Bóg) z tymi, którzy Go miłują współdziała we wszystkim dla ich dobra” (Rz 8,28)– nawet z sytuacji grzechu Bóg wyciągnął jeszcze większe dobro. Kiedy po zwiedzeniu ludzi w ogrodzie rajskim szatan został ukarany, Bóg wypowiedział niezwykłą obietnicę, że zwycięstwo przyjdzie przez Niewiastę i Jej potomstwo. Bóg w swoim zamyśle pełnym mądrości stworzył Niepokalaną Maryję, aby przez Nią mógł przyjść do nas Syn Boży. Gdy przyszedł do Niej archanioł Gabriel, powiedział Jej, że jest pełna łaski. Maryja zmieszała się, bo wiedziała, że pełen łaski jest tylko Bóg. Doskonale pamiętała słowa modlitwy Mojżesza: „Jahwe, Jahwe, Bóg miłosierny i łagodny, nieskory do gniewu, bogaty w łaskę i wierność” (Wj 34,6). Oznaczałoby to coś zdumiewającego. Spójrzmy, jaka jest moc oddania. Najpierw Bóg dał człowiekowi miłość i oddał człowiekowi ziemię i swoją władzę nad światem. Gdy człowiek przez grzech oddał to wszystko w ręce diabła i stał się jego niewolnikiem, Bóg przychodzi do Maryi i daje Jej jeszcze więcej – samego siebie. To jest coś jeszcze wspanialszego niż dzieło stworzenia, bo Bóg nie tylko daje swojemu stworzeniu różne dobra, ale daje samego siebie. Bóg sam oddaje się człowiekowi – oddał się Maryi. Gdy Ona powiedziała Bogu swoje „tak”, Bóg wcielił się, to znaczy, przyjął naszą ludzką naturę. Pomyśl przez chwilę o tym, co to znaczy. Nie chodzi wyłącznie o to, że dwa tysiące lat temu Syn Boży stał się człowiekiem, ale dzięki zgodzie Maryi złączył się on ze wszystkimi ludźmi wszystkich czasów – także z tobą. Co to znaczy, że się złączył? Wziął na siebie twoje życie, ze wszystkimi jego przejawami – radościami, smutkami, myślami, niepokojami, emocjami, relacjami, z całą fizycznością i przeżył je w wierności Ojcu w twoim imieniu. Tam, gdzie my mówimy Bogu Ojcu „nie”, On powiedział „tak”. Ta zgoda była tak radykalna, że zszedł na samo dno upodlenia ludzkiego. Cierpiał odrzucenie, od maleńkości widziano w nim bluźniercę, niesłusznie oskarżano go o najróżniejsze o rzeczy, których nie popełnił, wziął na siebie wszystkie nasze grzechy i to co nas niszczy na krzyż. Chrystus zwyciężył zło, biorąc je całkowicie na siebie. Cierpiał i wytrwał do końca. Na krzyżu umarł zamiast nas. „Lecz On był przebity za nasze grzechy” (Iz 53,5). Spełniło się proroctwo z Księgi Izajasza, gdy Bóg mówił: „Ja, właśnie Ja przekreślam twe przestępstwa i nie wspominam twych grzechów” (Iz 43,25). To wszystko, co nas zabija i niszczy, umarło razem z nim. Szatan, grzech i śmierć zostali pokonani na krzyżu. „Wiecie, że On objawił się po to, aby zgładzić grzechy (...) aby zniszczyć dzieła diabła” (1J 3,5–8). Łeb szatana został zmiażdżony. Na krzyżu Chrystus ukazał moc oddania, mówiąc: „Wtedy Jezus zawołał donośny głosem Ojcze, w Twoje ręce powierzam ducha mojego” (Łk 24,46). Krzyż stał się mostem nad przepaścią, która oddziela nas od Boga. Dzięki śmierci Jezusa i Jego Krwi przelanej za nas nie jesteśmy już wygnańcami z raju, ale jesteśmy usynowieni. Ale nie tylko to. On po trzech dniach zmartwychwstał. Ukazywał się swoim uczniom, aby wzbudzić w nich wiarę, gdy zwątpili. Zbierał ich na nowo w Kościół, by przezwyciężyć to, co ich podzieliło. A gdy znów się zjednoczyli, Chrystus wstąpił do nieba, aby otworzyć drogę do domu Ojca. Odtąd nie jesteśmy wygnańcami. Uczniowie, których zostawił pod opieką Maryi, gdy modlili się razem z Nią, doświadczyli spełnienia się obietnicy Chrystusa i otrzymali moc z wysoka – Ducha Świętego, który ich przemienił. Otrzymali nowe życie. Byli już wolni od lęku, zagubienia, smutku i rozpaczy. Przestali się bać i zaczęli chodzić po całym świecie, mówiąc wszystkim o tym, że Chrystus zmartwychwstał i żyje. Gdy mówili o tym, nic nie było w stanie ich zatrzymać – nawet groźby, chłosty, cierpienia i śmierć. Bóg działał potężne znaki, a oni na własne oczy widzieli, jaka miłość i moc płynie z życia z Bogiem.
+Dla tradycyjnych katolików subtelniejsza pokusa – gorliwe praktyki religijne i posty,  
+by wyrwać się z sideł grzechu. Kolejne niepowodzenia prowadzą do oskarżeń i wyrzutów  
+sumienia. Najlepsze postanowienia czy uczynki nie są w stanie nas zbawić.  
 
+Ponad tymi staraniami jest światło Dobrej Nowiny! Nasza nadzieja jest w Bogu. On nie jest  
+obojętny na sytuację, w której się znaleźliśmy. To On wychodzi pierwszy – dał nam Syna.  
+„Zapłatą za grzech jest śmierć” (Rz 6,23). Ktoś musiał umrzeć – On umarł zamiast ciebie.  
 
-*Lektura duchowa*
-_„Mądrość Przedwieczna widząc, iż we wszechświecie nie ma nic, co byłoby zdolne zmazać grzech człowieka, uczynić zadość sprawiedliwości i uśmierzyć gniew Boga, a chcąc jednak uratować biednego człowieka, w którym miała upodobanie, znajduje sposób niezwykły. Ta łaskawa i najwyższa Księżniczka – zdumiewająca, niepojęta miłość przekraczająca wszelką miarę – składa samą siebie w ofierze Ojcu, by zadośćuczynić Jego sprawiedliwości, by ułagodzić Jego gniew, by wyrwać nas z niewoli złego ducha i z ogni piekielnych i wysłużyć nam szczęście wieczne. Jej ofiara zostaje przyjęta; rzecz postanowiona i rozstrzygnięta: Mądrość Przedwieczna inaczej Syn Boży stanie się człowiekiem we właściwym czasie i w określonych okolicznościach”._
+To jak kredyt niemożliwy do spłacenia: wszelkie pożyczki, długi – skazane na porażkę.  
+I nagle ktoś mówi: biorę wszystkie twoje długi na siebie i nic w zamian nie chcę.  
+Czy to możliwe? Tak! To Bóg w swoim odwiecznym zamyśle przygotował drogę odkupienia,  
+niesamowitą jak samo dzieło stworzenia.  
 
-św. Ludwik Maria Grignion de Montfort, Miłość Mądrości Przedwiecznej, 45-46
+„Wiemy też, że (Bóg) z tymi, którzy Go miłują, współdziała we wszystkim dla ich dobra”  
+(Rz 8,28). Nawet z grzechu Bóg wyciągnął większe dobro. Po upadku ludzi w ogrodzie rajskim,  
+Bóg zapowiedział zwycięstwo przez Niewiastę i Jej potomstwo. Maryja została Niepokalaną,  
+by przez Nią przyszedł Syn Boży. Archanioł Gabriel powiedział Jej, że jest pełna łaski.  
 
-*Zadanie*
-Przeżyję dzisiejszy dzień w świadomości tego, że potrzebuję pomocy Jezusa i sam nie dam sobie rady.
+Maryja wiedziała, że pełen łaski jest tylko Bóg. Pamiętała modlitwę Mojżesza:  
+_„Jahwe, Jahwe, Bóg miłosierny i łagodny, nieskory do gniewu, bogaty w łaskę i wierność”_ (Wj 34,6).  
 
-*Modlitwa zawierzenia*
-_Jestem cały Twój i wszystko, co mam, jest Twoją własnością, umiłowany Jezu, przez Maryję, Twoją świętą Matkę. Amen!_`
+Najpierw Bóg dał człowiekowi miłość, ziemię i władzę nad światem. Gdy człowiek przez grzech  
+oddaje to diabłu, Bóg przychodzi do Maryi i daje samego siebie. Maryja powiedziała „tak”,  
+Bóg wcielił się – przyjął naszą naturę. Złączył się z ludźmi wszystkich czasów – także z tobą.  
+
+Wziął na siebie twoje życie, ze wszystkimi radościami, smutkami, myślami, emocjami i przeżył je w  
+wierności Ojcu w twoim imieniu. Tam, gdzie my mówimy „nie”, On mówi „tak”. Ta zgoda była tak  
+radykalna, że zszedł na dno ludzkiego upodlenia. Cierpiał odrzucenie, niesłusznie oskarżano Go,  
+wziął nasze grzechy i zło na krzyż. Chrystus zwyciężył zło, cierpiąc i wytrwawszy do końca.  
+
+_„Lecz On był przebity za nasze grzechy”_ (Iz 53,5). Spełniło się proroctwo Izajasza:  
+_„Ja, właśnie Ja przekreślam twe przestępstwa i nie wspominam twych grzechów”_ (Iz 43,25).  
+Szatan, grzech i śmierć pokonane na krzyżu.  
+
+_„Wiecie, że On objawił się po to, aby zgładzić grzechy (…) aby zniszczyć dzieła diabła”_ (1J 3,5–8).  
+Na krzyżu Chrystus ukazał moc oddania: _„Wtedy Jezus zawołał donośny głosem: Ojcze, w Twoje ręce powierzam ducha mojego”_ (Łk 24,46).  
+
+Krzyż stał się mostem nad przepaścią do Boga. Dzięki śmierci i Krwi Jezusa nie jesteśmy już  
+wygnańcami, lecz usynowieni. Po trzech dniach Zmartwychwstanie – Chrystus daje wiarę, nowy  
+życie, moc Ducha Świętego. Uczniowie wolni od lęku, smutku i rozpaczy, zaczęli głosić:  
+_Chrystus zmartwychwstał i żyje!_
+
+*Lektura duchowa*  
+_„Mądrość Przedwieczna widząc, iż we wszechświecie nie ma nic, co byłoby zdolne  
+zmazać grzech człowieka, uczynić zadość sprawiedliwości i uśmierzyć gniew Boga, a  
+chcąc jednak uratować biednego człowieka, w którym miała upodobanie, znajduje sposób  
+niezwykły. Ta łaskawa i najwyższa Księżniczka – zdumiewająca, niepojęta miłość – składa  
+samą siebie w ofierze Ojcu, by zadośćuczynić Jego sprawiedliwości, ułagodzić gniew,  
+wyrwać nas z niewoli złego ducha i z ogni piekielnych, wysłużyć szczęście wieczne.  
+Jej ofiara zostaje przyjęta; rzecz postanowiona i rozstrzygnięta: Mądrość Przedwieczna  
+inaczej Syn Boży stanie się człowiekiem we właściwym czasie i w określonych okolicznościach”._
+
+_– św. Ludwik Maria Grignion de Montfort, Miłość Mądrości Przedwiecznej, 45–46_
+
+*Zadanie*  
+_Przeżyję dzisiejszy dzień w świadomości, że potrzebuję pomocy Jezusa i sam nie dam sobie rady._
+
+*Modlitwa zawierzenia*  
+_*Jestem cały Twój i wszystko, co mam, jest Twoją własnością, umiłowany Jezu,  
+przez Maryję, Twoją świętą Matkę. Amen!*_`
  
 , label: 'Odkryj łaskę zbawienia', type: 'opis', show: false },
          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/12-dni-dzien-3/audio', type:'audio', label:'audio'  }
@@ -471,43 +765,116 @@ _Jestem cały Twój i wszystko, co mam, jest Twoją własnością, umiłowany Je
           { image: 'assets/12dni/04.jpg',type:'foto' },
           { text: `*Dzień 4 - Odkryj łaskę nawrócenia i oddania życia Panu Jezusowi*
   
-  *_Modlitwa do Ducha Świętego_*
+*12 dni – Wyzbycie się ducha tego świata – Dzień 4*
 
-  _Duchu Święty, natchnij mnie. Miłości Boga, pochłoń mnie. Po prawdziwej drodze prowadź mnie, Maryjo, moja Matko, spójrz na mnie, z Jezusem błogosław mnie. Od wszelkiego zła, od wszelkiego złudzenia, od wszelkiego niebezpieczeństwa zachowaj mnie._
-  _ Maryjo, Oblubienico Ducha Świętego, wyproś mi łaskę odkrycia Bożej miłości._
-  _Amen!_
+*Odkryj łaskę nawrócenia i oddania życia Panu Jezusowi*
 
-  *Słowo Boże*
-  _„Dlatego, domu Izraela, będę was sądził, każdego według jego postępowania - wyrocznia Pana Boga. Nawróćcie się! Odstąpcie od wszystkich waszych grzechów, aby wam już więcej nie były sposobnością do przewiny. Odrzućcie od siebie wszystkie grzechy, które popełnialiście przeciwko Mnie, i uczyńcie sobie nowe serce i nowego ducha. Dlaczego mielibyście umrzeć, domu Izraela? Ja nie mam żadnego upodobania w śmierci - wyrocznia Pana Boga. Zatem nawróćcie się, a żyć będziecie” (Ez 18,30–32)._
+*Modlitwa do Ducha Świętego*  
+_Duchu Święty, natchnij mnie. Miłości Boga, pochłoń mnie. Po prawdziwej  
+drodze prowadź mnie, Maryjo, moja Matko, spójrz na mnie, z Jezusem  
+błogosław mnie. Od wszelkiego zła, od wszelkiego złudzenia, od wszelkiego  
+niebezpieczeństwa zachowaj mnie._
 
-  *Rozważanie*
- Przez pierwsze trzy dni rozważaliśmy, jak nas Bóg ukochał, jak nas niszczy grzech i wpatrywaliśmy się w Jezusa, który jest Zbawicielem pokonującym grzech, śmierć i szatana. Z tej perspektywy widzimy, że zwycięstwo Jezusa jest dla nas wielkim darem, który jest zaproszeniem do odpowiedzi.
+_Maryjo, Oblubienico Ducha Świętego, wyproś mi łaskę nawrócenia i  
+oddania życia Panu Jezusowi. Amen!_
 
-Dziś jest czas podjęcia drugiej decyzji. Co z tym zrobisz? Jesteś wolny i możesz podjąć decyzję. Będzie ona miała swoje konsekwencje – w twoim życiu i w wieczności. Zrozumienie tego jest kluczowe.
+*Słowo Boże*  
+_„Dlatego, domu Izraela, będę was sądził, każdego według jego postępowania –  
+wyrocznia Pana Boga. Nawróćcie się! Odstąpcie od wszystkich waszych grzechów,  
+aby wam już więcej nie były sposobnością do przewiny. Odrzućcie od siebie wszystkie  
+grzechy, które popełnialiście przeciwko Mnie, i uczyńcie sobie nowe serce i  
+nowego ducha. Dlaczego mielibyście umrzeć, domu Izraela? Ja nie mam żadnego  
+upodobania w śmierci – wyrocznia Pana Boga. Zatem nawróćcie się, a żyć będziecie”  
+(Ez 18,30–32)._
 
-Po co mam coś zmieniać? Walka, która się rozgrywa, jest wewnątrz nas. Gdy zaczniemy czytać Księgę Rodzaju pod kątem historii grzechu, wtedy dostrzeżemy, jakie przestrzenie infekuje w nas szatan – Adam i Ewa zostają nakłonieni do nieposłuszeństwa, Kain do zazdrości, budowniczy wieży Babel do pokusy samowystarczalności i niezależności od Boga, ludzie w czasach Noego są kuszeni do bierności, by nic nie robić, nie podejmować żadnej decyzji. Przecież „takie czasy”, „taki jest dzisiaj świat”, „wszyscy tak robią”, „inaczej się nie da”, „mam jeszcze czas”.
+*Rozważanie*  
+Przez pierwsze trzy dni rozważaliśmy, jak nas Bóg ukochał, jak nas niszczy grzech  
+i wpatrywaliśmy się w Jezusa, który jest Zbawicielem pokonującym grzech,  
+śmierć i szatana. Z tej perspektywy widzimy, że zwycięstwo Jezusa jest dla nas  
+wielkim darem, który jest zaproszeniem do odpowiedzi.  
 
-Dzisiejsza decyzja to przejście od religijności do wiary. Co to oznacza? Religijność to taki sposób przeżywania swojej relacji z Bogiem, gdzie wypisuję listę rzeczy, o które chcę poprosić Boga, aby mi w nich pobłogosławił. To postawa, w której Bóg jest mi potrzebny do spełnienia moich zamiarów, pragnień, czasami nawet takich, które wydają się bardzo pobożne. Wiara, to relacja, w której daję Bogu czystą kartkę, podpisuję ją swoim imieniem i mówię: wypełnij ją jak chcesz, a ja Ci ufam, że mnie przez to wszystko przeprowadzisz. Można powiedzieć, że religijność to martwa wiara. Jak ona wygląda? Jednym z przejawów jest bycie tzw. katolikiem tradycyjnym – przyjąłem wiarę od rodziców, ale nie była ona moim osobistym wyborem. Innym przejawem martwej wiary jest „katolicyzm przepisowy” – najważniejsze jest wtedy przestrzeganie przykazań, zasad i przepisów, często co prawda są one uciążliwe, ale ich zachowywanie jest dla mnie pewnego rodzaju chlubą. Jeszcze innym przejawem martwej wiary jest „dobroludzizm” – przekonanie, że wystarczy być dobrym człowiekiem, czynić dobro, pomagać, angażować się charytatywnie. Przecież nikogo nie zabiłem, nikogo nie okradłem, więc jestem dobrym człowiekiem.
+Dziś jest czas podjęcia drugiej decyzji. Co z tym zrobisz? Jesteś wolny i możesz  
+podjąć decyzję. Będzie ona miała swoje konsekwencje – w twoim życiu i w wieczności.  
+Zrozumienie tego jest kluczowe.  
 
-Dzisiejszy dzień to zaproszenie do wyjścia z karykatur wiary i wejścia w ożywiającą relację z Bogiem, który ma moc wskrzesić to, co umarło w naszym życiu, i napełnić nas prawdziwym życiem. Jezus sam mówił o sobie: „Ja jestem drogą, prawdą i życiem” (J 14,6). Żyć naprawdę, oznacza żyć w relacji z Nim. Ta więź nazywa się żywą wiarą.
+Po co mam coś zmieniać? Walka, która się rozgrywa, jest wewnątrz nas. Gdy zaczniemy  
+czytać Księgę Rodzaju pod kątem historii grzechu, wtedy dostrzeżemy, jakie przestrzenie  
+infekuje w nas szatan – Adam i Ewa nakłonieni do nieposłuszeństwa, Kain do zazdrości,  
+budowniczy wieży Babel do pokusy samowystarczalności i niezależności od Boga,  
+ludzie w czasach Noego kuszeni do bierności, by nic nie robić, nie podejmować decyzji.  
 
-Jezus, który pokonał śmierć, grzech i szatana, panuje nad wszystkim. Jemu wszystko jest poddane. Także to, nad czym my straciliśmy kontrolę. Jemu nic nie wymyka się spod ręki. On jest Panem świata materialnego i duchowego, On panuje nad złym duchem, chorobami, lękami, niepokojami.
+Dzisiejsza decyzja to przejście od religijności do wiary. Religijność to sposób przeżywania  
+relacji z Bogiem, gdzie wypisuję listę rzeczy, o które chcę poprosić Boga, aby mi w nich  
+pobłogosławił. To postawa, w której Bóg jest mi potrzebny do spełnienia moich zamiarów,  
+pragnień, czasami nawet takich, które wydają się bardzo pobożne.  
 
-Bóg pokazuje nam dynamikę oddania. Najpierw On, stwarzając świat i człowieka, dał ludziom swoją miłość i obdarował go różnymi dobrami. „A Bóg widział, że wszystko, co uczynił, było bardzo dobre” (Rz 1,31). Później, gdy na jaw wyszła bolesna prawda o tym, że potrafimy zniweczyć nawet największe Boże dary przez nasz grzech, i gdy oddaliśmy się przez nieposłuszeństwo Bogu w niewolę diabła, Bóg dał nam siebie samego przez Maryję, a wszystko, co oddaliśmy w niewolę złego, Chrystus odkupił swoją Krwią. Gdy umierał na krzyżu, dał nam testament – swoją ostatnią wolę: „Oto Matka Twoja” (J 19, 27) – On oddaje nam Maryję, żebyśmy mogli tak jak Jan Apostoł wziąć Ją do siebie, do swojego życia. Ona, która najlepiej Go poznała i spędzała z Nim najwięcej czasu, może nas najlepiej nauczyć prawdziwego życia oddanego Bogu i w Jego bliskości. Bóg zaprasza Cię dzisiaj do podjęcia decyzji, żeby zaprosić Maryję do swojego serca, żeby wziąć ją do siebie i mieć relację z żywym Bogiem przez Maryję.
+Wiara to relacja, w której daję Bogu czystą kartkę, podpisuję ją swoim imieniem i mówię:  
+_wypełnij ją jak chcesz, a ja Ci ufam, że mnie przez to wszystko przeprowadzisz_.  
+Religijność może być martwą wiarą.  
 
-To jest właśnie łaska wiary, przez którą możesz nawiązać więź z Bogiem żyjącym. Bóg realnie chce się z tobą spotkać i mieć żywą relację. Bóg szuka Cię na drogach twojego życia przez różne sytuacje, wydarzenia. Dostrzegasz to? Słowo Boże mówi: „My miłujemy [Boga], ponieważ Bóg pierwszy nas umiłował” (1 J 4,19), „który umiłował mnie i samego siebie wydał za mnie. Nie mogę odrzucić łaski danej przez Boga” (Ga 2,20–21). Na dar zbawienia nie można sobie zasłużyć czy zapracować. Otrzymaliśmy go za darmo, z Bożej dobroci i hojności. Bóg jest dobry, więc daje mi łaskę wiary. Mogę ją przyjąć lub odrzucić. Jaka jest dziś moja decyzja?
+Martwa wiara może wyglądać tak: bycie tzw. katolikiem tradycyjnym – przyjąłem wiarę od rodziców,  
+ale nie była ona moim osobistym wyborem; „katolicyzm przepisowy” – najważniejsze przestrzeganie  
+przykazań i zasad; „dobroludzizm” – wystarczy być dobrym człowiekiem, czynić dobro, pomagać,  
+angażować się charytatywnie.  
 
+Dzisiejszy dzień to zaproszenie do wyjścia z karykatur wiary i wejścia w ożywiającą relację z Bogiem,  
+który ma moc wskrzesić to, co umarło w naszym życiu i napełnić nas prawdziwym życiem.  
+Jezus mówił: _„Ja jestem drogą, prawdą i życiem” (J 14,6)_. Żyć naprawdę to żyć w relacji z Nim,  
+to żywa wiara.  
 
-*Lektura duchowa*
-_„Mądrość Przedwieczna jest głęboko poruszona nieszczęściem biednego Adama i całego jego potomstwa. Widzi ona, i smuci się wielce, że chwalebne jej naczynie jest rozbite, wizerunek jej rozdarty, arcydzieło zniszczone, jej ziemski – namiestnik – upadły._
+Jezus, który pokonał śmierć, grzech i szatana, panuje nad wszystkim. Jemu wszystko jest poddane.  
+Nad tym, co straciliśmy kontrolę, nic nie wymyka się spod Jego ręki. On jest Panem świata  
+materialnego i duchowego, panuje nad złym duchem, chorobami, lękami, niepokojami.  
 
-św. Ludwik Maria Grignion de Montfort, Miłość Mądrości Przedwiecznej, 41-43
+Bóg pokazuje nam dynamikę oddania. Najpierw On, stwarzając świat i człowieka, dał ludziom  
+swoją miłość i obdarował ich dobrami. _„A Bóg widział, że wszystko, co uczynił, było bardzo dobre”_ (Rdz 1,31).  
+Później, gdy ujawniła się bolesna prawda o grzechu i oddaniu się Bogu w niewolę diabła,  
+Bóg dał nam siebie samego przez Maryję, a wszystko, co oddaliśmy w niewolę złego,  
+Chrystus odkupił swoją Krwią.  
 
-*Zadanie*
-Przeżyję dzisiejszy dzień w ufności, że przez wszystko, co się w nim wydarzy, cokolwiek to będzie, Bóg chce mnie przeprowadzić.
+Gdy umierał na krzyżu, dał nam testament – swoją ostatnią wolę: _„Oto Matka Twoja”_ (J 19,27) –  
+On oddaje nam Maryję, byśmy mogli, jak Jan Apostoł, wziąć Ją do siebie, do swojego życia.  
+Ona, która najlepiej znała Jezusa i spędzała z Nim najwięcej czasu, może nauczyć prawdziwego życia  
+oddanego Bogu i w Jego bliskości.  
 
-*Modlitwa zawierzenia*
-_Jestem cały Twój i wszystko, co mam, jest Twoją własnością, umiłowany Jezu, przez Maryję, Twoją świętą Matkę. Amen!_`
+To łaska wiary, przez którą możesz nawiązać więź z żywym Bogiem. Bóg realnie chce się z tobą spotkać  
+i mieć żywą relację. Szuka Cię w twoim życiu przez różne sytuacje i wydarzenia. Dostrzegasz to?  
+Słowo Boże mówi: _„My miłujemy [Boga], ponieważ Bóg pierwszy nas umiłował”_ (1 J 4,19),  
+_„który umiłował mnie i samego siebie wydał za mnie. Nie mogę odrzucić łaski danej przez Boga”_  
+(Ga 2,20–21). Na dar zbawienia nie można zasłużyć ani zapracować. Otrzymaliśmy go za darmo,  
+z Bożej dobroci i hojności. Bóg jest dobry, daje łaskę wiary. Mogę ją przyjąć lub odrzucić.  
+Jaka jest dziś moja decyzja?
+
+*Lektura duchowa*  
+_„Mądrość Przedwieczna jest głęboko poruszona nieszczęściem biednego Adama i całego jego potomstwa.  
+Widzi ona i smuci się wielce, że chwalebne jej naczynie jest rozbite, wizerunek rozdarty,  
+arcydzieło zniszczone, jej ziemski – namiestnik – upadły. Nakłania czule ucha ku jego jękom  
+i wołaniom. Współczuje Ona widząc pot na jego czole, łzy w jego oczach, trud jego ramion,  
+boleść serca i zgryzotę duszy.  
+
+Wydaje mi się, że widzę tę łaskawą Panią, wzywającą i gromadzącą po raz drugi, by tak rzec,  
+Trójcę Przenajświętszą, ażeby odnowić człowieka, tak jak już to była uczyniła, gdy go  
+kształtowała (por. Rdz. 1,26). Zdaje mi się, że podczas tej wielkiej rady toczy się  
+pewna walka między Mądrością Przedwieczną a Sprawiedliwością Bożą.  
+
+Zdaje mi się, że słyszę ową Mądrość, jak w sprawie człowieka przekonuje, iż wprawdzie  
+przez swój grzech zasługuje on wraz ze swym potomstwem na wieczne potępienie, tak jak  
+zbuntowane anioły; ale że trzeba ulitować się nad niźli, ponieważ zgrzeszył bardziej przez  
+słabość i niewiedzę niż przez złość. Mądrość zwraca uwagę, z jednej strony, iż wielką  
+szkodą jest, by owo skończone arcydzieło pozostawało niewolnikiem swojego nieprzyjaciela  
+na zawsze i żeby miliony ludzi z powodu grzechu jednego człowieka były na zawsze zgubione.  
+Z drugiej strony, Mądrość wskazuje na miejsca w Niebie z powodu upadku zbuntowanych aniołów;  
+dobrze byłoby je zapełnić. Wskazuje też na wielką chwałę, jaką Bóg będzie odbierał teraz i w wieczności”._
+
+_– św. Ludwik Maria de Montfort, Miłość Mądrości Przedwiecznej, 41–43_
+
+*Zadanie*  
+_Przeżyję dzisiejszy dzień w ufności, że przez wszystko, co się w nim wydarzy,  
+cokolwiek to będzie, Bóg chce mnie przeprowadzić._
+
+*Modlitwa zawierzenia*  
+_*Jestem cały Twój i wszystko, co mam, jest Twoją własnością, umiłowany Jezu,  
+przez Maryję, Twoją świętą Matkę. Amen!*_`
  
 , label: 'Odkryj łaskę nawrócenia i oddania życia Panu Jezusowi', type: 'opis', show: false },
           { url:'https://drogamaryi.pl/edycje/5-listopada-2025/12-dni-dzien-4/audio', type:'audio', label:'audio' }
@@ -520,47 +887,105 @@ _Jestem cały Twój i wszystko, co mam, jest Twoją własnością, umiłowany Je
           { image: 'assets/12dni/05.jpg',type:'foto' },
 { text: `*Dzień 5 - Błogosławieni ubodzy w duchu*
 
-*_Modlitwa do Ducha Świętego_*
+*12 dni – Wyzbycie się ducha tego świata – Dzień 5*
 
-_Duchu Święty, natchnij mnie. Miłości Boga, pochłoń mnie. Po prawdziwej drodze prowadź mnie, Maryjo, moja Matko, spójrz na mnie, z Jezusem błogosław mnie._
-_Od wszelkiego zła, od wszelkiego złudzenia, od wszelkiego niebezpieczeństwa zachowaj mnie._
-_Maryjo, Oblubienico Ducha Świętego, wyproś mi łaskę odkrycia Bożej miłości._
+*Błogosławieni ubodzy w duchu*
+
+*Modlitwa do Ducha Świętego*  
+_Duchu Święty, natchnij mnie. Miłości Boga, pochłoń mnie. Po prawdziwej  
+drodze prowadź mnie, Maryjo, moja Matko, spójrz na mnie, z Jezusem  
+błogosław mnie. Od wszelkiego złego, od wszelkiego złudzenia, od wszelkiego  
+niebezpieczeństwa zachowaj mnie. Maryjo, Oblubienico Ducha Świętego,  
+wyproś mi dar ubóstwa w duchu._
+
 _Amen!_
 
-  *Słowo Boże*
-  _„Błogosławieni ubodzy w duchu, albowiem do nich należy królestwo niebieskie” (Mt 5,3)._
+*Słowo Boże*  
+_„Błogosławieni ubodzy w duchu, albowiem do nich należy królestwo  
+niebieskie” (Mt 5,3)._
 
-  *Rozważanie*
- Odkąd opuściliśmy raj, powstała w nas pustka, którą może wypełnić tylko Bóg. Niestety, żyjąc wśród tego świata, szukamy wypełnienia tej przestrzeni. Świat przedstawia nam swoją propozycję i oszukuje, że przez zdobywanie dóbr, czy to zewnętrznych czy wewnętrznych (różne nasze przywiązania do naszych pragnień, wyobrażeń, swojego sposobu myślenia), możemy osiągnąć wewnętrzne spełnienie. Duch tego świata okłamuje nas, mówiąc: możesz mieć w życiu wszystko. Masz w centrum swojego istnienia postawić swe potrzeby i ciągle się realizować, zdobywając nowe rzeczy. To pokusa diabła, który staje przed Jezusem i mówi: „Dam Ci wszystko, jeśli upadniesz i oddasz mi pokłon” (Mt 4,9). Na tym właśnie polega oszustwo i kłamstwo, o którym mówi świat: szczęśliwy jest ten, kto jest bogaty, kto ma pieniądze, kto posiada wiele dóbr. Problem powstaje wtedy, gdy coś nie wyjdzie.
+*Rozważanie*  
+Odkąd opuściliśmy raj, powstała w nas pustka, którą może wypełnić tylko Bóg.  
+Niestety, żyjąc wśród tego świata, szukamy wypełnienia tej przestrzeni.  
+Świat przedstawia nam swoją propozycję i oszukuje, że przez zdobywanie dóbr,  
+czy to zewnętrznych, czy wewnętrznych (różne przywiązania do naszych pragnień,  
+wyobrażeń, sposobu myślenia), możemy osiągnąć wewnętrzne spełnienie.  
 
-W pierwszej kolejności ubóstwo to świadoma zgoda na to, aby nie być niewolnikiem tego, co posiadam. To droga wolności, w której mogę zadowolić się tym, co konieczne i rezygnować z rzeczy niepotrzebnych. I nie niepokoić się tym, jeśli coś stracę, co i tak nie jest mi niezbędne. To zrezygnowanie z konsumpcyjnego stylu życia, w którym ciągle coś kupuję. Jednak ubóstwo to coś więcej.
+Duch tego świata okłamuje nas, mówiąc: _możesz mieć w życiu wszystko_.  
+Masz w centrum swego istnienia postawić swe potrzeby i ciągle się realizować,  
+zdobywając nowe rzeczy. To pokusa diabła, który staje przed Jezusem i mówi:  
+_„Dam Ci wszystko, jeśli upadniesz i oddasz mi pokłon” (Mt 4,9)._  
 
-Ubóstwo nie oznacza braku pieniędzy. To pewna postawa wewnętrzna, w której chodzi o to, żeby wobec przeżywanych braków oprzeć się na Bogu, by żyć świadomością, że wszystko mam u Boga. Jemu zależy na tym, żeby nasze zubożenie stało się bogactwem! To jeden z paradoksów, jakich w Ewangelii jest wiele. Ubóstwo jest lekarstwem, które otrzymuję od Boga, aby wyleczył mnie z choroby opierania się na samym sobie. Ubóstwo leczy mnie z kłamliwego przekonania, że nikt mi nie pomoże i muszę liczyć tylko na siebie.
+Na tym polega oszustwo i kłamstwo świata: szczęśliwy jest ten, kto jest bogaty,  
+ma pieniądze i posiada wiele dóbr. Problem pojawia się, gdy coś nie wyjdzie.  
 
-Bez świadomości tego, że jesteśmy w rękach kochającego Boga, o czym rozważaliśmy w pierwszym dniu, nie moglibyśmy przełknąć tego gorzkiego lekarstwa. Dlatego św. Paweł powie: „Przechowujemy zaś ten skarb ten skarb w naczyniach glinianych, aby z Boga była owa przeogromna moc, a nie z nas” (2 Kor 4,7). Nosimy w sobie skarb Bożej Miłości, chociaż jesteśmy kruchymi, glinianymi naczyniami, bardzo ubogimi. To właśnie sytuacje niepowodzeń, cierpień i trudności pokazują mi, kim tak naprawdę jestem. Bolesne sytuacje, które przeżywam, odsłaniają przede mną prawdę o mnie samym.
+W pierwszej kolejności ubóstwo to świadoma zgoda, by nie być niewolnikiem  
+tego, co posiadam. To droga wolności, w której mogę zadowolić się tym, co konieczne  
+i rezygnować z rzeczy niepotrzebnych. Nie trzeba niepokoić się, jeśli coś stracę,  
+co i tak nie jest niezbędne. To zrezygnowanie z konsumpcyjnego stylu życia,  
+w którym ciągle coś kupuję. Jednak ubóstwo to coś więcej.  
 
-Łatwo jest kochać Boga i ufać, gdy wszystko idzie po mojej myśli i nie ma większych problemów. Jednak wtedy można wpaść w iluzję, która, opadając w momencie kryzysu, boleśnie odkrywa moje prawdziwe oblicze. I nie jest problemem to, że takie sytuacje się zdarzają. One były, są i będą.
+Ubóstwo nie oznacza braku pieniędzy. _To pewna postawa wewnętrzna_,  
+w której chodzi o to, by wobec braków oprzeć się na Bogu i żyć świadomością,  
+że wszystko mam u Niego. Jemu zależy, żeby nasze zubożenie stało się bogactwem!  
+Ubóstwo jest lekarstwem od Boga, by wyleczył mnie z choroby polegania tylko  
+na sobie. Ubóstwo leczy z przekonania, że nikt mi nie pomoże.  
 
-Papierkiem lakmusowym życia w ubóstwie jest nieustanny wewnętrzny stan uwielbienia. Dusza im bardziej uboga, tym bardziej żyje w uwielbieniu. I odwrotnie – im dusza bardziej liczy na siebie, tym bardziej pyta: ale za co uwielbiać Boga?
+Bez świadomości, że jesteśmy w rękach kochającego Boga (jak rozważaliśmy  
+w pierwszym dniu), nie moglibyśmy przełknąć tego gorzkiego lekarstwa.  
+Dlatego św. Paweł mówi: _„Przechowujemy zaś ten skarb w naczyniach glinianych,  
+aby z Boga była owa przeogromna moc, a nie z nas” (2 Kor 4,7)._  
 
-Jeśli zdarzy się jakaś trudność, to od kogo oczekuję pomocy? Czy mam w sobie spontaniczny poryw do tego, by stawać „pomimo” mojego ubóstwa przed Bogiem, wiedząc, że przecież jestem w Jego rękach? Trudne sytuacje prowokują do zadania sobie pytania: czy w moim życiu jestem zdany na Boga we wszystkim, czy raczej na siebie? Czy nadal zachowuję w świadomości ufność w Bożą miłość, wierząc, że Bóg przez to przeprowadzi, bo przecież jest Bogiem, czy raczej nerwowo szukam rozwiązań po swojemu, żeby się czegoś uchwycić? Albo odwrotnie: jak reaguję w sukcesach i powodzeniach? Czy przypisuję wszystko Bogu i Jemu oddaję chwałę, czy sobie?
+Nosimy w sobie skarb Bożej Miłości, chociaż jesteśmy kruchymi, glinianymi  
+naczyniami. To sytuacje niepowodzeń, cierpień i trudności pokazują, kim  
+naprawdę jestem. Bolesne doświadczenia odsłaniają prawdę o mnie samym.  
 
-*Ubóstwo Maryi – Magnificat* – „Wtedy rzekła Maryja: «Wielbi dusza moja Pana i raduje się duch mój w Bogu, moim Zbawcy»” (Łk 1,46). Postawa Maryi wskazuje, że ubóstwo daje radość i wprowadza człowieka w postawę uwielbienia. To postawa, w której człowiek nie uzależnia siebie od tego, co może mieć, a związuje się jedynie z Bogiem. Z tego płynie cała moc przyciągania duszy do Boga
+Łatwo jest kochać Boga i ufać, gdy wszystko idzie po mojej myśli.  
+W kryzysie wychodzi na jaw, na kim naprawdę polegam. To naturalne, że trudności  
+się zdarzają – były, są i będą.  
 
-*Walka, przeciwstawienia się złu – na czym polega?* Na tym, by być wpatrzonym w Boga, a nie w dobra materialne czy też we własne porażki. Moja wartość nie zależy od tego, co posiadam ani od sukcesów odniesionych w życiu. Jeśli ktoś mnie pochwali, nadal mam taką samą wartość w oczach Boga. Jeśli ktoś mnie skrytykuje, nadal mam taką samą wartość w oczach Boga. Jeśli odniosę porażkę, nadal mam taką samą wartość w oczach Boga. Na tym etapie pojawia się pokusa zniechęcenia, na którą trzeba uważać. Można ją przezwyciężyć postawą ubóstwa. Moja prawdziwa wartość jest w Bogu. Duch tego świata mówi: musisz sam sobie radzić. A wiara mówi: czyń, co możesz, ale ponad wszystko ufaj Bogu.
+Papierkiem lakmusowym życia w ubóstwie jest nieustanny wewnętrzny stan uwielbienia.  
+Dusza im bardziej uboga, tym bardziej żyje w uwielbieniu.  
+Im dusza bardziej liczy na siebie, tym bardziej pyta: _za co uwielbiać Boga?_  
 
-*Lektura duchowa*
-_„Aby mieć mądrość:_
+Jeśli zdarzy się trudność, to od kogo oczekuję pomocy?  
+Czy staję „pomimo” mojego ubóstwa przed Bogiem, wiedząc, że jestem w Jego rękach?  
+Trudne sytuacje prowokują pytanie: czy jestem zdany na Boga we wszystkim,  
+czy raczej na siebie? Czy zachowuję ufność w Bożą miłość, wierząc, że Bóg  
+przeprowadzi mnie przez wszystko, czy szukam rozwiązań po swojemu?  
+A jak reaguję w sukcesach? Czy oddaję wszystko Bogu, czy sobie?  
 
-_1. Trzeba, po pierwsze, albo rzeczywiście porzucić dobra tego świata, jak uczynili to Apostołowie, uczniowie, pierwsi chrześcijanie czy zakonnicy: najlepiej zrobić to jak najwcześniej – to najpewniejszy sposób, by posiąść Mądrość; albo przynajmniej trzeba oderwać swe serce od dóbr i posiadać je tak, jakby ich wcale się nie posiadało (por, 1 Kor 7,30), nie zabiegać o to, by je mieć; nie troszczyć się o ich zachowanie; nie skarżyć się ani nie denerwować, gdy się je traci – co bardzo trudne jest do wykonania. 2. Nie można wzorować się na zewnętrznych modach ludzi światowych: w ubiorze czy w umeblowaniu, czy w tym, co dotyczy domów, posiłków oraz innych zwyczajów i zajęć w życiu: Nolite conformari huic saeculo (Rz 12,2). Jest to konieczniejsze niż się zazwyczaj sądzi”._
+*Ubóstwo Maryi – Magnificat*  
+_„Wielbi dusza moja Pana i raduje się duch mój w Bogu, moim Zbawcy” (Łk 1,46)._  
+Postawa Maryi pokazuje, że ubóstwo daje radość i prowadzi do uwielbienia.  
+To postawa, w której człowiek nie uzależnia siebie od rzeczy, lecz od Boga.  
 
-św. Ludwik Maria Grignion de Montfort, Miłość Mądrości Przedwiecznej, 197-198
+*Walka duchowa*  
+Na czym polega? By być wpatrzonym w Boga, a nie w dobra materialne  
+czy własne porażki. Moja wartość nie zależy od tego, co posiadam, ani od sukcesów.  
+Jeśli ktoś mnie pochwali – wartość ta sama. Jeśli ktoś skrytykuje – wartość ta sama.  
+Jeśli poniosę porażkę – wartość ta sama.  
 
-*Zadanie*
-Poproszę Maryję, aby uczyła mnie żyć w zależności tylko i wyłącznie od Boga.
+_*Moja prawdziwa wartość jest w Bogu.*_  
+Duch świata mówi: _musisz sam sobie radzić_.  
+Wiara mówi: _czyń, co możesz, ale ponad wszystko ufaj Bogu_.  
 
-*Modlitwa zawierzenia*
-_Jestem cały Twój i wszystko, co mam, jest Twoją własnością, umiłowany Jezu, przez Maryję, Twoją świętą Matkę. Amen!_`
+*Lektura duchowa*  
+_„Aby mieć mądrość:  
+1) Trzeba porzucić dobra świata lub oderwać serce od dóbr i posiadać je,  
+jakby ich wcale się nie posiadało (por. 1 Kor 7,30);  
+2) Nie wzorować się na modach ludzi światowych: w ubiorze, umeblowaniu,  
+domach, posiłkach i zwyczajach. *Nolite conformari huic saeculo* (Rz 12,2).”_
+
+_– św. Ludwik Maria Grignion de Montfort, Miłość Mądrości Przedwiecznej, 197–198_
+
+*Zadanie*  
+_Poproszę Maryję, aby uczyła mnie żyć w zależności tylko od Boga._
+
+*Modlitwa zawierzenia*  
+_*Jestem cały Twój i wszystko, co mam, jest Twoją własnością, umiłowany Jezu,  
+przez Maryję, Twoją świętą Matkę. Amen!*_`
+
  
 , label: 'Błogosławieni ubodzy w duchu', type: 'opis', show: false },
          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/12-dni-dzien-5/audio', type:'audio', label:'audio' },
