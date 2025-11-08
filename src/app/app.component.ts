@@ -542,7 +542,29 @@ Osoby, którym nie udało się rozpocząć nowenny 27 października zachęcamy, 
   // ZAMYKANIE STRONY
   // ----------------------
   closePage() {
-    window.close();
-    setTimeout(() => { window.location.href = 'about:blank'; }, 100);
+    // Sprawdź czy można zamknąć okno (działa gdy strona została otwarta przez JavaScript)
+    const canClose = window.opener !== null || window.history.length <= 1;
+    
+    if (canClose) {
+      // Spróbuj zamknąć okno
+      window.close();
+    }
+    
+    // Sprawdź po krótkim czasie czy okno się zamknęło
+    setTimeout(() => {
+      if (!window.closed) {
+        // Okno się nie zamknęło - pokaż instrukcje
+        const isMac = navigator.platform.toUpperCase().indexOf('MAC') >= 0;
+        const shortcut = isMac ? '⌘+W' : 'Ctrl+W';
+        
+        const message = `🔒 Przeglądarka blokuje automatyczne zamykanie kart ze względów bezpieczeństwa.\n\n` +
+                       `✨ Aby zamknąć kartę:\n` +
+                       `• Użyj skrótu: ${shortcut}\n` +
+                       `• lub kliknij ✕ na karcie\n` +
+                       `• lub zamknij całe okno przeglądarki`;
+                       
+        alert(message);
+      }
+    }, 50);
   }
 }

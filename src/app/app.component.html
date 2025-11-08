@@ -217,8 +217,11 @@
     </div>
 
     <!-- Stopka z przyciskiem -->
-    <div style="margin-top: 1rem; position: relative; padding-top: 1rem; border-top: 1px solid #eee;">
-      <button class="stylish-button" style="display: block; margin: 0 auto;" (click)="closePage()">Zamknij stronę</button>
+    <div class="footer-section">
+      <button class="close-button" (click)="closePage()">
+        <span class="close-icon">×</span>
+        <span class="close-text">Zamknij stronę</span>
+      </button>
       <div class="znak-wodny">
         © <span class="ozdobne">EO</span>
       </div>
