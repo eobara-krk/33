@@ -331,6 +331,32 @@ main {
   box-shadow: 0 4px 8px rgba(233, 30, 99, 0.3);
 }
 
+/* LOGO W LEWYM GÓRNYM ROGU */
+.top-left-logo {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  user-select: none;
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(20px);
+  padding: 0.5rem;
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 
+    0 8px 32px rgba(0, 0, 0, 0.1),
+    inset 0 1px 0 rgba(255, 255, 255, 0.2);
+  animation: slideInLeft 0.8s ease-out 0.3s both;
+  z-index: 10;
+}
+
+.top-left-logo img {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
 /* DATA I CZAS */
 .top-right-datetime {
   position: absolute;
@@ -354,6 +380,17 @@ main {
   from {
     opacity: 0;
     transform: translateX(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-30px);
   }
   to {
     opacity: 1;
@@ -678,6 +715,18 @@ main {
   
   .header h1 { font-size: 1.75rem; }
   
+  /* Adjust logo positioning for tablets */
+  .top-left-logo {
+    left: 1rem;
+    top: 0.5rem;
+    padding: 0.4rem;
+  }
+  
+  .top-left-logo img {
+    width: 35px;
+    height: 35px;
+  }
+
   /* Adjust date positioning for tablets */
   .top-right-datetime {
     right: 1rem;
@@ -757,6 +806,22 @@ main {
     margin-top: 0.5rem;
   }
   
+  /* Responsive logo positioning */
+  .top-left-logo {
+    position: static;
+    text-align: center;
+    margin-bottom: 0.5rem;
+    background: transparent;
+    padding: 0;
+    box-shadow: none;
+  }
+  
+  .top-left-logo img {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+  }
+
   /* Responsive date positioning */
   .top-right-datetime {
     position: static;

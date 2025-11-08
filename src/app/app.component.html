@@ -1,6 +1,14 @@
 <main>
   <div class="placeholder">
 
+    <!-- LOGO W LEWYM GÓRNYM ROGU -->
+    <div class="top-left-logo">
+      <img src="assets/source.png" alt="Logo" 
+           (load)="onImageLoad($event)" 
+           (error)="onImageError($event)"
+           loading="lazy" />
+    </div>
+
     <!-- DATA I GODZINA -->
     <div class="top-right-datetime">
       <div class="date-line">{{ currentDateTime | date:'EEEE dd.MM.yyyy':'':'pl-PL' }} r.</div>
