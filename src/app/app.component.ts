@@ -313,10 +313,10 @@ Osoby, którym nie udało się rozpocząć nowenny 27 października zachęcamy, 
   // ----------------------
   ngOnInit() {
     this.openTodayFolders();
-    // Przewiń do dzisiejszego elementu po krótkim opóźnieniu (żeby DOM się załadował)
+    // Przewiń do dzisiejszego elementu po 2 sekundach (żeby użytkownik zdążył przeczytać header)
     setTimeout(() => {
       this.scrollToToday();
-    }, 100);
+    }, 2000);
   }
 
   // Automatyczne otwieranie folderów z dzisiejszą datą
@@ -649,15 +649,13 @@ Osoby, którym nie udało się rozpocząć nowenny 27 października zachęcamy, 
     
     if (todayElement) {
       // Proste przewijanie do dzisiejszego elementu z małym offsetem od góry
-      setTimeout(() => {
-        const elementTop = todayElement.getBoundingClientRect().top + window.pageYOffset;
-        const offset = 150; // Stały offset żeby zostawić miejsce na header
-        
-        window.scrollTo({
-          top: Math.max(0, elementTop - offset),
-          behavior: 'smooth'
-        });
-      }, 200); // Małe opóźnienie żeby DOM się ustabilizował
+      const elementTop = todayElement.getBoundingClientRect().top + window.pageYOffset;
+      const offset = 150; // Stały offset żeby zostawić miejsce na header
+      
+      window.scrollTo({
+        top: Math.max(0, elementTop - offset),
+        behavior: 'smooth'
+      });
     }
     // Jeśli nie ma dzisiejszego elementu - pozostaw stronę na górze
   }
