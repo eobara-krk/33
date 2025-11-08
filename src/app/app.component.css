@@ -740,7 +740,7 @@ main {
 }
 
 .event-thumb {
-  width: 180px; /* Zwiększone o kolejne 20% z 150px */
+  width: 250px !important; /* Bardzo duże - łatwo widoczne */
   height: auto;
   cursor: pointer;
   border-radius: 8px;
@@ -754,8 +754,8 @@ main {
 }
 
 .link-thumb {
-  width: 96px; /* Zwiększone o kolejne 20% z 80px */
-  height: 96px; /* Zwiększone o kolejne 20% z 80px */
+  width: 120px !important; /* Bardzo duże - łatwo widoczne */
+  height: 120px !important; /* Bardzo duże - łatwo widoczne */
   object-fit: cover;
   cursor: pointer;
   border-radius: 6px;
@@ -1131,12 +1131,12 @@ main {
   
   /* Responsive images - większe miniaturki na mobile */
   .link-thumb {
-    width: 78px; /* Zwiększone o kolejne 20% z 65px */
-    height: 78px; /* Zwiększone o kolejne 20% z 65px */
+    width: 100px !important; /* Bardzo duże na mobile - łatwo widoczne */
+    height: 100px !important; /* Bardzo duże na mobile - łatwo widoczne */
   }
   
   .event-thumb {
-    width: 144px; /* Zwiększone o kolejne 20% z 120px */
+    width: 200px !important; /* Bardzo duże na mobile - łatwo widoczne */
   }
   
   .fullscreen-local {
