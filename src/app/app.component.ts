@@ -778,14 +778,24 @@ Na koniec odmawiamy Litanię do św. Ludwika de Montfort
         console.warn('⚠️ Nie udało się wyczyścić schowka:', clearError);
       }
       
-      // Usuń oryginalny link źródła z tekstu
+      // Wyciągnij link źródła jeśli istnieje
+      const sourceMatch = text.match(/Źródło: (https?:\/\/[^\s<>]+)/);
+      const sourceUrl = sourceMatch ? sourceMatch[1] : null;
+      
+      // Usuń oryginalny link źródła z tekstu do formatowania
       let cleanText = text.replace(/\n*Źródło: https?:\/\/[^\s<>]+\s*$/g, '');
       
       // Sformatuj tekst dla WhatsApp (markdown)
       const whatsappText = this.formatTextForWhatsApp(cleanText);
       
-      // Dodaj źródło bez https:// (żeby WhatsApp nie robił podglądu)
-      const finalText = whatsappText + '\n\n📖 Więcej na: drogamaryi.pl';
+      // Dodaj źródło - jeśli jest oryginalny link, użyj go w nawiasach kwadratowych
+      let finalText = whatsappText;
+      if (sourceUrl) {
+        const cleanSourceUrl = sourceUrl.replace(/^https?:\/\//, '');
+        finalText += '\n\n📖 Źródło: [' + cleanSourceUrl + ']';
+      } else {
+        finalText += '\n\n📖 Więcej na: [drogamaryi.pl]';
+      }
       
       // Skopiuj do schowka
       await navigator.clipboard.writeText(finalText);
