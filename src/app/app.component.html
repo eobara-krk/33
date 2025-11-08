@@ -87,18 +87,25 @@
 
             <!-- GRUPA Z WIELOMA LINKAMI (nie jest opisem i ma więcej niż 1 link) -->
             <div *ngIf="group.type !== 'opis' && group.links && group.links.length > 1" 
-                 class="grid-link main-link"
-                 [class.today-highlight]="group.name ? isToday(group.name) : false"
-                 (click)="openOnly(group, item)">
-              <span *ngIf="(group.name && isToday(group.name)) || hasInnerTodayElements(group)">👉</span>
-              <span class="expand-icon">{{ group.show ? '▼' : '▶' }}</span>
-              <span>📁</span>
-              {{ group.name }}
-            </div>
+                 class="group-container"
+                 [class.expanded]="group.show"
+                 [class.today-highlight]="group.name ? isToday(group.name) : false">
+                 
+              <!-- Główny link grupy -->
+              <div class="grid-link main-link"
+                   [class.today-highlight]="group.name ? isToday(group.name) : false"
+                   (click)="openOnly(group, item)">
+                <span *ngIf="(group.name && isToday(group.name)) || hasInnerTodayElements(group)">👉</span>
+                <span class="expand-icon">{{ group.show ? '▼' : '▶' }}</span>
+                <span>📁</span>
+                {{ group.name }}
+              </div>
 
-            <!-- PODLINKI (grupy z wieloma linkami) -->
-            <ng-container *ngIf="group.show && group.links as links">
-              <div *ngIf="links.length > 1" class="link-grid">
+              <!-- PODLINKI (grupy z wieloma linkami) -->
+              <ng-container *ngIf="group.show && group.links as links">
+                <div *ngIf="links.length > 1" class="sub-links-container">
+                  <div class="connection-line"></div>
+                  <div class="link-grid" [class.photo-grid]="hasPhotoElements(links)">
                 <ng-container *ngFor="let l of links">
                   
                   <!-- Jeśli link ma zagnieżdżone linki (drugi poziom) -->
@@ -155,8 +162,7 @@
                     <!-- Element foto (tylko zdjęcie) -->
                     <div *ngIf="l.type==='foto'" 
                          class="grid-link sub-link foto-item"
-                         [class.today-highlight]="(l.label || l.url) ? isToday(l.label || l.url || '') : false"
-                         (click)="$event.stopPropagation()">
+                         [class.today-highlight]="(l.label || l.url) ? isToday(l.label || l.url || '') : false">
                       
                       <div class="link-thumb-container">
                         <img [src]="l.image" 
@@ -167,12 +173,7 @@
                              (load)="onImageLoad($event)"
                              (error)="onImageError($event)"
                              (click)="toggleFullscreen(l.image); $event.preventDefault(); $event.stopPropagation();" />
-                        <div class="fullscreen-local" *ngIf="fullscreenImage === l.image" (click)="toggleFullscreen(l.image)">
-                          <img [src]="l.image" 
-                               class="fullscreen-local-image"
-                               loading="eager"
-                               decoding="async" />
-                        </div>
+
                       </div>
                       
                       <span *ngIf="(l.label || l.url) && isToday(l.label || l.url || '')">👉</span>
@@ -207,8 +208,10 @@
                     </a>
                   </ng-container>
                 </ng-container>
-              </div>
-            </ng-container>
+                  </div>
+                </div>
+              </ng-container>
+            </div>
 
           </ng-container>
         </div>
@@ -227,5 +230,13 @@
       </div>
     </div>
 
+  </div>
+
+  <!-- FULLSCREEN IMAGE - poza wszystkimi kontenerami -->
+  <div class="fullscreen-local" *ngIf="fullscreenImage" (click)="toggleFullscreen()">
+    <img [src]="fullscreenImage" 
+         class="fullscreen-local-image"
+         loading="eager"
+         decoding="async" />
   </div>
 </main>

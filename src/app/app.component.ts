@@ -174,7 +174,7 @@ Osoby, którym nie udało się rozpocząć nowenny 27 października zachęcamy, 
         name: `01: ${this.getDatePlusDays(this.startDate, 9)}`, // 9 dni po starcie nowenny
         show: false,
         links: [
-          { image: 'assets/12dni/01.jpg',type:'foto' },
+          { image: 'assets/12dni/01.jpg',type:'foto', label:'kliknij by powiększyć' },
           { url:'https://drogamaryi.pl/edycje/5-listopada-2025/12-dni-dzien-1', type:'html', label:'Odkryj łaskę Bożej miłości' },
           { url:'https://drogamaryi.pl/edycje/5-listopada-2025/12-dni-dzien-1/audio', type:'audio', label:'audio' }
         ]
@@ -398,8 +398,11 @@ Osoby, którym nie udało się rozpocząć nowenny 27 października zachęcamy, 
   // TRYB PEŁNOEKRANOWY OBRAZKA
   // ----------------------
   toggleFullscreen(url?: string) {
-    if (!url) return;
-    this.fullscreenImage = this.fullscreenImage === url ? null : url;
+    if (url) {
+      this.fullscreenImage = this.fullscreenImage === url ? null : url;
+    } else {
+      this.fullscreenImage = null; // Zamknij fullscreen
+    }
   }
 
   // Obsługa ładowania obrazka
@@ -539,6 +542,28 @@ Osoby, którym nie udało się rozpocząć nowenny 27 października zachęcamy, 
   }
 
   // ----------------------
+  // KONTROLKI NAWIGACJI MOBILE
+  // ----------------------
+  collapseAll() {
+    this.items.forEach(item => {
+      item.show = false;
+      item.links?.forEach(group => {
+        group.show = false;
+        group.links?.forEach(nestedLink => {
+          if (nestedLink.show !== undefined) nestedLink.show = false;
+        });
+      });
+    });
+  }
+
+  expandToday() {
+    // Najpierw zwiń wszystko
+    this.collapseAll();
+    // Potem otwórz tylko dzisiejsze elementy
+    this.openTodayFolders();
+  }
+
+  // ----------------------
   // ZAMYKANIE STRONY
   // ----------------------
   closePage() {
@@ -566,5 +591,12 @@ Osoby, którym nie udało się rozpocząć nowenny 27 października zachęcamy, 
         alert(message);
       }
     }, 50);
+  }
+
+  // ----------------------
+  // SPRAWDZANIE CZY GRUPA MA ELEMENTY FOTO
+  // ----------------------
+  hasPhotoElements(links: any[]): boolean {
+    return links && links.some(link => link.type === 'foto');
   }
 }
