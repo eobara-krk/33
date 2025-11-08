@@ -306,7 +306,8 @@ Chrystus mówi: „Nie proszę, abyś ich zabrał ze świata, ale byś ich ustrz
   
   *_Modlitwa do Ducha Świętego_*
 
-  _Duchu Święty, natchnij mnie. Miłości Boga, pochłoń mnie. Po prawdziwej drodze prowadź mnie, Maryjo, moja Matko, spójrz na mnie, z Jezusem błogosław mnie. Od wszelkiego zła, od wszelkiego złudzenia, od wszelkiego niebezpieczeństwa zachowaj mnie. Maryjo, Oblubienico Ducha Świętego, wyproś mi łaskę odkrycia Bożej miłości._
+ _Duchu Święty, natchnij mnie. Miłości Boga, pochłoń mnie. Po prawdziwej drodze prowadź mnie, Maryjo, moja Matko, spójrz na mnie, z Jezusem błogosław mnie. Od wszelkiego zła, od wszelkiego złudzenia, od wszelkiego niebezpieczeństwa zachowaj mnie._
+  _ Maryjo, Oblubienico Ducha Świętego, wyproś mi łaskę odkrycia Bożej miłości._
   _Amen!_
 
   *Słowo Boże*
@@ -365,7 +366,8 @@ _Jestem cały Twój i wszystko, co mam, jest Twoją własnością, umiłowany Je
   
   *_Modlitwa do Ducha Świętego_*
 
-  _Duchu Święty, natchnij mnie. Miłości Boga, pochłoń mnie. Po prawdziwej drodze prowadź mnie, Maryjo, moja Matko, spójrz na mnie, z Jezusem błogosław mnie. Od wszelkiego zła, od wszelkiego złudzenia, od wszelkiego niebezpieczeństwa zachowaj mnie. Maryjo, Oblubienico Ducha Świętego, wyproś mi łaskę odkrycia Bożej miłości._
+ _Duchu Święty, natchnij mnie. Miłości Boga, pochłoń mnie. Po prawdziwej drodze prowadź mnie, Maryjo, moja Matko, spójrz na mnie, z Jezusem błogosław mnie. Od wszelkiego zła, od wszelkiego złudzenia, od wszelkiego niebezpieczeństwa zachowaj mnie._
+  _ Maryjo, Oblubienico Ducha Świętego, wyproś mi łaskę odkrycia Bożej miłości._
   _Amen!_
 
   *Słowo Boże*
@@ -415,8 +417,50 @@ _Jestem cały Twój i wszystko, co mam, jest Twoją własnością, umiłowany Je
         show: false,
         links: [
           { image: 'assets/12dni/03.jpg',type:'foto' },
-          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/12-dni-dzien-3', type:'html', label:'Odkryj łaskę zbawienia' },
-          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/12-dni-dzien-3/audio', type:'audio', label:'audio'  }
+{ text: `*Dzień 3 - Odkryj łaskę zbawienia*
+  
+  *_Modlitwa do Ducha Świętego_*
+
+  _Duchu Święty, natchnij mnie. Miłości Boga, pochłoń mnie. Po prawdziwej drodze prowadź mnie, Maryjo, moja Matko, spójrz na mnie, z Jezusem błogosław mnie. Od wszelkiego zła, od wszelkiego złudzenia, od wszelkiego niebezpieczeństwa zachowaj mnie._
+  _ Maryjo, Oblubienico Ducha Świętego, wyproś mi łaskę odkrycia Bożej miłości._
+  _Amen!_
+
+  *Słowo Boże*
+  _„Tak bowiem Bóg umiłował świat, że Syna swego Jednorodzonego dał, aby każdy, kto w Niego wierzy, nie zginął, ale miał życie wieczne. Albowiem Bóg nie posłał swego Syna na świat po to, aby świat potępił, ale po to, by świat został przez Niego zbawiony” (J 3,16–17)._
+
+  *Rozważanie*
+ Stając wobec zła i grzechu, uświadamiając sobie ich realność, rozpaczliwie podejmujemy różne próby poradzenia sobie po ludzku i szukania zabezpieczenia przed tym, co nas przerasta.
+
+Niektórzy szukają jakiegoś rodzaju zabezpieczenia w dobrach materialnych i rzeczywiście mogą one do pewnego stopnia dać złudne poczucie bezpieczeństwa, bo rozwiązują część problemów, jednak w obliczu choroby czy śmierci okazują się bez wartości.
+
+Możemy także poszukiwać schronienia w poczuciu bezpieczeństwa, które płynie z relacji z drugim człowiekiem. Gdy zaczynamy opierać nasze życie i uzależniać nasze szczęście od kogoś, to w momencie, gdy ta osoba nas zrani, zawiedzie, odejdzie lub umrze, okaże się, że taka postawa życiowa jest tkwieniem w iluzji, która jeszcze boleśniej rani.
+
+Również rozwój nauki i techniki zdaje się niektórych tak uwodzić, że jedynego ratunku szukają w osiągnięciach człowieka. Niewątpliwie są to dziedziny, które w naszych czasach bardzo szybko i ekspansywnie się rozwijają, jednak te postępy nie eliminują zła i nie są w stanie zapewnić szczęścia, bo rozwiązując jedne problemy, stwarzają nowe.
+
+Można też próbować po ludzku zaprowadzić pokój i ład na świecie. Pomimo nieustannych deklaracji o pokoju, ciągle wybuchają nowe konflikty, a osoby, które najgłośniej krzyczą o tolerancji, sami nie tolerują tych, którzy inaczej myślą.
+
+Człowiek, mając różne pragnienia duchowe, próbuje znaleźć ukojenie i równowagę wewnętrzną w różnych energiach, amuletach i „przedmiotach na szczęście”, różnych filozofiach i medytacjach wschodnich, jednak często okazuje się, że są one iluzją i pozornym dobrem, za którym ostatecznie kryje się zły duch, by nas zwieść.
+
+Dla tradycyjnych katolików może być też subtelniejsza pokusa – gorliwe podejmowanie różnych praktyk religijnych, postnych, żeby ich mocą wyrwać się z sideł grzechu i zła. Kolejne niepowodzenia wprowadzają człowieka coraz bardziej w oskarżenia i wyrzuty sumienia, bo nie jest on sam w stanie wynagrodzić Bogu i wyrwać się z tej spirali zła. Najlepsze dobre postanowienia, uczynki czy też wyjątkowe przeżycia religijne nie są w stanie nas zbawić.
+
+Ponad tymi wszystkimi naszymi staraniami i wysiłkami jest światło Dobrej Nowiny! Nasza nadzieja jest w Bogu. Bóg nie jest obojętny na sytuację, w której się znaleźliśmy. To On sam wychodzi pierwszy w kierunku człowieka – dał nam swojego Syna. Ponieważ „zapłatą za grzech jest śmierć” (Rz 6,23), ktoś musiał umrzeć – On umarł zamiast ciebie, abyś nie musiał umrzeć na wieki. To tak, jakbyś miał do spłacenia kredyt, który byłby tak wielki, że wobec twoich możliwości finansowych byłbyś bezradny i bez żadnych szans na spłacenie go. Pomimo różnych prób, pożyczek od różnych ludzi i tak sprawa byłaby skazana na porażkę, bo życia nie starczyłoby, aby to wszystko spłacić. I nagle pojawia się ktoś, kto mówi, że bierze wszystkie twoje długi na siebie i nie chce nic w zamian. Czy to możliwe? A może to jakiś podstęp? Nikt o zdrowych zmysłach by tak nie zrobił!
+
+Bóg w swoim odwiecznym zamyśle miłości przygotował drogę odkupienia człowieka, która jest jeszcze bardziej niesamowita niż samo dzieło stworzenia. „Wiemy też, że (Bóg) z tymi, którzy Go miłują współdziała we wszystkim dla ich dobra” (Rz 8,28)– nawet z sytuacji grzechu Bóg wyciągnął jeszcze większe dobro. Kiedy po zwiedzeniu ludzi w ogrodzie rajskim szatan został ukarany, Bóg wypowiedział niezwykłą obietnicę, że zwycięstwo przyjdzie przez Niewiastę i Jej potomstwo. Bóg w swoim zamyśle pełnym mądrości stworzył Niepokalaną Maryję, aby przez Nią mógł przyjść do nas Syn Boży. Gdy przyszedł do Niej archanioł Gabriel, powiedział Jej, że jest pełna łaski. Maryja zmieszała się, bo wiedziała, że pełen łaski jest tylko Bóg. Doskonale pamiętała słowa modlitwy Mojżesza: „Jahwe, Jahwe, Bóg miłosierny i łagodny, nieskory do gniewu, bogaty w łaskę i wierność” (Wj 34,6). Oznaczałoby to coś zdumiewającego. Spójrzmy, jaka jest moc oddania. Najpierw Bóg dał człowiekowi miłość i oddał człowiekowi ziemię i swoją władzę nad światem. Gdy człowiek przez grzech oddał to wszystko w ręce diabła i stał się jego niewolnikiem, Bóg przychodzi do Maryi i daje Jej jeszcze więcej – samego siebie. To jest coś jeszcze wspanialszego niż dzieło stworzenia, bo Bóg nie tylko daje swojemu stworzeniu różne dobra, ale daje samego siebie. Bóg sam oddaje się człowiekowi – oddał się Maryi. Gdy Ona powiedziała Bogu swoje „tak”, Bóg wcielił się, to znaczy, przyjął naszą ludzką naturę. Pomyśl przez chwilę o tym, co to znaczy. Nie chodzi wyłącznie o to, że dwa tysiące lat temu Syn Boży stał się człowiekiem, ale dzięki zgodzie Maryi złączył się on ze wszystkimi ludźmi wszystkich czasów – także z tobą. Co to znaczy, że się złączył? Wziął na siebie twoje życie, ze wszystkimi jego przejawami – radościami, smutkami, myślami, niepokojami, emocjami, relacjami, z całą fizycznością i przeżył je w wierności Ojcu w twoim imieniu. Tam, gdzie my mówimy Bogu Ojcu „nie”, On powiedział „tak”. Ta zgoda była tak radykalna, że zszedł na samo dno upodlenia ludzkiego. Cierpiał odrzucenie, od maleńkości widziano w nim bluźniercę, niesłusznie oskarżano go o najróżniejsze o rzeczy, których nie popełnił, wziął na siebie wszystkie nasze grzechy i to co nas niszczy na krzyż. Chrystus zwyciężył zło, biorąc je całkowicie na siebie. Cierpiał i wytrwał do końca. Na krzyżu umarł zamiast nas. „Lecz On był przebity za nasze grzechy” (Iz 53,5). Spełniło się proroctwo z Księgi Izajasza, gdy Bóg mówił: „Ja, właśnie Ja przekreślam twe przestępstwa i nie wspominam twych grzechów” (Iz 43,25). To wszystko, co nas zabija i niszczy, umarło razem z nim. Szatan, grzech i śmierć zostali pokonani na krzyżu. „Wiecie, że On objawił się po to, aby zgładzić grzechy (...) aby zniszczyć dzieła diabła” (1J 3,5–8). Łeb szatana został zmiażdżony. Na krzyżu Chrystus ukazał moc oddania, mówiąc: „Wtedy Jezus zawołał donośny głosem Ojcze, w Twoje ręce powierzam ducha mojego” (Łk 24,46). Krzyż stał się mostem nad przepaścią, która oddziela nas od Boga. Dzięki śmierci Jezusa i Jego Krwi przelanej za nas nie jesteśmy już wygnańcami z raju, ale jesteśmy usynowieni. Ale nie tylko to. On po trzech dniach zmartwychwstał. Ukazywał się swoim uczniom, aby wzbudzić w nich wiarę, gdy zwątpili. Zbierał ich na nowo w Kościół, by przezwyciężyć to, co ich podzieliło. A gdy znów się zjednoczyli, Chrystus wstąpił do nieba, aby otworzyć drogę do domu Ojca. Odtąd nie jesteśmy wygnańcami. Uczniowie, których zostawił pod opieką Maryi, gdy modlili się razem z Nią, doświadczyli spełnienia się obietnicy Chrystusa i otrzymali moc z wysoka – Ducha Świętego, który ich przemienił. Otrzymali nowe życie. Byli już wolni od lęku, zagubienia, smutku i rozpaczy. Przestali się bać i zaczęli chodzić po całym świecie, mówiąc wszystkim o tym, że Chrystus zmartwychwstał i żyje. Gdy mówili o tym, nic nie było w stanie ich zatrzymać – nawet groźby, chłosty, cierpienia i śmierć. Bóg działał potężne znaki, a oni na własne oczy widzieli, jaka miłość i moc płynie z życia z Bogiem.
+
+
+*Lektura duchowa*
+_„Mądrość Przedwieczna widząc, iż we wszechświecie nie ma nic, co byłoby zdolne zmazać grzech człowieka, uczynić zadość sprawiedliwości i uśmierzyć gniew Boga, a chcąc jednak uratować biednego człowieka, w którym miała upodobanie, znajduje sposób niezwykły. Ta łaskawa i najwyższa Księżniczka – zdumiewająca, niepojęta miłość przekraczająca wszelką miarę – składa samą siebie w ofierze Ojcu, by zadośćuczynić Jego sprawiedliwości, by ułagodzić Jego gniew, by wyrwać nas z niewoli złego ducha i z ogni piekielnych i wysłużyć nam szczęście wieczne. Jej ofiara zostaje przyjęta; rzecz postanowiona i rozstrzygnięta: Mądrość Przedwieczna inaczej Syn Boży stanie się człowiekiem we właściwym czasie i w określonych okolicznościach”._
+
+św. Ludwik Maria Grignion de Montfort, Miłość Mądrości Przedwiecznej, 45-46
+
+*Zadanie*
+Przeżyję dzisiejszy dzień w świadomości tego, że potrzebuję pomocy Jezusa i sam nie dam sobie rady.
+
+*Modlitwa zawierzenia*
+_Jestem cały Twój i wszystko, co mam, jest Twoją własnością, umiłowany Jezu, przez Maryję, Twoją świętą Matkę. Amen!_`
+ 
+, label: 'Odkryj łaskę zbawienia', type: 'opis', show: false },
+         { url:'https://drogamaryi.pl/edycje/5-listopada-2025/12-dni-dzien-3/audio', type:'audio', label:'audio'  }
         ]
       },
       {
