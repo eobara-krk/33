@@ -112,49 +112,6 @@ main {
   50% { opacity: 0.7; }
 }
 
-/* VIDEO LINK */
-.video-link-container {
-  display: flex;
-  justify-content: center;
-  margin: 1rem 0 1.5rem 0;
-}
-
-.video-link {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  padding: 0.75rem 1.5rem;
-  background: rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(20px);
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  border-radius: 12px;
-  color: #374151;
-  text-decoration: none;
-  font-weight: 500;
-  transition: all 0.3s ease;
-  box-shadow: 
-    0 4px 16px rgba(0, 0, 0, 0.1),
-    inset 0 1px 0 rgba(255, 255, 255, 0.2);
-}
-
-.video-link:hover {
-  background: rgba(255, 255, 255, 0.15);
-  border-color: rgba(255, 255, 255, 0.3);
-  transform: translateY(-2px);
-  box-shadow: 
-    0 6px 20px rgba(0, 0, 0, 0.15),
-    inset 0 1px 0 rgba(255, 255, 255, 0.3);
-}
-
-.video-icon {
-  font-size: 1.2rem;
-}
-
-.external-icon {
-  font-size: 0.9rem;
-  opacity: 0.7;
-}
-
 /* EVENT CARD */
 .event-card {
   background: rgba(255, 255, 255, 0.9);
@@ -487,6 +444,57 @@ main {
 .totus-image img.error {
   opacity: 0.3;
   filter: grayscale(100%);
+}
+
+/* TOTUS AUDIO PLAYER */
+.totus-audio-player {
+  margin-top: 0.5rem;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.audio-toggle-btn {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  padding: 0.4rem 0.8rem;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+  color: #374151;
+  font-size: 0.8rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 
+    0 2px 8px rgba(0, 0, 0, 0.1),
+    inset 0 1px 0 rgba(255, 255, 255, 0.2);
+}
+
+.audio-toggle-btn:hover {
+  background: rgba(255, 255, 255, 0.15);
+  border-color: rgba(255, 255, 255, 0.3);
+  transform: translateY(-1px);
+  box-shadow: 
+    0 4px 12px rgba(0, 0, 0, 0.15),
+    inset 0 1px 0 rgba(255, 255, 255, 0.3);
+}
+
+.audio-toggle-btn.playing {
+  background: rgba(76, 175, 80, 0.1);
+  border-color: rgba(76, 175, 80, 0.3);
+  color: #2e7d32;
+}
+
+.audio-toggle-btn.playing:hover {
+  background: rgba(76, 175, 80, 0.15);
+  border-color: rgba(76, 175, 80, 0.4);
+}
+
+.audio-icon {
+  font-size: 0.9rem;
 }
 
 /* MOBILE CONTROLS */
@@ -883,6 +891,15 @@ main {
     height: 35px;
   }
   
+  .audio-toggle-btn {
+    padding: 0.3rem 0.6rem;
+    font-size: 0.7rem;
+  }
+  
+  .audio-icon {
+    font-size: 0.8rem;
+  }
+  
   .footer-section {
     margin-top: 1.5rem;
     padding-top: 1rem;
@@ -943,16 +960,6 @@ main {
     max-width: 98vw;
     max-height: 98vh;
     border-radius: 8px;
-  }
-  
-  /* Video link mobile */
-  .video-link {
-    padding: 0.6rem 1.2rem;
-    font-size: 0.9rem;
-  }
-  
-  .video-icon {
-    font-size: 1rem;
   }
 }
 

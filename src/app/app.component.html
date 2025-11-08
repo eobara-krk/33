@@ -18,6 +18,27 @@
              (error)="onImageError($event)"
              loading="lazy" />
       </div>
+      <!-- AUDIO PLAYER TOTUS TUUS -->
+      <div class="totus-audio-player">
+        <button class="audio-toggle-btn" 
+                (click)="toggleAudio()"
+                [class.playing]="isAudioPlaying">
+          <span class="audio-icon">{{ isAudioPlaying ? '⏸️' : '🎵' }}</span>
+          <span>{{ isAudioPlaying ? 'Pauza' : 'Totus Tuus' }}</span>
+        </button>
+        
+        <!-- Ukryty iframe YouTube -->
+        <iframe #youtubePlayer
+                *ngIf="showYouTubePlayer"
+                width="0" 
+                height="0"
+                style="opacity: 0; position: absolute; pointer-events: none;"
+                [src]="youtubeEmbedUrl"
+                frameborder="0"
+                allow="autoplay; encrypted-media"
+                allowfullscreen>
+        </iframe>
+      </div>
     </div>
 
     <!-- HEADER -->
@@ -27,18 +48,6 @@
     </div>
 
     <div class="divider"></div>
-
-    <!-- LINK DO FILMIKU -->
-    <div class="video-link-container">
-      <a href="https://www.youtube.com/watch?v=31LSBxh0QZw&list=RD31LSBxh0QZw&start_radio=1" 
-         target="_blank" 
-         rel="noopener noreferrer"
-         class="video-link">
-        <span class="video-icon">🎬</span>
-        <span>AJIM - Totus Tuus - Totus Tuus</span>
-        <span class="external-icon">↗</span>
-      </a>
-    </div>
 
     <!-- EVENTY -->
     <div *ngFor="let item of items; trackBy: trackByTitle" class="event-card">

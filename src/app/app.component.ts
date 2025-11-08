@@ -58,6 +58,11 @@ interface Item {
 export class AppComponent implements OnInit {
   currentDateTime: Date = new Date(); // <-- dodaj to
   fullscreenImage: string | null = null; // <-- globalny fullscreen
+  
+  // Audio player properties
+  isAudioPlaying: boolean = false;
+  showYouTubePlayer: boolean = false;
+  youtubeEmbedUrl: string = '';
 
   // KONFIGURACJA DAT - tutaj ustawiasz datę startu
   private readonly startDate = new Date(2025, 9, 27); // 27 października 2025 (miesiące 0-11)
@@ -591,6 +596,23 @@ Osoby, którym nie udało się rozpocząć nowenny 27 października zachęcamy, 
         alert(message);
       }
     }, 50);
+  }
+
+  // ----------------------
+  // AUDIO PLAYER METHODS
+  // ----------------------
+  toggleAudio() {
+    if (!this.isAudioPlaying) {
+      // Start playing
+      this.youtubeEmbedUrl = 'https://www.youtube.com/embed/31LSBxh0QZw?autoplay=1&controls=0&showinfo=0&rel=0&iv_load_policy=3&modestbranding=1';
+      this.showYouTubePlayer = true;
+      this.isAudioPlaying = true;
+    } else {
+      // Stop playing
+      this.showYouTubePlayer = false;
+      this.youtubeEmbedUrl = '';
+      this.isAudioPlaying = false;
+    }
   }
 
   // ----------------------
