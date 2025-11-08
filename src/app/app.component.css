@@ -71,8 +71,9 @@ main {
 /* Pierwsza linia: Logo + Data */
 .header-top-line {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
   padding: 0 1rem;
 }
 
@@ -899,14 +900,25 @@ main {
   
   .header-top-line {
     flex-direction: column;
-    gap: 1rem;
+    gap: 1.5rem;
     align-items: center;
     padding: 0 0.5rem;
   }
   
+  /* Na mobile: najpierw lewa kolumna (logo + tytuł) */
   .left-column {
+    order: 1;
     align-items: center;
     gap: 0.8rem;
+    width: 100%;
+  }
+  
+  /* Na mobile: potem prawa kolumna (data + audio) */
+  .right-column {
+    order: 2;
+    align-items: center;
+    gap: 0.8rem;
+    width: 100%;
   }
   
   .logo-section img {
@@ -916,11 +928,6 @@ main {
   
   .header-title {
     text-align: center;
-  }
-  
-  .right-column {
-    align-items: center;
-    gap: 0.6rem;
   }
   
   .date-section {
