@@ -902,23 +902,29 @@ main {
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
-    padding: 0 0.2rem; /* Mniejszy padding */
-    gap: 0.3rem; /* Mniejszy gap */
+    padding: 0 0.5rem; /* Więcej padding dla bezpieczeństwa */
+    gap: 0.5rem;
+    width: 100%; /* Nie przekraczaj szerokości */
+    box-sizing: border-box; /* Padding wliczony w szerokość */
   }
   
-  /* Lewa kolumna na mobile - przylega do lewej */
+  /* Lewa kolumna na mobile */
   .left-column {
     align-items: flex-start;
     gap: 0.6rem;
-    flex: 0 0 auto; /* Nie rozciąga się */
+    flex: 1 1 auto; /* Może się rozciągać ale z ograniczeniami */
+    min-width: 0; /* Pozwala na skurczenie gdy potrzeba */
+    max-width: 60%; /* Maksymalnie 60% szerokości */
   }
   
-  /* Prawa kolumna na mobile - maksymalnie w prawo */
+  /* Prawa kolumna na mobile */
   .right-column {
     align-items: flex-end;
     gap: 0.6rem;
-    flex: 0 0 auto; /* Nie rozciąga się */
-    margin-left: auto; /* Pcha maksymalnie w prawo */
+    flex: 1 1 auto;
+    min-width: 0;
+    max-width: 40%; /* Maksymalnie 40% szerokości */
+    text-align: right;
   }
   
   .logo-section img {
@@ -928,16 +934,24 @@ main {
   
   .header-title {
     text-align: left;
+    overflow: hidden; /* Nie pozwala na overflow */
+    word-wrap: break-word; /* Łamie długie słowa */
   }
   
   .header-title h1 { 
     font-size: 1.2rem; 
     line-height: 1.2;
+    margin: 0;
+    overflow: hidden;
+    text-overflow: ellipsis; /* Dodaje ... gdy za długie */
   }
   
   .header-title p { 
     font-size: 0.75rem; 
     margin-top: 0.2rem;
+    margin: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
   
   .date-section {
@@ -955,18 +969,24 @@ main {
   .date-line {
     font-size: 0.75rem;
     padding: 0.25rem 0.5rem;
-    text-align: right; /* Tekst do prawej */
+    text-align: right;
+    white-space: nowrap; /* Nie łamie linii */
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
   
   .totus-image img {
     width: 30px;
     height: 30px;
+    flex-shrink: 0; /* Nie kurczy się */
   }
   
   .audio-toggle-btn {
     padding: 0.4rem 0.6rem;
     font-size: 0.7rem;
-    min-width: 90px;
+    min-width: 80px; /* Trochę mniejszy */
+    max-width: 100%; /* Nie przekracza rodzica */
+    box-sizing: border-box;
   }
   
   .play-icon {
