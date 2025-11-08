@@ -1,0 +1,24 @@
+[build]
+  # Komenda build używająca development configuration (bez limitów CSS)
+  # lub użyj "npm install && ng build" po zwiększeniu limitów w angular.json
+  command = "npm install && ng build --configuration development"
+  
+  # Folder z wynikowym buildem
+  publish = "dist"
+
+[build.environment]
+  # Wersja Node.js (zalecane dla Angular 17)
+  NODE_VERSION = "18"
+
+# Przekierowania dla Angular SPA
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+# Opcjonalne ustawienia bezpieczeństwa
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-XSS-Protection = "1; mode=block"
