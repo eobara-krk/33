@@ -468,7 +468,47 @@ _Jestem cały Twój i wszystko, co mam, jest Twoją własnością, umiłowany Je
         show: false,
         links: [
           { image: 'assets/12dni/04.jpg',type:'foto' },
-          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/12-dni-dzien-4', type:'html', label:'Odkryj łaskę nawrócenia i oddania życia Panu Jezusowi' },
+{ text: `*Dzień 4 - Odkryj łaskę nawrócenia i oddania życia Panu Jezusowi*
+  
+  *_Modlitwa do Ducha Świętego_*
+
+  _Duchu Święty, natchnij mnie. Miłości Boga, pochłoń mnie. Po prawdziwej drodze prowadź mnie, Maryjo, moja Matko, spójrz na mnie, z Jezusem błogosław mnie. Od wszelkiego zła, od wszelkiego złudzenia, od wszelkiego niebezpieczeństwa zachowaj mnie._
+  _ Maryjo, Oblubienico Ducha Świętego, wyproś mi łaskę odkrycia Bożej miłości._
+  _Amen!_
+
+  *Słowo Boże*
+  _„Dlatego, domu Izraela, będę was sądził, każdego według jego postępowania - wyrocznia Pana Boga. Nawróćcie się! Odstąpcie od wszystkich waszych grzechów, aby wam już więcej nie były sposobnością do przewiny. Odrzućcie od siebie wszystkie grzechy, które popełnialiście przeciwko Mnie, i uczyńcie sobie nowe serce i nowego ducha. Dlaczego mielibyście umrzeć, domu Izraela? Ja nie mam żadnego upodobania w śmierci - wyrocznia Pana Boga. Zatem nawróćcie się, a żyć będziecie” (Ez 18,30–32)._
+
+  *Rozważanie*
+ Przez pierwsze trzy dni rozważaliśmy, jak nas Bóg ukochał, jak nas niszczy grzech i wpatrywaliśmy się w Jezusa, który jest Zbawicielem pokonującym grzech, śmierć i szatana. Z tej perspektywy widzimy, że zwycięstwo Jezusa jest dla nas wielkim darem, który jest zaproszeniem do odpowiedzi.
+
+Dziś jest czas podjęcia drugiej decyzji. Co z tym zrobisz? Jesteś wolny i możesz podjąć decyzję. Będzie ona miała swoje konsekwencje – w twoim życiu i w wieczności. Zrozumienie tego jest kluczowe.
+
+Po co mam coś zmieniać? Walka, która się rozgrywa, jest wewnątrz nas. Gdy zaczniemy czytać Księgę Rodzaju pod kątem historii grzechu, wtedy dostrzeżemy, jakie przestrzenie infekuje w nas szatan – Adam i Ewa zostają nakłonieni do nieposłuszeństwa, Kain do zazdrości, budowniczy wieży Babel do pokusy samowystarczalności i niezależności od Boga, ludzie w czasach Noego są kuszeni do bierności, by nic nie robić, nie podejmować żadnej decyzji. Przecież „takie czasy”, „taki jest dzisiaj świat”, „wszyscy tak robią”, „inaczej się nie da”, „mam jeszcze czas”.
+
+Dzisiejsza decyzja to przejście od religijności do wiary. Co to oznacza? Religijność to taki sposób przeżywania swojej relacji z Bogiem, gdzie wypisuję listę rzeczy, o które chcę poprosić Boga, aby mi w nich pobłogosławił. To postawa, w której Bóg jest mi potrzebny do spełnienia moich zamiarów, pragnień, czasami nawet takich, które wydają się bardzo pobożne. Wiara, to relacja, w której daję Bogu czystą kartkę, podpisuję ją swoim imieniem i mówię: wypełnij ją jak chcesz, a ja Ci ufam, że mnie przez to wszystko przeprowadzisz. Można powiedzieć, że religijność to martwa wiara. Jak ona wygląda? Jednym z przejawów jest bycie tzw. katolikiem tradycyjnym – przyjąłem wiarę od rodziców, ale nie była ona moim osobistym wyborem. Innym przejawem martwej wiary jest „katolicyzm przepisowy” – najważniejsze jest wtedy przestrzeganie przykazań, zasad i przepisów, często co prawda są one uciążliwe, ale ich zachowywanie jest dla mnie pewnego rodzaju chlubą. Jeszcze innym przejawem martwej wiary jest „dobroludzizm” – przekonanie, że wystarczy być dobrym człowiekiem, czynić dobro, pomagać, angażować się charytatywnie. Przecież nikogo nie zabiłem, nikogo nie okradłem, więc jestem dobrym człowiekiem.
+
+Dzisiejszy dzień to zaproszenie do wyjścia z karykatur wiary i wejścia w ożywiającą relację z Bogiem, który ma moc wskrzesić to, co umarło w naszym życiu, i napełnić nas prawdziwym życiem. Jezus sam mówił o sobie: „Ja jestem drogą, prawdą i życiem” (J 14,6). Żyć naprawdę, oznacza żyć w relacji z Nim. Ta więź nazywa się żywą wiarą.
+
+Jezus, który pokonał śmierć, grzech i szatana, panuje nad wszystkim. Jemu wszystko jest poddane. Także to, nad czym my straciliśmy kontrolę. Jemu nic nie wymyka się spod ręki. On jest Panem świata materialnego i duchowego, On panuje nad złym duchem, chorobami, lękami, niepokojami.
+
+Bóg pokazuje nam dynamikę oddania. Najpierw On, stwarzając świat i człowieka, dał ludziom swoją miłość i obdarował go różnymi dobrami. „A Bóg widział, że wszystko, co uczynił, było bardzo dobre” (Rz 1,31). Później, gdy na jaw wyszła bolesna prawda o tym, że potrafimy zniweczyć nawet największe Boże dary przez nasz grzech, i gdy oddaliśmy się przez nieposłuszeństwo Bogu w niewolę diabła, Bóg dał nam siebie samego przez Maryję, a wszystko, co oddaliśmy w niewolę złego, Chrystus odkupił swoją Krwią. Gdy umierał na krzyżu, dał nam testament – swoją ostatnią wolę: „Oto Matka Twoja” (J 19, 27) – On oddaje nam Maryję, żebyśmy mogli tak jak Jan Apostoł wziąć Ją do siebie, do swojego życia. Ona, która najlepiej Go poznała i spędzała z Nim najwięcej czasu, może nas najlepiej nauczyć prawdziwego życia oddanego Bogu i w Jego bliskości. Bóg zaprasza Cię dzisiaj do podjęcia decyzji, żeby zaprosić Maryję do swojego serca, żeby wziąć ją do siebie i mieć relację z żywym Bogiem przez Maryję.
+
+To jest właśnie łaska wiary, przez którą możesz nawiązać więź z Bogiem żyjącym. Bóg realnie chce się z tobą spotkać i mieć żywą relację. Bóg szuka Cię na drogach twojego życia przez różne sytuacje, wydarzenia. Dostrzegasz to? Słowo Boże mówi: „My miłujemy [Boga], ponieważ Bóg pierwszy nas umiłował” (1 J 4,19), „który umiłował mnie i samego siebie wydał za mnie. Nie mogę odrzucić łaski danej przez Boga” (Ga 2,20–21). Na dar zbawienia nie można sobie zasłużyć czy zapracować. Otrzymaliśmy go za darmo, z Bożej dobroci i hojności. Bóg jest dobry, więc daje mi łaskę wiary. Mogę ją przyjąć lub odrzucić. Jaka jest dziś moja decyzja?
+
+
+*Lektura duchowa*
+_„Mądrość Przedwieczna jest głęboko poruszona nieszczęściem biednego Adama i całego jego potomstwa. Widzi ona, i smuci się wielce, że chwalebne jej naczynie jest rozbite, wizerunek jej rozdarty, arcydzieło zniszczone, jej ziemski – namiestnik – upadły. 
+
+św. Ludwik Maria Grignion de Montfort, Miłość Mądrości Przedwiecznej, 41-43
+
+*Zadanie*
+Przeżyję dzisiejszy dzień w ufności, że przez wszystko, co się w nim wydarzy, cokolwiek to będzie, Bóg chce mnie przeprowadzić.
+
+*Modlitwa zawierzenia*
+_Jestem cały Twój i wszystko, co mam, jest Twoją własnością, umiłowany Jezu, przez Maryję, Twoją świętą Matkę. Amen!_`
+ 
+, label: 'Odkryj łaskę nawrócenia i oddania życia Panu Jezusowi', type: 'opis', show: false },
           { url:'https://drogamaryi.pl/edycje/5-listopada-2025/12-dni-dzien-4/audio', type:'audio', label:'audio' }
         ]
       },
