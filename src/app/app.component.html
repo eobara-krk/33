@@ -18,26 +18,16 @@
              (error)="onImageError($event)"
              loading="lazy" />
       </div>
-      <!-- AUDIO PLAYER TOTUS TUUS -->
+      <!-- TOTUS TUUS AUDIO PLAYER -->
       <div class="totus-audio-player">
-        <button class="audio-toggle-btn" 
-                (click)="toggleAudio()"
-                [class.playing]="isAudioPlaying">
-          <span class="audio-icon">{{ isAudioPlaying ? '⏸️' : '🎵' }}</span>
-          <span>{{ isAudioPlaying ? 'Pauza' : 'Totus Tuus' }}</span>
+        <button (click)="toggleAudio()" 
+                class="audio-toggle-btn"
+                [class.playing]="isAudioPlaying"
+                title="{{isAudioPlaying ? 'Zatrzymaj' : 'Odtwórz'}} melodię Totus Tuus">
+          <span class="play-icon">{{isAudioPlaying ? '⏸️' : '▶️'}}</span>
+          <span class="audio-title">Totus Tuus</span>
+          <span class="audio-status">{{isAudioPlaying ? 'Odtwarzanie...' : 'Naciśnij aby odtworzyć'}}</span>
         </button>
-        
-        <!-- Ukryty iframe YouTube -->
-        <iframe #youtubePlayer
-                *ngIf="showYouTubePlayer"
-                width="0" 
-                height="0"
-                style="opacity: 0; position: absolute; pointer-events: none;"
-                [src]="youtubeEmbedUrl"
-                frameborder="0"
-                allow="autoplay; encrypted-media"
-                allowfullscreen>
-        </iframe>
       </div>
     </div>
 

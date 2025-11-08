@@ -58,11 +58,6 @@ interface Item {
 export class AppComponent implements OnInit {
   currentDateTime: Date = new Date(); // <-- dodaj to
   fullscreenImage: string | null = null; // <-- globalny fullscreen
-  
-  // Audio player properties
-  isAudioPlaying: boolean = false;
-  showYouTubePlayer: boolean = false;
-  youtubeEmbedUrl: string = '';
 
   // KONFIGURACJA DAT - tutaj ustawiasz datę startu
   private readonly startDate = new Date(2025, 9, 27); // 27 października 2025 (miesiące 0-11)
@@ -599,19 +594,40 @@ Osoby, którym nie udało się rozpocząć nowenny 27 października zachęcamy, 
   }
 
   // ----------------------
-  // AUDIO PLAYER METHODS
+  // AUDIO PLAYER TOTUS TUUS
   // ----------------------
+  isAudioPlaying = false;
+  audioElement: HTMLAudioElement | null = null;
+
   toggleAudio() {
-    if (!this.isAudioPlaying) {
-      // Start playing
-      this.youtubeEmbedUrl = 'https://www.youtube.com/embed/31LSBxh0QZw?autoplay=1&controls=0&showinfo=0&rel=0&iv_load_policy=3&modestbranding=1';
-      this.showYouTubePlayer = true;
-      this.isAudioPlaying = true;
-    } else {
-      // Stop playing
-      this.showYouTubePlayer = false;
-      this.youtubeEmbedUrl = '';
+    if (!this.audioElement) {
+      this.audioElement = new Audio('assets/totus_tuus.mp3');
+      this.audioElement.volume = 0.7; // 70% głośności
+      
+      this.audioElement.addEventListener('ended', () => {
+        this.isAudioPlaying = false;
+      });
+
+      this.audioElement.addEventListener('error', (e) => {
+        console.error('Błąd odtwarzania audio:', e);
+        alert('Nie można odtworzyć pliku audio');
+        this.isAudioPlaying = false;
+      });
+    }
+
+    if (this.isAudioPlaying) {
+      this.audioElement.pause();
+      this.audioElement.currentTime = 0; // Resetuj do początku
       this.isAudioPlaying = false;
+    } else {
+      this.audioElement.play()
+        .then(() => {
+          this.isAudioPlaying = true;
+        })
+        .catch((error) => {
+          console.error('Błąd odtwarzania:', error);
+          this.isAudioPlaying = false;
+        });
     }
   }
 

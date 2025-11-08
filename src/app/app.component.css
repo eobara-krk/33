@@ -446,23 +446,23 @@ main {
   filter: grayscale(100%);
 }
 
-/* TOTUS AUDIO PLAYER */
+/* TOTUS MUSIC LINK */
 .totus-audio-player {
   margin-top: 0.5rem;
   display: flex;
   justify-content: center;
-  position: relative;
 }
 
 .audio-toggle-btn {
   display: flex;
   align-items: center;
-  gap: 0.3rem;
-  padding: 0.4rem 0.8rem;
+  flex-direction: column;
+  gap: 0.2rem;
+  padding: 0.6rem 1rem;
   background: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(20px);
   border: 1px solid rgba(255, 255, 255, 0.2);
-  border-radius: 8px;
+  border-radius: 12px;
   color: #374151;
   font-size: 0.8rem;
   font-weight: 500;
@@ -471,6 +471,7 @@ main {
   box-shadow: 
     0 2px 8px rgba(0, 0, 0, 0.1),
     inset 0 1px 0 rgba(255, 255, 255, 0.2);
+  min-width: 120px;
 }
 
 .audio-toggle-btn:hover {
@@ -483,18 +484,29 @@ main {
 }
 
 .audio-toggle-btn.playing {
-  background: rgba(76, 175, 80, 0.1);
+  background: rgba(76, 175, 80, 0.15);
   border-color: rgba(76, 175, 80, 0.3);
   color: #2e7d32;
 }
 
 .audio-toggle-btn.playing:hover {
-  background: rgba(76, 175, 80, 0.15);
-  border-color: rgba(76, 175, 80, 0.4);
+  background: rgba(76, 175, 80, 0.2);
 }
 
-.audio-icon {
-  font-size: 0.9rem;
+.play-icon {
+  font-size: 1.2rem;
+  margin-bottom: 0.1rem;
+}
+
+.audio-title {
+  font-weight: 600;
+  font-size: 0.85rem;
+}
+
+.audio-status {
+  font-size: 0.7rem;
+  opacity: 0.8;
+  text-align: center;
 }
 
 /* MOBILE CONTROLS */
@@ -892,12 +904,21 @@ main {
   }
   
   .audio-toggle-btn {
-    padding: 0.3rem 0.6rem;
+    padding: 0.4rem 0.8rem;
     font-size: 0.7rem;
+    min-width: 100px;
   }
   
-  .audio-icon {
-    font-size: 0.8rem;
+  .play-icon {
+    font-size: 1rem;
+  }
+  
+  .audio-title {
+    font-size: 0.75rem;
+  }
+  
+  .audio-status {
+    font-size: 0.65rem;
   }
   
   .footer-section {
