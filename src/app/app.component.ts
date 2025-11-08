@@ -88,7 +88,7 @@ items: Item[] = [
         name: 'opis', 
         text: `BARDZO WAŻNYM etapem przygotowania do rekolekcji jest 9-dniowa nowenna do św. Ludwika Marii Grignion de Montfort.
 (nowennę ofiarujmy w intencji naszego osobistego, całkowitego oddania swojego życie Panu Jezusowi przez Maryję)
-Osoby, którym nie udało się rozpocząć nowenny 27 października zachęcamy, aby rozpoczęły ją w dowolnym dzień.`,
+Osoby, którym nie udało się rozpocząć nowenny 27 października zachęcamy, aby rozpoczęły ją w dowolnym dniu.`,
         show: false,
         protected: false,
         type: 'opis'
@@ -313,10 +313,10 @@ Osoby, którym nie udało się rozpocząć nowenny 27 października zachęcamy, 
   // ----------------------
   ngOnInit() {
     this.openTodayFolders();
-    // Przewiń do dzisiejszego elementu po 4 sekundach (żeby użytkownik zdążył przeczytać header)
+    // Przewiń do dzisiejszego elementu po 2 sekundach (żeby użytkownik zdążył przeczytać header)
     setTimeout(() => {
       this.scrollToToday();
-    }, 4000);
+    }, 2000);
   }
 
   // Automatyczne otwieranie folderów z dzisiejszą datą
