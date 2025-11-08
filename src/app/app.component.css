@@ -1548,6 +1548,24 @@ main {
   transform: scale(1.1);
 }
 
+.copy-text-icon {
+  font-size: 1.2em;
+  color: #666666;
+  cursor: pointer;
+  padding: 0.3rem;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+  background: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  margin-left: 0.5rem;
+}
+
+.copy-text-icon:hover {
+  background: rgba(255, 255, 255, 0.95);
+  color: #333333;
+  transform: scale(1.1);
+}
+
 .sub-text {
   margin-top: 1rem;
   padding-top: 1rem;

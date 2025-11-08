@@ -717,14 +717,38 @@ Na koniec odmawiamy Litanię do św. Ludwika de Montfort
   processTextWithLinks(text: string): string {
     if (!text) return '';
     
-    // Najpierw zachowujemy formatowanie (nowe linie)
-    let processedText = text.replace(/\n/g, '<br>');
+    // Formatowanie HTML dla wyświetlania na stronie
+    let processedText = text
+      // Konwertuj formatowanie na HTML
+      .replace(/\*([^*]+)\*/g, '<strong>$1</strong>') // *tekst* → <strong>
+      .replace(/\n/g, '<br>') // nowe linie
+      // Cytaty kursywą
+      .replace(/^"([^"]+)"$/gm, '<em>"$1"</em>') // "cytat" → <em>
+      // Specjalne sekcje
+      .replace(/(\*Modlitwa:\*)/g, '<br><strong>🙏 Modlitwa:</strong>')
+      .replace(/(\*Dzień [^:]+:\*)/g, '<strong>📿 $1</strong>');
     
-    // Zamieniamy URL-e na klikalny linki (bardziej precyzyjny regex)
+    // Zamieniamy URL-e na klikalny linki
     const urlRegex = /(https?:\/\/[^\s<>]+)/g;
     processedText = processedText.replace(urlRegex, '<a href="$1" target="_blank" rel="noopener" class="inline-link">$1</a>');
     
     return processedText;
+  }
+
+  // FORMATOWANIE TEKSTU DLA WHATSAPP (MARKDOWN)
+  // ----------------------
+  private formatTextForWhatsApp(text: string): string {
+    if (!text) return '';
+    
+    return text
+      // Zachowaj formatowanie WhatsApp
+      .replace(/\*([^*]+)\*/g, '*$1*') // *bold* dla WhatsApp
+      .replace(/\n{3,}/g, '\n\n') // zmniejsz nadmierne nowe linie
+      // Dodaj emotikony do sekcji
+      .replace(/(\*Modlitwa:\*)/g, '\n🙏 $1')
+      .replace(/(\*Dzień [^:]+:\*)/g, '📿 $1')
+      // Kursywa dla cytatów
+      .replace(/^"([^"]+)"$/gm, '_"$1"_');
   }
 
   // ZARZĄDZANIE WIDOCZNOŚCIĄ TEKSTU
@@ -732,6 +756,37 @@ Na koniec odmawiamy Litanię do św. Ludwika de Montfort
   toggleTextVisibility(linkItem: any) {
     if (linkItem.type === 'opis') {
       linkItem.show = !linkItem.show;
+    }
+  }
+
+  // KOPIOWANIE TEKSTU DO SCHOWKA Z FORMATOWANIEM WHATSAPP
+  // ----------------------
+  async copyTextToClipboard(text: string) {
+    if (!text) {
+      alert('Brak tekstu do skopiowania.');
+      return;
+    }
+
+    try {
+      // Sformatuj tekst dla WhatsApp (markdown)
+      const whatsappText = this.formatTextForWhatsApp(text);
+      
+      // Skopiuj do schowka
+      await navigator.clipboard.writeText(whatsappText);
+      
+      console.log('✅ Tekst skopiowany:', whatsappText.length, 'znaków');
+      alert(`✅ Tekst został skopiowany do schowka!\n\nDługość: ${whatsappText.length} znaków\n\n📱 Możesz teraz wkleić go gdzie chcesz (np. WhatsApp, Messenger, SMS)`);
+      
+    } catch (error) {
+      console.error('❌ BŁĄD kopiowania tekstu:', error);
+      
+      // Fallback - pokaż tekst do ręcznego skopiowania
+      const whatsappText = this.formatTextForWhatsApp(text);
+      const result = prompt('⚠️ Nie udało się automatycznie skopiować tekstu.\n\nSkopiuj go ręcznie (Ctrl+C):', whatsappText);
+      
+      if (result !== null) {
+        alert('✅ Tekst gotowy do wklejenia!');
+      }
     }
   }
 }

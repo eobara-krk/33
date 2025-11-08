@@ -224,6 +224,7 @@
                       <!-- Przycisk toggle w prawym górnym rogu gdy tekst jest rozwinięty -->
                       <div *ngIf="l.show" class="text-toggle-container">
                         <span class="text-toggle-icon" (click)="toggleTextVisibility(l); $event.stopPropagation();">▲</span>
+                        <span class="copy-text-icon" (click)="copyTextToClipboard(l.text); $event.stopPropagation();" title="Skopiuj tekst">📋</span>
                       </div>
                       
                       <!-- Zawartość tekstowa -->
