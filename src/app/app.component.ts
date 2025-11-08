@@ -598,8 +598,8 @@ Osoby, którym nie udało się rozpocząć nowenny 27 października zachęcamy, 
   // ----------------------
   isAudioPlaying = false;
   audioElement: HTMLAudioElement | null = null;
-  // Link do bezpośredniego pobierania z Google Drive
-  private audioUrl = 'https://drive.google.com/uc?export=download&id=1L8KFy9L67th85iXv3bMBoLrazgNtlIEj';
+  // Lokalny plik MP3 w assets
+  private audioUrl = 'assets/totus_tuus.mp3';
 
   toggleAudio() {
     if (!this.audioElement) {
