@@ -914,7 +914,9 @@ main {
   }
   
   .header-top-line {
-    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
     width: 100%;
     height: auto;
     padding: 0;
@@ -924,18 +926,15 @@ main {
   .left-column {
     align-items: flex-start;
     gap: 0.6rem;
-    position: relative;
-    width: auto;
+    flex-shrink: 0;
   }
   
-  /* Prawa kolumna na mobile - pozycjonowanie absolutne przy prawej krawędzi */
+  /* Prawa kolumna na mobile - normalne pozycjonowanie flexbox */
   .right-column {
-    position: absolute;
-    top: 0;
-    right: 0; /* Przylgnięcie do prawej krawędzi - padding jest w .placeholder */
     align-items: flex-end;
     gap: 0.6rem;
     text-align: right;
+    flex-shrink: 0;
   }
   
   .logo-section img {
