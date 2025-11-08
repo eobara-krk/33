@@ -598,10 +598,12 @@ Osoby, którym nie udało się rozpocząć nowenny 27 października zachęcamy, 
   // ----------------------
   isAudioPlaying = false;
   audioElement: HTMLAudioElement | null = null;
+  // Link do bezpośredniego pobierania z Google Drive
+  private audioUrl = 'https://drive.google.com/uc?export=download&id=1L8KFy9L67th85iXv3bMBoLrazgNtlIEj';
 
   toggleAudio() {
     if (!this.audioElement) {
-      this.audioElement = new Audio('assets/totus_tuus.mp3');
+      this.audioElement = new Audio(this.audioUrl);
       this.audioElement.volume = 0.7; // 70% głośności
       
       this.audioElement.addEventListener('ended', () => {
@@ -610,7 +612,7 @@ Osoby, którym nie udało się rozpocząć nowenny 27 października zachęcamy, 
 
       this.audioElement.addEventListener('error', (e) => {
         console.error('Błąd odtwarzania audio:', e);
-        alert('Nie można odtworzyć pliku audio');
+        alert('Nie można odtworzyć pliku audio. Sprawdź połączenie internetowe.');
         this.isAudioPlaying = false;
       });
     }
@@ -626,6 +628,7 @@ Osoby, którym nie udało się rozpocząć nowenny 27 października zachęcamy, 
         })
         .catch((error) => {
           console.error('Błąd odtwarzania:', error);
+          alert('Nie można odtworzyć audio. Sprawdź połączenie internetowe.');
           this.isAudioPlaying = false;
         });
     }
