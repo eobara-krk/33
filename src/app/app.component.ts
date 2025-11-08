@@ -1060,8 +1060,8 @@ _Jestem cały Twój i wszystko, co mam, jest Twoją własnością, umiłowany Je
     if (!text) return '';
     
     return text
-      // Usuń wcięcia z początku linii (WAŻNE dla WhatsApp!)
-      .replace(/^\s+/gm, '') // usuń wszystkie spacje z początku każdej linii
+      // USUŃ WSZYSTKIE wcięcia z początku każdej linii - WhatsApp zaczyna od lewej
+      .replace(/^\s+/gm, '') 
       // Zachowaj formatowanie WhatsApp (kombinacje najpierw!)
       .replace(/\*_([^_*]+)_\*/g, '*_$1_*') // *_tekst_* → zachowaj dla WhatsApp
       .replace(/_\*([^*_]+)\*_/g, '_*$1*_') // _*tekst*_ → zachowaj dla WhatsApp
