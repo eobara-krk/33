@@ -770,10 +770,12 @@ Na koniec odmawiamy Litanię do św. Ludwika de Montfort
     }
 
     try {
-      // Wyczyść schowek przed kopiowaniem nowego tekstu
+      // ZAWSZE wyczyść schowek przed kopiowaniem nowego tekstu
       try {
         await navigator.clipboard.writeText('');
         console.log('🧹 Schowek wyczyszczony');
+        // Krótkie opóźnienie żeby mieć pewność że czyszczenie się wykonało
+        await new Promise(resolve => setTimeout(resolve, 100));
       } catch (clearError) {
         console.warn('⚠️ Nie udało się wyczyścić schowka:', clearError);
       }
