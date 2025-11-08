@@ -789,13 +789,11 @@ Na koniec odmawiamy Litanię do św. Ludwika de Montfort
       // Sformatuj tekst dla WhatsApp (markdown)
       const whatsappText = this.formatTextForWhatsApp(cleanText);
       
-      // Dodaj źródło - jeśli jest oryginalny link, użyj go w nawiasach kwadratowych
+      // Dodaj źródło tylko jeśli istnieje
       let finalText = whatsappText;
       if (sourceUrl) {
         const cleanSourceUrl = sourceUrl.replace(/^https?:\/\//, '');
         finalText += '\n\n📖 Źródło: [' + cleanSourceUrl + ']';
-      } else {
-        finalText += '\n\n📖 Więcej na: [drogamaryi.pl]';
       }
       
       // Skopiuj do schowka
