@@ -3,14 +3,14 @@
   # lub użyj "npm install && ng build" po zwiększeniu limitów w angular.json
   command = "npm install && ng build --configuration development"
   
-  # Folder z wynikowym buildem
-  publish = "dist"
+  # Folder z wynikowym buildem (Angular 17 tworzy dist/browser)
+  publish = "dist/browser"
 
 [build.environment]
   # Wersja Node.js (zalecane dla Angular 17)
   NODE_VERSION = "18"
 
-# Przekierowania dla Angular SPA
+# Przekierowania dla Angular SPA (zastępuje _redirects)
 [[redirects]]
   from = "/*"
   to = "/index.html"
