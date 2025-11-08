@@ -648,12 +648,16 @@ Osoby, którym nie udało się rozpocząć nowenny 27 października zachęcamy, 
     const todayElement = document.querySelector('.today-highlight');
     
     if (todayElement) {
-      // Przewiń do elementu z płynną animacją i wyśrodkuj go na ekranie
-      todayElement.scrollIntoView({
-        behavior: 'smooth',
-        block: 'center', // Wyśrodkuj element pionowo na ekranie
-        inline: 'nearest'
-      });
+      // Proste przewijanie do dzisiejszego elementu z małym offsetem od góry
+      setTimeout(() => {
+        const elementTop = todayElement.getBoundingClientRect().top + window.pageYOffset;
+        const offset = 150; // Stały offset żeby zostawić miejsce na header
+        
+        window.scrollTo({
+          top: Math.max(0, elementTop - offset),
+          behavior: 'smooth'
+        });
+      }, 200); // Małe opóźnienie żeby DOM się ustabilizował
     }
     // Jeśli nie ma dzisiejszego elementu - pozostaw stronę na górze
   }
