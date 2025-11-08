@@ -101,7 +101,7 @@ Zachęcamy Was do czytania Traktatu św. Ludwika. Można każdego dnia poświeci
         name: `01: ${this.getDatePlusDays(this.startDate, 0)}`,
         show: false,
         links: [
-          { image: 'assets/nowenna/01.jpg',type:'foto' },
+          { image: 'assets/nowenna/01.jpg', type:'foto' },
           { text: `*Dzień pierwszy: Czułe serce św. Ludwika*
 
 Św. Ludwik miał przedziwną drogę duchową, którą go Bóg prowadził, a on wiernie był jej posłuszny. Miłość do Boga i bliźniego, szczególnie do tych, którzy byli w wielkiej potrzebie, były podstawą tej drogi. 
@@ -130,7 +130,7 @@ Na koniec odmawiamy Litanię do św. Ludwika de Montfort`
         show: false,
         links: [
           { image: 'assets/nowenna/02.jpg',type:'foto' },
-           { text: `*Dzień drugi: Duchowe wzrastanie św. Ludwika i nasze*
+          { text: `*Dzień drugi: Duchowe wzrastanie św. Ludwika i nasze*
 
 Św. Ludwik dał nam świadectwo tego, że osiągnął szczyt duchowego i mistycznego życia na ziemi, zjednoczenia z Chrystusem, którego nazywa Mądrością: „W nowej rodzinie, do której należę, poślubiłem Mądrość i krzyż, tu jest cały mój skarb, w czasie i w wieczności, ziemski i niebieski, a jest on tak wielki, że kiedy zostałby on poznany, mojemu losowi zazdrościliby najbogatsi i najmocniejsi królowie ziemi. Nikt nie zna tajemnicy, o której mówię, albo zna ją bardzo mało”. (List 20). Św. Ludwik pisał do swojego przyjaciela Blaina, że odczuwał trwałą obecność Jezusa i Maryi w swojej duszy. Montfort wyjaśnia charakterystykę tego mistycznego zjednoczenia się z Maryją w pieśni: „Ta dobra matka i nauczycielka na każdym kroku mocno mnie wspomaga i kiedy przez słabości upadnę, Ona mnie zaraz podnosi. Oto, mówię wam, niepojmowana rzecz. Ja niosę w sobie Maryję, ale w cieniu wiary”. (Pieśń 77,11-15). Św. Ludwik jasno przekazuje, że jeżeli ktoś naprawdę w autentyczny sposób chce żyć duchowością poświęcenia się, której on naucza, to duchowość ta poprowadzi go wąską drogą ewangelii do uwolnienia od egoizmu i samolubstwa. Celem jest oczyszczenie i wzrastanie w miłości. Naprawdę, Maryja, wiernych, którzy Jej się poświęcają, prowadzi drogą większej i czystszej miłości. Taka jest ta droga, z jednej strony - umieranie dla grzechu i dla samego siebie, a z drugiej strony - przemienianie i rodzenie nowego człowieka w Jezusie Chrystusie. W pieśni sama miłość mówi o sobie: „Samolubstwo jest całkowicie przeciwne świętemu ogniu boskiej miłości, trzeba wszystko cierpieć i wszystko uczynić, by pokonać tę subtelną złośliwość. Aby płonąć Moim czystym płomieniem, aby kosztować Moje święte namaszczenie, musimy znienawidzić się aż do umartwienia. Mój zbawczy ogień gasi się wodą lekkich grzechów. Kto ich nie popełnia dobrowolne, dojdzie do czystej miłości nieba”. (Pieśń 5,29-31). Św. Ludwik drogą, którą sam przeszedł, chce prowadzić duszę do czystej miłości i zjednoczenia się z Jezusem - Mądrością. Jest on świadomy tego, że może nie być łatwo zrozumieć i przyjąć znaczenie i istotę tej duchowości. „Ponieważ istota tego nabożeństwa tkwi we wnętrzu człowieka, które ma ono kształtować, nie znajdzie ono jednakowego u wszystkich zrozumienia”. (TPN n.119). Nie trzeba wielkiego trudu, by zapisać się do jakiegoś bractwa, odmawiać co dziennie kilka różnych modlitw; lecz prawdziwą trudność stanowi wniknięcie w ducha tego nabożeństwa, które ma wewnętrznie uczynić duszę niewolniczo zależną od Najświętszej Dziewicy, a przez Nią – od Jezusa”. (TM n.44). Aby prawdziwie zrozumieć i żyć na co dzień duchem poświęcenia się Jezusowi przez Maryję, trzeba ponad wszystko dbać o właściwą akceptację fundamentu tej duchowości, który polega na całkowitym oddaniu się Maryi, aby  to Ona prowadziła nas drogą do zjednoczenia się z Jezusem poprzez sytuacje i wydarzenia naszego życia. Trzeba czuwać nad wewnętrznym duchem tego ofiarowania się, akceptując drogę umierania  dla grzechu i samolubstwa, abyśmy duchowo wzrastali i dojrzewali, akceptując wszystkie potrzebne i konieczne narzędzia duchowego życia, abyśmy drogą czystej miłości doszli do zjednoczenia się z Jezusem. Skutkiem takiej postawy jest duchowy dynamizm, który trwa całe życie. Jego realizacja nie zależy tylko od naszej pracy, ale jest to także dar Bożej łaski.
 
@@ -216,7 +216,7 @@ Na koniec odmawiamy Litanię do św. Ludwika de Montfort`
         show: false,
         links: [
           { image: 'assets/nowenna/07.jpg',type:'foto' },
-{ text: `*Dzień siódmy: Apostoł Krzyża i Chrystusowego zwycięstwa*
+          { text: `*Dzień siódmy: Apostoł Krzyża i Chrystusowego zwycięstwa*
 Życie duchowe wiąże się nierozerwalnie z duchowym pojmowaniem krzyża, który każdy spotyka w swoim życiu. Posiadanie dojrzałego i zrównoważonego stosunku wobec krzyża jest wielką sztuką duchową. Łatwo jest źle rozumieć i  nie akceptować duchowości krzyża, czego skutkiem może być blokada w rozwoju i dojrzewaniu duchowym. Św. Ludwik jest wielkim nauczycielem duchowości krzyża Chrystusowego i pragnie formować nas, abyśmy naśladowali Chrystusa przez nasze krzyże. Patrząc na krzyż, św. Ludwik patrzył na paschalną tajemnicę Jezusowej męki, śmierci i zmartwychwstania: „Oto, jak sądzę, największa „tajemnica królewska”, największa tajemnica Mądrości Przedwiecznej: to Krzyż. Och! Jakże bardzo myśli i drogi Mądrości Przedwiecznej oddalone są i różne od myśli i dróg ludzkich, nawet najmądrzejszych! Ów wielki Bóg chce odkupić świat, przepędzić i spętać złe duchy; zamknąć piekło i otworzyć ludziom Niebo; Ojcu Przedwiecznemu oddać nieskończoną chwałę. Oto wielki cel, trudne dzieło i ogromne przedsięwzięcie. Czym posłuży się Mądrość, której poznanie obejmuje świat od krańca do krańca, która włada łagodnie i wszystko czyni z mocą? Ma ona wszechmocne ramię; jednym ruchem ręki może zniszczyć wszystko, co jest jej przeciwne, i wszystko uczynić, co zechce; słowem jednym ust swoich może stworzyć i unicestwić wszystko. Wystarczy jej tylko zapragnąć, aby wszystko się stało. Jej Miłość wszelako dyktuje prawa jej mocy. Pragnie ona wcielić się, by dać człowiekowi świadectwo swej przyjaźni; chce sama zstąpić na ziemię, by umożliwić mu wzniesienie się do Nieba. Niech tak się stanie!(..) Ona to właśnie na krzyż spogląda; znajduje w nim upodobanie; ceni go pośród wszystkiego, co największe i wspaniałe w Niebie i na ziemi, jako narzędzie jej podbojów i ozdobę jej majestatu, bogactwo i rozkosz jej panowania, przyjaciółkę i oblubienicę jej Serca. O głębokości bogactw, mądrości i wiedzy Bożej. Jakże Jego wybór jest zadziwiający, a Jego zamysły i sądy – wzniosłe i niepojęte! Jak niewysłowiona jest jednakowoż Jego miłość do tego krzyża! (MMP n.167,168). Jezusowa męka i śmierć na krzyżu jest Bożym wyborem i największym dowodem i realizacją zbawczej miłości Syna Bożego, który będąc w pełni wolny, ofiarowuje się dla naszego odkupienia.  Jezusowa męka jest dowodem i realizacją miłości i to ona woła, by ludzie jej odpowiedzieli miłością. Chrześcijańskie życie jest naśladowaniem Jezusa Chrystusa i odpowiedzią na Jego powołanie do miłości, która się wyraża na co dzień w naszych krzyżach. W ten sposób można zrozumieć duchowość krzyża, którą naucza św. Ludwik: „Pośród wszystkich argumentów, które mogą nas skłonić do miłowania Jezusa Chrystusa, Mądrości Wcielonej – moim zdaniem – najmocniejszy stanowią boleści, jakie zechciał On wycierpieć, by dać nam dowód swojej miłości” (MMP n.154).
 
 *Modlitwa:* 
@@ -233,7 +233,7 @@ Na koniec odmawiamy Litanię do św. Ludwika de Montfort`
         show: false,
         links: [
           { image: 'assets/nowenna/08.jpg',type:'foto' },
-{ text: `*Dzień ósmy: Nauczyciel trwania w łasce*
+          { text: `*Dzień ósmy: Nauczyciel trwania w łasce*
 Z pastoralnego doświadczenia, jako misjonarz, Montfort był głęboko przekonany, że wytrwałość jest wielkim problemem dusz ludzkich i dlatego zachęcał, by zaakceptować duchowość poświęcenia się. Problem wytrwania w dobrym jest bardzo istotny w życiu wiary. Jest to rzeczywistość, w której obecne są: Boża łaska, ludzka wolność i kruchość ludzkiej natury, spowodowana przez przeszłość, słabości i rany, przez negatywne działanie świata i szatana, przez pokusy i wyobraźnię. Abyśmy mogli zbierać owoce, musimy trwać w łasce, musimy być wierni łasce Bożej. Ziarno, które padło na ziemię, musi umrzeć, potem powoli i w ukryciu wzrastać, i w swoim czasie przynieść owoce. Maryja, która była zawsze wierna i wytrwała, pomaga duszy, która Jej się oddaje, aby trwała w wierności i w ten sposób przyniosła owoce. Św. Ludwik zachęca: „Do owego nabożeństwa do Najświętszej Dziewicy zachęca nas skutecznie ta okoliczność, iż stanowi ono cudowny środek wytrwania w cnocie i wierności. Skąd bowiem bierze się to, iż większość nawróconych grzeszników nie potrafi wytrwać? Skąd bierze się to, że tak łatwo znów popadamy w grzech? Skądże pochodzi to, że większa część sprawiedliwych, zamiast postępować w cnocie i wzrastać w łasce, częstokroć traci tę odrobinę posiadanych cnót i łask? Jak wykazałem poprzednio, nieszczęście to pochodzi stąd, że człowiek – przecież tak bardzo skażony, słaby i niestały – przecenia siebie samego, opiera się na własnych siłach i sądzi, że sam zdoła zachować skarb łask, cnót i zasług. Przez to nabożeństwo Najświętszej Dziewicy, która jest wierna, powierzamy wszystko, co posiadamy; uznajemy Ją za Powiernicę wszelkich naszych dóbr natury i łaski; zawierzamy Jej wierności; opieramy się na Jej potędze, na Jej miłosierdziu i miłości, ażeby to Ona zachowała i pomnażała nasze cnoty i zasługi – wbrew diabłu, światu i ciału, czyniących wszystko, by je nam odebrać. Człowiek mówi do Maryi jak dziecko do matki, jak wierny sługa do swej pani: strzeż depozytu wiary. Moja dobra Matko i Pani, uznaję, że dotąd za Twoją przyczyną otrzymałem więcej łask od Pana Boga, niż na to zasługiwałem, a smutne doświadczenia, jakie zdobyłem, pouczyły mnie, że skarb łaski noszę w bardzo kruchym naczyniu i że jestem zbyt słaby i nędzny, by go sam zachować. Błagam Cię więc: wszystko, co posiadam weź w depozyt, i zachowaj Swą wiernością i potęgą. Jeśli Ty będziesz się mną opiekować, nie stracę nic; jeśli Ty mnie podtrzymywać będziesz, nie upadnę; jeśli Ty mnie osłaniać będziesz, uchronię się przed nieprzyjaciółmi” (TPN n.173).
 
 *Modlitwa:* 
@@ -273,7 +273,7 @@ Na koniec odmawiamy Litanię do św. Ludwika de Montfort`
         show: false,
         links: [
           { image: 'assets/wprowadzenie/01.jpg',type:'foto' },
-{ text: `*Wprowadzenie*
+          { text: `*Wprowadzenie*
   _„(...) powinni przynajmniej przez dwanaście dni pracować nad tym, by wyzbyć się ducha tego świata, sprzecznego z Duchem Jezusa Chrystusa”._
 
   św. Ludwik Maria Grignion de Montfort, Traktat o prawdziwym nabożeństwie do Najświętszej Maryi Panny, 227
@@ -302,7 +302,7 @@ Chrystus mówi: „Nie proszę, abyś ich zabrał ze świata, ale byś ich ustrz
         show: false,
         links: [
           { image: 'assets/12dni/01.jpg',type:'foto'},
-{ text: `*Dzień 1 - Odkryj łaskę Bożej miłości*
+          { text: `*Dzień 1 - Odkryj łaskę Bożej miłości*
   
   *_Modlitwa do Ducha Świętego_*
 
@@ -362,7 +362,7 @@ _Jestem cały Twój i wszystko, co mam, jest Twoją własnością, umiłowany Je
         show: false,
         links: [
           { image: 'assets/12dni/02.jpg',type:'foto' },
-{ text: `*Dzień 2 - Odkryj łaskę poznania prawdy o grzechu*
+          { text: `*Dzień 2 - Odkryj łaskę poznania prawdy o grzechu*
   
   *_Modlitwa do Ducha Świętego_*
 
@@ -417,7 +417,7 @@ _Jestem cały Twój i wszystko, co mam, jest Twoją własnością, umiłowany Je
         show: false,
         links: [
           { image: 'assets/12dni/03.jpg',type:'foto' },
-{ text: `*Dzień 3 - Odkryj łaskę zbawienia*
+          { text: `*Dzień 3 - Odkryj łaskę zbawienia*
   
   *_Modlitwa do Ducha Świętego_*
 
@@ -468,7 +468,7 @@ _Jestem cały Twój i wszystko, co mam, jest Twoją własnością, umiłowany Je
         show: false,
         links: [
           { image: 'assets/12dni/04.jpg',type:'foto' },
-{ text: `*Dzień 4 - Odkryj łaskę nawrócenia i oddania życia Panu Jezusowi*
+          { text: `*Dzień 4 - Odkryj łaskę nawrócenia i oddania życia Panu Jezusowi*
   
   *_Modlitwa do Ducha Świętego_*
 
@@ -518,12 +518,12 @@ _Jestem cały Twój i wszystko, co mam, jest Twoją własnością, umiłowany Je
         links: [
           { image: 'assets/12dni/05.jpg',type:'foto' },
 { text: `*Dzień 5 - Błogosławieni ubodzy w duchu*
-  
-  *_Modlitwa do Ducha Świętego_*
 
-  _Duchu Święty, natchnij mnie. Miłości Boga, pochłoń mnie. Po prawdziwej drodze prowadź mnie, Maryjo, moja Matko, spójrz na mnie, z Jezusem błogosław mnie. Od wszelkiego zła, od wszelkiego złudzenia, od wszelkiego niebezpieczeństwa zachowaj mnie._
-  _ Maryjo, Oblubienico Ducha Świętego, wyproś mi łaskę odkrycia Bożej miłości._
-  _Amen!_
+*_Modlitwa do Ducha Świętego_*
+
+_Duchu Święty, natchnij mnie. Miłości Boga, pochłoń mnie. Po prawdziwej drodze prowadź mnie, Maryjo, moja Matko, spójrz na mnie, z Jezusem błogosław mnie. Od wszelkiego zła, od wszelkiego złudzenia, od wszelkiego niebezpieczeństwa zachowaj mnie._
+_Maryjo, Oblubienico Ducha Świętego, wyproś mi łaskę odkrycia Bożej miłości._
+_Amen!_
 
   *Słowo Boże*
   _„Błogosławieni ubodzy w duchu, albowiem do nich należy królestwo niebieskie” (Mt 5,3)._
@@ -1060,6 +1060,8 @@ _Jestem cały Twój i wszystko, co mam, jest Twoją własnością, umiłowany Je
     if (!text) return '';
     
     return text
+      // Usuń wcięcia z początku linii (WAŻNE dla WhatsApp!)
+      .replace(/^\s+/gm, '') // usuń wszystkie spacje z początku każdej linii
       // Zachowaj formatowanie WhatsApp (kombinacje najpierw!)
       .replace(/\*_([^_*]+)_\*/g, '*_$1_*') // *_tekst_* → zachowaj dla WhatsApp
       .replace(/_\*([^*_]+)\*_/g, '_*$1*_') // _*tekst*_ → zachowaj dla WhatsApp
