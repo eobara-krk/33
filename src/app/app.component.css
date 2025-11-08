@@ -740,7 +740,7 @@ main {
 }
 
 .event-thumb {
-  width: 150px; /* Zwiększone z 120px */
+  width: 180px; /* Zwiększone o kolejne 20% z 150px */
   height: auto;
   cursor: pointer;
   border-radius: 8px;
@@ -754,8 +754,8 @@ main {
 }
 
 .link-thumb {
-  width: 80px; /* Zwiększone z 60px */
-  height: 80px; /* Zwiększone z 60px */
+  width: 96px; /* Zwiększone o kolejne 20% z 80px */
+  height: 96px; /* Zwiększone o kolejne 20% z 80px */
   object-fit: cover;
   cursor: pointer;
   border-radius: 6px;
@@ -1131,12 +1131,12 @@ main {
   
   /* Responsive images - większe miniaturki na mobile */
   .link-thumb {
-    width: 65px; /* Zwiększone z 50px */
-    height: 65px; /* Zwiększone z 50px */
+    width: 78px; /* Zwiększone o kolejne 20% z 65px */
+    height: 78px; /* Zwiększone o kolejne 20% z 65px */
   }
   
   .event-thumb {
-    width: 120px; /* Zwiększone z 100px */
+    width: 144px; /* Zwiększone o kolejne 20% z 120px */
   }
   
   .fullscreen-local {
