@@ -1,0 +1,47 @@
+import { Injectable } from '@angular/core';
+
+@Injectable({
+  providedIn: 'root'
+})
+export class WhatsAppFormatterService {
+
+  // Funkcja: konwertuje HTML na format WhatsApp
+  formatForWhatsApp(inputHtml: string): string {
+    // Zamień <br> na \n
+    let text = inputHtml.replace(/<br\s*\/?>/gi, '\n');
+    // Zamień <b>, <strong> na **
+    text = text.replace(/<(b|strong)>(.*?)<\/(b|strong)>/gi, '**$2**');
+    // Zamień <i>, <em> na _
+    text = text.replace(/<(i|em)>(.*?)<\/(i|em)>/gi, '_$2_');
+    // Usuń pozostałe znaczniki HTML
+    text = text.replace(/<[^>]+>/g, '');
+
+    // Zachowaj puste linie
+    const lines = text.split(/\n/);
+    const result: string[] = [];
+    for (let line of lines) {
+      line = line.trim();
+      if (!line) {
+        result.push('');
+        continue;
+      }
+      // Łamanie linii na spacjach do 80 znaków
+      while (line.length > 80) {
+        // Znajdź ostatni odstęp przed 80 znakiem
+        let breakPos = line.lastIndexOf(' ', 80);
+        if (breakPos === -1) breakPos = 80; // jeśli nie ma spacji, łam po 80
+        let part = line.slice(0, breakPos);
+        let rest = line.slice(breakPos).trimStart();
+        // Jeśli linia zaczyna się i kończy na kursywie, rozdziel _
+        if (part.startsWith('_') && part.endsWith('_')) {
+          part = part + '_';
+          rest = '_' + rest;
+        }
+        result.push(part);
+        line = rest;
+      }
+      result.push(line);
+    }
+    return result.join('\n');
+  }
+}
