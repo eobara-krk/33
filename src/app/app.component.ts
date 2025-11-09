@@ -78,9 +78,9 @@ readonly nowenna1 = NovenaTexts.dzien1;
 readonly nowenna2 = NovenaTexts.dzien2;
 
 readonly tvelveDay1 = TvelveDaysTexts.dzien1;
-
 readonly tvelveDay2 = TvelveDaysTexts.dzien2;
-
+readonly tvelveDay3 = TvelveDaysTexts.dzien3;
+readonly tvelveDay4 = TvelveDaysTexts.dzien4;
 readonly tvelveDay5 = TvelveDaysTexts.dzien5;
 readonly tvelveDay6 = TvelveDaysTexts.dzien6; 
 readonly tvelveDay7 = TvelveDaysTexts.dzien7;
@@ -89,7 +89,6 @@ readonly tvelveDay9 = TvelveDaysTexts.dzien9;
 readonly tvelveDay10 = TvelveDaysTexts.dzien10;
 readonly tvelveDay11 = TvelveDaysTexts.dzien11;
 readonly tvelveDay12 = TvelveDaysTexts.dzien12;
-
 
 
   // Przykład użycia przy kopiowaniu
@@ -221,7 +220,7 @@ items: Item[] = [
         show: false,
         links: [
           { image: 'assets/12dni/01.jpg',type:'foto'},
-         
+          { text: this.tvelveDay1, type:'opis', label: 'Odkryj łaskę Bożej miłości' },
           { url:'https://drogamaryi.pl/edycje/5-listopada-2025/12-dni-dzien-1/audio', type:'audio', label:'audio' }
         ]
       },
@@ -230,7 +229,8 @@ items: Item[] = [
         show: false,
         links: [
           { image: 'assets/12dni/02.jpg',type:'foto' },
-        
+          { text: this.tvelveDay2, type:'opis', label: 'Odkryj łaskę poznania prawdy o grzechu' },
+          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/12-dni-dzien-2/audio', type:'audio', label:'audio' }
         ]
       },
       {
@@ -238,6 +238,7 @@ items: Item[] = [
         show: false,
         links: [
           { image: 'assets/12dni/03.jpg',type:'foto' },
+          { text: this.tvelveDay3, type:'opis', label: 'Odkryj łaskę zbawienia' },
      
          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/12-dni-dzien-3/audio', type:'audio', label:'audio'  }
         ]
@@ -247,6 +248,9 @@ items: Item[] = [
         show: false,
         links: [
           { image: 'assets/12dni/04.jpg',type:'foto' },
+          { text: this.tvelveDay4, type:'opis', label: 'Odkryj łaskę nawrócenia i oddania życia Panu Jezusowi' },
+          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/12-dni-dzien-4/audio', type:'audio', label:'audio'  }
+
          
         ]
       },

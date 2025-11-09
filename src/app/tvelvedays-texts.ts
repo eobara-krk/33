@@ -6,11 +6,13 @@ Niech św. Ludwik przygotuje nasze serca do wejścia na tą wyjątkową drogę, 
 Zachęcamy Was do czytania Traktatu św. Ludwika. Można każdego dnia poświecić na to 5-10 minut. Święty Jan Paweł II czytał Traktat podczas przerw w pracy, kiedy jeszcze pracował jak młody człowiek. Jego papieskie zawołanie ”Totus Tuus” - Cały Twój, wzięło się wprost z dzieła świętego Ludwika.`;
 
   // --- html ---
-static dzien1: string = `<br><br>
-<b>Dzień pierwszy:</b><br>Czułe serce św. Ludwika<br><br>
-Św. `;
+static dzien1: string = `Dzień pierwszy: Odkryj łaskę Bożej miłości `;
 
-static dzien2: string = `Dzień drugi: Duchowe wzrastanie św. Ludwika i nasze`;
+static dzien2: string = `Dzień drugi: Odkryj łaskę poznania prawdy o grzechu`;
+
+static dzien3: string = `Dzień trzeci: Duchowe wzrastanie św. Ludwika i nasze`;
+
+static dzien4: string = `Dzień czwarty: Odkryj łaskę nawrócenia i oddania życia Panu Jezusowi`;
 
   // Dodaj kolejne teksty jako static properties
 
