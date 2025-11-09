@@ -882,15 +882,17 @@ przez Maryję, Twoją świętą Matkę. Amen!*_`
 
 *Błogosławieni ubodzy w duchu*
 
-*Modlitwa do Ducha Świętego*  
-_Duchu Święty, natchnij mnie.  
-Miłości Boga, pochłoń mnie.  
-Po prawdziwej drodze prowadź mnie.  
-Maryjo, moja Matko, spójrz na mnie.  
-Z Jezusem błogosław mnie.  
-Od wszelkiego złego, od wszelkiego złudzenia,  
-od wszelkiego niebezpieczeństwa zachowaj mnie.  
-Maryjo, Oblubienico Ducha Świętego, wyproś mi dar ubóstwa w duchu._
+*Modlitwa do Ducha Świętego*
+  
+_Duchu Święty, natchnij mnie._  
+_Miłości Boga, pochłoń mnie._  
+_Po prawdziwej drodze prowadź mnie._  
+_Maryjo, moja Matko, spójrz na mnie._  
+_Z Jezusem błogosław mnie._  
+_Od wszelkiego złego, od wszelkiego złudzenia,_  
+_od wszelkiego niebezpieczeństwa zachowaj mnie._  
+_Maryjo, Oblubienico Ducha Świętego,_  
+_wyproś mi dar ubóstwa w duchu._
 
 _Amen!_
 
@@ -938,8 +940,8 @@ Bolesne doświadczenia odsłaniają prawdę o mnie samym.
 W kryzysie wychodzi na jaw, na kim naprawdę polegam.  
 
 Papierkiem lakmusowym życia w ubóstwie jest nieustanny wewnętrzny stan uwielbienia.  
-_Dusza im bardziej uboga, tym bardziej żyje w uwielbieniu.  
-Im dusza bardziej liczy na siebie, tym bardziej pyta: „za co uwielbiać Boga?”_  
+_Dusza im bardziej uboga, tym bardziej żyje w uwielbieniu._  
+_Im dusza bardziej liczy na siebie, tym bardziej pyta: „za co uwielbiać Boga?”_  
 
 Jeśli zdarzy się trudność, od kogo oczekuję pomocy?  
 Czy staję „pomimo” mojego ubóstwa przed Bogiem?  
@@ -958,19 +960,19 @@ To postawa, w której człowiek nie uzależnia siebie od rzeczy, lecz od Boga.
 *Walka duchowa*  
 Na czym polega? By być wpatrzonym w Boga, a nie w dobra materialne czy własne porażki.  
 
-_Moja wartość nie zależy od tego, co posiadam, ani od sukcesów.  
-Jeśli ktoś mnie pochwali – wartość ta sama.  
-Jeśli ktoś skrytykuje – wartość ta sama.  
-Jeśli poniosę porażkę – wartość ta sama._  
+_Moja wartość nie zależy od tego, co posiadam, ani od sukcesów._  
+_Jeśli ktoś mnie pochwali – wartość ta sama._  
+_Jeśli ktoś skrytykuje – wartość ta sama._  
+_Jeśli poniosę porażkę – wartość ta sama._  
 
 Duch świata mówi: _musisz sam sobie radzić_.  
 Wiara mówi: _czyń, co możesz, ale ponad wszystko ufaj Bogu_.  
 
 *Lektura duchowa*  
-_„Aby mieć mądrość:  
-1) Trzeba porzucić dobra świata lub oderwać serce od dóbr i posiadać je, jakby ich wcale się nie posiadało (por. 1 Kor 7,30);  
-2) Nie wzorować się na modach ludzi światowych: w ubiorze, umeblowaniu, domach, posiłkach i zwyczajach.  
-*Nolite conformari huic saeculo* (Rz 12,2).”_  
+_„Aby mieć mądrość:_  
+_1) Trzeba porzucić dobra świata lub oderwać serce od dóbr i posiadać je, jakby ich wcale się nie posiadało (por. 1 Kor 7,30);_  
+_2) Nie wzorować się na modach ludzi światowych: w ubiorze, umeblowaniu, domach, posiłkach i zwyczajach._  
+_*Nolite conformari huic saeculo* (Rz 12,2).”_  
 
 _– św. Ludwik Maria Grignion de Montfort, Miłość Mądrości Przedwiecznej, 197–198_  
 
@@ -978,8 +980,8 @@ _– św. Ludwik Maria Grignion de Montfort, Miłość Mądrości Przedwiecznej,
 _Poproszę Maryję, aby uczyła mnie żyć w zależności tylko od Boga._  
 
 *Modlitwa zawierzenia*  
-_*Jestem cały Twój i wszystko, co mam, jest Twoją własnością, umiłowany Jezu,*_  
-_*przez Maryję, Twoją świętą Matkę. Amen!*_
+_Jestem cały Twój i wszystko, co mam, jest Twoją własnością, umiłowany Jezu._  
+_Przez Maryję, Twoją świętą Matkę. Amen!_
 `
  
 , label: 'Błogosławieni ubodzy w duchu', type: 'opis', show: false },
