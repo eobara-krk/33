@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { CommonModule, NgFor, NgIf, NgSwitch, NgSwitchCase, NgSwitchDefault } from '@angular/common';
 import { RouterModule } from '@angular/router';
 import { NovenaTexts } from './novena-texts';
+import { TvelveDaysTexts } from './tvelvedays-texts'; 
 import { WhatsAppFormatterService } from './whatsapp-formatter.service';
 
 // Typy dla linków i itemów
@@ -73,8 +74,14 @@ export class AppComponent implements OnInit {
   }
 
 
-readonly nowennaPierwszegoDnia = NovenaTexts.dzien1;
-readonly nowennaDrugiegoDnia = NovenaTexts.dzien2;
+readonly nowenna1 = NovenaTexts.dzien1;
+readonly nowenna2 = NovenaTexts.dzien2;
+
+readonly tvelveDay1 = TvelveDaysTexts.dzien1;
+
+readonly tvelveDay2 = TvelveDaysTexts.dzien2;
+
+readonly tvelveDay5 = TvelveDaysTexts.dzien5;
 
 
 
@@ -118,7 +125,7 @@ items: Item[] = [
         show: false,
         links: [
           { image: 'assets/nowenna/01.jpg', type:'foto' },
-          { text: this.nowennaPierwszegoDnia, type:'opis' }
+          { text: this.nowenna1, type:'opis' }
          
         ]
       },
@@ -241,6 +248,7 @@ items: Item[] = [
        show: false,
         links: [
           { image: 'assets/12dni/05.jpg',type:'foto' },
+          { text: this.tvelveDay5, type:'opis' },
 
          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/12-dni-dzien-5/audio', type:'audio', label:'audio' },
          { url:'assets/12dni/05dzien.mp3', type:'audio', label:'Ela' }
@@ -349,8 +357,8 @@ items: Item[] = [
     }, 2000);
 
     // Dodano: podgląd tekstów nowenny w konsoli
-    console.log('Tekst pierwszego dnia:', this.nowennaPierwszegoDnia);
-    console.log('Tekst drugiego dnia:', this.nowennaDrugiegoDnia);
+    console.log('Tekst pierwszego dnia:', this.nowenna1);
+    console.log('Tekst drugiego dnia:', this.nowenna2);
   }
 
   // Automatyczne otwieranie folderów z dzisiejszą datą
