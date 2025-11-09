@@ -61,12 +61,20 @@ export class WhatsAppFormatterService {
         if (part.endsWith(' _')) {
           part = part.slice(0, -2) + '_';
         }
+        // Usuń spację przed końcową gwiazdką w pogrubieniu
+        if (part.endsWith(' *')) {
+          part = part.slice(0, -2) + '*';
+        }
         result.push(part);
         line = rest;
       }
       // Usuń spację przed końcowym podkreśleniem w kursywie
       if (line.endsWith(' _')) {
         line = line.slice(0, -2) + '_';
+      }
+      // Usuń spację przed końcową gwiazdką w pogrubieniu
+      if (line.endsWith(' *')) {
+        line = line.slice(0, -2) + '*';
       }
       result.push(line);
     }
