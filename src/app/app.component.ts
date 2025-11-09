@@ -883,11 +883,14 @@ przez Maryję, Twoją świętą Matkę. Amen!*_`
 *Błogosławieni ubodzy w duchu*
 
 *Modlitwa do Ducha Świętego*  
-_Duchu Święty, natchnij mnie. Miłości Boga, pochłoń mnie.  
-Po prawdziwej drodze prowadź mnie. Maryjo, moja Matko, spójrz na mnie.  
-Z Jezusem błogosław mnie. Od wszelkiego złego, od wszelkiego złudzenia,  
-od wszelkiego niebezpieczeństwa zachowaj mnie. Maryjo, Oblubienico Ducha Świętego,  
-wyproś mi dar ubóstwa w duchu._
+_Duchu Święty, natchnij mnie.  
+Miłości Boga, pochłoń mnie.  
+Po prawdziwej drodze prowadź mnie.  
+Maryjo, moja Matko, spójrz na mnie.  
+Z Jezusem błogosław mnie.  
+Od wszelkiego złego, od wszelkiego złudzenia,  
+od wszelkiego niebezpieczeństwa zachowaj mnie.  
+Maryjo, Oblubienico Ducha Świętego, wyproś mi dar ubóstwa w duchu._
 
 _Amen!_
 
@@ -969,14 +972,15 @@ _„Aby mieć mądrość:
 2) Nie wzorować się na modach ludzi światowych: w ubiorze, umeblowaniu, domach, posiłkach i zwyczajach.  
 *Nolite conformari huic saeculo* (Rz 12,2).”_  
 
-_– św. Ludwik Maria Grignion de Montfort, Miłość Mądrości Przedwiecznej, 197–198_
+_– św. Ludwik Maria Grignion de Montfort, Miłość Mądrości Przedwiecznej, 197–198_  
 
 *Zadanie*  
 _Poproszę Maryję, aby uczyła mnie żyć w zależności tylko od Boga._  
 
 *Modlitwa zawierzenia*  
-_*Jestem cały Twój i wszystko, co mam, jest Twoją własnością, umiłowany Jezu,  
-przez Maryję, Twoją świętą Matkę. Amen!*_`
+_*Jestem cały Twój i wszystko, co mam, jest Twoją własnością, umiłowany Jezu,*_  
+_*przez Maryję, Twoją świętą Matkę. Amen!*_
+`
  
 , label: 'Błogosławieni ubodzy w duchu', type: 'opis', show: false },
          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/12-dni-dzien-5/audio', type:'audio', label:'audio' },
