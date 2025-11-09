@@ -83,6 +83,12 @@ readonly tvelveDay2 = TvelveDaysTexts.dzien2;
 
 readonly tvelveDay5 = TvelveDaysTexts.dzien5;
 readonly tvelveDay6 = TvelveDaysTexts.dzien6; 
+readonly tvelveDay7 = TvelveDaysTexts.dzien7;
+readonly tvelveDay8 = TvelveDaysTexts.dzien8;
+readonly tvelveDay9 = TvelveDaysTexts.dzien9;
+readonly tvelveDay10 = TvelveDaysTexts.dzien10;
+readonly tvelveDay11 = TvelveDaysTexts.dzien11;
+readonly tvelveDay12 = TvelveDaysTexts.dzien12;
 
 
 
@@ -267,7 +273,9 @@ items: Item[] = [
         name: `07: ${this.getDatePlusDays(this.startDate, 15)}`,
         type: 'html',
         links: [
-          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/12-dni-dzien-7', type:'html', label:'Błogosławieni cisi' },
+
+          { image: 'assets/12dni/07.jpg',type:'foto' },
+          { text: this.tvelveDay7, type:'opis', label: 'Błogosławieni cisi' },
           { url:'https://drogamaryi.pl/edycje/5-listopada-2025/12-dni-dzien-7/audio', type:'audio', label:'audio' },
           { url:'assets/12dni/07dzien.mp3', type:'audio', label:'Ela' }
         ]
@@ -276,7 +284,8 @@ items: Item[] = [
         name: `08: ${this.getDatePlusDays(this.startDate, 16)}`,
         type: 'html',
         links: [
-          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/12-dni-dzien-8', type:'html', label:'Błogosławieni, którzy łakną i pragną sprawiedliwości.' },
+          { image: 'assets/12dni/08.jpg',type:'foto' },
+          { text: this.tvelveDay8, type:'opis', label: 'Błogosławieni, którzy łakną i pragną sprawiedliwości.' },
           { url:'https://drogamaryi.pl/edycje/5-listopada-2025/12-dni-dzien-8/audio', type:'audio', label:'audio' }
         ]
       },
@@ -284,7 +293,8 @@ items: Item[] = [
         name: `09: ${this.getDatePlusDays(this.startDate, 17)}`,
         type: 'html',
         links: [
-          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/12-dni-dzien-9', type:'html', label:'Błogosławieni miłosierni' },
+           { image: 'assets/12dni/09.jpg',type:'foto' },
+           { text: this.tvelveDay9, type:'opis', label: 'Błogosławieni miłosierni' },
           { url:'https://drogamaryi.pl/edycje/5-listopada-2025/12-dni-dzien-9/audio', type:'audio', label:'audio' }
         ]
       },
