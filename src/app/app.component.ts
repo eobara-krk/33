@@ -302,7 +302,8 @@ items: Item[] = [
         name: `10: ${this.getDatePlusDays(this.startDate, 18)}`,
         type: 'html',
         links: [
-          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/12-dni-dzien-10', type:'html', label:'Błogosławieni czystego serca' },
+          { image: 'assets/12dni/10.jpg',type:'foto' },
+          { text: this.tvelveDay10, type:'opis', label: 'Błogosławieni czystego serca' },
           { url:'https://drogamaryi.pl/edycje/5-listopada-2025/12-dni-dzien-10/audio', type:'audio', label:'audio' }
         ]
       },
@@ -310,7 +311,8 @@ items: Item[] = [
         name: `11: ${this.getDatePlusDays(this.startDate, 19)}`,
         type: 'html',
         links: [
-          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/12-dni-dzien-11', type:'html', label:'Błogosławieni, którzy wprowadzają pokój' },
+          { image: 'assets/12dni/11.jpg',type:'foto' },
+          { text: this.tvelveDay11, type:'opis', label: 'Błogosławieni, którzy wprowadzają pokój' },
           { url:'https://drogamaryi.pl/edycje/5-listopada-2025/12-dni-dzien-11/audio', type:'audio', label:'audio' }
         ]
       },
@@ -318,7 +320,8 @@ items: Item[] = [
         name: `12: ${this.getDatePlusDays(this.startDate, 20)}`,
         type: 'html',
         links: [
-          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/12-dni-dzien-12', type:'html', label:'Błogosławieni, którzy cierpią prześladowanie dla sprawiedliwości' },
+          { image: 'assets/12dni/12.jpg',type:'foto' },
+          { text: this.tvelveDay12, type:'opis', label: 'Błogosławieni, którzy cierpią prześladowanie dla sprawiedliwości' },
           { url:'https://drogamaryi.pl/edycje/5-listopada-2025/12-dni-dzien-12/audio', type:'audio', label:'audio' }
         ]
       },
