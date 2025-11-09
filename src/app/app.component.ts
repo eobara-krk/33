@@ -3,6 +3,9 @@ import { CommonModule, NgFor, NgIf, NgSwitch, NgSwitchCase, NgSwitchDefault } fr
 import { RouterModule } from '@angular/router';
 import { NovenaTexts } from './novena-texts';
 import { TvelveDaysTexts } from './tvelvedays-texts'; 
+import { FirstWeekTexts } from './firstWeek-texts';
+import  {SecondWeekTexts } from './secondWeek-texts';
+import {ThirdWeekTexts} from './thirdWeek-texts';  
 import { WhatsAppFormatterService } from './whatsapp-formatter.service';
 
 // Typy dla linków i itemów
@@ -89,6 +92,11 @@ readonly tvelveDay9 = TvelveDaysTexts.dzien9;
 readonly tvelveDay10 = TvelveDaysTexts.dzien10;
 readonly tvelveDay11 = TvelveDaysTexts.dzien11;
 readonly tvelveDay12 = TvelveDaysTexts.dzien12;
+
+readonly firstWeekDay1 = FirstWeekTexts.dzien1;
+readonly firstWeekDay2 = FirstWeekTexts.dzien2;
+readonly firstWeekDay3 = FirstWeekTexts.dzien3;
+readonly firstWeekDay4 = FirstWeekTexts.dzien4;
 
 
   // Przykład użycia przy kopiowaniu
