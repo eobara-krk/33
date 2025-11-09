@@ -504,51 +504,51 @@ Chrystus mówi: „Nie proszę, abyś ich zabrał ze świata, ale byś ich ustrz
 *Odkryj łaskę Bożej miłości*
 
 *Modlitwa do Ducha Świętego*  
-_Duchu Święty, natchnij mnie. Miłości Boga, pochłoń mnie. Po prawdziwej drodze  
-prowadź mnie, Maryjo, moja Matko, spójrz na mnie, z Jezusem błogosław mnie.  
-Od wszelkiego zła, od wszelkiego złudzenia, od wszelkiego niebezpieczeństwa zachowaj mnie.  
-Maryjo, Oblubienico Ducha Świętego, wyproś mi łaskę odkrycia Bożej miłości. Amen!_
+_Duchu Święty, natchnij mnie._  
+_Miłości Boga, pochłoń mnie._  
+_Po prawdziwej drodze prowadź mnie, Maryjo, moja Matko, spójrz na mnie, z Jezusem błogosław mnie._  
+_Od wszelkiego zła, od wszelkiego złudzenia, od wszelkiego niebezpieczeństwa zachowaj mnie._  
+_Maryjo, Oblubienico Ducha Świętego, wyproś mi łaskę odkrycia Bożej miłości. Amen!_
 
 *Słowo Boże*  
-_„Dlatego zginam kolana moje przed Ojcem, od którego bierze nazwę wszelki ród na niebie  
-i na ziemi, aby według bogactwa swej chwały sprawił w was przez Ducha swego, by potężnie  
-wzmocnił się wewnętrzny człowiek. Niech Chrystus zamieszka przez wiarę w waszych sercach;  
-abyście w miłości zakorzenieni i ugruntowani, wraz ze wszystkimi świętymi zdołali ogarnąć  
-duchem, czym jest Szerokość, Długość, Wysokość i Głębokość, i poznać miłość Chrystusa,  
-przewyższającą wszelką wiedzę, abyście zostali napełnieni całą Pełnią Boga… Amen”_ (Ef 3,14–21).
+_„Dlatego zginam kolana moje przed Ojcem, od którego bierze nazwę wszelki ród na niebie i na ziemi, aby według bogactwa swej chwały sprawił w was przez Ducha swego, by potężnie wzmocnił się wewnętrzny człowiek._  
+_Niech Chrystus zamieszka przez wiarę w waszych sercach; abyście w miłości zakorzenieni i ugruntowani, wraz ze wszystkimi świętymi zdołali ogarnąć duchem, czym jest Szerokość, Długość, Wysokość i Głębokość, i poznać miłość Chrystusa, przewyższającą wszelką wiedzę, abyście zostali napełnieni całą Pełnią Boga… Amen”_ (Ef 3,14–21)
 
 *Rozważanie*  
-Jaki naprawdę jest Bóg? Czasami mamy zdeformowane wyobrażenie o Nim – jak dziadek na chmurce,  
-tyran, egzekutor, niedostępna energia… Zatrzymaj się i pomyśl – czy w twoim sercu też są echa tych wyobrażeń?  
+_Jaki naprawdę jest Bóg?_  
+_Czasami mamy zdeformowane wyobrażenie o Nim – jak dziadek na chmurce, tyran, egzekutor, niedostępna energia…_  
+_Zatrzymaj się i pomyśl – czy w twoim sercu też są echa tych wyobrażeń?_  
 
-Prawda o Bogu: _„i poznacie prawdę, a prawda was wyzwoli”_ (J 8,32). Apostoł Filip zapytał:  
-_„Panie, pokaż nam Ojca”_ (J 14,8). Oto obraz Ojca w Biblii (Ps 139,1–18,24):  
-Bóg przenika, zna, prowadzi, otacza swoją opieką, stworzył nas cudownie, pragnie dobra każdego,  
-a Jego miłość przewyższa wszelką wiedzę.  
+_Prawda o Bogu: „i poznacie prawdę, a prawda was wyzwoli”_ (J 8,32).  
+_Apostoł Filip zapytał: „Panie, pokaż nam Ojca”_ (J 14,8).  
+_Oto obraz Ojca w Biblii (Ps 139,1–18,24):_  
+_Bóg przenika, zna, prowadzi, otacza swoją opieką, stworzył nas cudownie, pragnie dobra każdego, a Jego miłość przewyższa wszelką wiedzę._  
 
-Bóg kocha każdego indywidualnie. Nawet gdybyś był jedynym mieszkańcem wszechświata,  
-Bóg nie mógłby kochać cię bardziej niż teraz. _„Ukochałem Cię odwieczną miłością”_ (Jr 31,3).  
-Bóg pierwszy nas ukochał i nadal kocha – wszystko, co robimy, jest odpowiedzią na Jego miłość.  
+_Bóg kocha każdego indywidualnie._  
+_Nawet gdybyś był jedynym mieszkańcem wszechświata, Bóg nie mógłby kochać cię bardziej niż teraz._  
+_„Ukochałem Cię odwieczną miłością”_ (Jr 31,3)  
+_Bóg pierwszy nas ukochał i nadal kocha – wszystko, co robimy, jest odpowiedzią na Jego miłość._  
 
-Bóg kocha grzesznika, bezwarunkowo i czule. Nie wymaga świętości ani perfekcji.  
-Nie przestanie cię kochać – _„Bo góry mogą się poruszyć i pagórki się zachwiać,  
-ale miłość moja nigdy nie odstąpi od ciebie!”_ (Iz 54,10).  
+_Bóg kocha grzesznika, bezwarunkowo i czule._  
+_Nie wymaga świętości ani perfekcji._  
+_Nie przestanie cię kochać – „Bo góry mogą się poruszyć i pagórki się zachwiać, ale miłość moja nigdy nie odstąpi od ciebie!”_ (Iz 54,10)  
 
-Bóg chce, abyś przyjął Jego miłość. To nie my doskakujemy do Boga – On schodzi do nas.  
+_Bóg chce, abyś przyjął Jego miłość._  
+_To nie my doskakujemy do Boga – On schodzi do nas._  
 
 *Lektura duchowa*  
-_„Piękno przedwieczne pragnie przyjaźni z ludźmi i przygotowało księgę, by ją zdobyć…  
-Wszyscy, którzy mnie znajdą, znajdą żywot i zbawienie od Pana… Kto mnie znajdzie, nie będzie się trudził, aby mnie znaleźć; bo znajdzie mnie siedzącą u drzwi swoich”_ (Prz 8,13b–15; 32–36).  
+_„Piękno przedwieczne pragnie przyjaźni z ludźmi i przygotowało księgę, by ją zdobyć…_  
+_Wszyscy, którzy mnie znajdą, znajdą żywot i zbawienie od Pana…_  
+_Kto mnie znajdzie, nie będzie się trudził, aby mnie znaleźć; bo znajdzie mnie siedzącą u drzwi swoich”_ (Prz 8,13b–15; 32–36)  
 
-– św. Ludwik Maria Grignion de Montfort, Miłość Mądrości Przedwiecznej, 65–69
+_– św. Ludwik Maria Grignion de Montfort, Miłość Mądrości Przedwiecznej, 65–69_
 
 *Zadanie*  
 _Przeżyję dzisiejszy dzień ze świadomością, że jestem kochany przez Boga bezwarunkowo._
 
 *Modlitwa zawierzenia*  
-_Jestem cały Twój i wszystko, co mam, jest Twoją własnością, umiłowany Jezu,  
-przez Maryję, Twoją świętą Matkę. Amen!_
-
+_Jestem cały Twój i wszystko, co mam, jest Twoją własnością, umiłowany Jezu._  
+_Przez Maryję, Twoją świętą Matkę. Amen!_
 `
  
 , label: 'Odkryj łaskę Bożej miłości', type: 'opis', show: false },
@@ -565,67 +565,61 @@ przez Maryję, Twoją świętą Matkę. Amen!_
 *Odkryj łaskę poznania prawdy o grzechu*
 
 *Modlitwa do Ducha Świętego*  
-_Duchu Święty, natchnij mnie. Miłości Boga, pochłoń mnie. Po prawdziwej drodze  
-prowadź mnie, Maryjo, moja Matko, spójrz na mnie, z Jezusem błogosław mnie.  
-Od wszelkiego zła, do wszelkiego złudzenia, od wszelkiego niebezpieczeństwa  
-zachowaj mnie._
-
+_Duchu Święty, natchnij mnie._  
+_Miłości Boga, pochłoń mnie._  
+_Po prawdziwej drodze prowadź mnie, Maryjo, moja Matko, spójrz na mnie, z Jezusem błogosław mnie._  
+_Od wszelkiego zła, do wszelkiego złudzenia, od wszelkiego niebezpieczeństwa zachowaj mnie._  
 _Maryjo, Oblubienico Ducha Świętego, wyproś mi łaskę odkrycia prawdy o grzechu! Amen!_
 
 *Słowo Boże*  
-_„A wąż był bardziej przebiegły niż wszystkie zwierzęta lądowe, które Pan Bóg  
-stworzył. On to rzekł do niewiasty: «Czy rzeczywiście Bóg powiedział: Nie jedzcie  
-owoców ze wszystkich drzew tego ogrodu?» Niewiasta odpowiedziała wężowi: «Owoce  
-z drzew tego ogrodu jeść możemy, tylko o owocach z drzewa, które jest w środku ogrodu,  
-Bóg powiedział: Nie wolno wam jeść z niego, a nawet go dotykać, abyście nie pomarli».  
-Wtedy rzekł wąż do niewiasty: «Na pewno nie umrzecie! Ale wie Bóg, że gdy spożyjecie  
-owoc z tego drzewa, otworzą się wam oczy i tak jak Bóg będziecie znali dobro i zło».  
-Wtedy niewiasta spostrzegła, że drzewo to ma owoce dobre do jedzenia, że jest ono  
-rozkoszą dla oczu i że owoce tego drzewa nadają się do zdobycia wiedzy. Zerwała zatem  
-z niego owoc, skosztowała i dała swemu mężowi, który był z nią, a on zjadł. A wtedy  
-otworzyły się im obojgu oczy i poznali, że są nadzy; spletli więc gałązki figowe i zrobili  
-sobie przepaski”_ (Rdz. 3,1–6).
+_„A wąż był bardziej przebiegły niż wszystkie zwierzęta lądowe, które Pan Bóg stworzył._  
+_On to rzekł do niewiasty: «Czy rzeczywiście Bóg powiedział: Nie jedzcie owoców ze wszystkich drzew tego ogrodu?»_  
+_Niewiasta odpowiedziała wężowi: «Owoce z drzew tego ogrodu jeść możemy, tylko o owocach z drzewa, które jest w środku ogrodu, Bóg powiedział: Nie wolno wam jeść z niego, a nawet go dotykać, abyście nie pomarli»._  
+_Wtedy rzekł wąż do niewiasty: «Na pewno nie umrzecie! Ale wie Bóg, że gdy spożyjecie owoc z tego drzewa, otworzą się wam oczy i tak jak Bóg będziecie znali dobro i zło»._  
+_Wtedy niewiasta spostrzegła, że drzewo to ma owoce dobre do jedzenia, że jest ono rozkoszą dla oczu i że owoce tego drzewa nadają się do zdobycia wiedzy._  
+_Zerwała zatem z niego owoc, skosztowała i dała swemu mężowi, który był z nią, a on zjadł._  
+_A wtedy otworzyły się im obojgu oczy i poznali, że są nadzy; spletli więc gałązki figowe i zrobili sobie przepaski”_ (Rdz. 3,1–6).
 
 *Rozważanie*  
-Prawda o Bożej miłości nie jest dla nas oczywista. Wielu mówi: życie to nie bajka, i  
-rzeczywiście tak jest. Czasami rodzi się krzyk z serca: Boże, gdzie Ty jesteś?!  
-Dlaczego na to wszystko pozwalasz?! Dlaczego nie doświadczam Bożej miłości na co dzień?  
-Skąd biorą się wykrzywione wyobrażenia o Bogu? Skoro pragniemy miłości, to dlaczego  
-jej nie wybieramy?  
+_Prawda o Bożej miłości nie jest dla nas oczywista._  
+_Wielu mówi: życie to nie bajka, i rzeczywiście tak jest._  
+_Czasami rodzi się krzyk z serca: Boże, gdzie Ty jesteś?! Dlaczego na to wszystko pozwalasz?!_  
+_Dlaczego nie doświadczam Bożej miłości na co dzień? Skąd biorą się wykrzywione wyobrażenia o Bogu?_  
+_Skoro pragniemy miłości, to dlaczego jej nie wybieramy?_  
 
-Doświadczamy różnego rodzaju zła – skutki działań innych ludzi, chorób, wojny, śmierci,  
-cierpienia. Są też nasze własne grzechy, często nieplanowane. „Nie czynię tego, co chcę,  
-ale to, czego nienawidzę – to właśnie czynię” (Rz 7,15). Grzech nie pozwala doświadczać  
-Bożej miłości i szczęścia.  
+_Doświadczamy różnego rodzaju zła – skutki działań innych ludzi, chorób, wojny, śmierci, cierpienia._  
+_Są też nasze własne grzechy, często nieplanowane._  
+_„Nie czynię tego, co chcę, ale to, czego nienawidzę – to właśnie czynię” (Rz 7,15)._  
+_Grzech nie pozwala doświadczać Bożej miłości i szczęścia._  
 
-Księga Rodzaju obrazuje kuszenie przez szatana – kłamstwo, które ma zasiać wątpliwości,  
-prowadząc człowieka do wizji bycia Bogiem, decydowania o dobru i złu. „Jak przez jednego  
-człowieka grzech wszedł do świata, a przez grzech śmierć” (Rz 5,12).  
+_Księga Rodzaju obrazuje kuszenie przez szatana – kłamstwo, które ma zasiać wątpliwości, prowadząc człowieka do wizji bycia Bogiem, decydowania o dobru i złu._  
+_„Jak przez jednego człowieka grzech wszedł do świata, a przez grzech śmierć” (Rz 5,12)._  
 
-Osobowym źródłem grzechu jest szatan. „Diabeł, jak lew ryczący krąży szukając kogo pożreć”  
-(1P 5,8). Był aniołem najbliżej Boga, sprzeciwił się Mu i walczy z nami. Nienawidzi nas,  
-bo przypominamy mu Boga. Zwodzi nas, by oddzielić od Niego na życie wieczne.  
+_Osobowym źródłem grzechu jest szatan._  
+_„Diabeł, jak lew ryczący krąży szukając kogo pożreć” (1P 5,8)._  
+_Był aniołem najbliżej Boga, sprzeciwił się Mu i walczy z nami._  
+_Nienawidzi nas, bo przypominamy mu Boga._  
+_Zwodzi nas, by oddzielić od Niego na życie wieczne._  
 
-Grzech powoduje dystans do Boga. „Podobnie jak latorośl nie może przynosić owocu sama  
-z siebie – jeśli nie trwa w winnym krzewie – tak samo i wy, jeżeli we Mnie trwać nie będziecie”  
-(J 15,4b). Powoduje agresję czynna i bierną, oddziela od Boga, tworzy piekło w sercu.  
-„Albowiem zapłatą za grzech jest śmierć” (R 6,23).  
+_Grzech powoduje dystans do Boga._  
+_„Podobnie jak latorośl nie może przynosić owocu sama z siebie – jeśli nie trwa w winnym krzewie – tak samo i wy, jeżeli we Mnie trwać nie będziecie” (J 15,4b)._  
+_Powoduje agresję czynną i bierną, oddziela od Boga, tworzy piekło w sercu._  
+_„Albowiem zapłatą za grzech jest śmierć” (Rz 6,23)._  
 
-Grzech zaburza spojrzenie na siebie i innych: podejrzliwość, obrona, walka, zamknięcie na  
-miłość. Wewnętrzny oskarżyciel podsyca poczucie winy. Szukamy pocieszenia w grzechu,  
-co prowadzi do spirali upadku.  
+_Grzech zaburza spojrzenie na siebie i innych: podejrzliwość, obrona, walka, zamknięcie na miłość._  
+_Wewnętrzny oskarżyciel podsyca poczucie winy._  
+_Szukamy pocieszenia w grzechu, co prowadzi do spirali upadku._  
 
-Świat wydaje się obcy, życie przeraża, rodzi się lęk przed przyszłością. Bóg kocha grzesznika,  
-ale nie grzechu. Potrzebujemy pomocy, sami nie damy rady w relacji z Bogiem, sobą,  
-innymi i światem.  
+_Świat wydaje się obcy, życie przeraża, rodzi się lęk przed przyszłością._  
+_Bóg kocha grzesznika, ale nie grzechu._  
+_Potrzebujemy pomocy, sami nie damy rady w relacji z Bogiem, sobą, innymi i światem._
 
 *Lektura duchowa*  
-_„Wszystko w człowieku było jaśniejące, bez ciemności, piękne bez brzydoty, czyste bez brudu…  
-Oto człowiek, który grzeszy, i grzesząc traci swą mądrość, niewinność, piękno, nieśmiertelność…  
-Staje się niewolnikiem złych duchów, przedmiotem gniewu Boga, ofiarą piekieł! …  
-Adam w tym stanie jest jakby pogrążony w rozpaczy; nie może otrzymać pomocy…  
-Widzi Bożą sprawiedliwość, która ściga go i całe jego potomstwo; widzi Niebo zamknięte  
-i otwarte piekło...”_
+_„Wszystko w człowieku było jaśniejące, bez ciemności, piękne bez brzydoty, czyste bez brudu…_  
+_Oto człowiek, który grzeszy, i grzesząc traci swą mądrość, niewinność, piękno, nieśmiertelność…_  
+_Staje się niewolnikiem złych duchów, przedmiotem gniewu Boga, ofiarą piekieł! …_  
+_Adam w tym stanie jest jakby pogrążony w rozpaczy; nie może otrzymać pomocy…_  
+_Widzi Bożą sprawiedliwość, która ściga go i całe jego potomstwo; widzi Niebo zamknięte i otwarte piekło...”_  
 
 _– św. Ludwik Maria Grignion de Montfort, Miłość Mądrości Przedwiecznej, 38–40_
 
@@ -633,8 +627,9 @@ _– św. Ludwik Maria Grignion de Montfort, Miłość Mądrości Przedwiecznej,
 _Spróbuję dziś dostrzec i uznać moją bezradność wobec zła i grzechu._
 
 *Modlitwa zawierzenia*  
-_Jestem cały Twój i wszystko, co mam, jest Twoją własnością, umiłowany Jezu,  
-przez Maryję, Twoją świętą Matkę. Amen!_ `
+_Jestem cały Twój i wszystko, co mam, jest Twoją własnością, umiłowany Jezu._  
+_Przez Maryję, Twoją świętą Matkę. Amen!_
+`
  
 , label: 'Odkryj łaskę poznania prawdy o grzechu', type: 'opis', show: false },
 
@@ -647,98 +642,85 @@ przez Maryję, Twoją świętą Matkę. Amen!_ `
         links: [
           { image: 'assets/12dni/03.jpg',type:'foto' },
           { text: `*Dzień 3 - Odkryj łaskę zbawienia*
-  
-*Odkryj łaskę zbawienia*
+ *Odkryj łaskę zbawienia*
 
 *Modlitwa do Ducha Świętego*  
-_Duchu Święty, natchnij mnie. Miłości Boga, pochłoń mnie. Po prawdziwej drodze  
-prowadź mnie, Maryjo, moja Matko, spójrz na mnie, z Jezusem błogosław mnie.  
-Od wszelkiego zła, od wszelkiego złudzenia, od wszelkiego niebezpieczeństwa  
-zachowaj mnie._
-
+_Duchu Święty, natchnij mnie._  
+_Miłości Boga, pochłoń mnie._  
+_Po prawdziwej drodze prowadź mnie, Maryjo, moja Matko, spójrz na mnie, z Jezusem błogosław mnie._  
+_Od wszelkiego zła, od wszelkiego złudzenia, od wszelkiego niebezpieczeństwa zachowaj mnie._  
 _Maryjo, Oblubienico Ducha Świętego, wyproś mi łaskę zbawienia. Amen!_
 
 *Słowo Boże*  
-_„Tak bowiem Bóg umiłował świat, że Syna swego Jednorodzonego dał, aby każdy,  
-kto w Niego wierzy, nie zginął, ale miał życie wieczne. Albowiem Bóg nie posłał  
-swego Syna na świat po to, aby świat potępił, ale po to, by świat został przez  
-Niego zbawiony” (J 3,16–17)._
+_„Tak bowiem Bóg umiłował świat, że Syna swego Jednorodzonego dał, aby każdy, kto w Niego wierzy, nie zginął, ale miał życie wieczne._  
+_Albowiem Bóg nie posłał swego Syna na świat po to, aby świat potępił, ale po to, by świat został przez Niego zbawiony” (J 3,16–17)._
 
 *Rozważanie*  
-Stając wobec zła i grzechu, uświadamiając sobie ich realność, rozpaczliwie podejmujemy  
-różne próby poradzenia sobie po ludzku i szukania zabezpieczenia przed tym, co nas przerasta.  
+_Stając wobec zła i grzechu, uświadamiając sobie ich realność, rozpaczliwie podejmujemy różne próby poradzenia sobie po ludzku i szukania zabezpieczenia przed tym, co nas przerasta._  
 
-Niektórzy szukają zabezpieczenia w dobrach materialnych i mogą one do pewnego stopnia  
-dać złudne poczucie bezpieczeństwa, bo rozwiązują część problemów, jednak w obliczu  
-choroby czy śmierci okazują się bez wartości.  
+_Niektórzy szukają zabezpieczenia w dobrach materialnych i mogą one dać złudne poczucie bezpieczeństwa, bo rozwiązują część problemów, jednak w obliczu choroby czy śmierci okazują się bez wartości._  
 
-Możemy także szukać schronienia w poczuciu bezpieczeństwa, które płynie z relacji z  
-drugim człowiekiem. Gdy opieramy życie i szczęście od kogoś, to gdy ta osoba nas zrani,  
-zawiedzie, odejdzie lub umrze, taka postawa okazuje się iluzją, która boleśniej rani.  
+_Możemy także szukać schronienia w poczuciu bezpieczeństwa, które płynie z relacji z drugim człowiekiem._  
+_Gdy opieramy życie i szczęście od kogoś, to gdy ta osoba nas zrani, zawiedzie, odejdzie lub umrze, taka postawa okazuje się iluzją, która boleśniej rani._  
 
-Rozwój nauki i techniki zdaje się niektórych tak uwodzić, że jedynego ratunku szukają  
-w osiągnięciach człowieka. Są to dziedziny dynamiczne, ale nie eliminują zła i nie dają  
-prawdziwego szczęścia – rozwiązując jedne problemy, stwarzają nowe.  
+_Rozwój nauki i techniki zdaje się niektórych tak uwodzić, że jedynego ratunku szukają w osiągnięciach człowieka._  
+_Są to dziedziny dynamiczne, ale nie eliminują zła i nie dają prawdziwego szczęścia – rozwiązując jedne problemy, stwarzają nowe._  
 
-Można też próbować po ludzku zaprowadzić pokój i ład na świecie. Pomimo deklaracji  
-o pokoju, ciągle wybuchają nowe konflikty, a osoby, które najgłośniej krzyczą o tolerancji,  
-sami nie tolerują tych, którzy inaczej myślą.  
+_Można też próbować po ludzku zaprowadzić pokój i ład na świecie._  
+_Pomimo deklaracji o pokoju, ciągle wybuchają nowe konflikty, a osoby, które najgłośniej krzyczą o tolerancji, sami nie tolerują tych, którzy inaczej myślą._  
 
-Człowiek, mając różne pragnienia duchowe, próbuje ukojenia w energiami, amuletach,  
-„przedmiotach na szczęście”, filozofiach i medytacjach wschodnich, ale często są to iluzje,  
-za którymi kryje się zły duch, by nas zwieść.  
+_Człowiek, mając różne pragnienia duchowe, próbuje ukojenia w energiami, amuletach, „przedmiotach na szczęście”, filozofiach i medytacjach wschodnich, ale często są to iluzje, za którymi kryje się zły duch, by nas zwieść._  
 
-Dla tradycyjnych katolików subtelniejsza pokusa – gorliwe praktyki religijne i posty,  
-by wyrwać się z sideł grzechu. Kolejne niepowodzenia prowadzą do oskarżeń i wyrzutów  
-sumienia. Najlepsze postanowienia czy uczynki nie są w stanie nas zbawić.  
+_Dla tradycyjnych katolików subtelniejsza pokusa – gorliwe praktyki religijne i posty, by wyrwać się z sideł grzechu._  
+_Kolejne niepowodzenia prowadzą do oskarżeń i wyrzutów sumienia._  
+_Najlepsze postanowienia czy uczynki nie są w stanie nas zbawić._  
 
-Ponad tymi staraniami jest światło Dobrej Nowiny! Nasza nadzieja jest w Bogu. On nie jest  
-obojętny na sytuację, w której się znaleźliśmy. To On wychodzi pierwszy – dał nam Syna.  
-„Zapłatą za grzech jest śmierć” (Rz 6,23). Ktoś musiał umrzeć – On umarł zamiast ciebie.  
+_Ponad tymi staraniami jest światło Dobrej Nowiny!_  
+_Nasza nadzieja jest w Bogu. On nie jest obojętny na sytuację, w której się znaleźliśmy._  
+_To On wychodzi pierwszy – dał nam Syna._  
+_„Zapłatą za grzech jest śmierć” (Rz 6,23)._  
+_Ktoś musiał umrzeć – On umarł zamiast ciebie._  
 
-To jak kredyt niemożliwy do spłacenia: wszelkie pożyczki, długi – skazane na porażkę.  
-I nagle ktoś mówi: biorę wszystkie twoje długi na siebie i nic w zamian nie chcę.  
-Czy to możliwe? Tak! To Bóg w swoim odwiecznym zamyśle przygotował drogę odkupienia,  
-niesamowitą jak samo dzieło stworzenia.  
+_To jak kredyt niemożliwy do spłacenia: wszelkie pożyczki, długi – skazane na porażkę._  
+_I nagle ktoś mówi: biorę wszystkie twoje długi na siebie i nic w zamian nie chcę._  
+_Czy to możliwe? Tak! To Bóg w swoim odwiecznym zamyśle przygotował drogę odkupienia, niesamowitą jak samo dzieło stworzenia._  
 
-„Wiemy też, że (Bóg) z tymi, którzy Go miłują, współdziała we wszystkim dla ich dobra”  
-(Rz 8,28). Nawet z grzechu Bóg wyciągnął większe dobro. Po upadku ludzi w ogrodzie rajskim,  
-Bóg zapowiedział zwycięstwo przez Niewiastę i Jej potomstwo. Maryja została Niepokalaną,  
-by przez Nią przyszedł Syn Boży. Archanioł Gabriel powiedział Jej, że jest pełna łaski.  
+_„Wiemy też, że (Bóg) z tymi, którzy Go miłują, współdziała we wszystkim dla ich dobra” (Rz 8,28)._  
+_Nawet z grzechu Bóg wyciągnął większe dobro._  
+_Po upadku ludzi w ogrodzie rajskim, Bóg zapowiedział zwycięstwo przez Niewiastę i Jej potomstwo._  
+_Maryja została Niepokalaną, by przez Nią przyszedł Syn Boży._  
+_Archanioł Gabriel powiedział Jej, że jest pełna łaski._  
 
-Maryja wiedziała, że pełen łaski jest tylko Bóg. Pamiętała modlitwę Mojżesza:  
-_„Jahwe, Jahwe, Bóg miłosierny i łagodny, nieskory do gniewu, bogaty w łaskę i wierność”_ (Wj 34,6).  
+_Maryja wiedziała, że pełen łaski jest tylko Bóg._  
+_Pamiętała modlitwę Mojżesza: „Jahwe, Jahwe, Bóg miłosierny i łagodny, nieskory do gniewu, bogaty w łaskę i wierność” (Wj 34,6)._  
 
-Najpierw Bóg dał człowiekowi miłość, ziemię i władzę nad światem. Gdy człowiek przez grzech  
-oddaje to diabłu, Bóg przychodzi do Maryi i daje samego siebie. Maryja powiedziała „tak”,  
-Bóg wcielił się – przyjął naszą naturę. Złączył się z ludźmi wszystkich czasów – także z tobą.  
+_Najpierw Bóg dał człowiekowi miłość, ziemię i władzę nad światem._  
+_Gdy człowiek przez grzech oddaje to diabłu, Bóg przychodzi do Maryi i daje samego siebie._  
+_Maryja powiedziała „tak”, Bóg wcielił się – przyjął naszą naturę._  
+_Złączył się z ludźmi wszystkich czasów – także z tobą._  
 
-Wziął na siebie twoje życie, ze wszystkimi radościami, smutkami, myślami, emocjami i przeżył je w  
-wierności Ojcu w twoim imieniu. Tam, gdzie my mówimy „nie”, On mówi „tak”. Ta zgoda była tak  
-radykalna, że zszedł na dno ludzkiego upodlenia. Cierpiał odrzucenie, niesłusznie oskarżano Go,  
-wziął nasze grzechy i zło na krzyż. Chrystus zwyciężył zło, cierpiąc i wytrwawszy do końca.  
+_Wziął na siebie twoje życie, ze wszystkimi radościami, smutkami, myślami, emocjami i przeżył je w wierności Ojcu w twoim imieniu._  
+_Tam, gdzie my mówimy „nie”, On mówi „tak”._  
+_Ta zgoda była tak radykalna, że zszedł na dno ludzkiego upodlenia._  
+_Cierpiał odrzucenie, niesłusznie oskarżano Go, wziął nasze grzechy i zło na krzyż._  
+_Chrystus zwyciężył zło, cierpiąc i wytrwawszy do końca._  
 
-_„Lecz On był przebity za nasze grzechy”_ (Iz 53,5). Spełniło się proroctwo Izajasza:  
-_„Ja, właśnie Ja przekreślam twe przestępstwa i nie wspominam twych grzechów”_ (Iz 43,25).  
-Szatan, grzech i śmierć pokonane na krzyżu.  
+_„Lecz On był przebity za nasze grzechy” (Iz 53,5)._  
+_Spełniło się proroctwo Izajasza: „Ja, właśnie Ja przekreślam twe przestępstwa i nie wspominam twych grzechów” (Iz 43,25)._  
+_Szatan, grzech i śmierć pokonane na krzyżu._  
 
-_„Wiecie, że On objawił się po to, aby zgładzić grzechy (…) aby zniszczyć dzieła diabła”_ (1J 3,5–8).  
-Na krzyżu Chrystus ukazał moc oddania: _„Wtedy Jezus zawołał donośny głosem: Ojcze, w Twoje ręce powierzam ducha mojego”_ (Łk 24,46).  
+_„Wiecie, że On objawił się po to, aby zgładzić grzechy (…) aby zniszczyć dzieła diabła” (1J 3,5–8)._  
+_Na krzyżu Chrystus ukazał moc oddania: „Wtedy Jezus zawołał donośny głosem: Ojcze, w Twoje ręce powierzam ducha mojego” (Łk 24,46)._  
 
-Krzyż stał się mostem nad przepaścią do Boga. Dzięki śmierci i Krwi Jezusa nie jesteśmy już  
-wygnańcami, lecz usynowieni. Po trzech dniach Zmartwychwstanie – Chrystus daje wiarę, nowy  
-życie, moc Ducha Świętego. Uczniowie wolni od lęku, smutku i rozpaczy, zaczęli głosić:  
-_Chrystus zmartwychwstał i żyje!_
+_Krzyż stał się mostem nad przepaścią do Boga._  
+_Dzięki śmierci i Krwi Jezusa nie jesteśmy już wygnańcami, lecz usynowieni._  
+_Po trzech dniach Zmartwychwstanie – Chrystus daje wiarę, nowe życie, moc Ducha Świętego._  
+_Uczniowie wolni od lęku, smutku i rozpaczy, zaczęli głosić: _Chrystus zmartwychwstał i żyje!_  
 
 *Lektura duchowa*  
-_„Mądrość Przedwieczna widząc, iż we wszechświecie nie ma nic, co byłoby zdolne  
-zmazać grzech człowieka, uczynić zadość sprawiedliwości i uśmierzyć gniew Boga, a  
-chcąc jednak uratować biednego człowieka, w którym miała upodobanie, znajduje sposób  
-niezwykły. Ta łaskawa i najwyższa Księżniczka – zdumiewająca, niepojęta miłość – składa  
-samą siebie w ofierze Ojcu, by zadośćuczynić Jego sprawiedliwości, ułagodzić gniew,  
-wyrwać nas z niewoli złego ducha i z ogni piekielnych, wysłużyć szczęście wieczne.  
-Jej ofiara zostaje przyjęta; rzecz postanowiona i rozstrzygnięta: Mądrość Przedwieczna  
-inaczej Syn Boży stanie się człowiekiem we właściwym czasie i w określonych okolicznościach”._
+_„Mądrość Przedwieczna widząc, iż we wszechświecie nie ma nic, co byłoby zdolne zmazać grzech człowieka, uczynić zadość sprawiedliwości i uśmierzyć gniew Boga, a chcąc jednak uratować biednego człowieka, w którym miała upodobanie, znajduje sposób niezwykły._  
+_Ta łaskawa i najwyższa Księżniczka – zdumiewająca, niepojęta miłość – składa samą siebie w ofierze Ojcu, by zadośćuczynić Jego sprawiedliwości, ułagodzić gniew, wyrwać nas z niewoli złego ducha i z ogni piekielnych, wysłużyć szczęście wieczne._  
+_Jej ofiara zostaje przyjęta; rzecz postanowiona i rozstrzygnięta: Mądrość Przedwieczna inaczej Syn Boży stanie się człowiekiem we właściwym czasie i w określonych okolicznościach”._  
 
 _– św. Ludwik Maria Grignion de Montfort, Miłość Mądrości Przedwiecznej, 45–46_
 
@@ -746,8 +728,9 @@ _– św. Ludwik Maria Grignion de Montfort, Miłość Mądrości Przedwiecznej,
 _Przeżyję dzisiejszy dzień w świadomości, że potrzebuję pomocy Jezusa i sam nie dam sobie rady._
 
 *Modlitwa zawierzenia*  
-_*Jestem cały Twój i wszystko, co mam, jest Twoją własnością, umiłowany Jezu,  
-przez Maryję, Twoją świętą Matkę. Amen!*_`
+_Jestem cały Twój i wszystko, co mam, jest Twoją własnością, umiłowany Jezu._  
+_Przez Maryję, Twoją świętą Matkę. Amen!_ 
+`
  
 , label: 'Odkryj łaskę zbawienia', type: 'opis', show: false },
          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/12-dni-dzien-3/audio', type:'audio', label:'audio'  }
@@ -759,115 +742,92 @@ przez Maryję, Twoją świętą Matkę. Amen!*_`
         links: [
           { image: 'assets/12dni/04.jpg',type:'foto' },
           { text: `*Dzień 4 - Odkryj łaskę nawrócenia i oddania życia Panu Jezusowi*
-  
-*Odkryj łaskę nawrócenia i oddania życia Panu Jezusowi*
+  *Odkryj łaskę nawrócenia i oddania życia Panu Jezusowi*
 
 *Modlitwa do Ducha Świętego*  
-_Duchu Święty, natchnij mnie. Miłości Boga, pochłoń mnie. Po prawdziwej  
-drodze prowadź mnie, Maryjo, moja Matko, spójrz na mnie, z Jezusem  
-błogosław mnie. Od wszelkiego zła, od wszelkiego złudzenia, od wszelkiego  
-niebezpieczeństwa zachowaj mnie._
-
-_Maryjo, Oblubienico Ducha Świętego, wyproś mi łaskę nawrócenia i  
-oddania życia Panu Jezusowi. Amen!_
+_Duchu Święty, natchnij mnie._  
+_Miłości Boga, pochłoń mnie._  
+_Po prawdziwej drodze prowadź mnie, Maryjo, moja Matko, spójrz na mnie, z Jezusem błogosław mnie._  
+_Od wszelkiego zła, od wszelkiego złudzenia, od wszelkiego niebezpieczeństwa zachowaj mnie._  
+_Maryjo, Oblubienico Ducha Świętego, wyproś mi łaskę nawrócenia i oddania życia Panu Jezusowi. Amen!_
 
 *Słowo Boże*  
-_„Dlatego, domu Izraela, będę was sądził, każdego według jego postępowania –  
-wyrocznia Pana Boga. Nawróćcie się! Odstąpcie od wszystkich waszych grzechów,  
-aby wam już więcej nie były sposobnością do przewiny. Odrzućcie od siebie wszystkie  
-grzechy, które popełnialiście przeciwko Mnie, i uczyńcie sobie nowe serce i  
-nowego ducha. Dlaczego mielibyście umrzeć, domu Izraela? Ja nie mam żadnego  
-upodobania w śmierci – wyrocznia Pana Boga. Zatem nawróćcie się, a żyć będziecie”  
-(Ez 18,30–32)._
+_„Dlatego, domu Izraela, będę was sądził, każdego według jego postępowania – wyrocznia Pana Boga._  
+_Nawróćcie się! Odstąpcie od wszystkich waszych grzechów, aby wam już więcej nie były sposobnością do przewiny._  
+_Odrzućcie od siebie wszystkie grzechy, które popełnialiście przeciwko Mnie, i uczyńcie sobie nowe serce i nowego ducha._  
+_Dlaczego mielibyście umrzeć, domu Izraela? Ja nie mam żadnego upodobania w śmierci – wyrocznia Pana Boga._  
+_Zatem nawróćcie się, a żyć będziecie”_ (Ez 18,30–32).
 
 *Rozważanie*  
-Przez pierwsze trzy dni rozważaliśmy, jak nas Bóg ukochał, jak nas niszczy grzech  
-i wpatrywaliśmy się w Jezusa, który jest Zbawicielem pokonującym grzech,  
-śmierć i szatana. Z tej perspektywy widzimy, że zwycięstwo Jezusa jest dla nas  
-wielkim darem, który jest zaproszeniem do odpowiedzi.  
+_Przez pierwsze trzy dni rozważaliśmy, jak nas Bóg ukochał, jak nas niszczy grzech i wpatrywaliśmy się w Jezusa, który jest Zbawicielem pokonującym grzech, śmierć i szatana._  
+_Z tej perspektywy widzimy, że zwycięstwo Jezusa jest dla nas wielkim darem, który jest zaproszeniem do odpowiedzi._  
 
-Dziś jest czas podjęcia drugiej decyzji. Co z tym zrobisz? Jesteś wolny i możesz  
-podjąć decyzję. Będzie ona miała swoje konsekwencje – w twoim życiu i w wieczności.  
-Zrozumienie tego jest kluczowe.  
+_Dziś jest czas podjęcia drugiej decyzji. Co z tym zrobisz?_  
+_Jesteś wolny i możesz podjąć decyzję. Będzie ona miała swoje konsekwencje – w twoim życiu i w wieczności._  
+_Zrozumienie tego jest kluczowe._
 
-Po co mam coś zmieniać? Walka, która się rozgrywa, jest wewnątrz nas. Gdy zaczniemy  
-czytać Księgę Rodzaju pod kątem historii grzechu, wtedy dostrzeżemy, jakie przestrzenie  
-infekuje w nas szatan – Adam i Ewa nakłonieni do nieposłuszeństwa, Kain do zazdrości,  
-budowniczy wieży Babel do pokusy samowystarczalności i niezależności od Boga,  
-ludzie w czasach Noego kuszeni do bierności, by nic nie robić, nie podejmować decyzji.  
+_Po co mam coś zmieniać?_  
+_Walka, która się rozgrywa, jest wewnątrz nas._  
+_Gdy zaczniemy czytać Księgę Rodzaju pod kątem historii grzechu, dostrzeżemy, jakie przestrzenie infekuje w nas szatan – Adam i Ewa nakłonieni do nieposłuszeństwa, Kain do zazdrości, budowniczy wieży Babel do pokusy samowystarczalności i niezależności od Boga, ludzie w czasach Noego kuszeni do bierności._  
 
-Dzisiejsza decyzja to przejście od religijności do wiary. Religijność to sposób przeżywania  
-relacji z Bogiem, gdzie wypisuję listę rzeczy, o które chcę poprosić Boga, aby mi w nich  
-pobłogosławił. To postawa, w której Bóg jest mi potrzebny do spełnienia moich zamiarów,  
-pragnień, czasami nawet takich, które wydają się bardzo pobożne.  
+_Dzisiejsza decyzja to przejście od religijności do wiary._  
+_Religijność to sposób przeżywania relacji z Bogiem, gdzie wypisuję listę rzeczy, o które chcę poprosić Boga, aby mi w nich pobłogosławił._  
+_To postawa, w której Bóg jest mi potrzebny do spełnienia moich zamiarów, pragnień, czasami nawet takich, które wydają się bardzo pobożne._  
 
-Wiara to relacja, w której daję Bogu czystą kartkę, podpisuję ją swoim imieniem i mówię:  
-_wypełnij ją jak chcesz, a ja Ci ufam, że mnie przez to wszystko przeprowadzisz_.  
-Religijność może być martwą wiarą.  
+_Wiara to relacja, w której daję Bogu czystą kartkę, podpisuję ją swoim imieniem i mówię:_  
+_„Wypełnij ją jak chcesz, a ja Ci ufam, że mnie przez to wszystko przeprowadzisz”._  
+_Religijność może być martwą wiarą._  
 
-Martwa wiara może wyglądać tak: bycie tzw. katolikiem tradycyjnym – przyjąłem wiarę od rodziców,  
-ale nie była ona moim osobistym wyborem; „katolicyzm przepisowy” – najważniejsze przestrzeganie  
-przykazań i zasad; „dobroludzizm” – wystarczy być dobrym człowiekiem, czynić dobro, pomagać,  
-angażować się charytatywnie.  
+_Martwa wiara może wyglądać tak: bycie tzw. katolikiem tradycyjnym – przyjąłem wiarę od rodziców, ale nie była ona moim osobistym wyborem; „katolicyzm przepisowy” – najważniejsze przestrzeganie przykazań i zasad; „dobroludzizm” – wystarczy być dobrym człowiekiem, czynić dobro, pomagać, angażować się charytatywnie._  
 
-Dzisiejszy dzień to zaproszenie do wyjścia z karykatur wiary i wejścia w ożywiającą relację z Bogiem,  
-który ma moc wskrzesić to, co umarło w naszym życiu i napełnić nas prawdziwym życiem.  
-Jezus mówił: _„Ja jestem drogą, prawdą i życiem” (J 14,6)_. Żyć naprawdę to żyć w relacji z Nim,  
-to żywa wiara.  
+_Dzisiejszy dzień to zaproszenie do wyjścia z karykatur wiary i wejścia w ożywiającą relację z Bogiem, który ma moc wskrzesić to, co umarło w naszym życiu i napełnić nas prawdziwym życiem._  
+_Jezus mówił: „Ja jestem drogą, prawdą i życiem” (J 14,6)._  
+_Żyć naprawdę to żyć w relacji z Nim, to żywa wiara._  
 
-Jezus, który pokonał śmierć, grzech i szatana, panuje nad wszystkim. Jemu wszystko jest poddane.  
-Nad tym, co straciliśmy kontrolę, nic nie wymyka się spod Jego ręki. On jest Panem świata  
-materialnego i duchowego, panuje nad złym duchem, chorobami, lękami, niepokojami.  
+_Jezus, który pokonał śmierć, grzech i szatana, panuje nad wszystkim._  
+_Jemu wszystko jest poddane – nad tym, co straciliśmy kontrolę, nic nie wymyka się spod Jego ręki._  
+_On jest Panem świata materialnego i duchowego, panuje nad złym duchem, chorobami, lękami, niepokojami._  
 
-Bóg pokazuje nam dynamikę oddania. Najpierw On, stwarzając świat i człowieka, dał ludziom  
-swoją miłość i obdarował ich dobrami. _„A Bóg widział, że wszystko, co uczynił, było bardzo dobre”_ (Rdz 1,31).  
-Później, gdy ujawniła się bolesna prawda o grzechu i oddaniu się Bogu w niewolę diabła,  
-Bóg dał nam siebie samego przez Maryję, a wszystko, co oddaliśmy w niewolę złego,  
-Chrystus odkupił swoją Krwią.  
+_Bóg pokazuje nam dynamikę oddania._  
+_Najpierw On, stwarzając świat i człowieka, dał ludziom swoją miłość i obdarował ich dobrami._  
+_„A Bóg widział, że wszystko, co uczynił, było bardzo dobre” (Rdz 1,31)._  
+_Później, gdy ujawniła się bolesna prawda o grzechu i oddaniu się Bogu w niewolę diabła, Bóg dał nam siebie samego przez Maryję, a wszystko, co oddaliśmy w niewolę złego, Chrystus odkupił swoją Krwią._  
 
-Gdy umierał na krzyżu, dał nam testament – swoją ostatnią wolę: _„Oto Matka Twoja”_ (J 19,27) –  
-On oddaje nam Maryję, byśmy mogli, jak Jan Apostoł, wziąć Ją do siebie, do swojego życia.  
-Ona, która najlepiej znała Jezusa i spędzała z Nim najwięcej czasu, może nauczyć prawdziwego życia  
-oddanego Bogu i w Jego bliskości.  
+_Gdy umierał na krzyżu, dał nam testament – swoją ostatnią wolę: „Oto Matka Twoja” (J 19,27) – On oddaje nam Maryję, byśmy mogli, jak Jan Apostoł, wziąć Ją do siebie, do swojego życia._  
+_Ona, która najlepiej znała Jezusa i spędzała z Nim najwięcej czasu, może nauczyć prawdziwego życia oddanego Bogu i w Jego bliskości._  
 
-To łaska wiary, przez którą możesz nawiązać więź z żywym Bogiem. Bóg realnie chce się z tobą spotkać  
-i mieć żywą relację. Szuka Cię w twoim życiu przez różne sytuacje i wydarzenia. Dostrzegasz to?  
-Słowo Boże mówi: _„My miłujemy [Boga], ponieważ Bóg pierwszy nas umiłował”_ (1 J 4,19),  
-_„który umiłował mnie i samego siebie wydał za mnie. Nie mogę odrzucić łaski danej przez Boga”_  
-(Ga 2,20–21). Na dar zbawienia nie można zasłużyć ani zapracować. Otrzymaliśmy go za darmo,  
-z Bożej dobroci i hojności. Bóg jest dobry, daje łaskę wiary. Mogę ją przyjąć lub odrzucić.  
-Jaka jest dziś moja decyzja?
+_To łaska wiary, przez którą możesz nawiązać więź z żywym Bogiem._  
+_Bóg realnie chce się z tobą spotkać i mieć żywą relację._  
+_Szuka Cię w twoim życiu przez różne sytuacje i wydarzenia._  
+_Dostrzegasz to?_  
+
+_Słowo Boże mówi: „My miłujemy [Boga], ponieważ Bóg pierwszy nas umiłował” (1 J 4,19),_  
+_„który umiłował mnie i samego siebie wydał za mnie. Nie mogę odrzucić łaski danej przez Boga” (Ga 2,20–21)._  
+_Na dar zbawienia nie można zasłużyć ani zapracować. Otrzymaliśmy go za darmo, z Bożej dobroci i hojności._  
+_Bóg jest dobry, daje łaskę wiary. Mogę ją przyjąć lub odrzucić. Jaka jest dziś moja decyzja?_
 
 *Lektura duchowa*  
-_„Mądrość Przedwieczna jest głęboko poruszona nieszczęściem biednego Adama i całego jego potomstwa.  
-Widzi ona i smuci się wielce, że chwalebne jej naczynie jest rozbite, wizerunek rozdarty,  
-arcydzieło zniszczone, jej ziemski – namiestnik – upadły. Nakłania czule ucha ku jego jękom  
-i wołaniom. Współczuje Ona widząc pot na jego czole, łzy w jego oczach, trud jego ramion,  
-boleść serca i zgryzotę duszy.  
+_„Mądrość Przedwieczna jest głęboko poruszona nieszczęściem biednego Adama i całego jego potomstwa._  
+_Widzi ona i smuci się wielce, że chwalebne jej naczynie jest rozbite, wizerunek rozdarty, arcydzieło zniszczone, jej ziemski – namiestnik – upadły._  
+_Nakłania czule ucha ku jego jękom i wołaniom. Współczuje Ona widząc pot na jego czole, łzy w jego oczach, trud jego ramion, boleść serca i zgryzotę duszy._  
 
-Wydaje mi się, że widzę tę łaskawą Panią, wzywającą i gromadzącą po raz drugi, by tak rzec,  
-Trójcę Przenajświętszą, ażeby odnowić człowieka, tak jak już to była uczyniła, gdy go  
-kształtowała (por. Rdz. 1,26). Zdaje mi się, że podczas tej wielkiej rady toczy się  
-pewna walka między Mądrością Przedwieczną a Sprawiedliwością Bożą.  
+_Wydaje mi się, że widzę tę łaskawą Panią, wzywającą i gromadzącą po raz drugi, by tak rzec, Trójcę Przenajświętszą, ażeby odnowić człowieka, tak jak już to była uczyniła, gdy go kształtowała (por. Rdz. 1,26)._  
+_Zdaje mi się, że podczas tej wielkiej rady toczy się pewna walka między Mądrością Przedwieczną a Sprawiedliwością Bożą._  
 
-Zdaje mi się, że słyszę ową Mądrość, jak w sprawie człowieka przekonuje, iż wprawdzie  
-przez swój grzech zasługuje on wraz ze swym potomstwem na wieczne potępienie, tak jak  
-zbuntowane anioły; ale że trzeba ulitować się nad niźli, ponieważ zgrzeszył bardziej przez  
-słabość i niewiedzę niż przez złość. Mądrość zwraca uwagę, z jednej strony, iż wielką  
-szkodą jest, by owo skończone arcydzieło pozostawało niewolnikiem swojego nieprzyjaciela  
-na zawsze i żeby miliony ludzi z powodu grzechu jednego człowieka były na zawsze zgubione.  
-Z drugiej strony, Mądrość wskazuje na miejsca w Niebie z powodu upadku zbuntowanych aniołów;  
-dobrze byłoby je zapełnić. Wskazuje też na wielką chwałę, jaką Bóg będzie odbierał teraz i w wieczności”._
+_Zdaje mi się, że słyszę ową Mądrość, jak w sprawie człowieka przekonuje, iż wprawdzie przez swój grzech zasługuje on wraz ze swym potomstwem na wieczne potępienie, tak jak zbuntowane anioły;_  
+_ale że trzeba ulitować się nad niźli, ponieważ zgrzeszył bardziej przez słabość i niewiedzę niż przez złość._  
+_Mądrość zwraca uwagę, z jednej strony, iż wielką szkodą jest, by owo skończone arcydzieło pozostawało niewolnikiem swojego nieprzyjaciela na zawsze i żeby miliony ludzi z powodu grzechu jednego człowieka były na zawsze zgubione._  
+_Z drugiej strony, Mądrość wskazuje na miejsca w Niebie z powodu upadku zbuntowanych aniołów; dobrze byłoby je zapełnić._  
+_Wskazuje też na wielką chwałę, jaką Bóg będzie odbierał teraz i w wieczności”._  
 
 _– św. Ludwik Maria de Montfort, Miłość Mądrości Przedwiecznej, 41–43_
 
 *Zadanie*  
-_Przeżyję dzisiejszy dzień w ufności, że przez wszystko, co się w nim wydarzy,  
-cokolwiek to będzie, Bóg chce mnie przeprowadzić._
+_Przeżyję dzisiejszy dzień w ufności, że przez wszystko, co się w nim wydarzy, cokolwiek to będzie, Bóg chce mnie przeprowadzić._
 
 *Modlitwa zawierzenia*  
-_*Jestem cały Twój i wszystko, co mam, jest Twoją własnością, umiłowany Jezu,  
-przez Maryję, Twoją świętą Matkę. Amen!*_`
+_Jestem cały Twój i wszystko, co mam, jest Twoją własnością, umiłowany Jezu._  
+_Przez Maryję, Twoją świętą Matkę. Amen!_`
  
 , label: 'Odkryj łaskę nawrócenia i oddania życia Panu Jezusowi', type: 'opis', show: false },
           { url:'https://drogamaryi.pl/edycje/5-listopada-2025/12-dni-dzien-4/audio', type:'audio', label:'audio' }
@@ -883,105 +843,125 @@ przez Maryję, Twoją świętą Matkę. Amen!*_`
 *Błogosławieni ubodzy w duchu*
 
 *Modlitwa do Ducha Świętego*
-  
-_Duchu Święty, natchnij mnie._  
-_Miłości Boga, pochłoń mnie._  
-_Po prawdziwej drodze prowadź mnie._  
-_Maryjo, moja Matko, spójrz na mnie._  
-_Z Jezusem błogosław mnie._  
-_Od wszelkiego złego, od wszelkiego złudzenia,_  
-_od wszelkiego niebezpieczeństwa zachowaj mnie._  
-_Maryjo, Oblubienico Ducha Świętego,_  
-_wyproś mi dar ubóstwa w duchu._
+Duchu Święty, natchnij mnie. Miłości Boga, pochłoń mnie. Po prawdziwej
+drodze prowadź mnie, Maryjo, moja Matko, spójrz na mnie, z Jezusem
+błogosław mnie. Od wszelkiego złego, od wszelkiego złudzenia, od wszelkiego
+niebezpieczeństwa zachowaj mnie. Maryjo, Oblubienico Ducha Świętego,
+wyproś mi dar ubóstwa w duchu.
 
-_Amen!_
+Amen!
 
-*Słowo Boże*  
-_„Błogosławieni ubodzy w duchu, albowiem do nich należy królestwo niebieskie”_  
-(Mt 5,3)
+*Słowo Boże*
+_"Błogosławieni ubodzy w duchu, albowiem do nich należy królestwo
+niebieskie” (Mt 5,3)._
 
-*Rozważanie*  
-Odkąd opuściliśmy raj, powstała w nas pustka, którą może wypełnić tylko Bóg.  
-Żyjąc wśród tego świata, szukamy wypełnienia tej przestrzeni.  
+Rozważanie
+Odkąd opuściliśmy raj, powstała w nas pustka, którą może wypełnić
+tylko Bóg. Niestety, żyjąc wśród tego świata, szukamy wypełnienia tej
+przestrzeni. Świat przedstawia nam swoją propozycję i oszukuje, że przez
+zdobywanie dóbr, czy to zewnętrznych czy wewnętrznych (różne nasze
+przywiązania do naszych pragnień, wyobrażeń, swojego sposobu myślenia),
+możemy osiągnąć wewnętrzne spełnienie. Duch tego świata okłamuje nas,
+mówiąc: możesz mieć w życiu wszystko. Masz w centrum swojego istnienia
+postawić swe potrzeby i ciągle się realizować, zdobywając nowe rzeczy.
+To pokusa diabła, który staje przed Jezusem i mówi: „Dam Ci wszystko,
+jeśli upadniesz i oddasz mi pokłon” (Mt 4,9). Na tym właśnie polega
+oszustwo i kłamstwo, o którym mówi świat: szczęśliwy jest ten, kto jest
+bogaty, kto ma pieniądze, kto posiada wiele dóbr. Problem powstaje wtedy,
+gdy coś nie wyjdzie.
 
-Świat przedstawia swoją propozycję i oszukuje, że przez zdobywanie dóbr,  
-czy to zewnętrznych, czy wewnętrznych, możemy osiągnąć wewnętrzne spełnienie.  
+W pierwszej kolejności ubóstwo to świadoma zgoda na to, aby nie być
+niewolnikiem tego, co posiadam. To droga wolności, w której mogę
+zadowolić się tym, co konieczne i rezygnować z rzeczy niepotrzebnych. I
+nie niepokoić się tym, jeśli coś stracę, co i tak nie jest mi niezbędne.
+To zrezygnowanie z konsumpcyjnego stylu życia, w którym ciągle coś
+kupuję. Jednak ubóstwo to coś więcej.
 
-Duch tego świata okłamuje nas, mówiąc: _„możesz mieć w życiu wszystko”_.  
-Masz w centrum swego istnienia postawić swe potrzeby i ciągle się realizować.  
-To pokusa diabła, który staje przed Jezusem i mówi:  
-_„Dam Ci wszystko, jeśli upadniesz i oddasz mi pokłon”_ (Mt 4,9).  
+Ubóstwo nie oznacza braku pieniędzy. To pewna postawa wewnętrzna, w
+której chodzi o to, żeby wobec przeżywanych braków oprzeć się na Bogu,
+by żyć świadomością, że wszystko mam u Boga. Jemu zależy na tym, żeby
+nasze zubożenie stało się bogactwem! To jeden z paradoksów, jakich w
+Ewangelii jest wiele. Ubóstwo jest lekarstwem, które otrzymuję od Boga,
+aby wyleczył mnie z choroby opierania się na samym sobie. Ubóstwo leczy
+mnie z kłamliwego przekonania, że nikt mi nie pomoże i muszę liczyć
+tylko na siebie.
 
-Na tym polega oszustwo świata: szczęśliwy jest ten, kto jest bogaty,  
-ma pieniądze i posiada wiele dóbr. Problem pojawia się, gdy coś nie wyjdzie.  
+Bez świadomości tego, że jesteśmy w rękach kochającego Boga, o czym
+rozważaliśmy w pierwszym dniu, nie moglibyśmy przełknąć tego gorzkiego
+lekarstwa. Dlatego św. Paweł powie: „Przechowujemy zaś ten skarb ten
+skarb w naczyniach glinianych, aby z Boga była owa przeogromna moc, a
+nie z nas” (2 Kor 4,7). Nosimy w sobie skarb Bożej Miłości, chociaż
+jesteśmy kruchymi, glinianymi naczyniami, bardzo ubogimi. To właśnie
+sytuacje niepowodzeń, cierpień i trudności pokazują mi, kim tak
+naprawdę jestem. Bolesne sytuacje, które przeżywam, odsłaniają przede
+mną prawdę o mnie samym.
 
-Ubóstwo to świadoma zgoda, by nie być niewolnikiem tego, co posiadam.  
-To droga wolności, w której mogę zadowolić się tym, co konieczne,  
-i rezygnować z rzeczy niepotrzebnych.  
+Łatwo jest kochać Boga i ufać, gdy wszystko idzie po mojej myśli i nie
+ma większych problemów. Jednak wtedy można wpaść w iluzję, która,
+opadając w momencie kryzysu, boleśnie odkrywa moje prawdziwe oblicze. I
+nie jest problemem to, że takie sytuacje się zdarzają. One były, są i
+będą.
 
-_Ubóstwo nie oznacza braku pieniędzy. To postawa wewnętrzna._  
-Chodzi o to, by wobec braków oprzeć się na Bogu i żyć świadomością,  
-że wszystko mam u Niego. Jemu zależy, żeby nasze zubożenie stało się bogactwem!  
+Papierkiem lakmusowym życia w ubóstwie jest nieustanny wewnętrzny stan
+uwielbienia. Dusza im bardziej uboga, tym bardziej żyje w uwielbieniu. I
+odwrotnie – im dusza bardziej liczy na siebie, tym bardziej pyta: ale za
+co uwielbiać Boga?
 
-Ubóstwo jest lekarstwem od Boga, by wyleczył mnie z choroby polegania tylko na sobie.  
-Leczy przekonanie, że nikt mi nie pomoże.  
+Jeśli zdarzy się jakaś trudność, to od kogo oczekuję pomocy? Czy mam w
+sobie spontaniczny poryw do tego, by stawać „pomimo” mojego ubóstwa
+przed Bogiem, wiedząc, że przecież jestem w Jego rękach? Trudne
+sytuacje prowokują do zadania sobie pytania: czy w moim życiu jestem
+zdany na Boga we wszystkim, czy raczej na siebie? Czy nadal zachowuję w
+świadomości ufność w Bożą miłość, wierząc, że Bóg przez to przeprowadzi,
+bo przecież jest Bogiem, czy raczej nerwowo szukam rozwiązań po
+swojemu, żeby się czegoś uchwycić? Albo odwrotnie: jak reaguję w
+sukcesach i powodzeniach? Czy przypisuję wszystko Bogu i Jemu oddaję
+chwałę, czy sobie?
 
-Bez świadomości, że jesteśmy w rękach kochającego Boga,  
-nie moglibyśmy przełknąć tego gorzkiego lekarstwa.  
+Ubóstwo Maryi – Magnificat – „Wtedy rzekła Maryja: «Wielbi dusza moja
+Pana i raduje się duch mój w Bogu, moim Zbawcy»” (Łk 1,46). Postawa
+Maryi wskazuje, że ubóstwo daje radość i wprowadza człowieka w postawę
+uwielbienia. To postawa, w której człowiek nie uzależnia siebie od tego,
+co może mieć, a związuje się jedynie z Bogiem. Z tego płynie cała moc
+przyciągania duszy do Boga
 
-Św. Paweł mówi: _„Przechowujemy zaś ten skarb w naczyniach glinianych,  
-aby z Boga była owa przeogromna moc, a nie z nas”_ (2 Kor 4,7).  
+Walka, przeciwstawienia się złu – na czym polega? Na tym, by być
+wpatrzonym w Boga, a nie w dobra materialne czy też we własne porażki.
+Moja wartość nie zależy od tego, co posiadam ani od sukcesów
+odniesionych w życiu. Jeśli ktoś mnie pochwali, nadal mam taką samą
+wartość w oczach Boga. Jeśli ktoś mnie skrytykuje, nadal mam taką
+samą wartość w oczach Boga. Jeśli odniosę porażkę, nadal mam taką samą
+wartość w oczach Boga. Na tym etapie pojawia się pokusa zniechęcenia, na
+którą trzeba uważać. Można ją przezwyciężyć postawą ubóstwa. Moja
+prawdziwa wartość jest w Bogu. Duch tego świata mówi: musisz sam sobie
+radzić. A wiara mówi: czyń, co możesz, ale ponad wszystko ufaj Bogu.
 
-Nosimy w sobie skarb Bożej Miłości, chociaż jesteśmy kruchymi naczyniami.  
-To sytuacje niepowodzeń i trudności pokazują, kim naprawdę jestem.  
-Bolesne doświadczenia odsłaniają prawdę o mnie samym.  
+*Lektura duchowa*
+_"Aby mieć mądrość:
 
-Łatwo jest kochać Boga, gdy wszystko idzie po mojej myśli.  
-W kryzysie wychodzi na jaw, na kim naprawdę polegam.  
+1. Trzeba, po pierwsze, albo rzeczywiście porzucić dobra tego świata,
+jak uczynili to Apostołowie, uczniowie, pierwsi chrześcijanie czy
+zakonnicy: najlepiej zrobić to jak najwcześniej – to najpewniejszy
+sposób, by posiąść Mądrość; albo przynajmniej trzeba oderwać swe serce
+od dóbr i posiadać je tak, jakby ich wcale się nie posiadało (por, 1
+Kor 7,30), nie zabiegać o to, by je mieć; nie troszczyć się o ich
+zachowanie; nie skarżyć się ani nie denerwować, gdy się je traci – co
+bardzo trudne jest do wykonania. 
 
-Papierkiem lakmusowym życia w ubóstwie jest nieustanny wewnętrzny stan uwielbienia.  
-_Dusza im bardziej uboga, tym bardziej żyje w uwielbieniu._  
-_Im dusza bardziej liczy na siebie, tym bardziej pyta: „za co uwielbiać Boga?”_  
+2. Nie można wzorować się na zewnętrznych modach ludzi światowych: w
+ubiorze czy w umeblowaniu, czy w tym, co dotyczy domów, posiłków oraz
+innych zwyczajów i zajęć w życiu: Nolite conformari huic saeculo
+(Rz 12,2). Jest to konieczniejsze niż się zazwyczaj sądzi”._
 
-Jeśli zdarzy się trudność, od kogo oczekuję pomocy?  
-Czy staję „pomimo” mojego ubóstwa przed Bogiem?  
-Trudne sytuacje prowokują pytanie: czy jestem zdany na Boga we wszystkim,  
-czy raczej na siebie?  
+św. Ludwik Maria Grignion de Montfort, Miłość Mądrości Przedwiecznej, 197–198
 
-Czy zachowuję ufność w Bożą miłość, wierząc, że Bóg przeprowadzi mnie przez wszystko,  
-czy szukam rozwiązań po swojemu?  
-A jak reaguję w sukcesach? Czy oddaję wszystko Bogu, czy sobie?  
+*Zadanie*
+Poproszę Maryję, aby uczyła mnie żyć w zależności tylko i wyłącznie od
+Boga.
 
-*Ubóstwo Maryi – Magnificat*  
-_„Wielbi dusza moja Pana i raduje się duch mój w Bogu, moim Zbawcy”_ (Łk 1,46)  
-Postawa Maryi pokazuje, że ubóstwo daje radość i prowadzi do uwielbienia.  
-To postawa, w której człowiek nie uzależnia siebie od rzeczy, lecz od Boga.  
-
-*Walka duchowa*  
-Na czym polega? By być wpatrzonym w Boga, a nie w dobra materialne czy własne porażki.  
-
-_Moja wartość nie zależy od tego, co posiadam, ani od sukcesów._  
-_Jeśli ktoś mnie pochwali – wartość ta sama._  
-_Jeśli ktoś skrytykuje – wartość ta sama._  
-_Jeśli poniosę porażkę – wartość ta sama._  
-
-Duch świata mówi: _musisz sam sobie radzić_.  
-Wiara mówi: _czyń, co możesz, ale ponad wszystko ufaj Bogu_.  
-
-*Lektura duchowa*  
-_„Aby mieć mądrość:_  
-_1) Trzeba porzucić dobra świata lub oderwać serce od dóbr i posiadać je, jakby ich wcale się nie posiadało (por. 1 Kor 7,30);_  
-_2) Nie wzorować się na modach ludzi światowych: w ubiorze, umeblowaniu, domach, posiłkach i zwyczajach._  
-_*Nolite conformari huic saeculo* (Rz 12,2).”_  
-
-_– św. Ludwik Maria Grignion de Montfort, Miłość Mądrości Przedwiecznej, 197–198_  
-
-*Zadanie*  
-_Poproszę Maryję, aby uczyła mnie żyć w zależności tylko od Boga._  
-
-*Modlitwa zawierzenia*  
-_Jestem cały Twój i wszystko, co mam, jest Twoją własnością, umiłowany Jezu._  
-_Przez Maryję, Twoją świętą Matkę. Amen!_
+*Modlitwa zawierzenia*
+_Jestem cały Twój i wszystko, co mam, jest Twoją własnością, umiłowany_
+_Jezu, przez Maryję, Twoją świętą Matkę. Amen!_
 `
  
 , label: 'Błogosławieni ubodzy w duchu', type: 'opis', show: false },
