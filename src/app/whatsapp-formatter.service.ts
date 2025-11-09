@@ -25,17 +25,43 @@ export class WhatsAppFormatterService {
         result.push('');
         continue;
       }
-      // Łamanie linii na spacjach do 80 znaków
+      // Łamanie linii na spacjach do 80 znaków, nie dziel formatowania
       while (line.length > 80) {
+        // Sprawdź czy linia zaczyna się od formatowania
+        let boldStart = line.startsWith('**');
+        let boldEnd = line.endsWith('**');
+        let italicStart = line.startsWith('_');
+        let italicEnd = line.endsWith('_');
+
         // Znajdź ostatni odstęp przed 80 znakiem
         let breakPos = line.lastIndexOf(' ', 80);
-        if (breakPos === -1) breakPos = 80; // jeśli nie ma spacji, łam po 80
+        if (breakPos === -1) breakPos = 80;
+        // Nie łam w środku ** lub _
         let part = line.slice(0, breakPos);
         let rest = line.slice(breakPos).trimStart();
-        // Jeśli linia zaczyna się i kończy na kursywie, rozdziel _
-        if (part.startsWith('_') && part.endsWith('_')) {
-          part = part + '_';
-          rest = '_' + rest;
+
+        // Jeśli part zaczyna się od **, musi też kończyć się na ** w tej samej linii
+        if (boldStart && !part.endsWith('**')) {
+          let nextBold = part.lastIndexOf('**');
+          if (nextBold > 0) {
+            breakPos = nextBold + 2;
+            part = line.slice(0, breakPos);
+            rest = line.slice(breakPos).trimStart();
+          } else {
+            // przenieś całość do kolejnej linii
+            break;
+          }
+        }
+        // Analogicznie dla kursywy
+        if (italicStart && !part.endsWith('_')) {
+          let nextItalic = part.lastIndexOf('_');
+          if (nextItalic > 0) {
+            breakPos = nextItalic + 1;
+            part = line.slice(0, breakPos);
+            rest = line.slice(breakPos).trimStart();
+          } else {
+            break;
+          }
         }
         result.push(part);
         line = rest;
