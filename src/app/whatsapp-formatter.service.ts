@@ -9,10 +9,10 @@ export class WhatsAppFormatterService {
   formatForWhatsApp(inputHtml: string): string {
     // Zamień <br> na \n
     let text = inputHtml.replace(/<br\s*\/?>/gi, '\n');
-    // Zamień <b>, <strong> na **
-    text = text.replace(/<(b|strong)>(.*?)<\/(b|strong)>/gi, '**$2**');
-    // Zamień <i>, <em> na _
-    text = text.replace(/<(i|em)>(.*?)<\/(i|em)>/gi, '_$2_');
+  // Zamień <b>, <strong> na * (pogrubienie)
+  text = text.replace(/<(b|strong)>(.*?)<\/(b|strong)>/gi, '*$2*');
+  // Zamień <i>, <em> na _ (kursywa)
+  text = text.replace(/<(i|em)>(.*?)<\/(i|em)>/gi, '_$2_');
     // Usuń pozostałe znaczniki HTML
     text = text.replace(/<[^>]+>/g, '');
 
@@ -27,16 +27,11 @@ export class WhatsAppFormatterService {
       }
       // Łamanie linii na spacjach do 80 znaków, nie dziel formatowania
       while (line.length > 80) {
-        // Sprawdź czy linia zaczyna się od formatowania
         let boldStart = line.startsWith('**');
-        let boldEnd = line.endsWith('**');
         let italicStart = line.startsWith('_');
-        let italicEnd = line.endsWith('_');
 
-        // Znajdź ostatni odstęp przed 80 znakiem
         let breakPos = line.lastIndexOf(' ', 80);
         if (breakPos === -1) breakPos = 80;
-        // Nie łam w środku ** lub _
         let part = line.slice(0, breakPos);
         let rest = line.slice(breakPos).trimStart();
 
@@ -48,7 +43,6 @@ export class WhatsAppFormatterService {
             part = line.slice(0, breakPos);
             rest = line.slice(breakPos).trimStart();
           } else {
-            // przenieś całość do kolejnej linii
             break;
           }
         }
@@ -63,8 +57,16 @@ export class WhatsAppFormatterService {
             break;
           }
         }
+        // Usuń spację przed końcowym podkreśleniem w kursywie
+        if (part.endsWith(' _')) {
+          part = part.slice(0, -2) + '_';
+        }
         result.push(part);
         line = rest;
+      }
+      // Usuń spację przed końcowym podkreśleniem w kursywie
+      if (line.endsWith(' _')) {
+        line = line.slice(0, -2) + '_';
       }
       result.push(line);
     }
