@@ -8,9 +8,28 @@ Zachęcamy Was do czytania Traktatu św. Ludwika. Można każdego dnia poświeci
   // --- html ---
 static dzien1: string = `<br><br>
 <b>Dzień pierwszy:</b><br>Czułe serce św. Ludwika<br><br>
-Św. Ludwik miał przedziwną drogę duchową, którą go Bóg prowadził, a on wiernie był jej posłuszny. Miłość do Boga i bliźniego, szczególnie do tych, którzy byli w wielkiej potrzebie, były podstawą tej drogi. Już od dzieciństwa i pierwszego poruszenia jego sumienia, Ludwik był pociągniętym miłością do Boga. „Dystansował się od swoich rówieśników by unikać ich zabaw, chował się, by modlić na różańcu przed obrazem Matki Bożej". Ks. Blain, przyjaciel św. Ludwika i kolega szkolny z okresu Seminarium napisał: „Często między nami wyglądał jakby w ciągłej ekstazie uczuciowej, wykluczony, porwany przez Boga. Nie mógł zapanować nad poruszeniami serca, które było przeniknięte Bożą miłością, i wzdychał przy stole, w rekreacji, wszędzie. Był to skutek gorliwych natchnień Bożej miłości w Duchu Świętym, który przenikał serce, by dać skosztować Jego słodyczy". Ta miłość do Boga i modlitwy była fundamentem jego świętej, duchowej drogi do najwyższych szczytów modlitwy. Odkrywając swoje serce dla Boga, rozpalone miłością, jako dojrzały kapłan i misjonarz, zapisał: „O mój Boże, pragnę Cie kochać, zaczynam spalać się, Ty mnie zachwycasz. Dopuść mnie, by Cię kochać" (Pieśń 138,1). Równocześnie ze wzrastaniem miłości do Boga, w czułym sercu św. Ludwika wzrastała miłość do bliźniego. Pewnego dnia, kiedy jeszcze był w Seminarium, matka Ludwika, Iwana, odwiedziła biednych w bożnicy w św. Yves w Rennes. Poznała jedną biedną kobietę i zapytała, kto ją tam wprowadził, a ona odpowiedziała: „Twój syn, pani. To on mi znalazł to miejsce i doprowadził mnie tutaj". Bez wątpienia, jego matka była szczęśliwa i dumna ze swojego syna. Ludwik z czułością przeżywał boleści bliźnich i przez czyny miłości, które były nadzwyczajne, zwyciężał tych, którzy zamykali swoje serce na potrzeby drugiego. Przez całe swoje życie św. Ludwik podchodził do biednych z wiarą, przeżywając każde takie spotkanie jako przedłużenie swojej miłości do Jezusa w Eucharystii. Z tą samą czułością, miłością i gorliwością, którą okazywał na modlitwie, Ludwik przystępował do każdego biednego, w którym widział samego Jezusa. Biedni nazywali go „dobry ojciec Montfort".<br><br>Modlitwa: Panie Boże nasz, św. Ludwik de Montfort całe swoje życie spędził, aby kochać Ciebie i bliźniego, a my tak mało realizujemy tę miłość. Przez jego wstawiennictwo pomóż nam pokonać nasze małoduszne serca i wszystko to, co nam przeszkadza, aby naprawdę miłować. Usłysz naszą prośbę i przez jego wstawiennictwo daj nam czyste serca, abyśmy kochali miłością czystą. Prosimy Cię także o łaskę...(intencja, za którą się modlimy). Przez Chrystusa Pana naszego. Amen.<br><br>
-<i>Ojcze nasz, Zdrowaś Maryjo, Chwała Ojcu
-</i><br><br><i>Na koniec odmawiamy Litanię do św. Ludwika de Montfort </i><br><br>
+Św. Ludwik miał przedziwną drogę duchową, którą go Bóg prowadził, a on wiernie był jej posłuszny. Miłość do Boga i bliźniego, szczególnie do tych, 
+którzy byli w wielkiej potrzebie, były podstawą tej drogi. Już od dzieciństwa i pierwszego poruszenia jego sumienia, Ludwik był pociągniętym miłością 
+do Boga. „Dystansował się od swoich rówieśników by unikać ich zabaw, chował się, by modlić na różańcu przed obrazem Matki Bożej". Ks. Blain, 
+przyjaciel św. Ludwika i kolega szkolny z okresu Seminarium napisał: „Często między nami wyglądał jakby w ciągłej ekstazie uczuciowej, wykluczony, 
+porwany przez Boga. Nie mógł zapanować nad poruszeniami serca, które było przeniknięte Bożą miłością, i wzdychał przy stole, w rekreacji, wszędzie. 
+Był to skutek gorliwych natchnień Bożej miłości w Duchu Świętym, który przenikał serce, by dać skosztować Jego słodyczy". Ta miłość do Boga i modlitwy 
+była fundamentem jego świętej, duchowej drogi do najwyższych szczytów modlitwy. Odkrywając swoje serce dla Boga, rozpalone miłością, jako dojrzały 
+kapłan i misjonarz, zapisał: „O mój Boże, pragnę Cie kochać, zaczynam spalać się, Ty mnie zachwycasz. Dopuść mnie, by Cię kochać" (Pieśń 138,1). 
+Równocześnie ze wzrastaniem miłości do Boga, w czułym sercu św. Ludwika wzrastała miłość do bliźniego. Pewnego dnia, kiedy jeszcze był w Seminarium, 
+matka Ludwika, Iwana, odwiedziła biednych w bożnicy w św. Yves w Rennes. Poznała jedną biedną kobietę i zapytała, kto ją tam wprowadził, a ona 
+odpowiedziała: „Twój syn, pani. To on mi znalazł to miejsce i doprowadził mnie tutaj". Bez wątpienia, jego matka była szczęśliwa i dumna ze swojego 
+syna. Ludwik z czułością przeżywał boleści bliźnich i przez czyny miłości, które były nadzwyczajne, zwyciężał tych, którzy zamykali swoje serce na 
+potrzeby drugiego. Przez całe swoje życie św. Ludwik podchodził do biednych z wiarą, przeżywając każde takie spotkanie jako przedłużenie swojej 
+miłości do Jezusa w Eucharystii. Z tą samą czułością, miłością i gorliwością, którą okazywał na modlitwie, Ludwik przystępował do każdego biednego, 
+w którym widział samego Jezusa. Biedni nazywali go „dobry ojciec Montfort".<br><br>Modlitwa: Panie Boże nasz, św. Ludwik de Montfort całe swoje życie 
+spędził, aby kochać Ciebie i bliźniego, a my tak mało realizujemy tę miłość. Przez jego wstawiennictwo pomóż nam pokonać nasze małoduszne serca i 
+wszystko to, co nam przeszkadza, aby naprawdę miłować. Usłysz naszą prośbę i przez jego wstawiennictwo daj nam czyste serca, abyśmy kochali miłością 
+czystą. Prosimy Cię także o łaskę...(intencja, za którą się modlimy). Przez Chrystusa Pana naszego. Amen.<br><br>
+<i>Ojcze nasz, Zdrowaś Maryjo, Chwała Ojcu</i>
+<br><br>
+<i>Na koniec odmawiamy Litanię do św. Ludwika de Montfort</i>
+<br><br>
 <i>Nowenna: https://drogamaryi.pl/litania-do-sw-ludwika</i><br><br>`;
 
   static dzien2: string = `Dzień drugi: Duchowe wzrastanie św. Ludwika i nasze`;
