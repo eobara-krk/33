@@ -82,6 +82,7 @@ readonly tvelveDay1 = TvelveDaysTexts.dzien1;
 readonly tvelveDay2 = TvelveDaysTexts.dzien2;
 
 readonly tvelveDay5 = TvelveDaysTexts.dzien5;
+readonly tvelveDay6 = TvelveDaysTexts.dzien6; 
 
 
 
@@ -248,8 +249,7 @@ items: Item[] = [
        show: false,
         links: [
           { image: 'assets/12dni/05.jpg',type:'foto' },
-          { text: this.tvelveDay5, type:'opis' },
-
+          { text: this.tvelveDay5, type:'opis', label: 'Błogosławieni ubodzy w duchu' },
          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/12-dni-dzien-5/audio', type:'audio', label:'audio' },
          { url:'assets/12dni/05dzien.mp3', type:'audio', label:'Ela' }
         ]
@@ -258,7 +258,8 @@ items: Item[] = [
         name: `06: ${this.getDatePlusDays(this.startDate, 14)}`,
         type: 'html',
         links: [
-          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/12-dni-dzien-6', type:'html', label:'Błogosławieni, którzy się smucą' },
+          { image: 'assets/12dni/06.jpg',type:'foto' },
+          { text: this.tvelveDay6, type:'opis', label: 'Błogosławieni, którzy się smucą' },
           { url:'https://drogamaryi.pl/edycje/5-listopada-2025/12-dni-dzien-6/audio', type:'audio', label:'audio' }
         ]
       },
