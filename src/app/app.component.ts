@@ -133,7 +133,7 @@ readonly oddanieDay0 = OddanieTexts.dzien0;
 
   // KONFIGURACJA DAT - tutaj ustawiasz datę startu
   private readonly startDate = new Date(new Date().getFullYear(), 9, 27); // zawsze 27 października bieżącego roku
-  
+
   // Metoda pomocnicza do generowania nazwy dnia z datą
   private getDayName(date: Date): string {
     const dayNames = ['niedziela', 'poniedziałek', 'wtorek', 'środa', 'czwartek', 'piątek', 'sobota'];
@@ -153,7 +153,7 @@ readonly oddanieDay0 = OddanieTexts.dzien0;
 
 items: Item[] = [
   { 
-    title: 'Nowenna do św. Ludwika <br>27-X do 4-XI', 
+    title: 'Nowenna do św. Ludwika <br>27.października do 4.listopada', 
     show: false,
     links: [
       {
