@@ -14,7 +14,7 @@
                  loading="lazy" />
           </div>
           <div class="header-title">
-            <h1>DROGA MARYI <br>33 - dniowe rekolekcje</h1>
+            <h1>DROGA MARYI <br>33 - dniowe rekolekcje<br> 5 XI - 8 XII 2025</h1>
           </div>
         </div>
         
@@ -145,7 +145,7 @@
                         <span class="nested-icon">{{ l.show ? '▼' : '▶' }}</span>
                         <span [ngSwitch]="l.type">
                           <span *ngSwitchCase="'film'">🎬</span>
-                          <span *ngSwitchCase="'pdfy'">📕</span>
+                          <span *ngSwitchCase="'pdf'">📕</span>
                           <span *ngSwitchCase="'exec'">💿</span>
                           <span *ngSwitchCase="'foto'">📷</span>
                           <span *ngSwitchCase="'audio'">🎵</span>
@@ -171,7 +171,7 @@
 
                           <span [ngSwitch]="nestedLink.type">
                             <span *ngSwitchCase="'film'">🎬</span>
-                            <span *ngSwitchCase="'pdfy'">📕</span>
+                            <span *ngSwitchCase="'pdf'">📕</span>
                             <span *ngSwitchCase="'exec'">💿</span>
                             <span *ngSwitchCase="'foto'">📷</span>
                             <span *ngSwitchCase="'audio'">🎵</span>
@@ -245,8 +245,8 @@
                       <span class="sub-icon">➤</span>
 
                       <span [ngSwitch]="l.type">
-                        <span *ngSwitchCase="'film'">🎬</span>
-                        <span *ngSwitchCase="'pdfy'">📕</span>
+                        <span *ngSwitchCase="'film'">🎬</span>        
+                        <span *ngSwitchCase="'pdf'">📕</span>
                         <span *ngSwitchCase="'exec'">💿</span>
                         <span *ngSwitchCase="'foto'">📷</span>
                         <span *ngSwitchCase="'audio'">🎵</span>

@@ -1,18 +1,30 @@
 export class SecondWeekTexts {
-static tvelveIntro: string = `BARDZO WAŻNYM etapem przygotowania do rekolekcji jest 9-dniowa nowenna do św. Ludwika Marii Grignion de Montfort (linki do dni nowenny znajdziecie poniżej)
+static modlitwaDoDuchaSw: string = `<b>Modlitwa do Ducha Świętego</b>
+<i>Duchu Święty, natchnij mnie. Miłości Boga, pochłoń mnie. Po prawdziwej drodze prowadź mnie, Maryjo, moja Matko, spójrz na mnie, z Jezusem błogosław mnie. Od wszelkiego zła, od wszelkiego złudzenia, od wszelkiego niebezpieczeństwa zachowaj mnie.</i><br>`;
 
-Niech św. Ludwik przygotuje nasze serca do wejścia na tą wyjątkową drogę, DROGĘ MARYI, drogę doskonałego nabożeństwa do Matki Bożej, którą przeszli już przed nami między innymi: św. Jan Paweł II, bł. Kardynał Wyszyński, św. Maksymilian Kolbe...
+static modlitwaZawierzenia1: string = `<b>Modlitwa zawierzenia</b><br><i>Maryjo, Jestem cały Twój i wszystko, co mam, jest Twoją własnością, pomóż mi iść za Twoim umiłowanym Synem, biorąc codziennie swój krzyż na ramiona.</i>`;
+static modlitwaZawierzenia: string = `<b>Modlitwa zawierzenia</b><br><i>Jestem cały Twój i wszystko, co mam, jest Twoją własnością, umiłowany Jezu, przez Maryję, Twoją świętą Matkę. Amen!</i>`;
 
-Zachęcamy Was do czytania Traktatu św. Ludwika. Można każdego dnia poświecić na to 5-10 minut. Święty Jan Paweł II czytał Traktat podczas przerw w pracy, kiedy jeszcze pracował jak młody człowiek. Jego papieskie zawołanie ”Totus Tuus” - Cały Twój, wzięło się wprost z dzieła świętego Ludwika.`;
-
+static tytul: string = 'Tydzień drugi - Odkrywanie miłości Boga -';
   // --- html ---
-static dzien1: string = `Dzień pierwszy: Odkryj łaskę Bożej miłości `;
+static dzien1: string = `<b>${SecondWeekTexts.tytul} Dzień 1</b><br>
+<b>Pożądliwość ciała</b><br>
+${SecondWeekTexts.modlitwaDoDuchaSw} 
 
-static dzien2: string = `Dzień drugi: Odkryj łaskę poznania prawdy o grzechu`;
+${SecondWeekTexts.modlitwaZawierzenia1}`;
+
+static dzien2: string = `<b>${SecondWeekTexts.tytul} Dzień 2</b><br>
+<b>Emocje</b><br>
+${SecondWeekTexts.modlitwaDoDuchaSw} 
+
+${SecondWeekTexts.modlitwaZawierzenia}`;
 
 static dzien3: string = `Dzień trzeci: Duchowe wzrastanie św. Ludwika i nasze`;
 
 static dzien4: string = `Dzień czwarty: Odkryj łaskę nawrócenia i oddania życia Panu Jezusowi`;
+static dzien5: string = `Dzień czwarty: Odkryj łaskę nawrócenia i oddania życia Panu Jezusowi`;
+static dzien6: string = `Dzień czwarty: Odkryj łaskę nawrócenia i oddania życia Panu Jezusowi`;
+static dzien7: string = `Dzień czwarty: Odkryj łaskę nawrócenia i oddania życia Panu Jezusowi`;
 
   // Dodaj kolejne teksty jako static properties
 

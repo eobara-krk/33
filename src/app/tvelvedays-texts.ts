@@ -1,13 +1,12 @@
 export class TvelveDaysTexts {
 static modlitwaDoDuchaSw: string = `<b>Modlitwa do Ducha Świętego</b>
-<i>Duchu Święty, natchnij mnie. Miłości Boga, pochłoń mnie. Po prawdziwej drodze prowadź mnie, Maryjo, moja Matko, spójrz na mnie, z Jezusem błogosław mnie. Od wszelkiego zła, od wszelkiego złudzenia, od wszelkiego niebezpieczeństwa zachowaj mnie.</i>`;
+<i>Duchu Święty, natchnij mnie. Miłości Boga, pochłoń mnie. Po prawdziwej drodze prowadź mnie, Maryjo, moja Matko, spójrz na mnie, z Jezusem błogosław mnie. Od wszelkiego zła, od wszelkiego złudzenia, od wszelkiego niebezpieczeństwa zachowaj mnie.</i><br>`;
 
 static modlitwaZawierzenia: string = `<b>Modlitwa zawierzenia</b><br><i>Jestem cały Twój i wszystko, co mam, jest Twoją własnością, umiłowany Jezu, przez Maryję, Twoją świętą Matkę. Amen!</i>`;
 
 static tytul: string = '12 dni - Wyzbycie się ducha tego świata -';
 
 static dzien0: string = `<b>${TvelveDaysTexts.tytul} Wprowadzenie</b><br>
-
 <i>"(...) powinni przynajmniej przez dwanaście dni pracować nad tym, by wyzbyć się ducha tego świata, sprzecznego z Duchem Jezusa Chrystusa."</i><br>
 św. Ludwik Maria Grignion de Montfort, <i>Traktat o prawdziwym nabożeństwie do Najświętszej Maryi Panny</i>, 227<br>
 <b>Wprowadzenie</b>

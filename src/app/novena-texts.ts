@@ -1,10 +1,62 @@
 export class NovenaTexts {
-static nowennaIntro: string = `BARDZO WAŻNYM etapem przygotowania do rekolekcji jest 9-dniowa nowenna do św. Ludwika Marii Grignion de Montfort (linki do dni nowenny znajdziecie poniżej)
 
-Niech św. Ludwik przygotuje nasze serca do wejścia na tą wyjątkową drogę, DROGĘ MARYI, drogę doskonałego nabożeństwa do Matki Bożej, którą przeszli już przed nami między innymi: św. Jan Paweł II, bł. Kardynał Wyszyński, św. Maksymilian Kolbe...
-
+static dzien0: string = `
+Bardzo ważnym etapem przygotowania do rekolekcji jest <b>9-dniowa nowenna do św. Ludwika Marii Grignion de Montfort</b><br>
+Niech św. Ludwik przygotuje nasze serca do wejścia na tą wyjątkową drogę, DROGĘ MARYI, drogę doskonałego nabożeństwa do Matki Bożej, którą przeszli już przed nami między innymi: św. Jan Paweł II, bł. Kardynał Wyszyński, św. Maksymilian Kolbe...<br>
 Zachęcamy Was do czytania Traktatu św. Ludwika. Można każdego dnia poświecić na to 5-10 minut. Święty Jan Paweł II czytał Traktat podczas przerw w pracy, kiedy jeszcze pracował jak młody człowiek. Jego papieskie zawołanie ”Totus Tuus” - Cały Twój, wzięło się wprost z dzieła świętego Ludwika.`;
 
+static litania: string = `
+
+<b>Litania do św. Ludwika</b><br>
+ Kyrie, elejson.
+ Chryste, elejson.
+ Kyrie, eleison.
+ Chryste, usłysz nas.
+ Chryste, wysłuchaj nas.<br>
+ Ojcze z nieba, Boże, zmiłuj się nad nami.
+ Synu, Odkupicielu świata, Boże, zmiłuj się nad nami.
+ Duchu Święty, Boże, zmiłuj się nad nami.
+ Święta Trójco, jedyny Boże, zmiłuj się nad nami.<br>
+ Święta Maryjo, módl się za nami.
+ Święty Ludwiku-Mario Grignion de Montfort, módl się za nami.
+ Święty Ludwiku-Mario, od najmłodszych lat wiernie służący Panu, módl się za nami.
+ Święty Ludwiku-Mario, wzorze posłuszeństwa, módl się za nami.
+ Święty Ludwiku-Mario, miłosierny względem ubogich, módl się za nami.
+ Święty Ludwiku-Mario, zwycięzco wszystkich złych nałogów, módl się za nami.
+ Święty Ludwiku-Mario, żarliwy o miłość braterską, módl się za nami.
+ Święty Ludwiku-Mario, zwierciadło pokory i cichości, módl się za nami.
+ Święty Ludwiku-Mario, cierpliwy w przeciwnościach, módl się za nami.
+ Święty Ludwiku-Mario, dla bliźnich się poświęcający, módl się za nami.
+ Święty Ludwiku-Mario, zatroskany o dobre wychowanie dzieci i młodzieży, módl się za nami.
+ Święty Ludwiku-Mario, nieustający w modlitwie i pracy, módl się za nami.
+ Święty Ludwiku-Mario, wzorze dla kapłanów, módl się za nami.
+ Święty Ludwiku-Mario, z gorącą miłością sprawujący Eucharystię, módl się za nami.
+ Święty Ludwiku-Mario, płomienny kaznodziejo, módl się za nami.
+ Święty Ludwiku-Mario, misjonarzu Słowa Bożego, módl się za nami.
+ Święty Ludwiku-Mario, wierny synu Maryi Niepokalanej, módl się za nami.
+ Święty Ludwiku-Mario, oddający się Maryi w niewolę miłości, módl się za nami.
+ Święty Ludwiku-Mario, apostole modlitwy różańcowej, módl się za nami.
+ Święty Ludwiku-Mario, przez Maryję wiodący dusze do Boga, módl się za nami.
+ Święty Ludwiku-Mario, przez Maryję wołający „cały Twój" Jezusowi, módl się za nami.
+ Święty Ludwiku-Mario, oddany sługo Jezusa i Maryi, módl się za nami.
+ Święty Ludwiku-Mario, wielki czcicielu Krzyża Chrystusowego, módl się za nami.
+ Święty Ludwiku-Mario, zakuty w kajdany miłości Bożej, módl się za nami.
+ Święty Ludwiku-Mario, pełen ufności w Bożą Opatrzność, módl się za nami.
+ Święty Ludwiku-Mario, wszystkie swe siły poświęcający Bogu i bliźnim, módl się za nami.
+ Święty Ludwiku-Mario, autorze licznych lektur duchowych, módl się za nami.
+ Święty Ludwiku-Mario, założycielu wspólnot zakonnych, módl się za nami.
+ Święty Ludwiku-Mario, ojcze wielu synów i córek duchowych, módl się za nami.
+ Święty Ludwiku-Mario, ofiaro Boskiej miłości, módl się za nami.
+ Święty Ludwiku-Mario, cieszący się chwałą wieczną w niebie, módl się za nami.<br>
+ Baranku Boży, który gładzisz grzechy świata, przepuść nam Panie.
+ Baranku Boży, który gładzisz grzechy świata, wysłuchaj nas, Panie.
+ Baranku Boży, który gładzisz grzechy świata, zmiłuj się nad nami.<br>
+ K.: Módl się za nami święty Ludwiku-Mario.
+ W.: Abyśmy się stali godnymi obietnic Chrystusowych.
+
+<b>Módlmy się</b>: Wszechmogący wieczny Boże, wielbimy Cię w św. Ludwiku-Marii. Życie jego jest dla nas wzorem, a wstawiennictwo wyjednywa nam Twą pomoc. Przez naśladowanie jego cnót oczekujemy dziedzictwa Twojej chwały. Spraw, abyśmy nie tylko wzywali jego wstawiennictwa, ale też naśladowali go, aby w ten sposób stać się wiernymi świadkami Twojej prawdy i miłości. Użycz nam za przyczyną św. Ludwika-Marii pomocy i obrony. Prosimy Cię o to przez Chrystusa, Pana naszego. Amen.
+<i>żródło: http://www.montfortanie.pl/aktualnosci/45-nowenna-do-sw-ludwika.html</i>`
+;
   // --- html ---
 static dzien1: string = `
 <b>Dzień 1:</b><br>Czułe serce św. Ludwika<br>
@@ -16,6 +68,13 @@ Panie Boże nasz, św. Ludwik de Montfort całe swoje życie spędził, aby koch
 <i>Nowenna: https://drogamaryi.pl/litania-do-sw-ludwika</i>`;
 
   static dzien2: string = `Dzień drugi: Duchowe wzrastanie św. Ludwika i nasze`;
+    static dzien3: string = `Dzień trzeci: Duchowe wzrastanie św. Ludwika i nasze`;
+      static dzien4: string = `Dzień drugi: Duchowe wzrastanie św. Ludwika i nasze`;  
+          static dzien5: string = `Dzień drugi: Duchowe wzrastanie św. Ludwika i nasze`;
+            static dzien6: string = `Dzień drugi: Duchowe wzrastanie św. Ludwika i nasze`;
+              static dzien7: string = `Dzień drugi: Duchowe wzrastanie św. Ludwika i nasze`;
+                static dzien8: string = `Dzień drugi: Duchowe wzrastanie św. Ludwika i nasze`;
+                  static dzien9: string = `Dzień drugi: Duchowe wzrastanie św. Ludwika i nasze`;
 
   // Dodaj kolejne teksty jako static properties
 }

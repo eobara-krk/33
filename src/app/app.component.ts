@@ -6,6 +6,7 @@ import { TvelveDaysTexts } from './tvelvedays-texts';
 import { FirstWeekTexts } from './firstWeek-texts';
 import  {SecondWeekTexts } from './secondWeek-texts';
 import {ThirdWeekTexts} from './thirdWeek-texts';  
+import {OddanieTexts} from './oddanie-texts';
 import { WhatsAppFormatterService } from './whatsapp-formatter.service';
 
 // Typy dla linków i itemów
@@ -76,9 +77,17 @@ export class AppComponent implements OnInit {
     return formatted;
   }
 
-
+readonly litania = NovenaTexts.litania;
+readonly nowenna0 = NovenaTexts.dzien0;
 readonly nowenna1 = NovenaTexts.dzien1;
 readonly nowenna2 = NovenaTexts.dzien2;
+readonly nowenna3 = NovenaTexts.dzien3;
+readonly nowenna4 = NovenaTexts.dzien4;
+readonly nowenna5 = NovenaTexts.dzien5;
+readonly nowenna6 = NovenaTexts.dzien6;
+readonly nowenna7 = NovenaTexts.dzien7  
+readonly nowenna8 = NovenaTexts.dzien8;
+readonly nowenna9 = NovenaTexts.dzien9;
 
 readonly tvelveDay0 = TvelveDaysTexts.dzien0;
 readonly tvelveDay1 = TvelveDaysTexts.dzien1;
@@ -98,7 +107,20 @@ readonly firstWeekDay1 = FirstWeekTexts.dzien1;
 readonly firstWeekDay2 = FirstWeekTexts.dzien2;
 readonly firstWeekDay3 = FirstWeekTexts.dzien3;
 readonly firstWeekDay4 = FirstWeekTexts.dzien4;
+readonly firstWeekDay5 = FirstWeekTexts.dzien5;
+readonly firstWeekDay6 = FirstWeekTexts.dzien6;
+readonly firstWeekDay7 = FirstWeekTexts.dzien7;
 
+readonly secondWeekDay1 = SecondWeekTexts.dzien1;
+readonly secondWeekDay2 = SecondWeekTexts.dzien2
+readonly secondWeekDay3 = SecondWeekTexts.dzien3;
+readonly secondWeekDay4 = SecondWeekTexts.dzien4;
+readonly secondWeekDay5 = SecondWeekTexts.dzien5;
+readonly secondWeekDay6 = SecondWeekTexts.dzien6;
+readonly secondWeekDay7 = SecondWeekTexts.dzien7;
+
+readonly oddanieDayAkt = OddanieTexts.dzienAkt;
+readonly oddanieDay0 = OddanieTexts.dzien0;
 
   // Przykład użycia przy kopiowaniu
   copyAsWhatsapp(text: string) {
@@ -134,6 +156,15 @@ items: Item[] = [
     title: 'Nowenna do św. Ludwika', 
     show: false,
     links: [
+      {
+        name: `Wprowadzenie`,
+        show: false,
+        links: [
+          { text: this.nowenna0, type:'opis', label: 'Wprowadzenie' },
+          { text: this.litania, type:'opis', label: 'Litania do św. Ludwika' }
+         
+        ]
+      },
       
       {
         name: `01: ${this.getDatePlusDays(this.startDate, 0)}`,
@@ -211,7 +242,7 @@ items: Item[] = [
     ]
   },
   { 
-    title: 'Wyzbycie się ducha tego świata 12 dni', 
+    title: 'Wyzbycie się ducha tego świata 12 dni (5-XI - 16-XI)', 
     show: false,
     links: [
       {
@@ -275,7 +306,7 @@ items: Item[] = [
       },
       {
         name: `06: ${this.getDatePlusDays(this.startDate, 14)}`,
-        type: 'html',
+        show: false,
         links: [
           { image: 'assets/12dni/06.jpg',type:'foto' },
           { text: this.tvelveDay6, type:'opis', label: 'Błogosławieni, którzy się smucą' },
@@ -284,7 +315,7 @@ items: Item[] = [
       },
       {
         name: `07: ${this.getDatePlusDays(this.startDate, 15)}`,
-        type: 'html',
+        show: false,
         links: [
 
           { image: 'assets/12dni/07.jpg',type:'foto' },
@@ -295,7 +326,7 @@ items: Item[] = [
       },
       {
         name: `08: ${this.getDatePlusDays(this.startDate, 16)}`,
-        type: 'html',
+        show: false,
         links: [
           { image: 'assets/12dni/08.jpg',type:'foto' },
           { text: this.tvelveDay8, type:'opis', label: 'Błogosławieni, którzy łakną i pragną sprawiedliwości.' },
@@ -304,7 +335,7 @@ items: Item[] = [
       },
       {
         name: `09: ${this.getDatePlusDays(this.startDate, 17)}`,
-        type: 'html',
+        show: false,
         links: [
            { image: 'assets/12dni/09.jpg',type:'foto' },
            { text: this.tvelveDay9, type:'opis', label: 'Błogosławieni miłosierni' },
@@ -313,7 +344,7 @@ items: Item[] = [
       },
       {
         name: `10: ${this.getDatePlusDays(this.startDate, 18)}`,
-        type: 'html',
+        show: false,
         links: [
           { image: 'assets/12dni/10.jpg',type:'foto' },
           { text: this.tvelveDay10, type:'opis', label: 'Błogosławieni czystego serca' },
@@ -322,7 +353,7 @@ items: Item[] = [
       },
       {
         name: `11: ${this.getDatePlusDays(this.startDate, 19)}`,
-        type: 'html',
+        show: false,
         links: [
           { image: 'assets/12dni/11.jpg',type:'foto' },
           { text: this.tvelveDay11, type:'opis', label: 'Błogosławieni, którzy wprowadzają pokój' },
@@ -331,7 +362,7 @@ items: Item[] = [
       },
       {
         name: `12: ${this.getDatePlusDays(this.startDate, 20)}`,
-        type: 'html',
+        show: false,
         links: [
           { image: 'assets/12dni/12.jpg',type:'foto' },
           { text: this.tvelveDay12, type:'opis', label: 'Błogosławieni, którzy cierpią prześladowanie dla sprawiedliwości' },
@@ -342,17 +373,37 @@ items: Item[] = [
   },
 
 {
-  title: 'Tydzień pierwszy - Poznanie samego siebie',
+  title: 'Tydzień pierwszy - Poznanie samego siebie (17-XI - 23-XI)',
   show: false, // opcjonalnie, żeby nie był od razu rozwinięty
-  links: []    // pusty array, brak linków na razie
+  links: [
+    {
+        name: `1: ${this.getDatePlusDays(this.startDate, 21)}`,
+        show: false,
+        links: [
+          { image: 'assets/tydzien1/1.jpg',type:'foto' },
+          { text: this.firstWeekDay1, type:'opis', label: 'Pożądliwość ciała' },
+          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/tydzien-pierwszy-dzien-1/audio', type:'audio', label:'audio' }
+        ]
+      },
+        {
+        name: `1: ${this.getDatePlusDays(this.startDate, 22)}`,
+       show: false,
+        links: [
+          { image: 'assets/tydzien1/2.jpg',type:'foto' },
+          { text: this.firstWeekDay2, type:'opis', label: 'Emocje' },
+          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/tydzien-pierwszy-dzien-2/audio', type:'audio', label:'audio' }
+        ]
+      },
+    
+    ]    // pusty array, brak linków na razie
 },
 {
-  title: 'Tydzień drugi - Poznanie Najświętszej Maryi Panny',
+  title: 'Tydzień drugi - Poznanie Najświętszej Maryi Panny (24-XI - 30-XI)',
   show: false,
   links: [] // brak linków
 },
 {
-  title: 'Tydzień trzeci - Poznanie Jezusa Chrystusa',
+  title: 'Tydzień trzeci - Poznanie Jezusa Chrystusa (01-XII - 07-XII)',
   show: false,
   links: [] // brak linków
 },
@@ -360,17 +411,17 @@ items: Item[] = [
   title: '2025-12-08 Dzień oddania',
   show: false,
   links: [
-      { 
-        name: 'Akt oddania', 
-        text: `akt oddania się Jezusowi przez Maryję według św. Ludwika Marii Grignion de Montfort`,
+      {
+        name: `1: ${this.getDatePlusDays(this.startDate, 42)}`,
         show: false,
-        protected: false,
-        type: 'opis'
+        links: [        
+          { text: this.oddanieDay0, type:'opis', label: 'Dzień oddania się Panu Jezusowi przez Maryję w Niewolę Miłości' },
+          { text: this.oddanieDayAkt, type:'opis', label: 'Akt oddania siebie Jezusowi Chrystusowi, Mądrości Wcielonej, przez ręce Maryi' },
+          { url: 'assets/akt.pdf',type:'pdf', label:'Pobierz Akt oddania (PDF)'},
+        ]
       }]
 }
-
 ];
-
 
  private readonly summaryPassword = 'syn';
 
