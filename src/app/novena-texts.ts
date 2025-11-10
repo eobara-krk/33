@@ -11,51 +11,51 @@ Zachęcamy Was do czytania Traktatu św. Ludwika. Można każdego dnia poświeci
 static litania: string = `
 
 <b>Litania do św. Ludwika</b><br>
- Kyrie, elejson.
- Chryste, elejson.
- Kyrie, eleison.
- Chryste, usłysz nas.
- Chryste, wysłuchaj nas.<br>
- Ojcze z nieba, Boże, zmiłuj się nad nami.
- Synu, Odkupicielu świata, Boże, zmiłuj się nad nami.
- Duchu Święty, Boże, zmiłuj się nad nami.
- Święta Trójco, jedyny Boże, zmiłuj się nad nami.<br>
- Święta Maryjo, módl się za nami.
- Święty Ludwiku-Mario Grignion de Montfort, módl się za nami.
- Święty Ludwiku-Mario, od najmłodszych lat wiernie służący Panu, módl się za nami.
- Święty Ludwiku-Mario, wzorze posłuszeństwa, módl się za nami.
- Święty Ludwiku-Mario, miłosierny względem ubogich, módl się za nami.
- Święty Ludwiku-Mario, zwycięzco wszystkich złych nałogów, módl się za nami.
- Święty Ludwiku-Mario, żarliwy o miłość braterską, módl się za nami.
- Święty Ludwiku-Mario, zwierciadło pokory i cichości, módl się za nami.
- Święty Ludwiku-Mario, cierpliwy w przeciwnościach, módl się za nami.
- Święty Ludwiku-Mario, dla bliźnich się poświęcający, módl się za nami.
- Święty Ludwiku-Mario, zatroskany o dobre wychowanie dzieci i młodzieży, módl się za nami.
- Święty Ludwiku-Mario, nieustający w modlitwie i pracy, módl się za nami.
- Święty Ludwiku-Mario, wzorze dla kapłanów, módl się za nami.
- Święty Ludwiku-Mario, z gorącą miłością sprawujący Eucharystię, módl się za nami.
- Święty Ludwiku-Mario, płomienny kaznodziejo, módl się za nami.
- Święty Ludwiku-Mario, misjonarzu Słowa Bożego, módl się za nami.
- Święty Ludwiku-Mario, wierny synu Maryi Niepokalanej, módl się za nami.
- Święty Ludwiku-Mario, oddający się Maryi w niewolę miłości, módl się za nami.
- Święty Ludwiku-Mario, apostole modlitwy różańcowej, módl się za nami.
- Święty Ludwiku-Mario, przez Maryję wiodący dusze do Boga, módl się za nami.
- Święty Ludwiku-Mario, przez Maryję wołający „cały Twój" Jezusowi, módl się za nami.
- Święty Ludwiku-Mario, oddany sługo Jezusa i Maryi, módl się za nami.
- Święty Ludwiku-Mario, wielki czcicielu Krzyża Chrystusowego, módl się za nami.
- Święty Ludwiku-Mario, zakuty w kajdany miłości Bożej, módl się za nami.
- Święty Ludwiku-Mario, pełen ufności w Bożą Opatrzność, módl się za nami.
- Święty Ludwiku-Mario, wszystkie swe siły poświęcający Bogu i bliźnim, módl się za nami.
- Święty Ludwiku-Mario, autorze licznych lektur duchowych, módl się za nami.
- Święty Ludwiku-Mario, założycielu wspólnot zakonnych, módl się za nami.
- Święty Ludwiku-Mario, ojcze wielu synów i córek duchowych, módl się za nami.
- Święty Ludwiku-Mario, ofiaro Boskiej miłości, módl się za nami.
- Święty Ludwiku-Mario, cieszący się chwałą wieczną w niebie, módl się za nami.<br>
- Baranku Boży, który gładzisz grzechy świata, przepuść nam Panie.
- Baranku Boży, który gładzisz grzechy świata, wysłuchaj nas, Panie.
- Baranku Boży, który gładzisz grzechy świata, zmiłuj się nad nami.<br>
- K.: Módl się za nami święty Ludwiku-Mario.
- W.: Abyśmy się stali godnymi obietnic Chrystusowych.
+Kyrie, elejson.
+Chryste, elejson.
+Kyrie, eleison.
+Chryste, usłysz nas.
+Chryste, wysłuchaj nas.<br>
+Ojcze z nieba, Boże, zmiłuj się nad nami.
+Synu, Odkupicielu świata, Boże, zmiłuj się nad nami.
+Duchu Święty, Boże, zmiłuj się nad nami.
+Święta Trójco, jedyny Boże, zmiłuj się nad nami.<br>
+Święta Maryjo, módl się za nami.
+Święty Ludwiku-Mario Grignion de Montfort, módl się za nami.
+Święty Ludwiku-Mario, od najmłodszych lat wiernie służący Panu, módl się za nami.
+Święty Ludwiku-Mario, wzorze posłuszeństwa, módl się za nami.
+Święty Ludwiku-Mario, miłosierny względem ubogich, módl się za nami.
+Święty Ludwiku-Mario, zwycięzco wszystkich złych nałogów, módl się za nami.
+Święty Ludwiku-Mario, żarliwy o miłość braterską, módl się za nami.
+Święty Ludwiku-Mario, zwierciadło pokory i cichości, módl się za nami.
+Święty Ludwiku-Mario, cierpliwy w przeciwnościach, módl się za nami.
+Święty Ludwiku-Mario, dla bliźnich się poświęcający, módl się za nami.
+Święty Ludwiku-Mario, zatroskany o dobre wychowanie dzieci i młodzieży, módl się za nami.
+Święty Ludwiku-Mario, nieustający w modlitwie i pracy, módl się za nami.
+Święty Ludwiku-Mario, wzorze dla kapłanów, módl się za nami.
+Święty Ludwiku-Mario, z gorącą miłością sprawujący Eucharystię, módl się za nami.
+Święty Ludwiku-Mario, płomienny kaznodziejo, módl się za nami.
+Święty Ludwiku-Mario, misjonarzu Słowa Bożego, módl się za nami.
+Święty Ludwiku-Mario, wierny synu Maryi Niepokalanej, módl się za nami.
+Święty Ludwiku-Mario, oddający się Maryi w niewolę miłości, módl się za nami.
+Święty Ludwiku-Mario, apostole modlitwy różańcowej, módl się za nami.
+Święty Ludwiku-Mario, przez Maryję wiodący dusze do Boga, módl się za nami.
+Święty Ludwiku-Mario, przez Maryję wołający „cały Twój" Jezusowi, módl się za nami.
+Święty Ludwiku-Mario, oddany sługo Jezusa i Maryi, módl się za nami.
+Święty Ludwiku-Mario, wielki czcicielu Krzyża Chrystusowego, módl się za nami.
+Święty Ludwiku-Mario, zakuty w kajdany miłości Bożej, módl się za nami.
+Święty Ludwiku-Mario, pełen ufności w Bożą Opatrzność, módl się za nami.
+Święty Ludwiku-Mario, wszystkie swe siły poświęcający Bogu i bliźnim, módl się za nami.
+Święty Ludwiku-Mario, autorze licznych lektur duchowych, módl się za nami.
+Święty Ludwiku-Mario, założycielu wspólnot zakonnych, módl się za nami.
+Święty Ludwiku-Mario, ojcze wielu synów i córek duchowych, módl się za nami.
+Święty Ludwiku-Mario, ofiaro Boskiej miłości, módl się za nami.
+Święty Ludwiku-Mario, cieszący się chwałą wieczną w niebie, módl się za nami.<br>
+Baranku Boży, który gładzisz grzechy świata, przepuść nam Panie.
+Baranku Boży, który gładzisz grzechy świata, wysłuchaj nas, Panie.
+Baranku Boży, który gładzisz grzechy świata, zmiłuj się nad nami.<br>
+K.: Módl się za nami święty Ludwiku-Mario.
+W.: Abyśmy się stali godnymi obietnic Chrystusowych.
 
 <b>Módlmy się</b>: Wszechmogący wieczny Boże, wielbimy Cię w św. Ludwiku-Marii. Życie jego jest dla nas wzorem, a wstawiennictwo wyjednywa nam Twą pomoc. Przez naśladowanie jego cnót oczekujemy dziedzictwa Twojej chwały. Spraw, abyśmy nie tylko wzywali jego wstawiennictwa, ale też naśladowali go, aby w ten sposób stać się wiernymi świadkami Twojej prawdy i miłości. Użycz nam za przyczyną św. Ludwika-Marii pomocy i obrony. Prosimy Cię o to przez Chrystusa, Pana naszego. Amen.
 <i>żródło: http://www.montfortanie.pl/aktualnosci/45-nowenna-do-sw-ludwika.html</i>`
