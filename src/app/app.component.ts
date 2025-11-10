@@ -396,8 +396,52 @@ items: Item[] = [
           { url:'https://drogamaryi.pl/edycje/5-listopada-2025/tydzien-pierwszy-dzien-2/audio', type:'audio', label:'audio' }
         ]
       },
-    
-    ]    // pusty array, brak linków na razie
+       {
+        name: `3: ${this.getDatePlusDays(this.startDate, 23)}`,
+       show: false,
+        links: [
+          { image: 'assets/tydzien1/3.jpg',type:'foto' },
+          { text: this.firstWeekDay3, type:'opis', label: 'Wyobraźnia i obraz samego siebie' },
+          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/tydzien-pierwszy-dzien-3/audio', type:'audio', label:'audio' }
+        ]
+      },
+       {
+        name: `4: ${this.getDatePlusDays(this.startDate, 24)}`,
+       show: false,
+        links: [
+          { image: 'assets/tydzien1/4.jpg',type:'foto' },
+          { text: this.firstWeekDay4, type:'opis', label: 'Pamięć' },
+          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/tydzien-pierwszy-dzien-4/audio', type:'audio', label:'audio' }
+        ]
+      },
+       {
+        name: `5: ${this.getDatePlusDays(this.startDate, 25)}`,
+       show: false,
+        links: [
+          { image: 'assets/tydzien1/5.jpg',type:'foto' },
+          { text: this.firstWeekDay5, type:'opis', label: 'Lęki' },
+          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/tydzien-pierwszy-dzien-5/audio', type:'audio', label:'audio' }
+        ]
+      },
+       {
+        name: `6: ${this.getDatePlusDays(this.startDate, 26)}`,
+       show: false,
+        links: [
+          { image: 'assets/tydzien1/6.jpg',type:'foto' },
+          { text: this.firstWeekDay6, type:'opis', label: 'Pycha życiowa' },
+          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/tydzien-pierwszy-dzien-6/audio', type:'audio', label:'audio' }
+        ]
+      },
+       {
+        name: `7: ${this.getDatePlusDays(this.startDate, 27)}`,
+       show: false,
+        links: [
+          { image: 'assets/tydzien1/7.jpg',type:'foto' },
+          { text: this.firstWeekDay7, type:'opis', label: 'Przebaczenie' },
+          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/tydzien-pierwszy-dzien-7/audio', type:'audio', label:'audio' }
+        ]
+      },
+    ] 
 },
 {
   title: 'Tydzień drugi - Poznanie Najświętszej Maryi Panny <br><i><b>24 XI - 30 XI</b></i>',
