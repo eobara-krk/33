@@ -80,6 +80,7 @@ export class AppComponent implements OnInit {
 readonly nowenna1 = NovenaTexts.dzien1;
 readonly nowenna2 = NovenaTexts.dzien2;
 
+readonly tvelveDay0 = TvelveDaysTexts.dzien0;
 readonly tvelveDay1 = TvelveDaysTexts.dzien1;
 readonly tvelveDay2 = TvelveDaysTexts.dzien2;
 readonly tvelveDay3 = TvelveDaysTexts.dzien3;
@@ -218,7 +219,7 @@ items: Item[] = [
         show: false,
         links: [
           { image: 'assets/wprowadzenie/01.jpg',type:'foto' },
-          
+           { text: this.tvelveDay0, type:'opis', label: 'Wprowadzenie' },
 
           { url:'https://drogamaryi.pl/edycje/5-listopada-2025/12-dni-wprowadzenie/audio', type:'audio', label:'audio Wprowadzenia' }
         ]
