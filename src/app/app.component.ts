@@ -171,7 +171,7 @@ items: Item[] = [
         show: false,
         links: [
           { image: 'assets/nowenna/01.jpg', type:'foto' },
-          { text: this.nowenna1, type:'opis' }
+          { text: this.nowenna1, type:'opis', label: 'Czułe serce św. Ludwika' }
          
         ]
       },
@@ -180,6 +180,7 @@ items: Item[] = [
         show: false,
         links: [
           { image: 'assets/nowenna/02.jpg',type:'foto' },
+          { text: this.nowenna2, type:'opis', label: 'Duchowe wzrastanie św. Ludwika i nasze' }
         
         ]
       },
@@ -188,6 +189,7 @@ items: Item[] = [
         show: false,
         links: [
           { image: 'assets/nowenna/03.jpg',type:'foto' },
+          { text: this.nowenna3, type:'opis', label: 'Zaufanie Bogu' }
           
         ]
       },
@@ -196,7 +198,7 @@ items: Item[] = [
         show: false,
         links: [
           { image: 'assets/nowenna/04.jpg',type:'foto' },
-         
+          { text: this.nowenna4, type:'opis', label: 'Głosiciel królestwa Jezusa Chrystusa przez Maryję' }
         ]
       },
       {
@@ -204,7 +206,7 @@ items: Item[] = [
         show: false,
         links: [
           { image: 'assets/nowenna/05.jpg',type:'foto' },
-         
+          { text: this.nowenna5, type:'opis', label: 'Nauczyciel prawdziwego nabożeństwa do Najświętszej Maryi Panny i duchowości ofiarowania się Jezusowi przez ręce Maryi' }
         ]
       },
       {
@@ -212,7 +214,7 @@ items: Item[] = [
         show: false,
         links: [
           { image: 'assets/nowenna/06.jpg',type:'foto' },
-          
+          { text: this.nowenna6, type:'opis' , label: 'Miłość do Kościoła' }
         ]
       },
       {
@@ -220,7 +222,7 @@ items: Item[] = [
         show: false,
         links: [
           { image: 'assets/nowenna/07.jpg',type:'foto' },
-         
+          { text: this.nowenna7, type:'opis', label: 'Apostoł Krzyża i Chrystusowego zwycięstwa' }
         ]
       },
       {
@@ -228,7 +230,7 @@ items: Item[] = [
         show: false,
         links: [
           { image: 'assets/nowenna/08.jpg',type:'foto' },
-     
+          { text: this.nowenna8, type:'opis', label: 'Obrońca czystości' }
         ]
       },
       {
@@ -236,7 +238,7 @@ items: Item[] = [
         show: false,
         links: [
           { image: 'assets/nowenna/09.jpg',type:'foto' },
-         
+          { text: this.nowenna9, type:'opis', label: 'Nauczyciel trwania w łasce' }
         ]
       }
     ]
