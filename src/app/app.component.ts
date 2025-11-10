@@ -153,7 +153,7 @@ readonly oddanieDay0 = OddanieTexts.dzien0;
 
 items: Item[] = [
   { 
-    title: 'Nowenna do św. Ludwika <br>27.października do 4.listopada', 
+    title: 'Nowenna do św. Ludwika <br>Od 27 października do 04 listopada', 
     show: false,
     links: [
       {
@@ -244,7 +244,7 @@ items: Item[] = [
     ]
   },
   { 
-    title: 'Wyzbycie się ducha tego świata 12 dni <br>5-XI do 16-XI', 
+    title: 'Wyzbycie się ducha tego świata 12 dni <br><i>Od <b>05</b> listopada do <b>16</b> listopada</i>', 
     show: false,
     links: [
       {
@@ -375,7 +375,7 @@ items: Item[] = [
   },
 
 {
-  title: 'Tydzień pierwszy - Poznanie samego siebie <br>17-XI do 23-XI',
+  title: 'Tydzień pierwszy - Poznanie samego siebie <br><i>Od <b>17</b> listopada do <b>23</b> listopada</i>',
   show: false, // opcjonalnie, żeby nie był od razu rozwinięty
   links: [
     {
@@ -400,21 +400,21 @@ items: Item[] = [
     ]    // pusty array, brak linków na razie
 },
 {
-  title: 'Tydzień drugi - Poznanie Najświętszej Maryi Panny <br>24-XI do 30-XI',
+  title: 'Tydzień drugi - Poznanie Najświętszej Maryi Panny <br><i>Od <b>24</b> listopada do <b>30</b> listopada</i>',
   show: false,
   links: [] // brak linków
 },
 {
-  title: 'Tydzień trzeci - Poznanie Jezusa Chrystusa <br>01-XII do 07-XII',
+  title: `Tydzień trzeci - Poznanie Jezusa Chrystusa <br><i>Od <b>01</b> grudnia do <b>07</b> grudnia</i>`,
   show: false,
   links: [] // brak linków
 },
 {
-  title: 'Dzień oddania <br>08-XII-2025',
+  title: `Dzień oddania <br><i><b>08</b> grudnia</i>`,
   show: false,
   links: [
       {
-        name: `1: ${this.getDatePlusDays(this.startDate, 42)}`,
+        name: `${this.getDatePlusDays(this.startDate, 42)}`,
         show: false,
         links: [        
           { text: this.oddanieDay0, type:'opis', label: 'Dzień oddania się Panu Jezusowi przez Maryję w Niewolę Miłości' },
