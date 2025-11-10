@@ -230,7 +230,7 @@ items: Item[] = [
         show: false,
         links: [
           { image: 'assets/nowenna/08.jpg',type:'foto' },
-          { text: this.nowenna8, type:'opis', label: 'Obrońca czystości' }
+          { text: this.nowenna8, type:'opis', label: 'Nauczyciel trwania w łasce' }
         ]
       },
       {
@@ -238,7 +238,7 @@ items: Item[] = [
         show: false,
         links: [
           { image: 'assets/nowenna/09.jpg',type:'foto' },
-          { text: this.nowenna9, type:'opis', label: 'Nauczyciel trwania w łasce' }
+          { text: this.nowenna9, type:'opis', label: 'Prowadzi nas do miłości do Jezusa' }
         ]
       }
     ]
