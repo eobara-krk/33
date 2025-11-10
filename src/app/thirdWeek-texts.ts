@@ -19,10 +19,33 @@ ${ThirdWeekTexts.modlitwaDoDuchaSw}
 
 ${ThirdWeekTexts.modlitwaZawierzenia}`;
 
-static dzien3: string = `Dzień trzeci: Duchowe wzrastanie św. Ludwika i nasze`;
+static dzien3: string = `<b>${ThirdWeekTexts.tytul} Dzień 3</b><br>
 
-static dzien4: string = `Dzień czwarty: Odkryj łaskę nawrócenia i oddania życia Panu Jezusowi`;
-static dzien5: string = `Dzień czwarty: Odkryj łaskę nawrócenia i oddania życia Panu Jezusowi`;
-static dzien6: string = `Dzień czwarty: Odkryj łaskę nawrócenia i oddania życia Panu Jezusowi`;
-static dzien7: string = `Dzień czwarty: Odkryj łaskę nawrócenia i oddania życia Panu Jezusowi`;
+${ThirdWeekTexts.modlitwaDoDuchaSw} 
+
+${ThirdWeekTexts.modlitwaZawierzenia}`;
+
+static dzien4: string = `<b>${ThirdWeekTexts.tytul} Dzień 4</b><br>
+
+${ThirdWeekTexts.modlitwaDoDuchaSw} 
+
+${ThirdWeekTexts.modlitwaZawierzenia}`;
+
+static dzien5: string = `<b>${ThirdWeekTexts.tytul} Dzień 5</b><br>
+
+${ThirdWeekTexts.modlitwaDoDuchaSw} 
+
+${ThirdWeekTexts.modlitwaZawierzenia}`;
+
+static dzien6: string = `<b>${ThirdWeekTexts.tytul} Dzień 6</b><br>
+
+${ThirdWeekTexts.modlitwaDoDuchaSw} 
+
+${ThirdWeekTexts.modlitwaZawierzenia}`;
+
+static dzien7: string = `<b>${ThirdWeekTexts.tytul} Dzień 7</b><br>
+
+${ThirdWeekTexts.modlitwaDoDuchaSw} 
+
+${ThirdWeekTexts.modlitwaZawierzenia}`;
 }
