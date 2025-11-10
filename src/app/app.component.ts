@@ -153,7 +153,7 @@ readonly oddanieDay0 = OddanieTexts.dzien0;
 
 items: Item[] = [
   { 
-    title: 'Nowenna do św. Ludwika <br>Od 27 października do 04 listopada', 
+    title: 'Nowenna do św. Ludwika <br><b>27 X - 04 XI</b>', 
     show: false,
     links: [
       {
@@ -244,7 +244,7 @@ items: Item[] = [
     ]
   },
   { 
-    title: 'Wyzbycie się ducha tego świata 12 dni <br><i>Od <b>05</b> listopada do <b>16</b> listopada</i>', 
+    title: 'Wyzbycie się ducha tego świata 12 dni <br><i><b>05 XI - 16 XI</b></i>', 
     show: false,
     links: [
       {
@@ -375,7 +375,7 @@ items: Item[] = [
   },
 
 {
-  title: 'Tydzień pierwszy - Poznanie samego siebie <br><i>Od <b>17</b> listopada do <b>23</b> listopada</i>',
+  title: 'Tydzień pierwszy - Poznanie samego siebie <br><i><b>17 XI - 23 XI</b></i>',
   show: false, // opcjonalnie, żeby nie był od razu rozwinięty
   links: [
     {
@@ -400,17 +400,17 @@ items: Item[] = [
     ]    // pusty array, brak linków na razie
 },
 {
-  title: 'Tydzień drugi - Poznanie Najświętszej Maryi Panny <br><i>Od <b>24</b> listopada do <b>30</b> listopada</i>',
+  title: 'Tydzień drugi - Poznanie Najświętszej Maryi Panny <br><i><b>24 XI - 30 XI</b></i>',
   show: false,
   links: [] // brak linków
 },
 {
-  title: `Tydzień trzeci - Poznanie Jezusa Chrystusa <br><i>Od <b>01</b> grudnia do <b>07</b> grudnia</i>`,
+  title: `Tydzień trzeci - Poznanie Jezusa Chrystusa <br><i><b>01 XII - 07 XII</b></i>`,
   show: false,
   links: [] // brak linków
 },
 {
-  title: `Dzień oddania <br><i><b>08</b> grudnia</i>`,
+  title: `Dzień oddania <br><i><b>08 XII</b></i>`,
   show: false,
   links: [
       {
