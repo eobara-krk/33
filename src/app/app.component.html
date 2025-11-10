@@ -55,9 +55,9 @@
 
       <!-- Nagłówek wydarzenia -->
       <div class="event-header" (click)="toggle(item)">
-        <span *ngIf="isTodayInTitleRange(item.title) || hasInnerTodayGroups(item)">👉</span>
-        <span>📌 {{ item.title }}</span>
-        <span>{{ item.show ? '▲' : '▼' }}</span>
+  <span *ngIf="isTodayInTitleRange(item.title) || hasInnerTodayGroups(item)">👉</span>
+  <span>📌 <span [innerHTML]="item.title"></span></span>
+  <span>{{ item.show ? '▲' : '▼' }}</span>
       </div>
 
       <!-- Zawartość wydarzenia -->

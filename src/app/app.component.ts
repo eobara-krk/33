@@ -153,7 +153,7 @@ readonly oddanieDay0 = OddanieTexts.dzien0;
 
 items: Item[] = [
   { 
-    title: 'Nowenna do św. Ludwika', 
+    title: 'Nowenna do św. Ludwika <br>27-X do 4-XI', 
     show: false,
     links: [
       {
@@ -244,7 +244,7 @@ items: Item[] = [
     ]
   },
   { 
-    title: 'Wyzbycie się ducha tego świata 12 dni (5-XI - 16-XI)', 
+    title: 'Wyzbycie się ducha tego świata 12 dni <br>5-XI do 16-XI', 
     show: false,
     links: [
       {
@@ -375,7 +375,7 @@ items: Item[] = [
   },
 
 {
-  title: 'Tydzień pierwszy - Poznanie samego siebie (17-XI - 23-XI)',
+  title: 'Tydzień pierwszy - Poznanie samego siebie <br>17-XI do 23-XI',
   show: false, // opcjonalnie, żeby nie był od razu rozwinięty
   links: [
     {
@@ -388,7 +388,7 @@ items: Item[] = [
         ]
       },
         {
-        name: `1: ${this.getDatePlusDays(this.startDate, 22)}`,
+        name: `2: ${this.getDatePlusDays(this.startDate, 22)}`,
        show: false,
         links: [
           { image: 'assets/tydzien1/2.jpg',type:'foto' },
@@ -400,17 +400,17 @@ items: Item[] = [
     ]    // pusty array, brak linków na razie
 },
 {
-  title: 'Tydzień drugi - Poznanie Najświętszej Maryi Panny (24-XI - 30-XI)',
+  title: 'Tydzień drugi - Poznanie Najświętszej Maryi Panny <br>24-XI do 30-XI',
   show: false,
   links: [] // brak linków
 },
 {
-  title: 'Tydzień trzeci - Poznanie Jezusa Chrystusa (01-XII - 07-XII)',
+  title: 'Tydzień trzeci - Poznanie Jezusa Chrystusa <br>01-XII do 07-XII',
   show: false,
   links: [] // brak linków
 },
 {
-  title: '2025-12-08 Dzień oddania',
+  title: 'Dzień oddania <br>08-XII-2025',
   show: false,
   links: [
       {
