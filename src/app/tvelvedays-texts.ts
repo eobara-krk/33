@@ -4,7 +4,7 @@ static modlitwaDoDuchaSw: string = `<b>Modlitwa do Ducha Świętego</b>
 
 static modlitwaZawierzenia: string = `<b>Modlitwa zawierzenia</b><br><i>Jestem cały Twój i wszystko, co mam, jest Twoją własnością, umiłowany Jezu, przez Maryję, Twoją świętą Matkę. Amen!</i>`;
 
-static tytul: string = '12 dni - Wyzbycie się ducha tego świata -';
+static tytul: string = '<b>12 dni - Wyzbycie się ducha tego świata</b><br>';
 
 static dzien0: string = `<b>${TvelveDaysTexts.tytul} Wprowadzenie</b><br>
 <i>"(...) powinni przynajmniej przez dwanaście dni pracować nad tym, by wyzbyć się ducha tego świata, sprzecznego z Duchem Jezusa Chrystusa."</i><br>
@@ -20,7 +20,7 @@ Chrystus mówi: <i>"Nie proszę, abyś ich zabrał ze świata, ale byś ich ustr
 `;
 
   // --- html ---
-static dzien1: string = `<b>${TvelveDaysTexts.tytul} Dzień 1</b><br>
+static dzien1: string = `${TvelveDaysTexts.tytul}<b>Dzień 1</b><br>
 <b>Odkryj łaskę Bożej miłości</b><br>
 ${TvelveDaysTexts.modlitwaDoDuchaSw} 
 <i>Maryjo, Oblubienico Ducha Świętego, wyproś mi łaskę odkrycia Bożej miłości.</i>
@@ -47,7 +47,7 @@ W Biblii (Księga Ozeasza) Bóg mówi o swojej ciągłej opiece. Odwołuje się 
 <b>Zadanie</b><br>Przeżyję dzisiejszy dzień ze świadomością, że jestem kochany przez Boga bezwarunkowo.<br>
 ${TvelveDaysTexts.modlitwaZawierzenia}`;
 
-static dzien2: string = `<b>${TvelveDaysTexts.tytul} Dzień 2</b><br>
+static dzien2: string = `${TvelveDaysTexts.tytul}<b>Dzień 2</b><br>
 <b>Odkryj łaskę poznania prawdy o grzechu</b><br>
 ${TvelveDaysTexts.modlitwaDoDuchaSw}
 <i>Maryjo, Oblubienico Ducha Świętego, wyproś mi łaskę odkrycia prawdy o grzechu!</i>
@@ -63,7 +63,7 @@ Prawda o Bożej miłości nie jest dla nas oczywista. Wielu mówi: życie to nie
 Spróbuję dziś dostrzec i uznać moją bezradność wobec zła i grzechu.<br>
 ${TvelveDaysTexts.modlitwaZawierzenia}`;
 
-static dzien3: string = `<b>${TvelveDaysTexts.tytul} Dzień 3</b><br>
+static dzien3: string = `${TvelveDaysTexts.tytul}<b>Dzień 3</b><br>
 <b>Odkryj łaskę zbawienia</b><br>
 ${TvelveDaysTexts.modlitwaDoDuchaSw}
 <i>Maryjo, Oblubienico Ducha Świętego, wyproś mi łaskę zbawienia.</i>
@@ -79,7 +79,7 @@ Stając wobec zła i grzechu, uświadamiając sobie ich realność, rozpaczliwie
 Przeżyję dzisiejszy dzień w świadomości tego, że potrzebuję pomocy Jezusa i sam nie dam sobie rady.<br>
 ${TvelveDaysTexts.modlitwaZawierzenia}`;
 
-static dzien4: string = `<b>${TvelveDaysTexts.tytul} Dzień 4</b><br>
+static dzien4: string = `${TvelveDaysTexts.tytul}<b>Dzień 4</b><br>
 <b>Odkryj łaskę nawrócenia i oddania życia Panu Jezusowi</b><br>
 ${TvelveDaysTexts.modlitwaDoDuchaSw}
 <i>Maryjo, Oblubienico Ducha Świętego, wyproś mi łaskę nawrócenia i oddania życia Panu Jezusowi.</i>
@@ -98,8 +98,7 @@ Przez pierwsze trzy dni rozważaliśmy, jak nas Bóg ukochał, jak nas niszczy g
 Przeżyję dzisiejszy dzień w ufności, że przez wszystko, co się w nim wydarzy, cokolwiek to będzie, Bóg chce mnieprzeprowadzić.<br>
 ${TvelveDaysTexts.modlitwaZawierzenia}`;
 
-static dzien5: string = `
-<b>${TvelveDaysTexts.tytul} Dzień 5</b><br>
+static dzien5: string = `${TvelveDaysTexts.tytul}<b>Dzień 5</b><br>
 <b>Błogosławieni ubodzy w duchu</b><br>
 ${TvelveDaysTexts.modlitwaDoDuchaSw} 
 <i>Maryjo, Oblubienico Ducha Świętego, wyproś mi dar ubóstwa w duchu.</i>
@@ -118,8 +117,7 @@ Odkąd opuściliśmy raj, powstała w nas pustka, którą może wypełnić tylko
 <b>Zadanie</b><br>Poproszę Maryję, aby uczyła mnie żyć w zależności tylko i wyłącznie od Boga.<br>
 ${TvelveDaysTexts.modlitwaZawierzenia}`;
 
-  static dzien6: string = `
-<b>${TvelveDaysTexts.tytul} Dzień 6</b><br>
+  static dzien6: string = `${TvelveDaysTexts.tytul}<b>Dzień 6</b><br>
 <b>Błogosławieni, którzy się smucą</b><br>
 ${TvelveDaysTexts.modlitwaDoDuchaSw} 
 <i>Maryjo, Oblubienico Ducha Świętego, wyproś mi łaskę błogosławionego smutku.</i>
@@ -138,8 +136,7 @@ Tomasz à Kempis, <i>O naśladowaniu Chrystusa</i>, XXVII, 2<br>
 <b>Zadanie</b><br>Poproszę Maryję, by uczyła mnie stawania przed Bogiem ze swoim smutkiem.<br>
 ${TvelveDaysTexts.modlitwaZawierzenia}`;
 
- static dzien7: string = `
-<b>${TvelveDaysTexts.tytul} Dzień 7</b><br>
+ static dzien7: string = `${TvelveDaysTexts.tytul}<b>Dzień 7</b><br>
 <b>Błogosławieni cisi</b><br>
 ${TvelveDaysTexts.modlitwaDoDuchaSw} 
 <i>Maryjo, Oblubienico Ducha Świętego, wyproś mi łaskę błogosławionej cichości.</i>
@@ -158,8 +155,7 @@ lekkie" (Mt 11 29,30).<br>
 <b>Zadanie</b><br>Pokochaj dzisiaj bycie z Bogiem sam na sam.<br>
 ${TvelveDaysTexts.modlitwaZawierzenia}`;
  
- static dzien8: string = `
-<b>${TvelveDaysTexts.tytul} Dzień 8</b><br>
+ static dzien8: string = `${TvelveDaysTexts.tytul}<b>Dzień 8</b><br>
 <b>Błogosławieni, którzy łakną i pragną sprawiedliwości.</b><br>
 ${TvelveDaysTexts.modlitwaDoDuchaSw} 
 <i>Maryjo, Oblubienico Ducha Świętego, wyproś mi łaskę łaknienia i pragnienia sprawiedliwości.</i>
@@ -177,8 +173,7 @@ ${TvelveDaysTexts.modlitwaDoDuchaSw}
 We wszystkim, czego nie rozumiem i co przynosi ci cierpienie, będę mówić: Przyjmuję wszystko, Maryjo, ukrywam się w Twoim sercu.<br>
 ${TvelveDaysTexts.modlitwaZawierzenia}`;
 
-  static dzien9: string = `
-<b>${TvelveDaysTexts.tytul} Dzień 9</b><br>
+  static dzien9: string = `${TvelveDaysTexts.tytul}<b>Dzień 9</b><br>
 <b>Błogosławieni miłosierni</b><br>
 ${TvelveDaysTexts.modlitwaDoDuchaSw} 
 <i>Maryjo, Oblubienico Ducha Świętego, wyproś mi łaskę bycia miłosiernym.</i>
@@ -200,8 +195,7 @@ Są dwa hebrajskie słowa, które oddają naturę miłosierdzia:<br>
 <b>Zadania</b><br>Poproszę dzisiaj Maryję, o miłosierne oczy, bym mógł widzieć każdego człowieka i wszystko, co mnie spotka, w perspektywie miłosierdzia.<br>
 ${TvelveDaysTexts.modlitwaZawierzenia}`;  
 
-  static dzien10: string = `
-<b>${TvelveDaysTexts.tytul} Dzień 10</b><br>
+  static dzien10: string = `${TvelveDaysTexts.tytul}<b>Dzień 10</b><br>
 <b>Błogosławieni czystego serca.</b><br>
 ${TvelveDaysTexts.modlitwaDoDuchaSw} 
 <i>Maryjo, Oblubienico Ducha Świętego, wyproś mi łaskę czystego serca.</i>
@@ -218,8 +212,7 @@ ${TvelveDaysTexts.modlitwaDoDuchaSw}
 <b>Zadanie</b><br>Poproszę dziś Maryję, by uczyła mnie szukać Jezusa we wszystkim, co mnie dzisiaj spotka.<br>
 ${TvelveDaysTexts.modlitwaZawierzenia}`;
 
-  static dzien11: string = `
-<b>${TvelveDaysTexts.tytul} Dzień 11</b><br>
+  static dzien11: string = `${TvelveDaysTexts.tytul}<b>Dzień 11</b><br>
 <b>Błogosławieni, którzy wprowadzają pokój</b><br>
 ${TvelveDaysTexts.modlitwaDoDuchaSw} 
 <i>Maryjo, Oblubienico Ducha Świętego, wyproś mi łaskę wprowadzania Bożego pokoju.</i>
@@ -238,8 +231,7 @@ Tomasz à Kempis, <i>O naśladowaniu Chrystusa</i>, 2,1,1<br>
 <b>Zadanie</b><br>Poproszę Maryję, aby nauczyła mnie przeżywać wszystkie sytuacje życia z Panem Jezusem.<br>
 ${TvelveDaysTexts.modlitwaZawierzenia}`;
 
-  static dzien12: string = `
-<b>${TvelveDaysTexts.tytul} Dzień 12</b><br>
+  static dzien12: string = `${TvelveDaysTexts.tytul}<b>Dzień 12</b><br>
 <b>Błogosławieni, którzy cierpią prześladowanie dla sprawiedliwości.</b><br>
 ${TvelveDaysTexts.modlitwaDoDuchaSw} 
 <i>Maryjo, Oblubienico Ducha Świętego, wyproś mi łaskę godnego przeżywania prześladowań dla sprawiedliwości.</i>
@@ -257,5 +249,4 @@ ${TvelveDaysTexts.modlitwaDoDuchaSw}
 Tomasz à Kempis, <i>O naśladowaniu Chrystusa</i>, 18,1<br>
 <b>Zadanie</b><br>Poproszę Maryję, aby uczyła mnie z ufnością przyjmować każde niezrozumiałe cierpienie i niewygodę, jaka mnie w życiu spotyka.<br>
 ${TvelveDaysTexts.modlitwaZawierzenia}`;
-  // Dodaj kolejne teksty jako static properties
 }
