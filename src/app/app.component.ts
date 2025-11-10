@@ -132,7 +132,7 @@ readonly oddanieDay0 = OddanieTexts.dzien0;
   private hasScrolledToToday: boolean = false; // Flaga czy już przewinięto do dzisiejszej daty
 
   // KONFIGURACJA DAT - tutaj ustawiasz datę startu
-  private readonly startDate = new Date(2025, 9, 27); // 27 października 2025 (miesiące 0-11)
+  private readonly startDate = new Date(new Date().getFullYear(), 9, 27); // zawsze 27 października bieżącego roku
   
   // Metoda pomocnicza do generowania nazwy dnia z datą
   private getDayName(date: Date): string {

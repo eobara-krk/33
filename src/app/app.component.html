@@ -14,7 +14,7 @@
                  loading="lazy" />
           </div>
           <div class="header-title">
-            <h1>DROGA MARYI <br>33 - dniowe rekolekcje<br> 5 XI - 8 XII 2025</h1>
+            <h1>DROGA MARYI <br>33 - dniowe rekolekcje<br> 5 XI do 8 XII {{ currentDateTime | date:'yyyy' }} r.</h1>
           </div>
         </div>
         
@@ -44,7 +44,7 @@
       
       <!-- Podtytuł na całą szerokość -->
       <div class="header-subtitle">
-        <p>nowenna do św. Ludwika i 33 dniowe rozważania</p>
+        <p>Nowenna do św. Ludwika i 33 dniowe rozważania</p>
       </div>
     </div>
 
@@ -272,13 +272,16 @@
 
     <!-- Stopka z przyciskiem -->
     <div class="footer-section">
+      <div style="display: flex; justify-content: space-between; align-items: center; width: 100%;">
+        <div style="font-size: 0.95em; color: #666;">Opracowano na podstawie <a href='https://drogamaryi.pl/' target='_blank' rel='noopener'>https://drogamaryi.pl/</a> <br>Do użytku wewnętrznego wspólnoty.</div>
+        <div class="znak-wodny">
+          © <span class="ozdobne">EO</span>
+        </div>
+      </div>
       <button class="close-button" (click)="closePage()">
         <span class="close-icon">×</span>
         <span class="close-text">Zamknij stronę</span>
       </button>
-      <div class="znak-wodny">
-        © <span class="ozdobne">EO</span>
-      </div>
     </div>
 
   </div>
