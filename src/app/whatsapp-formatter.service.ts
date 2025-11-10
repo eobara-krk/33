@@ -25,13 +25,13 @@ export class WhatsAppFormatterService {
         result.push('');
         continue;
       }
-      // Łamanie linii na spacjach do 80 znaków, nie dziel formatowania
-      while (line.length > 80) {
+      // Łamanie linii na spacjach do 100 znaków, nie dziel formatowania
+      while (line.length > 100) {
         let boldStart = line.startsWith('**');
         let italicStart = line.startsWith('_');
 
-        let breakPos = line.lastIndexOf(' ', 80);
-        if (breakPos === -1) breakPos = 80;
+        let breakPos = line.lastIndexOf(' ', 100);
+        if (breakPos === -1) breakPos = 100;
         let part = line.slice(0, breakPos);
         let rest = line.slice(breakPos).trimStart();
 
