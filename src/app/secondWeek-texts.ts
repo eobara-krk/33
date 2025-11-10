@@ -2,19 +2,18 @@ export class SecondWeekTexts {
 static modlitwaDoDuchaSw: string = `<b>Modlitwa do Ducha Świętego</b>
 <i>Duchu Święty, natchnij mnie. Miłości Boga, pochłoń mnie. Po prawdziwej drodze prowadź mnie, Maryjo, moja Matko, spójrz na mnie, z Jezusem błogosław mnie. Od wszelkiego zła, od wszelkiego złudzenia, od wszelkiego niebezpieczeństwa zachowaj mnie.</i><br>`;
 
-static modlitwaZawierzenia1: string = `<b>Modlitwa zawierzenia</b><br><i>Maryjo, Jestem cały Twój i wszystko, co mam, jest Twoją własnością, pomóż mi iść za Twoim umiłowanym Synem, biorąc codziennie swój krzyż na ramiona.</i>`;
 static modlitwaZawierzenia: string = `<b>Modlitwa zawierzenia</b><br><i>Jestem cały Twój i wszystko, co mam, jest Twoją własnością, umiłowany Jezu, przez Maryję, Twoją świętą Matkę. Amen!</i>`;
 
-static tytul: string = 'Tydzień drugi - Odkrywanie miłości Boga -';
+static tytul: string = 'Tydzień drugi - Poznanie Maryi -';
   // --- html ---
 static dzien1: string = `<b>${SecondWeekTexts.tytul} Dzień 1</b><br>
-<b>Pożądliwość ciała</b><br>
+
 ${SecondWeekTexts.modlitwaDoDuchaSw} 
 
-${SecondWeekTexts.modlitwaZawierzenia1}`;
+${SecondWeekTexts.modlitwaZawierzenia}`;
 
 static dzien2: string = `<b>${SecondWeekTexts.tytul} Dzień 2</b><br>
-<b>Emocje</b><br>
+
 ${SecondWeekTexts.modlitwaDoDuchaSw} 
 
 ${SecondWeekTexts.modlitwaZawierzenia}`;

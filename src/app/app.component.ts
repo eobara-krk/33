@@ -119,6 +119,14 @@ readonly secondWeekDay5 = SecondWeekTexts.dzien5;
 readonly secondWeekDay6 = SecondWeekTexts.dzien6;
 readonly secondWeekDay7 = SecondWeekTexts.dzien7;
 
+readonly thirdWeekDay1 = ThirdWeekTexts.dzien1;
+readonly thirdWeekDay2 = ThirdWeekTexts.dzien2;
+readonly thirdWeekDay3 = ThirdWeekTexts.dzien3;
+readonly thirdWeekDay4 = ThirdWeekTexts.dzien4;
+readonly thirdWeekDay5 = ThirdWeekTexts.dzien5;
+readonly thirdWeekDay6 = ThirdWeekTexts.dzien6;
+readonly thirdWeekDay7 = ThirdWeekTexts.dzien7;
+
 readonly oddanieDayAkt = OddanieTexts.dzienAkt;
 readonly oddanieDay0 = OddanieTexts.dzien0;
 
@@ -446,12 +454,138 @@ items: Item[] = [
 {
   title: 'Tydzień drugi - Poznanie Najświętszej Maryi Panny <br><i><b>24 XI - 30 XI</b></i>',
   show: false,
-  links: [] // brak linków
+  links: [
+     {
+        name: `1: ${this.getDatePlusDays(this.startDate, 28)}`,
+        show: false,
+        links: [
+          { image: 'assets/tydzien2/1.jpg',type:'foto' },
+          { text: this.secondWeekDay1, type:'opis', label: 'Maryja Nowa Ewa' },
+          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/tydzien-drugi-dzien-1/audio', type:'audio', label:'audio' }
+        ]
+      },
+        {
+        name: `2: ${this.getDatePlusDays(this.startDate, 29)}`,
+       show: false,
+        links: [
+          { image: 'assets/tydzien2/2.jpg',type:'foto' },
+          { text: this.secondWeekDay2, type:'opis', label: 'Dziewictwo i macierzyństwo Maryi' },
+          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/tydzien-drugi-dzien-2/audio', type:'audio', label:'audio' }
+        ]
+      },
+       {
+        name: `3: ${this.getDatePlusDays(this.startDate, 30)}`,
+       show: false,
+        links: [
+          { image: 'assets/tydzien2/3.jpg',type:'foto' },
+          { text: this.secondWeekDay3, type:'opis', label: 'Niepokalane Poczęcie' },
+          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/tydzien-drugi-dzien-3/audio', type:'audio', label:'audio' }
+        ]
+      },
+       {
+        name: `4: ${this.getDatePlusDays(this.startDate, 31)}`,
+       show: false,
+        links: [
+          { image: 'assets/tydzien2/4.jpg',type:'foto' },
+          { text: this.secondWeekDay4, type:'opis', label: 'Wniebowzięcie Najświętszej Maryi Panny' },
+          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/tydzien-drugi-dzien-4/audio', type:'audio', label:'audio' }
+        ]
+      },
+       {
+        name: `5: ${this.getDatePlusDays(this.startDate, 32)}`,
+       show: false,
+        links: [
+          { image: 'assets/tydzien2/5.jpg',type:'foto' },
+          { text: this.secondWeekDay5, type:'opis', label: 'Maryja Niewiasta Eucharystii' },
+          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/tydzien-drugi-dzien-5/audio', type:'audio', label:'audio' }
+        ]
+      },
+       {
+        name: `6: ${this.getDatePlusDays(this.startDate, 33)}`,
+       show: false,
+        links: [
+          { image: 'assets/tydzien2/6.jpg',type:'foto' },
+          { text: this.secondWeekDay6, type:'opis', label: 'Niepokalane Serce Maryi – naszym schronieniem' },
+          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/tydzien-drugi-dzien-6/audio', type:'audio', label:'audio' }
+        ]
+      },
+       {
+        name: `7: ${this.getDatePlusDays(this.startDate, 34)}`,
+       show: false,
+        links: [
+          { image: 'assets/tydzien2/7.jpg',type:'foto' },
+          { text: this.secondWeekDay7, type:'opis', label: 'Apostołowie Tryumfu Niepokalanego Serca Maryi' },
+          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/tydzien-drugi-dzien-7/audio', type:'audio', label:'audio' }
+        ]
+      },
+  ] 
 },
 {
   title: `Tydzień trzeci - Poznanie Jezusa Chrystusa <br><i><b>01 XII - 07 XII</b></i>`,
   show: false,
-  links: [] // brak linków
+  links: [{
+        name: `1: ${this.getDatePlusDays(this.startDate, 35)}`,
+        show: false,
+        links: [
+          { image: 'assets/tydzien3/1.jpg',type:'foto' },
+          { text: this.thirdWeekDay1, type:'opis', label: 'Zwiastowanie. Jezus-Słowo Boże. Jezus-Ewangelia.' },
+          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/tydzien-trzeci-dzien-1/audio', type:'audio', label:'audio' }
+        ]
+      },
+        {
+        name: `2: ${this.getDatePlusDays(this.startDate, 36)}`,
+       show: false,
+        links: [
+          { image: 'assets/tydzien3/2.jpg',type:'foto' },
+          { text: this.thirdWeekDay2, type:'opis', label: 'Boże Narodzenie. Jezus-Dziecko. Jezus-Chleb' },
+          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/tydzien-trzeci-dzien-2/audio', type:'audio', label:'audio' }
+        ]
+      },
+       {
+        name: `3: ${this.getDatePlusDays(this.startDate, 37)}`,
+       show: false,
+        links: [
+          { image: 'assets/tydzien3/3.jpg',type:'foto' },
+          { text: this.thirdWeekDay3, type:'opis', label: 'Ofiarowanie w świątyni. Jezus-Prawo Miłości. Jezus-droga do Nieba.' },
+          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/tydzien-trzeci-dzien-3/audio', type:'audio', label:'audio' }
+        ]
+      },
+       {
+        name: `4: ${this.getDatePlusDays(this.startDate, 31)}`,
+       show: false,
+        links: [
+          { image: 'assets/tydzien3/4.jpg',type:'foto' },
+          { text: this.thirdWeekDay4, type:'opis', label: 'Znalezienie w świątyni. Jezus szukany i znaleziony. Jezus zjednoczony z Ojcem' },
+          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/tydzien-trzeci-dzien-4/audio', type:'audio', label:'audio' }
+        ]
+      },
+       {
+        name: `5: ${this.getDatePlusDays(this.startDate, 32)}`,
+       show: false,
+        links: [
+          { image: 'assets/tydzien3/5.jpg',type:'foto' },
+          { text: this.thirdWeekDay5, type:'opis', label: 'Cud przemiany wody wino w Kanie Galilejskiej. Jezus Zbawiciel. Jezus Źródło przemiany' },
+          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/tydzien-trzeci-dzien-5/audio', type:'audio', label:'audio' }
+        ]
+      },
+       {
+        name: `6: ${this.getDatePlusDays(this.startDate, 33)}`,
+       show: false,
+        links: [
+          { image: 'assets/tydzien3/6.jpg',type:'foto' },
+          { text: this.thirdWeekDay6, type:'opis', label: 'Ukrzyżowanie. Jezus Król. Jezus MIŁOŚĆ' },
+          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/tydzien-trzeci-dzien-6/audio', type:'audio', label:'audio' }
+        ]
+      },
+       {
+        name: `7: ${this.getDatePlusDays(this.startDate, 34)}`,
+       show: false,
+        links: [
+          { image: 'assets/tydzien3/7.jpg',type:'foto' },
+          { text: this.thirdWeekDay7, type:'opis', label: 'Zesłanie Ducha Świętego. Jezus Kościół. Jezus Chrzczący Duchem Świętym.' },
+          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/tydzien-trzeci-dzien-7/audio', type:'audio', label:'audio' }
+        ]
+      },]
 },
 {
   title: `Dzień oddania <br><i><b>08 XII</b></i>`,
