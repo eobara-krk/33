@@ -399,7 +399,7 @@ items: Item[] = [
   show: false, // opcjonalnie, żeby nie był od razu rozwinięty
   links: [
     {
-        name: `${this.getDatePlusDays(this.startDate, 21)}`,
+        name: `01: ${this.getDatePlusDays(this.startDate, 21)}`,
         show: false,
         links: [
           { image: 'assets/tydzien1/1.jpg',type:'foto' },
@@ -408,7 +408,7 @@ items: Item[] = [
         ]
       },
         {
-        name: `${this.getDatePlusDays(this.startDate, 22)}`,
+        name: `02: ${this.getDatePlusDays(this.startDate, 22)}`,
        show: false,
         links: [
           { image: 'assets/tydzien1/2.jpg',type:'foto' },
@@ -417,7 +417,7 @@ items: Item[] = [
         ]
       },
        {
-        name: `${this.getDatePlusDays(this.startDate, 23)}`,
+        name: `03: ${this.getDatePlusDays(this.startDate, 23)}`,
        show: false,
         links: [
           { image: 'assets/tydzien1/3.jpg',type:'foto' },
@@ -426,7 +426,7 @@ items: Item[] = [
         ]
       },
        {
-        name: `${this.getDatePlusDays(this.startDate, 24)}`,
+        name: `04: ${this.getDatePlusDays(this.startDate, 24)}`,
        show: false,
         links: [
           { image: 'assets/tydzien1/4.jpg',type:'foto' },
@@ -435,7 +435,7 @@ items: Item[] = [
         ]
       },
        {
-        name: `${this.getDatePlusDays(this.startDate, 25)}`,
+        name: `05: ${this.getDatePlusDays(this.startDate, 25)}`,
        show: false,
         links: [
           { image: 'assets/tydzien1/5.jpg',type:'foto' },
@@ -444,7 +444,7 @@ items: Item[] = [
         ]
       },
        {
-        name: `${this.getDatePlusDays(this.startDate, 26)}`,
+        name: `06: ${this.getDatePlusDays(this.startDate, 26)}`,
        show: false,
         links: [
           { image: 'assets/tydzien1/6.jpg',type:'foto' },
@@ -453,7 +453,7 @@ items: Item[] = [
         ]
       },
        {
-        name: `${this.getDatePlusDays(this.startDate, 27)}`,
+        name: `07: ${this.getDatePlusDays(this.startDate, 27)}`,
        show: false,
         links: [
           { image: 'assets/tydzien1/7.jpg',type:'foto' },
@@ -468,7 +468,7 @@ items: Item[] = [
   show: false,
   links: [
      {
-        name: `${this.getDatePlusDays(this.startDate, 28)}`,
+        name: `01: ${this.getDatePlusDays(this.startDate, 28)}`,
         show: false,
         links: [
           { image: 'assets/tydzien2/1.jpg',type:'foto' },
@@ -477,7 +477,7 @@ items: Item[] = [
         ]
       },
         {
-        name: `${this.getDatePlusDays(this.startDate, 29)}`,
+        name: `02: ${this.getDatePlusDays(this.startDate, 29)}`,
        show: false,
         links: [
           { image: 'assets/tydzien2/2.jpg',type:'foto' },
@@ -486,7 +486,7 @@ items: Item[] = [
         ]
       },
        {
-        name: `${this.getDatePlusDays(this.startDate, 30)}`,
+        name: `03: ${this.getDatePlusDays(this.startDate, 30)}`,
        show: false,
         links: [
           { image: 'assets/tydzien2/3.jpg',type:'foto' },
@@ -495,7 +495,7 @@ items: Item[] = [
         ]
       },
        {
-        name: `${this.getDatePlusDays(this.startDate, 31)}`,
+        name: `04: ${this.getDatePlusDays(this.startDate, 31)}`,
        show: false,
         links: [
           { image: 'assets/tydzien2/4.jpg',type:'foto' },
@@ -504,7 +504,7 @@ items: Item[] = [
         ]
       },
        {
-        name: `${this.getDatePlusDays(this.startDate, 32)}`,
+        name: `05: ${this.getDatePlusDays(this.startDate, 32)}`,
        show: false,
         links: [
           { image: 'assets/tydzien2/5.jpg',type:'foto' },
@@ -513,7 +513,7 @@ items: Item[] = [
         ]
       },
        {
-        name: `${this.getDatePlusDays(this.startDate, 33)}`,
+        name: `06: ${this.getDatePlusDays(this.startDate, 33)}`,
        show: false,
         links: [
           { image: 'assets/tydzien2/6.jpg',type:'foto' },
@@ -522,7 +522,7 @@ items: Item[] = [
         ]
       },
        {
-        name: `${this.getDatePlusDays(this.startDate, 34)}`,
+        name: `07: ${this.getDatePlusDays(this.startDate, 34)}`,
        show: false,
         links: [
           { image: 'assets/tydzien2/7.jpg',type:'foto' },
@@ -536,7 +536,7 @@ items: Item[] = [
   title: `Tydzień trzeci - Poznanie Jezusa Chrystusa <br><i><b>01 XII - 07 XII</b></i>`,
   show: false,
   links: [{
-        name: `${this.getDatePlusDays(this.startDate, 35)}`,
+        name: `01: ${this.getDatePlusDays(this.startDate, 35)}`,
         show: false,
         links: [
           { image: 'assets/tydzien3/1.jpg',type:'foto' },
@@ -545,7 +545,7 @@ items: Item[] = [
         ]
       },
         {
-        name: `${this.getDatePlusDays(this.startDate, 36)}`,
+        name: `02: ${this.getDatePlusDays(this.startDate, 36)}`,
        show: false,
         links: [
           { image: 'assets/tydzien3/2.jpg',type:'foto' },
@@ -554,7 +554,7 @@ items: Item[] = [
         ]
       },
        {
-        name: `${this.getDatePlusDays(this.startDate, 37)}`,
+        name: `03: ${this.getDatePlusDays(this.startDate, 37)}`,
        show: false,
         links: [
           { image: 'assets/tydzien3/3.jpg',type:'foto' },
@@ -563,7 +563,7 @@ items: Item[] = [
         ]
       },
        {
-        name: `${this.getDatePlusDays(this.startDate, 31)}`,
+        name: `04: ${this.getDatePlusDays(this.startDate, 38)}`,
        show: false,
         links: [
           { image: 'assets/tydzien3/4.jpg',type:'foto' },
@@ -572,7 +572,7 @@ items: Item[] = [
         ]
       },
        {
-        name: `${this.getDatePlusDays(this.startDate, 32)}`,
+        name: `05: ${this.getDatePlusDays(this.startDate, 32)}`,
        show: false,
         links: [
           { image: 'assets/tydzien3/5.jpg',type:'foto' },
@@ -581,7 +581,7 @@ items: Item[] = [
         ]
       },
        {
-        name: `${this.getDatePlusDays(this.startDate, 33)}`,
+        name: `06: ${this.getDatePlusDays(this.startDate, 33)}`,
        show: false,
         links: [
           { image: 'assets/tydzien3/6.jpg',type:'foto' },
@@ -590,7 +590,7 @@ items: Item[] = [
         ]
       },
        {
-        name: `${this.getDatePlusDays(this.startDate, 34)}`,
+        name: `07: ${this.getDatePlusDays(this.startDate, 34)}`,
        show: false,
         links: [
           { image: 'assets/tydzien3/7.jpg',type:'foto' },
@@ -604,7 +604,7 @@ items: Item[] = [
   show: false,
   links: [
       {
-        name: `${this.getDatePlusDays(this.startDate, 42)}`,
+        name: `01: ${this.getDatePlusDays(this.startDate, 42)}`,
         show: false,
         links: [        
           { text: this.oddanieDay0, type:'opis', label: 'Dzień oddania się Panu Jezusowi przez Maryję w Niewolę Miłości' },
