@@ -13,8 +13,10 @@ export class WhatsAppFormatterService {
     text = text.replace(/<(b|strong)>(.*?)<\/(b|strong)>/gi, '*$2*');
     // Zamień <i>, <em> na _ (kursywa)
     text = text.replace(/<(i|em)>(.*?)<\/(i|em)>/gi, '_$2_');
-    // Usuń pozostałe znaczniki HTML
-    text = text.replace(/<[^>]+>/g, '');
+  // Usuń pozostałe znaczniki HTML
+  text = text.replace(/<[^>]+>/g, '');
+  // Usuń pozostałe znaki < i >, które mogły pozostać po usuwaniu tagów
+  text = text.replace(/[<>]/g, '');
 
     // Zachowaj puste linie
     const lines = text.split(/\n/);
