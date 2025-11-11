@@ -675,6 +675,10 @@ items: Item[] = [
   // ROZWIJANIE/ZWIJANIE EVENTÓW
   // ----------------------
   toggle(obj: { show: boolean }) {
+    // Zamknij wszystkie inne główne foldery
+    this.items.forEach(item => {
+      if (item !== obj) item.show = false;
+    });
     obj.show = !obj.show;
   }
 
@@ -825,6 +829,11 @@ items: Item[] = [
   // OTWIERANIE TYLKO JEDNEJ GRUPY
   // ----------------------
   openOnly(groupToOpen: LinkGroup, item: Item) {
+    // Zamykamy wszystkie inne główne foldery
+    this.items.forEach(i => {
+      if (i !== item) i.show = false;
+      i.links?.forEach(g => g.show = false);
+    });
     // Zamykamy wszystkie inne grupy w tym elemencie
     item.links?.forEach(g => { if (g !== groupToOpen) g.show = false; });
     
