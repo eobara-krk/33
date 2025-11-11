@@ -675,10 +675,31 @@ items: Item[] = [
   // ROZWIJANIE/ZWIJANIE EVENTÓW
   // ----------------------
   toggle(obj: { show: boolean }) {
-    // Zamknij wszystkie inne główne foldery
+    // Zamknij wszystkie inne główne foldery i ich podkatalogi
     this.items.forEach(item => {
-      if (item !== obj) item.show = false;
+      if (item !== obj) {
+        item.show = false;
+        // Zamknij wszystkie grupy w tym folderze
+        item.links?.forEach(group => {
+          group.show = false;
+          // Zamknij wszystkie zagnieżdżone linki
+          group.links?.forEach(nestedLink => {
+            if (nestedLink.show !== undefined) nestedLink.show = false;
+          });
+        });
+      }
     });
+    // Zamknij wszystkie podkatalogi w otwieranym folderze
+    if (!obj.show) {
+      if ('links' in obj && Array.isArray(obj['links'])) {
+        obj['links'].forEach((group: any) => {
+          group.show = false;
+          group.links?.forEach((nestedLink: any) => {
+            if (nestedLink.show !== undefined) nestedLink.show = false;
+          });
+        });
+      }
+    }
     obj.show = !obj.show;
   }
 
