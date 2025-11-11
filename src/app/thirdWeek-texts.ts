@@ -1,7 +1,7 @@
 export class ThirdWeekTexts {
 static modlitwaDoDuchaSw: string = `<b>Modlitwa do Ducha Świętego</b><br><i>Duchu Święty, natchnij mnie. Miłości Boga, pochłoń mnie. Po prawdziwej drodze prowadź mnie, Maryjo, moja Matko, spójrz na mnie, z Jezusem błogosław mnie. Od wszelkiego zła, od wszelkiego złudzenia, od wszelkiego niebezpieczeństwa zachowaj mnie.</i><br>`;
 static modlitwaZawierzenia: string = `<b>Modlitwa zawierzenia</b><br><i>Jestem cały Twój i wszystko, co mam, jest Twoją własnością, umiłowany Jezu, przez Maryję, Twoją świętą Matkę. Amen!</i>`;
-static tytul: string = '<i><b>Tydzień trzeci - Poznanie Pana Jezusa</b></i><br>';  
+static tytul: string = '<br><i><b>Tydzień trzeci - Poznanie Pana Jezusa</b></i><br>';  
 
 static dayTitles: { [key: number]: string } = {
   1: 'Dzień 1: Zwiastowanie. Jezus-Słowo Boże. Jezus-Ewangelia',

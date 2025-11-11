@@ -1,7 +1,7 @@
 export class NovenaTexts {
 static modlitwa: string = `<br><i>Ojcze nasz, Zdrowaś Maryjo, Chwała Ojcu</i><br><br><i>Na koniec odmawiamy Litanię do św. Ludwika de Montfort</i><br><i>Nowenna: https://drogamaryi.pl/litania-do-sw-ludwika</i>`;
 
-static tytul: string = '<i><b>Nowenna do św. Ludwika</b></i><br>';
+static tytul: string = '<br><i><b>Nowenna do św. Ludwika</b></i><br>';
 
 static dayTitles: { [key: number]: string } = {
  1: 'Dzień 1: Czułe serce św. Ludwika',
@@ -17,7 +17,7 @@ static dayTitles: { [key: number]: string } = {
 
 static getDayText(nr: number, body: string = '', withmodlitwa: boolean = false): string {
   const label = NovenaTexts.dayTitles[nr] || `Dzień ${nr}`;
-  let result = `${NovenaTexts.tytul}<b>${label}</b><br>${body}`;
+  let result = `${NovenaTexts.tytul}<b>${label}</b><br><br>${body}`;
   if (withmodlitwa) {
     result += `<br>${NovenaTexts.modlitwa}`;
   }
