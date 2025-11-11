@@ -65,6 +65,15 @@ interface Item {
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit {
+  // Licznik dni do 8 grudnia
+  get daysToDecember8(): number {
+    const today = new Date();
+    today.setHours(0,0,0,0);
+    const year = today.getMonth() > 10 ? today.getFullYear() + 1 : today.getFullYear();
+    const target = new Date(year, 11, 8); // 8 grudnia
+    const diff = target.getTime() - today.getTime();
+    return Math.max(0, Math.ceil(diff / (1000 * 60 * 60 * 24)));
+  }
   // Pomocnicza metoda: wstawia datę z pola name na początek tekstu
   prependDateFromName(name: string, text: string): string {
     // Wyciągnij datę z pola name (po dwukropku i spacji)
