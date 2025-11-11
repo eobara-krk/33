@@ -607,8 +607,8 @@ items: Item[] = [
         name: `01: ${this.getDatePlusDays(this.startDate, 42)}`,
         show: false,
         links: [        
-          { text: this.oddanieDay0, type:'opis', label: 'Dzień oddania się Panu Jezusowi przez Maryję w Niewolę Miłości' },
-          { text: this.oddanieDayAkt, type:'opis', label: 'Akt oddania siebie Jezusowi Chrystusowi, Mądrości Wcielonej, przez ręce Maryi' },
+          { text: this.prependDateFromName(`${this.getDatePlusDays(this.startDate, 42)}`, this.oddanieDay0), type:'opis', label: 'Dzień oddania się Panu Jezusowi przez Maryję w Niewolę Miłości' },
+          { text: this.prependDateFromName(`${this.getDatePlusDays(this.startDate, 42)}`, this.oddanieDayAkt), type:'opis', label: 'Akt oddania siebie Jezusowi Chrystusowi, Mądrości Wcielonej, przez ręce Maryi' },
           { url: 'assets/akt.pdf',type:'pdf', label:'Pobierz Akt oddania (PDF)'},
         ]
       }]
