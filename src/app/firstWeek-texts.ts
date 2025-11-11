@@ -1,17 +1,28 @@
 export class FirstWeekTexts {
-static modlitwaDoDuchaSw: string = `<b>Modlitwa do Ducha Świętego</b>
-<i>Duchu Święty, natchnij mnie. Miłości Boga, pochłoń mnie. Po prawdziwej drodze prowadź mnie, Maryjo, moja Matko, spójrz na mnie, z Jezusem błogosław mnie. Od wszelkiego zła, od wszelkiego złudzenia, od wszelkiego niebezpieczeństwa zachowaj mnie.</i><br>`;
-
-static modlitwaZawierzenia1: string = `<b>Modlitwa zawierzenia</b><br><i>Maryjo, Jestem cały Twój i wszystko, co mam, jest Twoją własnością, pomóż mi iść za Twoim umiłowanym Synem, biorąc codziennie swój krzyż na ramiona.</i>`;
+static modlitwaDoDuchaSw: string = `<b>Modlitwa do Ducha Świętego</b><br><i>Duchu Święty, natchnij mnie. Miłości Boga, pochłoń mnie. Po prawdziwej drodze prowadź mnie, Maryjo, moja Matko, spójrz na mnie, z Jezusem błogosław mnie. Od wszelkiego zła, od wszelkiego złudzenia, od wszelkiego niebezpieczeństwa zachowaj mnie.</i>`;
 static modlitwaZawierzenia: string = `<b>Modlitwa zawierzenia</b><br><i>Jestem cały Twój i wszystko, co mam, jest Twoją własnością, umiłowany Jezu, przez Maryję, Twoją świętą Matkę. Amen!</i>`;
+static tytul: string = '<i><b>Tydzień pierwszy - Poznanie samego siebie</b></i><br>';
+ 
+static dayTitles: { [key: number]: string } = {
+  1: 'Dzień 1: Pożądliwość ciała',
+  2: 'Dzień 2: Emocje',
+  3: 'Dzień 3: Wyobraźnia i obraz samego siebie',
+  4: 'Dzień 4: Pamięć',
+  5: 'Dzień 5: Lęki',
+  6: 'Dzień 6: Pycha życiowa',
+  7: 'Dzień 7: Przebaczenie'
+};
 
-static tytul: string = 'Tydzień pierwszy - Poznanie samego siebie -';
-  // --- html ---
-static dzien1: string = `<b>${FirstWeekTexts.tytul} Dzień 1</b><br>
-<b>Pożądliwość ciała</b><br>
-${FirstWeekTexts.modlitwaDoDuchaSw} 
-<i>Maryjo, Oblubienico Ducha Świętego, wyproś mi łaskę poznania samego siebie, żalu za grzechy i życia według Ducha.</i>
-<i>Amen!</i><br>
+static getDayText(nr: number, body: string = '', withZawierzenie: boolean = false): string {
+  const label = FirstWeekTexts.dayTitles[nr] || `Dzień ${nr}`;
+  let result = `${FirstWeekTexts.tytul}<b>${label}</b><br><br>${FirstWeekTexts.modlitwaDoDuchaSw}<br>${body}`;
+  if (withZawierzenie) {
+    result += `<br><br>${FirstWeekTexts.modlitwaZawierzenia}`;
+  }
+  return result;
+}
+
+static trescDzien1: string = `<i>Maryjo, Oblubienico Ducha Świętego, wyproś mi łaskę poznania samego siebie, żalu za grzechy i życia według Ducha.</i><br><i>Amen!</i><br>
 <b>Słowo Boże</b>
 <i>„Ciało bowiem do czego innego dąży niż duch, a duch do czego innego niż ciało, i stąd nie ma między nimi zgody, tak że nie czynicie tego, co chcecie. Jeśli jednak pozwolicie się prowadzić duchowi, nie będziecie podlegać Prawu.</i><br>
 <i>Jest zaś rzeczą wiadomą, jakie uczynki rodzą się z ciała: nierząd, nieczystość, wyuzdanie, bałwochwalstwo, czary, nienawiść, spór, zawiść, gniew, pogoń za zaszczytami, niezgoda, rozłamy, zazdrość, pijaństwo, hulanki i tym podobne. Co do nich zapowiadam wam, jak to już zapowiedziałem: ci, którzy się takich rzeczy dopuszczają, królestwa Bożego nie odziedziczą.</i><br>
@@ -27,13 +38,9 @@ W Credo wyznajemy, że Bóg przyjął ciało z Maryi Dziewicy. Maryja została w
 św. Ludwik Maria Grignion de Montfort, <i>Miłość Mądrości Przedwiecznej</i>, 194<br>
 <b>Zadanie</b>
 Pomyślę, czy naprawdę żyje we mnie „wewnętrzny człowiek" duchowy, który żyje wiarą i chodzi drogami Bożymi, szukając w każdej sytuacji tego, co Boże.<br>
-${FirstWeekTexts.modlitwaZawierzenia1}`;
+<b>Modlitwa zawierzenia</b><br><i>Maryjo, Jestem cały Twój i wszystko, co mam, jest Twoją własnością, pomóż mi iść za Twoim umiłowanym Synem, biorąc codziennie swój krzyż na ramiona.</i>`;
 
-static dzien2: string = `<b>${FirstWeekTexts.tytul} Dzień 2</b><br>
-<b>Emocje</b><br>
-${FirstWeekTexts.modlitwaDoDuchaSw} 
-<i>Maryjo, Oblubienico Ducha Świętego, wyproś mi łaskę poznania samego siebie, żalu za grzechy i panowania nad moimi emocjami.</i>
-<i>Amen!</i><br>
+static trescDzien2: string = `<i>Maryjo, Oblubienico Ducha Świętego, wyproś mi łaskę poznania samego siebie, żalu za grzechy i panowania nad moimi emocjami.</i><br><i>Amen!</i><br>
 <b>Słowo Boże</b>
 <i>„Gdy wszedł do łodzi, poszli za Nim Jego uczniowie. Nagle zerwała się gwałtowna burza na jeziorze, tak że fale zalewały łódź; On zaś spał. Wtedy przystąpili do Niego i obudzili Go, mówiąc: «Panie, ratuj, giniemy!» A On im rzekł: «Czemu bojaźliwi jesteście, małej wiary?» Potem wstał, rozkazał wichrom i jezioru, i nastała głęboka cisza. A ludzie pytali zdumieni: «Kimże On jest, że nawet wichry i jezioro są Mu posłuszne?»"</i> (Mt 8,23-27).<br>
 <b>Rozważanie</b>
@@ -45,14 +52,9 @@ powiadam Wam: Każdy, kto popełnia grzech, jest niewolnikiem grzechu" (J 8,34).
 <i>„Nie proszę o wizje czy objawienia ani o upodobania lub przyjemności, nawet te duchowe. To Ty widzisz jasno, bez cienia; Ty smakujesz w pełni, bez goryczy; Ty triumfujesz w chwale po prawicy Twojego Syna w Niebie, bez najmniejszego upokorzenia; Ty panujesz niepodzielnie nad aniołami i ludźmi, i złymi duchami, bez sprzeciwu; i ostatecznie, Ty sama według swej woli rozporządzasz całym bez wyjątku Bożym dobrem. Oto, najświętsza Maryjo, najlepsza cząstka, którą Ci dał Pan i której nigdy nie zostaniesz pozbawiona (Łk 10, 42) - co jest źródłem mej wielkiej radości. Co do mnie, nie pragnę innej cząstki jak tylko tej, która była Twoim udziałem: wierzyć, niczego nie smakując ani nie widząc; cierpieć z radością, bez pociechy stworzeń; umierać nieustannie dla siebie, bez wytchnienia; pracować usilnie dla Ciebie aż do śmierci, bez jakiejkolwiek korzyści, jako najnędzniejszy z twoich niewolników. Jedyną łaską, o którą Cię proszę przez Twoje miłosierdzie, jest to, żebym każdego dnia i w każdej chwili mojego życia mówił po trzykroć: Amen - wszystkiemu, coś uczyniła, kiedy żyłaś na ziemi; Amen - wszystkiemu, co robisz teraz w Niebie; Amen - wszystkiemu, co dokonujesz w mojej duszy ażebyś tylko Ty we mnie wysławiała Jezusa teraz i na wieki. Amen!"</i>
 św. Ludwik Maria Grignion de Montfort, <i>Tajemnica Maryi</i>, 69<br>
 <b>Zadania</b>
-Poproszę dziś o światło Ducha Świętego, żebym umiał rozróżniać i nazywać, jakie pragnienia i uczucia pochodzą od starego człowieka we mnie, a jakie od nowego człowieka.<br>
-${FirstWeekTexts.modlitwaZawierzenia}`;
+Poproszę dziś o światło Ducha Świętego, żebym umiał rozróżniać i nazywać, jakie pragnienia i uczucia pochodzą od starego człowieka we mnie, a jakie od nowego człowieka.<br>`;
 
-static dzien3: string = `<b>${FirstWeekTexts.tytul} Dzień 3</b><br>
-<b>Wyobraźnia i obraz samego siebie</b><br>
-${FirstWeekTexts.modlitwaDoDuchaSw} 
-<i>Maryjo, Oblubienico Ducha Świętego, wyproś mi łaskę poznania samego siebie, żalu za grzechy i prawdziwego obrazu mnie.</i>
-<i>Amen!</i><br>
+static trescDzien3: string = `<i>Maryjo, Oblubienico Ducha Świętego, wyproś mi łaskę poznania samego siebie, żalu za grzechy i prawdziwego obrazu mnie.</i><br><i>Amen!</i><br>
 <b>Słowo Boże</b>
 <i>„Miała ona siostrę, imieniem Maria, która usiadłszy u nóg Pana, słuchała Jego słowa. Marta zaś uwijała się około rozmaitych posług. A stanąwszy przy Nim rzekła: «Panie, czy Ci to obojętne, że moja siostra zostawiła mnie samą przy usługiwaniu? Powiedz jej, żeby mi pomogła». A Pan jej odpowiedział: «Marto, Marto, martwisz się i niepokoisz o wiele, a potrzeba  tylko jednego. Maria obrała najlepszą cząstkę, której nie będzie pozbawiona»"</i> (Łk 10,39-42).<br>
 <b>Rozważanie</b>
@@ -65,14 +67,9 @@ Tomasz à Kempis,<i> O naśladowaniu Chrystusa</i>, 3,32,1<br>
 <i>„Aby zdobyć Mądrość, trzeba umartwiać swoje ciało, nie tylko cierpliwie znosząc jego choroby i ciosy, jakie otrzymuje w tym życiu; ale jeszcze podejmując pewne trudy i umartwienia, jak posty, czuwania i inne ascetyczne praktyki świętego pokutnika. Potrzeba też odwagi, gdyż ciało ze swej natury siebie samo czci, świat zaś z kolei uważa wszelkie umartwienia ciała za bezużyteczne i je odrzuca. Czegóż nie mówi, czego nie robi, by odwieść świętych od praktykowania umartwień, odwieźć każdego, o którym rzec można: «Corpus suum perpetuis vigiliis, jejuniis, flagellis, frigore, nuditate atque omni asperitatum genere in servitutem redegit, cum quo pactum inierat ne ullam in hoc saeculo ei requiem praeberet»: Mędrzec czy święty poddał swoje ciało niewoli przez czuwania, posty, poprzez biczowanie, chłód, nagość i wszelkiego rodzaju surowe umartwienia i zawarł z nim umowę, że na tym świecie nie da mu wytchnienia. (...) Ażeby owo zewnętrzne i dobrowolne umartwienie było dobre, trzeba koniecznie połączyć je z umartwieniem osądu i woli przez święte posłuszeństwo; ponieważ bez tego posłuszeństwa wszelkie umartwienie skalane jest wolą własną i często milsze złemu duchowi aniżeli Bogu. Dlatego nie należy podejmować żadnego większego umartwienia bez zasięgnięcia rady".</i>
 św. Ludwik Maria Grignion de Montfort, <i>Miłość Mądrości Przedwiecznej</i>, 201-202<br>
 <b>Zadanie</b>
-Poproszę dziś o światło Ducha Świętego, abym zrozumiał, że nie muszę pragnąć i chcieć wszystkiego, co zobaczę, co mnie wewnętrznie poruszy czy też pociągnie. Moje życie zależy od Boga, a nie od realizacji doraźnych pragnień.<br>
-${FirstWeekTexts.modlitwaZawierzenia}`;
+Poproszę dziś o światło Ducha Świętego, abym zrozumiał, że nie muszę pragnąć i chcieć wszystkiego, co zobaczę, co mnie wewnętrznie poruszy czy też pociągnie. Moje życie zależy od Boga, a nie od realizacji doraźnych pragnień.<br>`;
 
-static dzien4: string = `<b>${FirstWeekTexts.tytul} Dzień 4</b><br>
-<b>Pamięć</b><br>
-${FirstWeekTexts.modlitwaDoDuchaSw}
-<i>Maryjo, Oblubienico Ducha Świętego, wyproś mi łaskę poznania samego siebie, żalu za grzechy i uzdrowienia mojej pamięci.</i>
-<i>Amen!</i><br>
+static trescDzien4: string = `<i>Maryjo, Oblubienico Ducha Świętego, wyproś mi łaskę poznania samego siebie, żalu za grzechy i uzdrowienia mojej pamięci.</i><br><i>Amen!</i><br>
 <b>Słowo Boże</b>
 <i>„Ty wiesz, kiedy siadam i wstaję. Z daleka przenikasz moje zamysły, widzisz moje działanie i mój spoczynek i wszystkie moje drogi są Ci znane. (...) Mnie w zalążku widziały Twoje oczy i w Twej księdze. (...) Wybadaj mnie, Boże, i poznaj me serce; doświadcz mnie i poznaj moje troski, i zobacz, czy nie podążam drogą nieprawości, a prowadź mnie drogą odwieczną!"</i> (Ps 139, 2-3, 16,23-24).<br>
 <b>Rozważanie</b>
@@ -87,15 +84,9 @@ Z drugiej strony pamięć może też być zraniona przez różne trudne i trauma
 <i>„Marnością jest gromadzić bogactwa, które przeminą, i w nich pokładać nadzieję. Marnością także - zabiegać o własne znaczenie i piąć się na coraz wyższe szczeble godności. Marnością - iść ślepo za zachceniami ciała i szukać tego, co kiedyś przyjdzie ciężko odpokutować. Marnością jest pragnąć długiego życia, a nie dbać o życie dobre. Marnością - przykładać wagę tylko do teraźniejszości, a o przyszłości nie myśleć. Marnością - miłować to, co tak szybko przemija, a nie śpieszyć tam, gdzie radość nieprzemijająca. Miej często w pamięci to zdanie: Nie nasyci się oko widzeniem, a ucho nie napełni się słyszeniem. Staraj się więc odciągać serce od rzeczy widzialnych, a zwracaj się ku niewidzialnym. Bo ci, co zawierzają tylko poznaniu zmysłów, plamią sumienie i tracą łaskę Boga.</i>"
 Tomasz à Kempis, <i>O naśladowaniu Chrystusa </i>1,1,4<br>
 <b>Zadanie</b>
-Przeżyję dzisiejszy dzień z myślę, że wszystko, co robię, ma wpływ na moją drogą do nieba, na moje spotkanie z Panem Bogiem.<br>
-${FirstWeekTexts.modlitwaZawierzenia}`;
+Przeżyję dzisiejszy dzień z myślę, że wszystko, co robię, ma wpływ na moją drogą do nieba, na moje spotkanie z Panem Bogiem.<br>`;
 
-
-static dzien5: string = `<b>${FirstWeekTexts.tytul} Dzień 5</b><br>
-<b>Lęki</b><br>
-${FirstWeekTexts.modlitwaDoDuchaSw}
-<i>Maryjo, Oblubienico Ducha Świętego, wyproś mi łaskę poznania samego siebie, żalu za grzechy, wiary i zaufania Panu Bogu.</i>
-<i>Amen!</i><br>
+static trescDzien5: string = `<i>Maryjo, Oblubienico Ducha Świętego, wyproś mi łaskę poznania samego siebie, żalu za grzechy, wiary i zaufania Panu Bogu.</i><br><i>Amen!</i><br>
 <b>Słowo Boże</b>
 <i>„Usłyszałem Twój głos w ogrodzie, przestraszyłem się, bo jestem nagi, i ukryłem się"</i> (Rdz 3,10).<br>
 <b>Rozważanie</b>
@@ -129,14 +120,9 @@ Bóg odpowiada: „Gdy spoczniesz, nie zaznasz trwogi, zaśniesz, a sen twój b�
 <i>„Mówiłem ci już często i jeszcze raz powtórzę: Porzuć siebie, zrezygnuj z siebie, a dostąpisz wielkiego pokoju ducha. Oddaj wszystko za wszystko, niczego nie wymagaj, niczego nie żądaj, trwaj we mnie szczerze i niewzruszenie, a ja będę z tobą. Staniesz się wolny w sercu, a ciemność cię nie przygniecie. O to się staraj, o to proś, tego pragnij, abyś zdołał uwolnić się od wszelkiego posiadania i nagi mógł iść za nagim Jezusem, umrzeć dla siebie, a dla mnie żyć wiecznie. Wtedy rozwieją się wszystkie próżne rojenia, niepokoje i zbyteczne troski. Zniknie lęk nadmierny, a niedobra miłość uwiędnie".</i>
 Tomasz à Kempis, <i>O naśladowaniu Chrystusa</i>, 2,37,3<br>
 <b>Zadanie</b>
-Przeżyję dzisiejszy dzień w pełnym zaufaniu Panu Bogu, z myślą, że on jest nieustannie przy mnie. Będę powtarzać słowa: „Jezu Ufam Tobie", ofiarując Panu Bogu wszystko, co mnie spotyka.<br>
-${FirstWeekTexts.modlitwaZawierzenia}`;
+Przeżyję dzisiejszy dzień w pełnym zaufaniu Panu Bogu, z myślą, że on jest nieustannie przy mnie. Będę powtarzać słowa: „Jezu Ufam Tobie", ofiarując Panu Bogu wszystko, co mnie spotyka.<br>`;
 
-static dzien6: string = `<b>${FirstWeekTexts.tytul} Dzień 6</b><br>
-<b>Pycha życiowa</b><br>
-${FirstWeekTexts.modlitwaDoDuchaSw}
-<i>Maryjo, Oblubienico Ducha Świętego, wyproś mi łaskę poznania samego siebie, żalu za grzechy i pokory.</i>
-<i>Amen!</i><br>
+static trescDzien6: string = `<i>Maryjo, Oblubienico Ducha Świętego, wyproś mi łaskę poznania samego siebie, żalu za grzechy i pokory.</i><br><i>Amen!</i><br>
 <b>Słowo Boże</b>
 <i>„Opowiedział też niektórym, co dufni byli w sobie, że są sprawiedliwi, a innymi gardzili, tę przypowieść: «Dwóch ludzi przyszło do świątyni, żeby się modlić, jeden faryzeusz, a drugi celnik. Faryzeusz stanął i tak w duszy się modlił: „Boże, dziękuję Ci, że nie jestem jak inni ludzie: zdziercy, niesprawiedliwi, cudzołożnicy, albo jak i ten celnik. Zachowuję post dwa razy w tygodniu, daję dziesięcinę ze wszystkiego, co nabywam". A celnik stał z daleka i nie śmiał nawet oczu wznieść ku niebu, lecz bił się w pierś mówiąc: „Boże, miej litość dla mnie, grzesznika!" Powiadam wam: Ten odszedł do domu usprawiedliwiony, nie tamten. Każdy bowiem, kto się wywyższa, będzie poniżony, a kto się uniża, będzie wywyższony»"</i> (Łk 18,9-14).<br>
 <b>Rozważanie</b>
@@ -151,14 +137,9 @@ A jeśli ich nie spełniamy, to cóż... Jeśli mamy być szczerzy, to my tak sa
 <i>„Gdy przez niewiedzę czy nawet z własnej winy popełnicie jakiś błąd, który ściągnie na was krzyż, natychmiast upokórzcie się z tego powodu pod mocną ręką Boga (1 P 5,6), nie popadając z własnej woli w niepokój. Mówcie sobie na przykład w głębi duszy: Oto, Panie, do czego jestem zdolny! Jeśli w popełnionym błędzie jest coś z grzechu, uznajcie doznane upokorzenie jako należną za to karę; jeśli natomiast nie ma tu żadnego grzechu, przyjmijcie to jako upokorzenie za swoją pychę. Często, nawet bardzo często, Bóg dopuszcza, by Jego najwięksi słudzy - co się najwyżej wznieśli dzięki Jego łasce - popełniali najbardziej upokarzające uchybienia, aby umniejszyć ich we własnych oczach i przed ludźmi, aby odebrać im pełne pychy widzenie i ocenę dawanych im łask oraz dobra, które czynią, tak, by się żadne stworzenie, jak mówi Duch Święty, nie chełpiło wobec Boga</i> (1 Kor 1,29)".
 św. Ludwik Maria Grignion de Montfort, <i>List okólny do Przyjaciół Krzyża</i>, 46<br>
 <b>Zadanie</b>
-Poproszę Maryję, aby pomogła mi zrozumieć, że we wszystkim, co się dzieje, zależę od Boga.<br>
-${FirstWeekTexts.modlitwaZawierzenia}`;
+Poproszę Maryję, aby pomogła mi zrozumieć, że we wszystkim, co się dzieje, zależę od Boga.<br>`;
 
-static dzien7: string = `<b>${FirstWeekTexts.tytul} Dzień 7</b><br>
-<b>Przebaczenie</b><br>
-${FirstWeekTexts.modlitwaDoDuchaSw}
-<i>Maryjo, Oblubienico Ducha Świętego, wyproś mi łaskę poznania samego siebie, żalu za grzechy i przebaczenia.</i>
-<i>Amen!</i><br>
+static trescDzien7: string = `<i>Maryjo, Oblubienico Ducha Świętego, wyproś mi łaskę poznania samego siebie, żalu za grzechy i przebaczenia.</i><br><i>Amen!</i><br>
 <b>Słowo Boże</b>
 <i>„Dlatego podobne jest królestwo niebieskie do króla, który chciał się rozliczyć ze swymi sługami. Gdy zaczął się rozliczać, przyprowadzono mu jednego, który mu był winien dziesięć tysięcy talentów. Ponieważ nie miał z czego ich oddać, pan kazał sprzedać go razem z żoną, dziećmi i całym jego mieniem, aby dług w ten sposób odzyskać.
 Wtedy sługa padł mu do stóp i prosił go: «Panie, okaż mi swą cierpliwość, a wszystko ci oddam». Pan ulitował się nad owym sługą, uwolnił go i dług mu darował.
@@ -203,6 +184,15 @@ Ta modlitwa może być też dobrym przygotowaniem do sakramentu pokuty.<br>
 <i>„Człowiek cierpliwy przechodzi tu wielki i zbawienny czyściec: gdy doznając zniewag bardziej boleje nad cudzą złością niż nad własną krzywdą; gdy za przeciwników swoich chętnie się modli i z serca przebacza winy; gdy nie ociąga się prosić innych o przebaczenie i łatwiej się lituje, niż gniewa; gdy często sam siebie przezwycięża, a ciało swe usiłuje poddać zupełnie duchowi. Lepiej jest oczyszczać się z grzechów i wad się pozbywać, niż zachowywać je do przyszłego oczyszczenia. Zaprawdę, zwodzimy siebie samych przez nieuporządkowaną miłość, jaką żywimy dla ciała".</i>
 Tomasz à Kempis, <i>O naśladowaniu Chrystusa</i>, 1,24,2<br>
 <b>Zadanie</b>
-Poproszę Ducha Świętego o dar przebaczenie wszystkim osobom, które mnie zraniły, oraz o dar wynagrodzenia dla wszystkich osób, które ja zraniłem.<br>
-${FirstWeekTexts.modlitwaZawierzenia}`;
+Poproszę Ducha Świętego o dar przebaczenie wszystkim osobom, które mnie zraniły, oraz o dar wynagrodzenia dla wszystkich osób, które ja zraniłem.<br>`;
+
+
+// bierze stały fragment tytuł rozdziłu dzien podtytuł,dodaje modlitwe do Ducha św, potem bierze tresc danego dnia  i true dodaje modlitwe zawierzenia
+static dzien1: string = FirstWeekTexts.getDayText(1, FirstWeekTexts.trescDzien1, false);
+static dzien2: string = FirstWeekTexts.getDayText(2, FirstWeekTexts.trescDzien2, true);
+static dzien3: string = FirstWeekTexts.getDayText(3, FirstWeekTexts.trescDzien3, true);
+static dzien4: string = FirstWeekTexts.getDayText(4, FirstWeekTexts.trescDzien4, true);
+static dzien5: string = FirstWeekTexts.getDayText(5, FirstWeekTexts.trescDzien5, true);
+static dzien6: string = FirstWeekTexts.getDayText(6, FirstWeekTexts.trescDzien6, true);
+static dzien7: string = FirstWeekTexts.getDayText(7, FirstWeekTexts.trescDzien7, true);
 }

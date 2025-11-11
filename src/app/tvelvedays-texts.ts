@@ -1,28 +1,33 @@
 export class TvelveDaysTexts {
-static modlitwaDoDuchaSw: string = `<b>Modlitwa do Ducha Świętego</b>
-<i>Duchu Święty, natchnij mnie. Miłości Boga, pochłoń mnie. Po prawdziwej drodze prowadź mnie, Maryjo, moja Matko, spójrz na mnie, z Jezusem błogosław mnie. Od wszelkiego zła, od wszelkiego złudzenia, od wszelkiego niebezpieczeństwa zachowaj mnie.</i><br>`;
-
+static modlitwaDoDuchaSw: string = `<b>Modlitwa do Ducha Świętego</b><br><i>Duchu Święty, natchnij mnie. Miłości Boga, pochłoń mnie. Po prawdziwej drodze prowadź mnie, Maryjo, moja Matko, spójrz na mnie, z Jezusem błogosław mnie. Od wszelkiego zła, od wszelkiego złudzenia, od wszelkiego niebezpieczeństwa zachowaj mnie.</i><br>`;
 static modlitwaZawierzenia: string = `<b>Modlitwa zawierzenia</b><br><i>Jestem cały Twój i wszystko, co mam, jest Twoją własnością, umiłowany Jezu, przez Maryję, Twoją świętą Matkę. Amen!</i>`;
+static tytul: string = '<i><b>12 dni - Wyzbycie się ducha tego świata</b></i><br>';
 
-static tytul: string = '<b>12 dni - Wyzbycie się ducha tego świata</b><br>';
+static dayTitles: { [key: number]: string } = {
+ 1: 'Dzień 1: Odkryj łaskę Bożej miłości',
+  2: 'Dzień 2: Odkryj łaskę poznania prawdy o grzechu',
+  3: 'Dzień 3: Odkryj łaskę zbawienia',
+  4: 'Dzień 4: Odkryj łaskę nawrócenia i oddania życia Panu Jezusowi',
+  5: 'Dzień 5: Błogosławieni ubodzy w duchu',
+  6: 'Dzień 6: Błogosławieni, którzy się smucą',
+  7: 'Dzień 7: Błogosławieni cisi',
+  8: 'Dzień 8: Błogosławieni, którzy łakną i pragną sprawiedliwości',
+  9: 'Dzień 9: Błogosławieni miłosierni',
+  10: 'Dzień 10: Błogosławieni czystego serca',
+  11: 'Dzień 11: Błogosławieni, którzy wprowadzają pokój',
+  12: 'Dzień 12: Błogosławieni, którzy cierpią prześladowanie dla sprawiedliwości'
+};
 
-static dzien0: string = `<b>${TvelveDaysTexts.tytul} Wprowadzenie</b><br>
-<i>"(...) powinni przynajmniej przez dwanaście dni pracować nad tym, by wyzbyć się ducha tego świata, sprzecznego z Duchem Jezusa Chrystusa."</i><br>
-św. Ludwik Maria Grignion de Montfort, <i>Traktat o prawdziwym nabożeństwie do Najświętszej Maryi Panny</i>, 227<br>
-<b>Wprowadzenie</b>
-Na samym początku starajmy się zrozumieć, w jakim położeniu się znajdujemy. Można zobrazować to w następujący sposób: pierwsi ludzie, żyjąc w raju, funkcjonowali w atmosferze Bożego Ducha, byli przez całą dobę nieustannie zanurzeni w Bogu, oddychali Nim, On przenikał ich całych. Jednak po grzechu zmieniła się także atmosfera, w której żyli ludzie. Poza rajem inne było już ich środowisko naturalne. Musieli mierzyć się z konsekwencjami własnych grzechów, cierpieniem, śmiercią, oddaleniem od Boga. Można powiedzieć, że to był „duch tego świata" - pewna przestrzeń, w której człowiek żyje w oddzieleniu od Boga, gdzie sam musi sobie radzić ze wszystkimi trudnościami, które go spotykają. I właśnie w taką naszą rzeczywistość wszedł Chrystus - w świat, który jest dotknięty grzechem.<br>
-W przededniu męki, śmierci i zmartwychwstania, podczas swojej modlitwy do Ojca, Chrystus wypowiedział takie słowa: "Ja im przekazałem Twoje słowo, a świat ich znienawidził za to, że nie są ze świata, jak i Ja nie jestem ze świata. Nie proszę, abyś ich zabrał ze świata, ale byś ich ustrzegł od złego. Oni nie są ze świata, jak i Ja nie jestem ze świata. Uświęć ich w prawdzie. Słowo Twoje jest prawdą. Jak Ty Mnie posłałeś na świat, tak i Ja ich na świat posłałem" (J 17,14-18). „Tak bowiem Bóg umiłował świat, że Syna swego Jednorodzonego dał, aby każdy kto w Niego wierzy, nie zginął, ale miał życie wieczne" (J 3,16). A co zrobił ten świat z Synem Bożym? Ukrzyżował Go. Taka jest miłość Boga. I taka jest odpowiedź świata. Chrystus umarł i zmartwychwstał, wstąpił do nieba i zesłał Ducha Świętego. To wszystko otrzymaliśmy w chrzcie świętym. Przez chrzest zostaliśmy wyrwani z niewoli tego świata i staliśmy się dziećmi Bożymi. Jednak żyjąc na tym świecie jako dzieci Boże, przesiąkliśmy sposobem myślenia tego świata. Św. Jakub napisał: „Czy nie wiecie, że przyjaźń ze światem jest nieprzyjaźnią z Bogiem? Jeżeli więc ktoś zamierzałby być przyjacielem świata, staje się nieprzyjacielem Boga"(Jk 4,4). Życie w przyjaźni z Bogiem wyklucza przyjmowanie stylu i ducha świata zranionego grzechem, który jeszcze bardziej zachęca do grzechu. Potrzebujemy głębiej niż zwykle odkrywać, czym jest wielka łaska chrztu świętego. W momencie, w którym człowiek decyduje się na powrót do Boga przez decyzję oddania się Mu, odkrywa, jak bardzo jest przesiąknięty duchem tego świata. Bóg, przyjmując naszą decyzję o powrocie, chce nas obdarować pełnym błogosławieństwem i wolnością, dlatego potrzebujemy oczyszczenia ze wszystkiego, co jest jeszcze w nas z tego świata. Żyjemy nadal w tym świecie i Bóg nas do niego posyła, jednak nie mamy działać na sposób świata, lecz na Boży sposób. I każdy z nas indywidualnie potrzebuje wewnętrznie przejść tę drogę. Co to znaczy? Zło zakorzeniło się w nas głęboko - w naszych decyzjach, motywacjach, reakcjach, sposobie patrzenia. Potrzebujemy oczyszczenia naszych dusz, ponieważ wiele naszych słabości, które owocują grzechem, wynika świadomie lub nieświadomie z przyjętej mentalności świata, która jest przeciwna życiu wiary. Grzech skaził nasze wnętrza. Owocność naszego życia będzie zależała w dużej mierze od wierności i wysiłku, jaki włożymy w to, aby nie żyć duchem doczesności. Ponieważ nie można być prowadzonym jednocześnie przez ducha świata i przez Ducha Bożego. Pan Jezus mówi, że nie możemy służyć Bogu i mamonie. Jak mówi powiedzenie: z kim przystajesz, takim się stajesz. Żyjąc w świecie nasiąkamy współczesną mentalnością. To bardzo ważne, aby przyjrzeć się naszemu sposobowi myślenia, bo przecież nawrócenie to w istocie jego przemiana.<br>
-Najpierw chcemy przyjąć Dobrą Nowinę o Bogu, który nas kocha, odkupił nas, abyśmy potem jako wolni ludzie mogli podjąć walkę o to, by nie utracić tej wolności. Spójrzmy na to wszystko, co się stało w perspektywie oddania: Bóg, stwarzając świat, <b>oddał</b> nam władzę nad światem, oddał nam wszystko, włącznie ze swoją miłością. A my co z tym zrobiliśmy? Przez grzech <b>oddaliśmy</b> to diabłu, stając się niewolnikami grzechu, szatana i świata. Jednak Bóg nie pozostał obojętny na naszą niewolę grzechu. Bóg jako pierwszy <b>oddał</b> siebie samego Maryi. To w Niej stał się człowiekiem. Ona była Jego nowym rajem. Ona była mu w pełni <b>oddana</b>. Syn Boży stał się człowiekiem, zszedł na samo dno upodlenia i grzechu, choć sam grzechu nie popełnił. Ponieważ zapłatą za grzech jest śmierć, poniósł On śmierć za nasze grzechy, nabył nas swoją drogocenną krwią i <b>oddał</b> nas Bogu. Z wysokości krzyża <b>oddał</b> nam Maryję, abyśmy jak św. Jan Apostoł <b>oddali</b> się Jej, wzięli Ją do swojego życia, by Ona uczyła nas życia <b>oddanego</b> Bogu. Codziennie trzeba się uczyć od Niej oddawania naszego życia w różnych przestrzeniach, motywacjach i decyzjach. Chcemy, aby Ona była dla nas Mistrzynią życia duchowego, uczącą nas życia z Chrystusem. Ona, która spędziła z Nim 30 lat życia - poznała Go najlepiej. I jest wolą Chrystusa, w testamencie danym z krzyża, aby była naszą Matką.<br>
-Ona prowadzi nas po drogach otwierania naszych serc na Bożą miłość, abyśmy mogli odkrywać wielką łaskę chrztu świętego. Jej obecność i Imię jest dla nas osłodą! Jej czuła miłość jest naszym portem. Jej pragnienie szukania wszystkich zagubionych jest ogniem naszej gorliwości. Potrzeba nam zestrojenia serca z Niepokalanym Sercem Tej, która nigdy nie odmówiła Bogu niczego. Ona będzie prowadziła nas po drogach naszego oczyszczenia. Ona sama będzie uczyła nas uległości i zaufania na drogach, którymi codziennie prowadzi nas Bóg. Właśnie o to toczy się walka z duchem tego świata - aby nie wrócić za granicę, zza której zostaliśmy wyrwani. To cena naszej wolności. To nasze być albo nie być. Droga oczyszczenia z ducha tego świata nie zamyka się jednak w 12 dniach tych rekolekcji, chociaż wiele może się w tym czasie dokonać. Jednak istotniejsze jest to, abyśmy dowiedzieli się, jak walczyć z duchem tego świata i stali się bardziej czujni w naszej codzienności.<br>
-Istotę życia w przymierzu z Bogiem wyraził Chrystus w kazaniu na górze, w 8 błogosławieństwach. One są nowym prawem - już nie opartym na wypełnieniu przepisów, ale polegającym na odkrywaniu łaski w sytuacjach, na które ten świat nie da nam odpowiedzi. Tutaj właśnie przebiega front walki o wytrwanie przy Bogu.<br>
-Błogosławieni, o których mówi Jezus w kazaniu na górze, oznaczają szczęśliwych. Chrystus ma swoje błogosławieństwa, ale i świat ma swoje błogosławieństwa, jakże inne od tego, co mówi Chrystus. Chrystus ma swoją mądrość, ale i świat ma swoją mądrość. Św. Ludwik pisze, że: „Owa mądrość świata to całkowita uległość wobec światowych zasad i mody; to nieustanne dążenie do wielkości i uznania; ciągłe i sekretne poszukiwanie jego przyjemności i jego korzyści, nie w sposób ordynarny i krzykliwy, popełniając jakiś gorszący grzech, ale w sposób wyrafinowany, zwodniczy i dyplomatyczny; inaczej w oczach świata nie byłaby to mądrość, ale rozwiązłość. (...) Nigdy jeszcze świat nie był tak zepsuty jak teraz, ponieważ nigdy nie był tak wyszukany, tak mądry na swój sposób ani tak przebiegły. Tak zręcznie posługuje się prawdą, by podsunąć kłamstwo, cnotę, by usprawiedliwić grzech, a nawet słowami Jezusa Chrystusa, by usprawiedliwić własne słowa, że najwięksi mędrcy Boży często dają się im zwieść" (<i>Miłość Mądrości Przedwiecznej</i>, 75-79). Duch tego świata chce nas zwieść, oszukać i okraść z Bożego błogosławieństwa. Nikt z nas przecież nie chce być oszukiwany, dlatego przez kolejne dni pragniemy demaskować kłamstwa, którymi karmi nas mentalność tego świata, abyśmy żyli nie na sposób światowy, ale Boży. Chodzi też o to, że jeśli chcemy być w pełni chrześcijanami (tzn. podobni do Chrystusa), to musimy zapragnąć, aby nie było w nas cokolwiek ze sposobu życia tego świata, który przecież jest nieprzyjacielem Boga.<br>
-Chrystus mówi: <i>"Nie proszę, abyś ich zabrał ze świata, ale byś ich ustrzegł od złego</i>" (J 17,15). Jest w tym już uprzedzająca łaska Boża ustrzegająca nas od złego. To ochrona przed pokusą defetyzmu i droga do zwycięstwa. <i>"A któż zwycięża świat, jeśli nie ten, kto wierzy, że Jezus jest Synem Bożym?"</i> (1J 5,5). I choć słowo Boże mówi, że <i>"cały zaś świat leży w mocy złego</i>" (1J 5,19), to ostatecznie dobra nowina polega na tym, że Chrystus zachęca nas: <i>"Na świecie doznajecie ucisku, ale odwagi! Jam zwyciężył świat!"</i> (J 16,33).
-`;
+static getDayText(nr: number, body: string = '', withZawierzenie: boolean = false): string {
+  const label = TvelveDaysTexts.dayTitles[nr] || `Dzień ${nr}`;
+  let result = `${TvelveDaysTexts.tytul}<b>${label}</b><br><br>${TvelveDaysTexts.modlitwaDoDuchaSw}<br>${body}`;
+  if (withZawierzenie) {
+    result += `<br><br>${TvelveDaysTexts.modlitwaZawierzenia}`;
+  }
+  return result;
+}
 
-  // --- html ---
-static dzien1: string = `${TvelveDaysTexts.tytul}<b>Dzień 1</b><br>
-<b>Odkryj łaskę Bożej miłości</b><br>
-${TvelveDaysTexts.modlitwaDoDuchaSw} 
+static trescDzien1: string = `
 <i>Maryjo, Oblubienico Ducha Świętego, wyproś mi łaskę odkrycia Bożej miłości.</i>
 <i>Amen!</i><br>
 <b>Słowo Boże</b>
@@ -44,12 +49,30 @@ W Biblii (Księga Ozeasza) Bóg mówi o swojej ciągłej opiece. Odwołuje się 
 <b>Lektura duchowa</b>
 <i>"Piękno owo przedwieczne i wyjątkowo łaskawe, tak bardzo pragnie przyjaźni z ludźmi, iż przygotowało specjalną księgę, by tę przyjaźń zdobyć, odsłaniając przed ludźmi to, jak jest wspaniałe oraz czego pragnie. Księga owa jest niczym list ukochanej do ukochanego, wysłany, by zdobyć jego uczucie. Pragnienia serca człowieka, o jakich zaświadcza, są tak naglące, podejmowane poszukiwania człowieczej przyjaźni - tak czułe; wezwania i życzenia są tak pełne miłości, że słysząc, jak [Mądrość] o tym mówi, rzeklibyście, iż to nie Władczyni Nieba i ziemi, lecz że potrzebuje ona człowieka, aby być szczęśliwą.</i><br><br><i>By znaleźć człowieka, czasem przebiega szerokie drogi; czasem wspina się na szczyt najwyższych gór; niekiedy przychodzi do bram miast; znów kiedy indziej wstępuje nawet na place publiczne, pośród zgromadzeń wołając najgłośniej, jak może: O viri, ad vos clamito, et vox mea ad filios hominum: O, ludzie! O, synowie człowieczy! do was wołam od tak dawna; do was zwracam mój głos; was pragnę; was szukam; o was się upominam. Słuchajcie, przyjdźcie do mnie; ja was uczynię szczęśliwymi. I aby pociągnąć ich z mocą, mówi im: „Przeze mnie i z mojej łaski królowie królują, książęta panują, a władcy i monarchowie dzierżą berła i korony. To ja w ustanawiających prawo tchnę umiejętność kreślenia praw dobrych, by wprowadzać porządek w państwach, i daję siłę urzędnikom sądowym, by wymierzali sprawiedliwość uczciwie i bez lęku. Ja miłuję tych, którzy mnie miłują; a którzy rano wstają do mnie, znajdą mnie; a znajdując zaś mnie, znajdzie obfitość wszelkich dóbr. Gdyż bogactwa i sława, zaszczyty, godności, pyszne namiętności i prawdziwe cnoty są przy mnie; i bowiem lepiej jest dla człowieka jest mnie posiadać, aniżeli całe złoto i srebro świata, drogie kamienie i dobra całej ziemi. Tych, co do mnie przychodzą, wiodę drogami sprawiedliwości i roztropności oraz ubogacam ich posiadaniem bogactw, aż do pełni (por. Prz 8, 15-21). I bądźcie pewni, że moją najdroższą rozkoszą jest rozmawiać i przebywać z synami człowieczymi. Teraz tedy, synowie, słuchajcie mnie: błogosławieni, którzy strzegą dróg moich! Słuchajcie napomnienia i bądźcie mądrymi, a nie odrzucajcie go. Błogosławiony człowiek, który mnie słucha i który czuwa u drzwi moich na każdy dzień, i pilnuje u podwojów drzwi moich. Kto mnie znajdzie, znajdzie żywot i wyczerpie zbawienie od Pana; ale kto przeciw mnie zgrzeszy, zrani duszę swoją. Wszyscy, którzy mnie nienawidzą, kochają się w śmierci (Prz 8,32-36). Wyrzekłszy wszystko, co najbardziej czułe i najbardziej ujmujące, by zdobyć przyjaźń ludzi, [Mądrość] jeszcze się obawia, że ze względu jej cudowny blask i najwyższy majestatu, ludziom ją szanującym - brak odwagi by się do niej zbliżyć. Dlatego każe im powiedzieć, że: nie broni do siebie przystępu; że łatwo spostrzegą ją ci, którzy ją miłują, że uprzedza tych, którzy jej pożądają, że ukazuje się im pierwsza i że kto do niej rano wstanie, aby jej szukać, nie będzie się trudził, aby ją znaleźć; bo znajdzie ją siedzącą u drzwi swoich (por. Mdr 6,13b-15)."</i>
 św. Ludwik Maria Grignion de Montfort, <i>Miłość Mądrości Przedwiecznej</i>, 65-69<br>
-<b>Zadanie</b><br>Przeżyję dzisiejszy dzień ze świadomością, że jestem kochany przez Boga bezwarunkowo.<br>
-${TvelveDaysTexts.modlitwaZawierzenia}`;
+<b>Zadanie</b><br>Przeżyję dzisiejszy dzień ze świadomością, że jestem kochany przez Boga bezwarunkowo.<br>`;
 
-static dzien2: string = `${TvelveDaysTexts.tytul}<b>Dzień 2</b><br>
-<b>Odkryj łaskę poznania prawdy o grzechu</b><br>
-${TvelveDaysTexts.modlitwaDoDuchaSw}
+
+
+
+static dzien0: string = `${TvelveDaysTexts.tytul} <b>Wprowadzenie</b><br>
+<i>"(...) powinni przynajmniej przez dwanaście dni pracować nad tym, by wyzbyć się ducha tego świata, sprzecznego z Duchem Jezusa Chrystusa."</i><br>
+św. Ludwik Maria Grignion de Montfort, <i>Traktat o prawdziwym nabożeństwie do Najświętszej Maryi Panny</i>, 227<br>
+<b>Wprowadzenie</b>
+Na samym początku starajmy się zrozumieć, w jakim położeniu się znajdujemy. Można zobrazować to w następujący sposób: pierwsi ludzie, żyjąc w raju, funkcjonowali w atmosferze Bożego Ducha, byli przez całą dobę nieustannie zanurzeni w Bogu, oddychali Nim, On przenikał ich całych. Jednak po grzechu zmieniła się także atmosfera, w której żyli ludzie. Poza rajem inne było już ich środowisko naturalne. Musieli mierzyć się z konsekwencjami własnych grzechów, cierpieniem, śmiercią, oddaleniem od Boga. Można powiedzieć, że to był „duch tego świata" - pewna przestrzeń, w której człowiek żyje w oddzieleniu od Boga, gdzie sam musi sobie radzić ze wszystkimi trudnościami, które go spotykają. I właśnie w taką naszą rzeczywistość wszedł Chrystus - w świat, który jest dotknięty grzechem.<br>
+W przededniu męki, śmierci i zmartwychwstania, podczas swojej modlitwy do Ojca, Chrystus wypowiedział takie słowa: "Ja im przekazałem Twoje słowo, a świat ich znienawidził za to, że nie są ze świata, jak i Ja nie jestem ze świata. Nie proszę, abyś ich zabrał ze świata, ale byś ich ustrzegł od złego. Oni nie są ze świata, jak i Ja nie jestem ze świata. Uświęć ich w prawdzie. Słowo Twoje jest prawdą. Jak Ty Mnie posłałeś na świat, tak i Ja ich na świat posłałem" (J 17,14-18). „Tak bowiem Bóg umiłował świat, że Syna swego Jednorodzonego dał, aby każdy kto w Niego wierzy, nie zginął, ale miał życie wieczne" (J 3,16). A co zrobił ten świat z Synem Bożym? Ukrzyżował Go. Taka jest miłość Boga. I taka jest odpowiedź świata. Chrystus umarł i zmartwychwstał, wstąpił do nieba i zesłał Ducha Świętego. To wszystko otrzymaliśmy w chrzcie świętym. Przez chrzest zostaliśmy wyrwani z niewoli tego świata i staliśmy się dziećmi Bożymi. Jednak żyjąc na tym świecie jako dzieci Boże, przesiąkliśmy sposobem myślenia tego świata. Św. Jakub napisał: „Czy nie wiecie, że przyjaźń ze światem jest nieprzyjaźnią z Bogiem? Jeżeli więc ktoś zamierzałby być przyjacielem świata, staje się nieprzyjacielem Boga"(Jk 4,4). Życie w przyjaźni z Bogiem wyklucza przyjmowanie stylu i ducha świata zranionego grzechem, który jeszcze bardziej zachęca do grzechu. Potrzebujemy głębiej niż zwykle odkrywać, czym jest wielka łaska chrztu świętego. W momencie, w którym człowiek decyduje się na powrót do Boga przez decyzję oddania się Mu, odkrywa, jak bardzo jest przesiąknięty duchem tego świata. Bóg, przyjmując naszą decyzję o powrocie, chce nas obdarować pełnym błogosławieństwem i wolnością, dlatego potrzebujemy oczyszczenia ze wszystkiego, co jest jeszcze w nas z tego świata. Żyjemy nadal w tym świecie i Bóg nas do niego posyła, jednak nie mamy działać na sposób świata, lecz na Boży sposób. I każdy z nas indywidualnie potrzebuje wewnętrznie przejść tę drogę. Co to znaczy? Zło zakorzeniło się w nas głęboko - w naszych decyzjach, motywacjach, reakcjach, sposobie patrzenia. Potrzebujemy oczyszczenia naszych dusz, ponieważ wiele naszych słabości, które owocują grzechem, wynika świadomie lub nieświadomie z przyjętej mentalności świata, która jest przeciwna życiu wiary. Grzech skaził nasze wnętrza. Owocność naszego życia będzie zależała w dużej mierze od wierności i wysiłku, jaki włożymy w to, aby nie żyć duchem doczesności. Ponieważ nie można być prowadzonym jednocześnie przez ducha świata i przez Ducha Bożego. Pan Jezus mówi, że nie możemy służyć Bogu i mamonie. Jak mówi powiedzenie: z kim przystajesz, takim się stajesz. Żyjąc w świecie nasiąkamy współczesną mentalnością. To bardzo ważne, aby przyjrzeć się naszemu sposobowi myślenia, bo przecież nawrócenie to w istocie jego przemiana.<br>
+Najpierw chcemy przyjąć Dobrą Nowinę o Bogu, który nas kocha, odkupił nas, abyśmy potem jako wolni ludzie mogli podjąć walkę o to, by nie utracić tej wolności. Spójrzmy na to wszystko, co się stało w perspektywie oddania: Bóg, stwarzając świat, <b>oddał</b> nam władzę nad światem, oddał nam wszystko, włącznie ze swoją miłością. A my co z tym zrobiliśmy? Przez grzech <b>oddaliśmy</b> to diabłu, stając się niewolnikami grzechu, szatana i świata. Jednak Bóg nie pozostał obojętny na naszą niewolę grzechu. Bóg jako pierwszy <b>oddał</b> siebie samego Maryi. To w Niej stał się człowiekiem. Ona była Jego nowym rajem. Ona była mu w pełni <b>oddana</b>. Syn Boży stał się człowiekiem, zszedł na samo dno upodlenia i grzechu, choć sam grzechu nie popełnił. Ponieważ zapłatą za grzech jest śmierć, poniósł On śmierć za nasze grzechy, nabył nas swoją drogocenną krwią i <b>oddał</b> nas Bogu. Z wysokości krzyża <b>oddał</b> nam Maryję, abyśmy jak św. Jan Apostoł <b>oddali</b> się Jej, wzięli Ją do swojego życia, by Ona uczyła nas życia <b>oddanego</b> Bogu. Codziennie trzeba się uczyć od Niej oddawania naszego życia w różnych przestrzeniach, motywacjach i decyzjach. Chcemy, aby Ona była dla nas Mistrzynią życia duchowego, uczącą nas życia z Chrystusem. Ona, która spędziła z Nim 30 lat życia - poznała Go najlepiej. I jest wolą Chrystusa, w testamencie danym z krzyża, aby była naszą Matką.<br>
+Ona prowadzi nas po drogach otwierania naszych serc na Bożą miłość, abyśmy mogli odkrywać wielką łaskę chrztu świętego. Jej obecność i Imię jest dla nas osłodą! Jej czuła miłość jest naszym portem. Jej pragnienie szukania wszystkich zagubionych jest ogniem naszej gorliwości. Potrzeba nam zestrojenia serca z Niepokalanym Sercem Tej, która nigdy nie odmówiła Bogu niczego. Ona będzie prowadziła nas po drogach naszego oczyszczenia. Ona sama będzie uczyła nas uległości i zaufania na drogach, którymi codziennie prowadzi nas Bóg. Właśnie o to toczy się walka z duchem tego świata - aby nie wrócić za granicę, zza której zostaliśmy wyrwani. To cena naszej wolności. To nasze być albo nie być. Droga oczyszczenia z ducha tego świata nie zamyka się jednak w 12 dniach tych rekolekcji, chociaż wiele może się w tym czasie dokonać. Jednak istotniejsze jest to, abyśmy dowiedzieli się, jak walczyć z duchem tego świata i stali się bardziej czujni w naszej codzienności.<br>
+Istotę życia w przymierzu z Bogiem wyraził Chrystus w kazaniu na górze, w 8 błogosławieństwach. One są nowym prawem - już nie opartym na wypełnieniu przepisów, ale polegającym na odkrywaniu łaski w sytuacjach, na które ten świat nie da nam odpowiedzi. Tutaj właśnie przebiega front walki o wytrwanie przy Bogu.<br>
+Błogosławieni, o których mówi Jezus w kazaniu na górze, oznaczają szczęśliwych. Chrystus ma swoje błogosławieństwa, ale i świat ma swoje błogosławieństwa, jakże inne od tego, co mówi Chrystus. Chrystus ma swoją mądrość, ale i świat ma swoją mądrość. Św. Ludwik pisze, że: „Owa mądrość świata to całkowita uległość wobec światowych zasad i mody; to nieustanne dążenie do wielkości i uznania; ciągłe i sekretne poszukiwanie jego przyjemności i jego korzyści, nie w sposób ordynarny i krzykliwy, popełniając jakiś gorszący grzech, ale w sposób wyrafinowany, zwodniczy i dyplomatyczny; inaczej w oczach świata nie byłaby to mądrość, ale rozwiązłość. (...) Nigdy jeszcze świat nie był tak zepsuty jak teraz, ponieważ nigdy nie był tak wyszukany, tak mądry na swój sposób ani tak przebiegły. Tak zręcznie posługuje się prawdą, by podsunąć kłamstwo, cnotę, by usprawiedliwić grzech, a nawet słowami Jezusa Chrystusa, by usprawiedliwić własne słowa, że najwięksi mędrcy Boży często dają się im zwieść" (<i>Miłość Mądrości Przedwiecznej</i>, 75-79). Duch tego świata chce nas zwieść, oszukać i okraść z Bożego błogosławieństwa. Nikt z nas przecież nie chce być oszukiwany, dlatego przez kolejne dni pragniemy demaskować kłamstwa, którymi karmi nas mentalność tego świata, abyśmy żyli nie na sposób światowy, ale Boży. Chodzi też o to, że jeśli chcemy być w pełni chrześcijanami (tzn. podobni do Chrystusa), to musimy zapragnąć, aby nie było w nas cokolwiek ze sposobu życia tego świata, który przecież jest nieprzyjacielem Boga.<br>
+Chrystus mówi: <i>"Nie proszę, abyś ich zabrał ze świata, ale byś ich ustrzegł od złego</i>" (J 17,15). Jest w tym już uprzedzająca łaska Boża ustrzegająca nas od złego. To ochrona przed pokusą defetyzmu i droga do zwycięstwa. <i>"A któż zwycięża świat, jeśli nie ten, kto wierzy, że Jezus jest Synem Bożym?"</i> (1J 5,5). I choć słowo Boże mówi, że <i>"cały zaś świat leży w mocy złego</i>" (1J 5,19), to ostatecznie dobra nowina polega na tym, że Chrystus zachęca nas: <i>"Na świecie doznajecie ucisku, ale odwagi! Jam zwyciężył świat!"</i> (J 16,33).
+`;
+
+
+// bierze stały fragment tytuł rozdziłu dzien podtytuł,dodaje modlitwe do Ducha św, potem bierze tresc danego dnia  i true dodaje modlitwe zawierzenia
+static dzien1: string = TvelveDaysTexts.getDayText(1, TvelveDaysTexts.trescDzien1, true);
+
+
+static dzien2: string =  `${TvelveDaysTexts.tytul}<b>Dzień 2: Odkryj łaskę poznania prawdy o grzechu</b><br><br>${TvelveDaysTexts.modlitwaDoDuchaSw} 
 <i>Maryjo, Oblubienico Ducha Świętego, wyproś mi łaskę odkrycia prawdy o grzechu!</i>
 <i>Amen!</i><br>
 <b>Słowo Boże</b>
@@ -63,9 +86,7 @@ Prawda o Bożej miłości nie jest dla nas oczywista. Wielu mówi: życie to nie
 Spróbuję dziś dostrzec i uznać moją bezradność wobec zła i grzechu.<br>
 ${TvelveDaysTexts.modlitwaZawierzenia}`;
 
-static dzien3: string = `${TvelveDaysTexts.tytul}<b>Dzień 3</b><br>
-<b>Odkryj łaskę zbawienia</b><br>
-${TvelveDaysTexts.modlitwaDoDuchaSw}
+static dzien3: string = `${TvelveDaysTexts.tytul}<b>Dzień 3: Odkryj łaskę zbawienia</b><br><br>${TvelveDaysTexts.modlitwaDoDuchaSw} 
 <i>Maryjo, Oblubienico Ducha Świętego, wyproś mi łaskę zbawienia.</i>
 <i>Amen!</i><br>
 <b>Słowo Boże</b>
@@ -79,9 +100,7 @@ Stając wobec zła i grzechu, uświadamiając sobie ich realność, rozpaczliwie
 Przeżyję dzisiejszy dzień w świadomości tego, że potrzebuję pomocy Jezusa i sam nie dam sobie rady.<br>
 ${TvelveDaysTexts.modlitwaZawierzenia}`;
 
-static dzien4: string = `${TvelveDaysTexts.tytul}<b>Dzień 4</b><br>
-<b>Odkryj łaskę nawrócenia i oddania życia Panu Jezusowi</b><br>
-${TvelveDaysTexts.modlitwaDoDuchaSw}
+static dzien4: string =  `${TvelveDaysTexts.tytul}<b>Dzień 4: Odkryj łaskę nawrócenia i oddania życia Panu Jezusowi</b><br><br>${TvelveDaysTexts.modlitwaDoDuchaSw} 
 <i>Maryjo, Oblubienico Ducha Świętego, wyproś mi łaskę nawrócenia i oddania życia Panu Jezusowi.</i>
 <i>Amen!</i><br>
 <b>Słowo Boże</b>
@@ -98,9 +117,7 @@ Przez pierwsze trzy dni rozważaliśmy, jak nas Bóg ukochał, jak nas niszczy g
 Przeżyję dzisiejszy dzień w ufności, że przez wszystko, co się w nim wydarzy, cokolwiek to będzie, Bóg chce mnieprzeprowadzić.<br>
 ${TvelveDaysTexts.modlitwaZawierzenia}`;
 
-static dzien5: string = `${TvelveDaysTexts.tytul}<b>Dzień 5</b><br>
-<b>Błogosławieni ubodzy w duchu</b><br>
-${TvelveDaysTexts.modlitwaDoDuchaSw} 
+static dzien5: string = `${TvelveDaysTexts.tytul}<b>Dzień 5: Błogosławieni ubodzy w duchu</b><br><br>${TvelveDaysTexts.modlitwaDoDuchaSw} 
 <i>Maryjo, Oblubienico Ducha Świętego, wyproś mi dar ubóstwa w duchu.</i>
 <i>Amen!</i><br>
 <b>Słowo Boże</b>
@@ -117,9 +134,7 @@ Odkąd opuściliśmy raj, powstała w nas pustka, którą może wypełnić tylko
 <b>Zadanie</b><br>Poproszę Maryję, aby uczyła mnie żyć w zależności tylko i wyłącznie od Boga.<br>
 ${TvelveDaysTexts.modlitwaZawierzenia}`;
 
-  static dzien6: string = `${TvelveDaysTexts.tytul}<b>Dzień 6</b><br>
-<b>Błogosławieni, którzy się smucą</b><br>
-${TvelveDaysTexts.modlitwaDoDuchaSw} 
+static dzien6: string = `${TvelveDaysTexts.tytul}<b>Dzień 6: Błogosławieni, którzy się smucą</b><br><br>${TvelveDaysTexts.modlitwaDoDuchaSw}
 <i>Maryjo, Oblubienico Ducha Świętego, wyproś mi łaskę błogosławionego smutku.</i>
 <i>Amen!</i><br>
 <b>Słowo Boże</b>
@@ -136,9 +151,7 @@ Tomasz à Kempis, <i>O naśladowaniu Chrystusa</i>, XXVII, 2<br>
 <b>Zadanie</b><br>Poproszę Maryję, by uczyła mnie stawania przed Bogiem ze swoim smutkiem.<br>
 ${TvelveDaysTexts.modlitwaZawierzenia}`;
 
- static dzien7: string = `${TvelveDaysTexts.tytul}<b>Dzień 7</b><br>
-<b>Błogosławieni cisi</b><br>
-${TvelveDaysTexts.modlitwaDoDuchaSw} 
+static dzien7: string = `${TvelveDaysTexts.tytul}<b>Dzień 7: Błogosławieni cisi</b><br><br>${TvelveDaysTexts.modlitwaDoDuchaSw}
 <i>Maryjo, Oblubienico Ducha Świętego, wyproś mi łaskę błogosławionej cichości.</i>
 <i>Amen!</i><br>
 <b>Słowo Boże</b>
@@ -155,9 +168,7 @@ lekkie" (Mt 11 29,30).<br>
 <b>Zadanie</b><br>Pokochaj dzisiaj bycie z Bogiem sam na sam.<br>
 ${TvelveDaysTexts.modlitwaZawierzenia}`;
  
- static dzien8: string = `${TvelveDaysTexts.tytul}<b>Dzień 8</b><br>
-<b>Błogosławieni, którzy łakną i pragną sprawiedliwości.</b><br>
-${TvelveDaysTexts.modlitwaDoDuchaSw} 
+static dzien8: string = `${TvelveDaysTexts.tytul}<b>Dzień 8: Błogosławieni, którzy łakną i pragną sprawiedliwości.</b><br><br>${TvelveDaysTexts.modlitwaDoDuchaSw}
 <i>Maryjo, Oblubienico Ducha Świętego, wyproś mi łaskę łaknienia i pragnienia sprawiedliwości.</i>
 <i>Amen!</i><br>
 <b>Słowo Boże</b>
@@ -173,9 +184,7 @@ ${TvelveDaysTexts.modlitwaDoDuchaSw}
 We wszystkim, czego nie rozumiem i co przynosi ci cierpienie, będę mówić: Przyjmuję wszystko, Maryjo, ukrywam się w Twoim sercu.<br>
 ${TvelveDaysTexts.modlitwaZawierzenia}`;
 
-  static dzien9: string = `${TvelveDaysTexts.tytul}<b>Dzień 9</b><br>
-<b>Błogosławieni miłosierni</b><br>
-${TvelveDaysTexts.modlitwaDoDuchaSw} 
+static dzien9: string =  `${TvelveDaysTexts.tytul}<b>Dzień 9: Błogosławieni miłosierni</b><br><br>${TvelveDaysTexts.modlitwaDoDuchaSw}
 <i>Maryjo, Oblubienico Ducha Świętego, wyproś mi łaskę bycia miłosiernym.</i>
 <i>Amen!</i><br>
 <b>Słowo Boże</b>
@@ -195,9 +204,7 @@ Są dwa hebrajskie słowa, które oddają naturę miłosierdzia:<br>
 <b>Zadania</b><br>Poproszę dzisiaj Maryję, o miłosierne oczy, bym mógł widzieć każdego człowieka i wszystko, co mnie spotka, w perspektywie miłosierdzia.<br>
 ${TvelveDaysTexts.modlitwaZawierzenia}`;  
 
-  static dzien10: string = `${TvelveDaysTexts.tytul}<b>Dzień 10</b><br>
-<b>Błogosławieni czystego serca.</b><br>
-${TvelveDaysTexts.modlitwaDoDuchaSw} 
+static dzien10: string = `${TvelveDaysTexts.tytul}<b>Dzień 10: Błogosławieni czystego serca.</b><br><br>${TvelveDaysTexts.modlitwaDoDuchaSw}
 <i>Maryjo, Oblubienico Ducha Świętego, wyproś mi łaskę czystego serca.</i>
 <i>Amen!</i><br>
 <b>Słowo Boże</b>
@@ -212,9 +219,7 @@ ${TvelveDaysTexts.modlitwaDoDuchaSw}
 <b>Zadanie</b><br>Poproszę dziś Maryję, by uczyła mnie szukać Jezusa we wszystkim, co mnie dzisiaj spotka.<br>
 ${TvelveDaysTexts.modlitwaZawierzenia}`;
 
-  static dzien11: string = `${TvelveDaysTexts.tytul}<b>Dzień 11</b><br>
-<b>Błogosławieni, którzy wprowadzają pokój</b><br>
-${TvelveDaysTexts.modlitwaDoDuchaSw} 
+static dzien11: string = `${TvelveDaysTexts.tytul}<b>Dzień 11: Błogosławieni, którzy wprowadzają pokój</b><br><br>${TvelveDaysTexts.modlitwaDoDuchaSw}
 <i>Maryjo, Oblubienico Ducha Świętego, wyproś mi łaskę wprowadzania Bożego pokoju.</i>
 <i>Amen!</i><br>
 <b>Słowo Boże</b>
@@ -231,9 +236,7 @@ Tomasz à Kempis, <i>O naśladowaniu Chrystusa</i>, 2,1,1<br>
 <b>Zadanie</b><br>Poproszę Maryję, aby nauczyła mnie przeżywać wszystkie sytuacje życia z Panem Jezusem.<br>
 ${TvelveDaysTexts.modlitwaZawierzenia}`;
 
-  static dzien12: string = `${TvelveDaysTexts.tytul}<b>Dzień 12</b><br>
-<b>Błogosławieni, którzy cierpią prześladowanie dla sprawiedliwości.</b><br>
-${TvelveDaysTexts.modlitwaDoDuchaSw} 
+static dzien12: string = `${TvelveDaysTexts.tytul}<b>Dzień 12: Błogosławieni, którzy cierpią prześladowanie dla sprawiedliwości.</b><br><br>${TvelveDaysTexts.modlitwaDoDuchaSw} 
 <i>Maryjo, Oblubienico Ducha Świętego, wyproś mi łaskę godnego przeżywania prześladowań dla sprawiedliwości.</i>
 <i>Amen!</i><br>
 <b>Słowo Boże</b>
