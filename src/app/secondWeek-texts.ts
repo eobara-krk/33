@@ -1,16 +1,29 @@
 export class SecondWeekTexts {
-static modlitwaDoDuchaSw: string = `<b>Modlitwa do Ducha Świętego</b>
-<i>Duchu Święty, natchnij mnie. Miłości Boga, pochłoń mnie. Po prawdziwej drodze prowadź mnie, Maryjo, moja Matko, spójrz na mnie, z Jezusem błogosław mnie. Od wszelkiego zła, od wszelkiego złudzenia, od wszelkiego niebezpieczeństwa zachowaj mnie.</i><br>`;
-
+static modlitwaDoDuchaSw: string = `<b>Modlitwa do Ducha Świętego</b><br><i>Duchu Święty, natchnij mnie. Miłości Boga, pochłoń mnie. Po prawdziwej drodze prowadź mnie, Maryjo, moja Matko, spójrz na mnie, z Jezusem błogosław mnie. Od wszelkiego zła, od wszelkiego złudzenia, od wszelkiego niebezpieczeństwa zachowaj mnie.</i><br>`;
 static modlitwaZawierzenia: string = `<b>Modlitwa zawierzenia</b><br><i>Jestem cały Twój i wszystko, co mam, jest Twoją własnością, umiłowany Jezu, przez Maryję, Twoją świętą Matkę. Amen!</i>`;
+static tytul: string = '<i><b>Tydzień drugi - Poznanie Maryi</b></i><br>';
+ 
+static dayTitles: { [key: number]: string } = {
+  1: 'Dzień 1: Maryja Nowa Ewa',
+  2: 'Dzień 2: Dziewictwo i macierzyństwo Maryi',
+  3: 'Dzień 3: Niepokalane Poczęcie',
+  4: 'Dzień 4: Wniebowzięcie Najświętszej Maryi Panny',
+  5: 'Dzień 5: Maryja Niewiasta Eucharystii',
+  6: 'Dzień 6: Niepokalane Serce Maryi - naszym schronieniem',
+  7: 'Dzień 7: Apostołowie Tryumfu Niepokalanego Serca Maryi'
+};
 
-static tytul: string = 'Tydzień drugi - Poznanie Maryi -';
-  // --- html ---
-static dzien1: string = `<b>${SecondWeekTexts.tytul} Dzień 1</b><br>
-<b>Maryja Nowa Ewa</b><br>
-${SecondWeekTexts.modlitwaDoDuchaSw} 
-<i>Maryjo, Oblubienico Ducha Świętego, wyproś mi łaskę poznania Ciebie jako nowej Ewy, początku nowego świata.</i>
-<i>Amen!</i><br>
+static getDayText(nr: number, body: string = '', withZawierzenie: boolean = false): string {
+  const label = SecondWeekTexts.dayTitles[nr] || `Dzień ${nr}`;
+  let result = `${SecondWeekTexts.tytul}<b>${label}</b><br><br>${SecondWeekTexts.modlitwaDoDuchaSw}<br>${body}`;
+  if (withZawierzenie) {
+    result += `<br>${SecondWeekTexts.modlitwaZawierzenia}`;
+  }
+  return result;
+}
+
+
+static trescDzien1: string = `<i>Maryjo, Oblubienico Ducha Świętego, wyproś mi łaskę poznania Ciebie jako nowej Ewy, początku nowego świata.</i><br><i>Amen!</i><br>
 <b>Słowo Boże</b>
 <i>„Wtedy Pan Bóg rzekł do węża: «Ponieważ to uczyniłeś, bądź przeklęty wśród wszystkich zwierząt domowych i dzikich; na brzuchu będziesz się czołgał i proch będziesz jadł po wszystkie dni twego istnienia. Wprowadzam nieprzyjaźń między ciebie a niewiastę, pomiędzy potomstwo twoje a potomstwo jej: ono ugodzi cię w głowę, a ty ugodzisz je w piętę" </i>(Rdz 3,14-15).<br>
 <b>Rozważanie</b>
@@ -38,14 +51,9 @@ Do Maryi - „nowej Ewy" możemy zwracać się więc jako Matki „drugiego stwo
 <i>„Najświętsza Maryja Panna jest Dziewicą wierną, wiernością naprawiającą szkody spowodowane wiarołomstwem niewiernej Ewy, i wyprasza wszystkim, którzy się do Niej przywiążą, wierność Bogu i wytrwałość. Dlatego pewien święty porównuje Ją z silną kotwicą, co broni człowieka przed rozbiciem na wzburzonym morzu doczesnego życia, gdzie tyle dusz ginie z powodu braku tego silnego oparcia: Przywiązujemy, powiada on, dusze nadzieją do Ciebie jako do silnej kotwicy. Przecież to do Niej najbardziej przywiązywali się święci, którzy ocaleli, i do Niej przywiązywali drugich, by wytrwali w cnocie. Szczęśliwi więc, tysiąckroć szczęśliwi są chrześcijanie, co teraz przywiązują się do Niej jako do silnej kotwicy i wiernie przy Niej trwają. Nie zgubią ich burze tego świata nie zniszczą ich niebieskich skarbów. Szczęśliwi wchodzący do Niej, jak do arki Noego! Wody potopu grzechu, w których tylu zginęło, nie zaszkodzą im, albowiem ci, mówi Maryja z Mądrością (Syr 24, 22), którzy ze Mną nad swym zbawieniem pracują, nie upadną. Szczęśliwe niewierne dzieci nieszczęsnej Ewy, co przywiązują się do Matki i Dziewicy zawsze wiernej i niezawodnej (Aplikacja słów św. Pawła (2Tym 2,13) do Najświętszej Maryi Panny) i zawsze kochającej tych, co Ją kochają (2 Prz 8, 17), i to nie tylko miłością uczuciową, lecz miłością prawdziwą i skuteczną. Chroni Ona swych czcicieli wielką obfitością łask, by nie cofali się w cnocie, nie upadali w drodze i nie utracili łaski Jej Syna"</i>
 Św. Ludwik Maria Grignion de Montfort, <i>Traktat o prawdziwym nabożeństwie do Najświętszej Maryi Panny</i>, 45<br>
 <b>Zadanie</b>
-Zastanowię się, co jest moim zniewoleniem. Codziennie będę prosić Maryję o dar uwolnienia.<br>
-${SecondWeekTexts.modlitwaZawierzenia}`;
+Zastanowię się, co jest moim zniewoleniem. Codziennie będę prosić Maryję o dar uwolnienia.<br>`;
 
-static dzien2: string = `<b>${SecondWeekTexts.tytul} Dzień 2</b><br>
-<b>Dziewictwo i macierzyństwo Maryi</b><br>
-${SecondWeekTexts.modlitwaDoDuchaSw} 
-<i>Maryjo, Oblubienico Ducha Świętego, wyproś mi łaskę poznania Ciebie jako Matki Boga i Matki mojej.</i>
-<i>Amen!</i><br>
+static trescDzien2: string = `<i>Maryjo, Oblubienico Ducha Świętego, wyproś mi łaskę poznania Ciebie jako Matki Boga i Matki mojej.</i><br><i>Amen!</i><br>
 <b>Słowo Boże</b>
 <i>„Dlatego Pan sam da wam znak: Oto PANNA pocznie i porodzi Syna, i nazwie Go imieniem EMMANUEL"</i> (Iz 7,14).<br>
 <b>Rozważanie</b>
@@ -82,8 +90,14 @@ Dziewicze macierzyństwo Maryi rozciąga się na cały Kościół, który w ból
 -była ukształtowana w Jezusie Chrystusie, a Jezus Chrystus w Niej. Albowiem, według Ojców Kościoła, łono Maryi jest Przybytkiem boskich sakramentów, w którym zostali ukształtowani Jezus Chrystus i wszyscy wybrani".
 św. Ludwik Maria Grignion de Montfort, <i>Traktat o prawdziwym nabożeństwie do Najświętszej Maryi Panny</i>, 263-264<br>
 <b>Zadanie</b>
-Podziękuje Bogu za Maryję. Oddam Jej swoje serce i całe ciało. Z pomocą Maryi strzec będę godności mojego człowieczeństwa.<br>
-${SecondWeekTexts.modlitwaZawierzenia}`;
+Podziękuje Bogu za Maryję. Oddam Jej swoje serce i całe ciało. Z pomocą Maryi strzec będę godności mojego człowieczeństwa.<br>`;
+
+
+
+
+// bierze stały fragment tytuł rozdziłu dzien podtytuł,dodaje modlitwe do Ducha św, potem bierze tresc danego dnia  i true dodaje modlitwe zawierzenia
+static dzien1: string = SecondWeekTexts.getDayText(1, SecondWeekTexts.trescDzien1, false);
+static dzien2: string = SecondWeekTexts.getDayText(2, SecondWeekTexts.trescDzien2, false);
 
 static dzien3: string = `<b>${SecondWeekTexts.tytul} Dzień 3</b><br>
 <b>Niepokalane Poczęcie</b><br>
