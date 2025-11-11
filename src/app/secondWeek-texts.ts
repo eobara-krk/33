@@ -92,18 +92,7 @@ Dziewicze macierzyństwo Maryi rozciąga się na cały Kościół, który w ból
 <b>Zadanie</b>
 Podziękuje Bogu za Maryję. Oddam Jej swoje serce i całe ciało. Z pomocą Maryi strzec będę godności mojego człowieczeństwa.<br>`;
 
-
-
-
-// bierze stały fragment tytuł rozdziłu dzien podtytuł,dodaje modlitwe do Ducha św, potem bierze tresc danego dnia  i true dodaje modlitwe zawierzenia
-static dzien1: string = SecondWeekTexts.getDayText(1, SecondWeekTexts.trescDzien1, false);
-static dzien2: string = SecondWeekTexts.getDayText(2, SecondWeekTexts.trescDzien2, false);
-
-static dzien3: string = `<b>${SecondWeekTexts.tytul} Dzień 3</b><br>
-<b>Niepokalane Poczęcie</b><br>
-${SecondWeekTexts.modlitwaDoDuchaSw} 
-<i>Maryjo, Oblubienico Ducha Świętego, wyproś mi łaskę poznania Ciebie i zgłębienia daru Niepokalanego Poczęcia.</i>
-<i>Amen!</i><br>
+static trescDzien3: string = `<i>Maryjo, Oblubienico Ducha Świętego, wyproś mi łaskę poznania Ciebie i zgłębienia daru Niepokalanego Poczęcia.</i><br><i>Amen!</i><br>
 <b>Słowo Boże</b>
 <i>„Wielbi dusza moja Pana i raduje się duch mój w Bogu, moim Zbawcy. Bo wejrzał na uniżenie Służebnicy swojej. Oto bowiem błogosławić mnie będą odtąd wszystkie pokolenia, gdyż wielkie rzeczy uczynił mi Wszechmocny; a święte jest Jego imię"</i> (Łk 1,46-49).<br>
 <b>Rozważanie</b>
@@ -118,14 +107,9 @@ W Polsce wśród wielu wzorów całkowitego zaufania Maryi jest św. Maksymilian
 <i>„Nie ma i nigdy nie będzie stworzenia, w którym Bóg jaśniałby wspanialej aniżeli w Najświętszej Maryi Dziewicy, nie wyłączając ani błogosławionych, ani cherubinów, ani nawet najwznioślejszych serafinów Nieba. Maryja jest rajem «Boga», Jego niewysłowionym światem, do którego zstąpił Syn Boży, ażeby działać w nim cuda, strzec go i mieć w nim swe upodobanie. Bóg stworzył świat dla człowieka, który pielgrzymuje, właśnie ten nasz świat, i stworzył świat dla człowieka błogosławionego - jest światem Niebo. Ale Bóg uczynił też inny jeszcze świat, świat dla Siebie, i dał mu imię Maryja: Świat niemal nieznany śmiertelnikom na ziemi, niepojęty dla aniołów i świętych w Niebie, którzy wielbiąc Boga tak wzniosłego i wyższego nad wszystko stworzenie, a ukrytego w swoim „świecie" - w Matce Bożej, Maryi, dniem i nocą wołają: Święty, Święty, Święty (Iz 6, 3)".</i>
 św. Ludwik Maria Grignion de Montfort, <i>Tajemnica Maryi</i>, 22<br>
 <b>Zadanie</b>
-Podziękuję Bogu za dar Niepokalanej Matki Chrystusa i mojej. W trudnych sytuacjach powtarzać będę Jej imię: Maryjo, Maryjo, Maryjo.<br>
-${SecondWeekTexts.modlitwaZawierzenia}`;
+Podziękuję Bogu za dar Niepokalanej Matki Chrystusa i mojej. W trudnych sytuacjach powtarzać będę Jej imię: Maryjo, Maryjo, Maryjo.<br>`;
 
-static dzien4: string = `<b>${SecondWeekTexts.tytul} Dzień 4</b><br>
-<b>Wniebowzięcie Najświętszej Maryi Panny</b><br>
-${SecondWeekTexts.modlitwaDoDuchaSw} 
-<i>Maryjo, Oblubienico Ducha Świętego, wyproś mi łaskę poznania Ciebie i zrozumienia przywileju Twojego Wniebowzięcia.</i>
-<i>Amen!</i><br>
+static trescDzien4: string = `<i>Maryjo, Oblubienico Ducha Świętego, wyproś mi łaskę poznania Ciebie i zrozumienia przywileju Twojego Wniebowzięcia.</i><i>Amen!</i><br>
 <b>Słowo Boże</b>
 <i>„Potem świątynia Boga w niebie się otwarła i Arka Jego Przymierza ukazała się w Jego świątyni. (...) Potem wielki znak ukazał się na niebie: Niewiasta obleczona w słońce i księżyc pod jej stopami, a na jej głowie wieniec z gwiazd dwunastu"</i> (Ap 11,19a;12,1).<br>
 <b>Rozważanie</b>
@@ -161,14 +145,9 @@ Na czym polega sens naszego oddania Maryi? Na naśladowaniu Jej życia, czyli sp
 <i>„Aby dziękować Bogu za łaski, którymi obdarzył Najświętszą Dziewicę, dzieci Maryi wzorem świętych, będą odmawiać często Magnificat. Jest to jedyna modlitwa, jedyne dzieło, które Najświętsza Dziewica ułożyła, lub raczej, które w Niej ułożył Jezus, gdyż On mówił przez Jej usta. To najwspanialsza pieśń uwielbienia, jaką Bóg otrzymał w przymierzu łaski. Hymn to z jednej strony, najpokorniejszy i najbardziej pełny wdzięczności, z drugiej strony - najbardziej szczytny i najwznioślejszy. Zawiera on tajemnice tak wielkie i tak ukryte, że nawet aniołowie wszystkich nie znają. Gerson, pobożny i uczony pisarz, który życie całe poświęcił nauce, dopiero u schyłku życia, i to z drżeniem, podjął się napisania objaśnienia do Magnificat, pragnąc tym dziełem ukoronować wszystkie swe prace. W potężnym tomie opowiada on o wielu cudownościach tej pięknej i Bożej pieśni. Między innymi, pisze, że Najświętsza Dziewica często odmawiała Magnificat, zwłaszcza po Komunii św., jako dziękczynienie. Uczony Benzoniusz, który również napisał komentarz do Magnificat, opowiada o wielu cudach zdziałanych mocą tego hymnu. Autor mówi, że szatani drżą i uciekają, gdy słyszą słowa hymnu: On przejawia moc ramienia swego, rozprasza pyszniących się zamysłami serc swoich</i> (Łk 1, 51)".
 Św. Ludwik Maria Grignion de Montfort, <i>Traktat o prawdziwym nabożeństwie do Najświętszej Maryi Panny</i>, 255<br>
 <b>Zadanie</b>
-Uświadomię sobie, że moje życie nie kończy się na ziemi. W niebie czeka na mnie miłujący Bóg i Maryja w pełni swojego przebóstwionego człowieczeństwa.<br>
-${SecondWeekTexts.modlitwaZawierzenia}`;
+Uświadomię sobie, że moje życie nie kończy się na ziemi. W niebie czeka na mnie miłujący Bóg i Maryja w pełni swojego przebóstwionego człowieczeństwa.<br>`;
 
-static dzien5: string = `<b>${SecondWeekTexts.tytul} Dzień 5</b><br>
-<b>Maryja Niewiasta Eucharystii</b><br>
-${SecondWeekTexts.modlitwaDoDuchaSw} 
-<i>Maryjo, Oblubienico Ducha Świętego, wyproś mi łaskę poznania Ciebie jako Matki Bożego Ciała i dar głębokiego przeżywania Eucharystii.</i>
-<i> Amen!</i><br>
+static trescDzien5: string = `<i>Maryjo, Oblubienico Ducha Świętego, wyproś mi łaskę poznania Ciebie jako Matki Bożego Ciała i dar głębokiego przeżywania Eucharystii.</i><br><i>Amen!</i><br>
 <b>Słowo Boże</b>
 <i>„Jam jest chleb życia. Ojcowie wasi jedli mannę na pustyni i pomarli. To jest chleb, który z nieba zstępuje: Kto go je, nie umrze. Ja jestem chlebem żywym, który zstąpił z nieba. Jeśli kto spożywa ten chleb, będzie żył na wieki. Chlebem, który Ja dam, jest moje ciało [wydane] za życie świata». Sprzeczali się więc między sobą Żydzi, mówiąc: «Jak On może nam dać [swoje] ciało do jedzenia?» Rzekł do nich Jezus: «Zaprawdę, zaprawdę, powiadam wam: Jeżeli nie będziecie jedli Ciała Syna Człowieczego ani pili Krwi Jego, nie będziecie mieli życia w sobie. Kto spożywa moje Ciało i pije moją Krew, ma życie wieczne, a Ja go wskrzeszę w dniu ostatecznym. Ciało moje jest prawdziwym pokarmem, a Krew moja jest prawdziwym napojem. Kto spożywa moje Ciało i Krew moją pije, trwa we Mnie, a Ja w nim. Jak Mnie posłał żyjący Ojciec, a Ja żyję przez Ojca, tak i ten, kto Mnie spożywa, będzie żył przeze Mnie. To jest chleb, który z nieba zstąpił - nie jest on taki jak ten, który jedli wasi przodkowie, a poumierali. Kto spożywa ten chleb, będzie żył na wieki». To powiedział ucząc w synagodze w Kafarnaum"</i> (J 6,48-59).<br>
 <b>Rozważanie</b>
@@ -248,14 +227,9 @@ Jak mamy przeżywać Mszę św. z Maryją? Po pierwsze Jan Paweł II podpowie na
 <i>„Nie ukrywa się ona pod blaskiem diamentu czy innego drogocennego kamienia, dlatego, iż nie chce pozostawać z człowiekiem jedynie na sposób zewnętrzny. Ukrywa się natomiast pod postacią kawałka chleba, pokarmu człowiekowi właściwego, aby, będąc przez człowieka spożyta, wejść aż do jego serca, żeby w nim znaleźć upodobanie."</i>
 św. Ludwik Maria Grignion de Montfort, <i>Miłość Mądrości Przedwiecznej</i>, 71<br>
 <b>Zadanie!</b>
-Przed przyjęciem Komunii Świętej zaproszę Maryję, aby była w moim sercu, gdy przyjdzie tam Jezus, Jej Syn, obecny w Eucharystii. Ona pomoże mi godnie z żywą wiarą, przyjąć i uczcić Jezusa.<br>
-${SecondWeekTexts.modlitwaZawierzenia}`;
+Przed przyjęciem Komunii Świętej zaproszę Maryję, aby była w moim sercu, gdy przyjdzie tam Jezus, Jej Syn, obecny w Eucharystii. Ona pomoże mi godnie z żywą wiarą, przyjąć i uczcić Jezusa.<br>`;
 
-static dzien6: string = `<b>${SecondWeekTexts.tytul} Dzień 6</b><br>
-<b>Niepokalane Serce Maryi - naszym schronieniem</b><br>
-${SecondWeekTexts.modlitwaDoDuchaSw} 
-<i>Maryjo, Oblubienico Ducha Świętego, wyproś mi łaskę poznania Ciebie i nieustannego przebywania w Twym Niepokalanym Sercu.</i>
-<i>Amen!</i><br>
+static trescDzien6: string = `<i>Maryjo, Oblubienico Ducha Świętego, wyproś mi łaskę poznania Ciebie i nieustannego przebywania w Twym Niepokalanym Sercu.</i><br><i>Amen!</i><br>
 <b>Słowo Boże</b>
 <i>„Gdy Elżbieta usłyszała pozdrowienie Maryi, poruszyło się dzieciątko w jej łonie, a Duch Święty napełnił Elżbietę. Wydała ona głośny okrzyk i powiedziała: «Błogosławionaś Ty między niewiastami i błogosławiony jest owoc Twojego łona. A skądże mi to, że Matka mojego Pana przychodzi do mnie? Oto bowiem, skoro głos Twego pozdrowienia zabrzmiał w moich uszach, poruszyło się z radości dzieciątko w moim łonie. Błogosławiona [jest], która uwierzyła, że spełnią się słowa powiedziane Jej od Pana»" </i>(Łk 1,41-45).<br>
 <b>Rozważania</b>
@@ -288,14 +262,10 @@ Niepokalane Serce Maryi jest naszym pewnym schronieniem. Wejście do tej arki sc
 <i>„Przez Maryję rozpoczęło się zbawienie świata i przez Maryję musi się ono dopełnić. Przy pierwszym przyjściu Jezusa Chrystusa Maryja prawie wcale się nie ukazywała, aby ludzie, którzy o osobie Jej Syna mało jeszcze wiedzieli, nie przywiązywali się do Niej zbyt ziemskim i przyrodzonym uczuciem, oddalając się przez to od prawdy. A gdyby Maryja bardziej była znana, niezawodnie by to nastąpiło, z powodu cudownego Jej wdzięku, którym Najwyższy także na zewnątrz Ją ozdobił. Toteż Dionizy Pseudo-Areopagita pisze, iż gdy Ją ujrzał, z powodu Jej tajemniczego uroku i niezrównanej piękności byłby wziął Ją za bóstwo, gdyby wiara, w której był ugruntowany, nie pouczyła go, że Ona nim nie jest. Natomiast przy drugim przyjściu Jezusa Chrystusa Maryja musi być znana i przez Ducha Świętego objawiona, aby to przez Nią Chrystusa poznano, kochano i Mu służono, albowiem powody, dla których Duch Święty ukrył swoją Oblubienicę za Jej życia ziemskiego, dając w Ewangelii tak szczupłe o Niej objawienie, już istnieć nie będą".</i>
 św. Ludwik Maria Grignion de Montfort, <i>Traktat o prawdziwym nabożeństwie do Najświętszej Maryi Panny</i>, 49<br>
 <b>Zadanie</b>
-Spełniając życzenie Matki Bożej, postanowię w najbliższym czasie odprawić 5 pierwszych sobót miesiąca.<br>
-${SecondWeekTexts.modlitwaZawierzenia}`;
+Spełniając życzenie Matki Bożej, postanowię w najbliższym czasie odprawić 5 pierwszych sobót miesiąca.<br>`;
 
-static dzien7: string = `<b>${SecondWeekTexts.tytul} Dzień 7</b><br>
-<b>Apostołowie Tryumfu Niepokalanego Serca Maryi</b><br>
-${SecondWeekTexts.modlitwaDoDuchaSw} 
-<i>Maryjo, Oblubienico Ducha Świętego, wyproś mi łaskę poznania Ciebie i udziału w tryumfie Twego Niepokalanego Serca.</i>
-<i>Amen!</i><br>
+
+static trescDzien7: string = `<i>Maryjo, Oblubienico Ducha Świętego, wyproś mi łaskę poznania Ciebie i udziału w tryumfie Twego Niepokalanego Serca.</i><br><i>Amen!</i><br>
 <b>Słowo Boże</b>
 <i>„I nastąpiła walka na niebie: Michał i jego aniołowie mieli walczyć ze Smokiem. I wystąpił do walki Smok i jego aniołowie, ale nie przemógł, i już się miejsce dla nich w niebie nie znalazło. I został strącony wielki Smok, Wąż starodawny, który się zwie diabeł i szatan, zwodzący całą zamieszkałą ziemię; został strącony na ziemię, a z nim strąceni zostali jego aniołowie. I usłyszałem donośny głos mówiący w niebie: «Teraz nastało zbawienie, potęga i królowanie Boga naszego i władza Jego Pomazańca, bo oskarżyciel braci naszych został strącony, ten, co dniem i nocą oskarża ich przed Bogiem naszym. A oni zwyciężyli dzięki krwi Baranka i dzięki słowu swojego świadectwa, i nie umiłowali dusz swych - aż do śmierci. Dlatego radujcie się, niebiosa i ich mieszkańcy! Biada ziemi i morzu - bo zstąpił do was diabeł, pałając wielkim gniewem, świadom, że mało ma czasu».</i> (...)<br>
 <i>I rozgniewał się Smok na Niewiastę,i odszedł rozpocząć walkę z resztą jej potomstwa, z tymi, co strzegą przykazań Boga i mają świadectwo Jezusa"</i> (Ap 12,7-12; 12,17).<br>
@@ -335,6 +305,15 @@ Krzyż musi być znów postawiony w centrum. W świecie, gdzie rządzi „ksią�
 7) Na koniec, Maryja musi być groźna jak zbrojne zastępy (Pnp 6,10), straszna jak wojsko gotowe do boju przeciw szatanowi i jego wspólnikom, głównie w owych czasach ostatnich, gdyż szatan wiedząc dobrze, że mało, o wiele mniej niż kiedykolwiek pozostaje czasu (zob. Ap 12,12), by gubić dusze, będzie codziennie podwajać swe wysiłki i zakusy. Wznieci więc on okrutne prześladowanie i pocznie zastawiać straszne zasadzki na wierne sługi i na prawdziwe dzieci Maryi, które mu o wiele trudniej pokonać niż innych".
 Św. Ludwik Maria Grignion de Montfort, <i>Traktat o prawdziwym nabożeństwie do Najświętszej Maryi Panny</i>, 50<br>
 <b>Zadanie</b>
-Spełniając życzenie Matki Bożej, codziennie będę odmawiał różaniec.<br>
-${SecondWeekTexts.modlitwaZawierzenia}`;
+Spełniając życzenie Matki Bożej, codziennie będę odmawiał różaniec.<br>`;
+
+
+// bierze stały fragment tytuł rozdziłu dzien podtytuł,dodaje modlitwe do Ducha św, potem bierze tresc danego dnia  i true dodaje modlitwe zawierzenia
+static dzien1: string = SecondWeekTexts.getDayText(1, SecondWeekTexts.trescDzien1, true);
+static dzien2: string = SecondWeekTexts.getDayText(2, SecondWeekTexts.trescDzien2, true);
+static dzien3: string = SecondWeekTexts.getDayText(3, SecondWeekTexts.trescDzien3, true);
+static dzien4: string = SecondWeekTexts.getDayText(4, SecondWeekTexts.trescDzien4, true);
+static dzien5: string = SecondWeekTexts.getDayText(5, SecondWeekTexts.trescDzien5, true);
+static dzien6: string = SecondWeekTexts.getDayText(6, SecondWeekTexts.trescDzien6, true);
+static dzien7: string = SecondWeekTexts.getDayText(7, SecondWeekTexts.trescDzien7, true);
 }

@@ -1,17 +1,28 @@
 export class ThirdWeekTexts {
-static modlitwaDoDuchaSw: string = `<b>Modlitwa do Ducha Świętego</b>
-<i>Duchu Święty, natchnij mnie. Miłości Boga, pochłoń mnie. Po prawdziwej drodze prowadź mnie, Maryjo, moja Matko, spójrz na mnie, z Jezusem błogosław mnie. Od wszelkiego zła, od wszelkiego złudzenia, od wszelkiego niebezpieczeństwa zachowaj mnie.</i><br>`;
-
-
+static modlitwaDoDuchaSw: string = `<b>Modlitwa do Ducha Świętego</b><br><i>Duchu Święty, natchnij mnie. Miłości Boga, pochłoń mnie. Po prawdziwej drodze prowadź mnie, Maryjo, moja Matko, spójrz na mnie, z Jezusem błogosław mnie. Od wszelkiego zła, od wszelkiego złudzenia, od wszelkiego niebezpieczeństwa zachowaj mnie.</i><br>`;
 static modlitwaZawierzenia: string = `<b>Modlitwa zawierzenia</b><br><i>Jestem cały Twój i wszystko, co mam, jest Twoją własnością, umiłowany Jezu, przez Maryję, Twoją świętą Matkę. Amen!</i>`;
+static tytul: string = '<i><b>Tydzień trzeci - Poznanie Pana Jezusa</b></i><br>';  
 
-static tytul: string = 'Tydzień trzeci - Poznanie Pana Jezusa - ';
-  // --- html ---
-static dzien1: string = `<b>${ThirdWeekTexts.tytul} Dzień 1</b><br>
-<b>Zwiastowanie. Jezus-Słowo Boże. Jezus-Ewangelia.</b><br>
-${ThirdWeekTexts.modlitwaDoDuchaSw} 
-<i>Maryjo, Oblubienico Ducha Świętego, wyproś mi łaskę poznania Jezusa Chrystusa, spotkania z Nim w tajemnicy Zwiastowania i odkrycia, że Pan jest w każdym Słowie, które pochodzi z Bożych ust.</i>
-<i>Amen!</i><br>
+static dayTitles: { [key: number]: string } = {
+  1: 'Dzień 1: Zwiastowanie. Jezus-Słowo Boże. Jezus-Ewangelia',
+  2: 'Dzień 2: Boże Narodzenie. Jezus-Dziecko. Jezus-Chleb',
+  3: 'Dzień 3: Ofiarowanie w świątyni. Jezus-Prawo Miłości. Jezus-droga do Nieba',
+  4: 'Dzień 4: Znalezienie w świątyni. Jezus szukany i znaleziony. Jezus zjednoczony z Ojcem',
+  5: 'Dzień 5: Cud przemiany wody wino w Kanie Galilejskiej. Jezus Zbawiciel. Jezus Źródło przemiany',
+  6: 'Dzień 6: Ukrzyżowanie. Jezus Król. Jezus MIŁOŚĆ',
+  7: 'Dzień 7: Zesłanie Ducha Świętego. Jezus Kościół. Jezus Chrzczący Duchem Świętym'
+};
+
+static getDayText(nr: number, body: string = '', withZawierzenie: boolean = false): string {
+  const label = ThirdWeekTexts.dayTitles[nr] || `Dzień ${nr}`;
+  let result = `${ThirdWeekTexts.tytul}<b>${label}</b><br><br>${ThirdWeekTexts.modlitwaDoDuchaSw}<br>${body}`;
+  if (withZawierzenie) {
+    result += `<br>${ThirdWeekTexts.modlitwaZawierzenia}`;
+  }
+  return result;
+}
+
+static trescDzien1: string = `<i>Maryjo, Oblubienico Ducha Świętego, wyproś mi łaskę poznania Jezusa Chrystusa, spotkania z Nim w tajemnicy Zwiastowania i odkrycia, że Pan jest w każdym Słowie, które pochodzi z Bożych ust.</i><br><i>Amen!</i><br>
 <b>Słowo Boże</b>
 <i>„W szóstym miesiącu posłał Bóg anioła Gabriela do miasta w Galilei, zwanego Nazaret, do Dziewicy poślubionej mężowi, imieniem Józef, z rodu Dawida a Dziewicy było na imię Maryja. Wszedłszy do Niej [anioł] i rzekł: «Bądź pozdrowiona, łaski pełna, Pan z Tobą, ». Ona zmieszała się na te słowa i rozważała, co miałoby znaczyć to pozdrowienie. Lecz anioł rzekł do Niej: «Nie bój się, Maryjo, znalazłaś bowiem łaskę u Boga. Oto poczniesz i porodzisz Syna, któremu nadasz imię Jezus. Będzie On wielki i będzie nazwany Synem Najwyższego, a Pan Bóg da Mu tron Jego praojca, Dawida. Będzie panował nad domem Jakuba na wieki, a Jego panowaniu nie będzie końca». Na to Maryja rzekła do anioła: «Jakże się to stanie, skoro nie znam męża?» Anioł Jej odpowiedział: «Duch Święty zstąpi na Ciebie i moc Najwyższego okryje Cię cieniem. Dlatego też Święte, które się narodzi, będzie nazwane Synem Bożym. A oto również krewna Twoja, Elżbieta, poczęła w swej starości syna i jest już w szóstym miesiącu ta, która uchodzi za niepłodną. Dla Boga bowiem nie ma nic niemożliwego». Na to rzekła Maryja: «Oto Ja służebnica Pańska, niech Mi się stanie według słowa twego!» Wtedy odszedł od Niej anioł"</i> (Łk 1,26-38).<br>
 <b>Rozważanie</b>
@@ -43,14 +54,9 @@ W czasie Zwiastowania zaczyna się misterium Wcielenia. Młoda mężatka z Nazar
 - wszelkie czynności rozpoczynać, wykonywać i kończyć przez Nią, w Niej, z Nią i dla Niej, aby je spełniać przez Jezusa, w Jezusie, z Jezusem i dla Jezusa Chrystusa, naszego ostatecznego celu".
 św. Ludwik Maria Grignion de Montfort, <i>Traktat o prawdziwym nabożeństwie do Najświętszej Maryi Panny</i>, 115<br>
 <b>Zadanie</b>
-Przeczytam z uwagą opis zwiastowania i zastanowię się, jak ja odpowiadam na Boże Słowo.<br>
-${ThirdWeekTexts.modlitwaZawierzenia}`;
+Przeczytam z uwagą opis zwiastowania i zastanowię się, jak ja odpowiadam na Boże Słowo.<br>`;
 
-static dzien2: string = `<b>${ThirdWeekTexts.tytul} Dzień 2</b><br>
-<b><br>Boże Narodzenie. Jezus-Dziecko. Jezus-Chleb</b><br>
-${ThirdWeekTexts.modlitwaDoDuchaSw} 
-<i>Maryjo, Oblubienico Ducha Świętego, wyproś mi łaskę poznania Jezusa Chrystusa, spotkania się z Nim w tajemnicy Bożego Narodzenia i odkrycia, że Jezus przyszedł na świat jako maleńkie Dziecię oraz pozostał z nami w tajemnicy Eucharystii.</i>
-<i>Amen!</i><br>
+static trescDzien2: string = `<i>Maryjo, Oblubienico Ducha Świętego, wyproś mi łaskę poznania Jezusa Chrystusa, spotkania się z Nim w tajemnicy Bożego Narodzenia i odkrycia, że Jezus przyszedł na świat jako maleńkie Dziecię oraz pozostał z nami w tajemnicy Eucharystii.</i><br><i>Amen!</i><br>
 <b>Słowo Boże</b>
 <i>„W owym czasie wyszło rozporządzenie cezara Augusta, żeby przeprowadzić spis ludności w całym świecie. Pierwszy ten spis odbył się wówczas, gdy wielkorządcą Syrii był Kwiryniusz. Podążali się więc wszyscy, aby się dać zapisać, każdy do swego miasta. Udał się także Józef z Galilei, z miasta Nazaret, do Judei, do miasta Dawidowego, zwanego Betlejem, ponieważ pochodził z domu i rodu Dawida, żeby się dać zapisać z poślubioną sobie Maryją, która była brzemienna. Kiedy tam przebywali, nadszedł dla Maryi czas rozwiązania. Porodziła swego pierworodnego Syna, owinęła Go w pieluszki i położyła w żłobie, gdyż nie było dla nich miejsca w gospodzie"</i> (Łk 2,1-7).<br>
 <b>Rozważanie</b>
@@ -70,14 +76,9 @@ Jezus woła do nas: „Kto spożywa moje Ciało i pije moją Krew, ma życie wie
 <i>„Bóg Duch Święty, w Bogu niepłodny, to znaczy - nie dający początku innej Osobie Boskiej, stał się płodny przez Maryję, którą poślubił. Z Nią i w Niej, i przez Nią ukształtował swe Arcydzieło - Boga Wcielonego i aż do końca świata codziennie kształtuje wybranych i członki Mistycznego Ciała Chrystusa. Toteż, im bardziej odkrywa On Maryję, swą umiłowaną i nierozłączną Oblubienicę, w jakiejś duszy, tym silniej i skuteczniej działa na nią, by ukształtować w owej duszy Jezusa Chrystusa, a duszę w Jezusie Chrystusie. Nie znaczy to, jakobym chciał rzec, że Najświętsza Maryja Panna dawała Duchowi Świętemu płodność, której On nie posiadał. Będąc Bogiem, posiada On płodność tak samo, jak Ojciec i Syn, choć nie wprowadza jej w czyn, ponieważ nie daje początku żadnej innej Osobie Boskiej. Pragnę jednak powiedzieć, że Duch Święty, który Najświętszej Panny nie potrzebuje koniecznie, chciał jednak użyć Jej pośrednictwa dla okazania swojej płodności, kształtując w Niej i przez Nią Jezusa Chrystusa oraz Jego członki. Oto tajemnica łaski, ukryta nawet przed największymi uczonymi i najbardziej uduchowionymi spośród chrześcijan. Sposób postępowania, jaki przyjęły trzy Osoby Trójcy Przenajświętszej przy Wcieleniu i przy pierwszym przyjściu na świat Jezusa Chrystusa, jest niezmienny. Codziennie zachowują One w sposób niewidzialny to samo postępowanie w Kościele świętym i będzie tak do końca świata, do ostatniego przyjścia Jezusa Chrystusa".</i>
 św. Ludwik Maria Grignion de Montfort, <i>Traktat o prawdziwym nabożeństwie do Najświętszej Maryi Panny</i>, 20-22<br>
 <b>Zadanie</b>
-W najbliższym czasie pójdę dodatkowo na adorację Najświętszego Sakramentu, aby uczcić Ciało Chrystusa żyjącego w Eucharystii.<br>
-${ThirdWeekTexts.modlitwaZawierzenia}`;
+W najbliższym czasie pójdę dodatkowo na adorację Najświętszego Sakramentu, aby uczcić Ciało Chrystusa żyjącego w Eucharystii.<br>`;
 
-static dzien3: string = `<b>${ThirdWeekTexts.tytul} Dzień 3</b><br>
-<b>Ofiarowanie w świątyni. Jezus-Prawo Miłości. Jezus-droga do Nieba.</b><br>
-${ThirdWeekTexts.modlitwaDoDuchaSw} 
-<i>Maryjo, Oblubienico Ducha Świętego, wyproś mi łaskę poznania Jezusa Chrystusa, spotkania się z Nim w tajemnicy Ofiarowania w jerozolimskiej świątyni i odkrycia, że Pan prowadzi nas po drogach codzienności, ucząc wierności Prawu Bożemu.</i>
-<i>Amen!</i><br>
+static trescDzien3: string = `<i>Maryjo, Oblubienico Ducha Świętego, wyproś mi łaskę poznania Jezusa Chrystusa, spotkania się z Nim w tajemnicy Ofiarowania w jerozolimskiej świątyni i odkrycia, że Pan prowadzi nas po drogach codzienności, ucząc wierności Prawu Bożemu.</i><br><i>Amen!</i><br>
 <b>Słowo Boże</b>
 <i>„Gdy potem upłynęły dni ich oczyszczenia według Prawa Mojżeszowego, przynieśli Je do Jerozolimy, aby przedstawić Panu. Tak bowiem jest napisane w Prawie Pańskim: Każde pierworodne dziecko płci męskiej będzie poświęcone Panu. Mieli również złożyć w ofierze parę synogarlic albo dwa młode gołębie, zgodnie z przepisem Prawa Pańskiego (...). A Jego ojciec i Matka dziwili się temu, co o Nim mówiono. Symeon zaś błogosławił Ich i rzekł do Maryi, Matki Jego: «Oto Ten przeznaczony jest na upadek i na powstanie wielu w Izraelu, i na znak, któremu sprzeciwiać się będą - a Twoją duszę miecz przeniknie - aby na jaw wyszły zamysły serc wielu». A gdy wypełnili wszystko według Prawa Pańskiego, wrócili do Galilei, do swego miasta - Nazaretu. Dziecię zaś rosło i nabierało mocy, napełniając się mądrością, a łaska Boża spoczywała na Nim"</i> (Łk 2,22-24, 33-35, 39-40).<br>
 <b>Rozważanie</b>
@@ -94,14 +95,9 @@ Jezus zaprasza: „Przyjdźcie do Mnie wszyscy, którzy utrudzeni i obciążeni 
 <i>„O, Duchu Święty! Udziel mi wszystkich łask oraz zasadź, zraszaj i uprawiaj w mojej duszy umiłowaną Maryję, Drzewo prawdziwego Życia, aby ono rosło, kwitło i przynosiło obfity owoc życia. Duchu Święty! Daj mi wielkie nabożeństwo i obdarz mnie wielką miłością do Twojej Najświętszej Oblubienicy; daj, bym - bym zawsze w oparciu o Jej matczyne łono - i nieustannie uciekał się do Jej miłosierdzia, tak, abyś to w Niej kształtował we mnie Jezusa Chrystusa, wielkiego i potężnego, aż do pełni Jego doskonałego wieku. Amen!"</i>
 św.<i> </i>Ludwik Maria Grignion de Montfort, <i>Tajemnica Maryi, </i>67<br>
 <b>Zadanie</b>
-Zwrócę się w modlitwie do Ducha Świętego, aby pokazał mi drogę wierności i posłuszeństwa Bożemu Prawu miłości.<br>
-${ThirdWeekTexts.modlitwaZawierzenia}`;
+Zwrócę się w modlitwie do Ducha Świętego, aby pokazał mi drogę wierności i posłuszeństwa Bożemu Prawu miłości.<br>`;
 
-static dzien4: string = `<b>${ThirdWeekTexts.tytul} Dzień 4</b><br>
-<b>Znalezienie w świątyni. Jezus szukany i znaleziony. Jezus zjednoczony z Ojcem</b><br>
-${ThirdWeekTexts.modlitwaDoDuchaSw} 
-<i>Maryjo, Oblubienico Ducha Świętego, wyproś mi łaskę poznania Pana Jezusa, spotkania z Nim w tajemnicy Znalezienia w świątyni i odkrycia, że Pan przychodzi do nas w najcięższych chwilach naszego życia i chce byśmy Go szukali i znaleźli. On nadaje sens najtrudniejszym doświadczeniom naszej codzienności.</i>
-<i>Amen!</i><br>
+static trescDzien4: string = `<i>Maryjo, Oblubienico Ducha Świętego, wyproś mi łaskę poznania Pana Jezusa, spotkania z Nim w tajemnicy Znalezienia w świątyni i odkrycia, że Pan przychodzi do nas w najcięższych chwilach naszego życia i chce byśmy Go szukali i znaleźli. On nadaje sens najtrudniejszym doświadczeniom naszej codzienności.</i><br><i>Amen!</i><br>
 <b>Słowo Boże</b>
 <i>„Rodzice Jego chodzili co roku do Jerozolimy na Święto Paschy. Gdy miał lat dwanaście, udali się tam zwyczajem świątecznym. Kiedy wracali po skończonych uroczystościach, został młody Jezus w Jerozolimie, a tego nie zauważyli Jego Rodzice. Przypuszczając, że jest wśród pątników, uszli dzień drogi i szukali Go między krewnych i znajomych. Gdy Go nie znaleźli, wrócili do Jeruzalem szukając Go. Dopiero po trzech dniach odnaleźli Go w świątyni, gdzie siedział między nauczycielami, przysłuchiwał się im i zadawał pytania. Wszyscy zaś, którzy Go słuchali, byli zdumieni bystrością Jego umysłu i odpowiedziami. Na ten widok zdziwili się bardzo, a Jego Matka rzekła do Niego: «Synu, czemuś nam to uczynił? Oto ojciec Twój i ja z bólem serca szukaliśmy Ciebie». Lecz On im odpowiedział: «Czemuście Mnie szukali? Czy nie wiedzieliście, że powinienem być w tym, co należy do mego Ojca?» Oni jednak nie zrozumieli tego, co im powiedział"</i> (Łk 2,41-50).<br>
 <b>Rozważanie</b>
@@ -114,14 +110,9 @@ Patrzmy na Maryję. Słyszy odpowiedź Jezusa. Nie wszystko rozumie. Ale pieczo�
 <i>„Postanówcie, drodzy Przyjaciele Krzyża, wszystkie rodzaje krzyży znosić bez wyjątku i bez wyboru: wszelkie ubóstwo, wszelką niesprawiedliwość, utratę, chorobę, upokorzenie, przeciwności, oszczerstwo, oschłość; każde opuszczenie, wszelką wewnętrzną i zewnętrzną udrękę - zawsze mówiąc: Serce moje jest gotowe, Boże (Ps 108,2). Bądźcie więc gotowi na to, że będziecie opuszczeni przez ludzi i aniołów, i jakby przez samego Boga; że będziecie prześladowani, otaczani zazdrością, zdradzani, oczerniani i spotwarzani przez wszystkich; że będziecie cierpieć głód, pragnienie, żebranie, nagość, wygnanie, więzienie, szubienicę i wszystkie tortury, chociaż nie zasłużyliście na nie zarzucanymi wam zbrodniami".</i>
 św.<i> </i>Ludwik Maria Grignion de Montfort, <i>List okólny do Przyjaciół Krzyża</i>, 54<br>
 <b>Zadanie</b>
-Wszystkie trudne sytuacje, których doświadczam, oddam Panu Bogu na modlitwie. Zdobędę się na odwagę aby, zapytać: „Panie dlaczego?", ale dodam: „Bądź wola Twoja".<br>
-${ThirdWeekTexts.modlitwaZawierzenia}`;
+Wszystkie trudne sytuacje, których doświadczam, oddam Panu Bogu na modlitwie. Zdobędę się na odwagę aby, zapytać: „Panie dlaczego?", ale dodam: „Bądź wola Twoja".<br>`;
 
-static dzien5: string = `<b>${ThirdWeekTexts.tytul} Dzień 5</b><br>
-<b>Cud przemiany wody wino w Kanie Galilejskiej. Jezus Zbawiciel. Jezus Źródło przemiany</b><br>
-${ThirdWeekTexts.modlitwaDoDuchaSw}
-<i>Maryjo, Oblubienico Ducha Świętego, wyproś mi łaskę poznania Pana Jezusa, spotkania z Nim w tajemnicy Cudu dokonanego w Kanie Galilejskiej i odkrycia, że Pan zawsze działa, ilekroć poprosimy o Bożą interwencję.</i>
-<i>Amen!</i><br>
+static trescDzien5: string = `<i>Maryjo, Oblubienico Ducha Świętego, wyproś mi łaskę poznania Pana Jezusa, spotkania z Nim w tajemnicy Cudu dokonanego w Kanie Galilejskiej i odkrycia, że Pan zawsze działa, ilekroć poprosimy o Bożą interwencję.</i><br><i>Amen!</i><br>
 <b>Słowo Boże</b>
 <i>„Trzeciego dnia odbywało się wesele w Kanie Galilejskiej i była tam Matka Jezusa. Zaproszono na to wesele także Jezusa i Jego uczniów. A kiedy zabrakło wina, Matka Jezusa rzekła do Niego: «Nie mają wina». Jezus Jej odpowiedział: «Czyż to moja lub Twoja sprawa, Niewiasto? [Czyż] jeszcze nie nadeszła godzina moja?» Wtedy Matka Jego powiedziała do sług: «Zróbcie wszystko, cokolwiek wam powie». Stało zaś tam sześć stągwi kamiennych przeznaczonych do żydowskich oczyszczeń, z których każda mogła pomieścić dwie lub trzy miary. Jezus rzekł do sług: «Napełnijcie stągwie wodą!» I napełnili je aż po brzegi. Potem powiedział do nich: «Zaczerpnijcie teraz i zanieście staroście weselnemu». Ci więc zanieśli. Gdy zaś starosta weselny skosztował wody, która stała się winem - a nie wiedział, skąd ono pochodzi, ale słudzy, którzy czerpali wodę, wiedzieli - przywołał pana młodego i powiedział do niego: «Każdy człowiek stawia najpierw dobre wino, a gdy się napiją, wówczas gorsze. Ty zachowałeś dobre wino aż do tej pory». Taki to początek znaków uczynił Jezus w Kanie Galilejskiej. Objawił swoją chwałę i uwierzyli w Niego Jego uczniowie"</i> (J 2,1-11).<br>
 <b>Rozważanie</b>
@@ -156,18 +147,18 @@ W duchowym skarbcu Kościoła znajdujemy modlitwę Jezusową. Jest to nieprzerwa
 <i>„Wybrani są ulegli i posłuszni Najświętszej Dziewicy, swej ukochanej Matce, na wzór Jezusa Chrystusa, który z trzydziestu trzech lat, przeżytych na ziemi, poświęcił trzydzieści, by przez doskonałe i całkowite posłuszeństwo swej świętej Matce wielbić Boga, swego Ojca. Są Jej posłuszni i postępują dokładnie według Jej wskazówek, jak młody Jakub wobec Rebeki, gdy do niego rzekła: Synu mój, posłuchaj mego polecenia (Rdz 27,8), lub jak słudzy na godach w Kanie Galilejskiej, do których Najświętsza Dziewica zwróciła się ze słowami: Zróbcie wszystko, cokolwiek wam powie (J 2,5). Dzięki temu, że był posłuszny Matce, Jakub otrzymał błogosławieństwo w sposób zaiste cudowny, jakkolwiek naturalnym biegiem rzeczy nie powinien był go otrzymać. Podobnie słudzy w Kanie Galilejskiej, co usłuchali Najświętszej Dziewicy, dostąpili zaszczytu ujrzenia pierwszego cudu Jezusa Chrystusa, który na prośbę Matki Najświętszej przemienił wodę w wino. Tak samo wszyscy, którzy do końca czasów otrzymywać będą błogosławieństwo Ojca Niebieskiego i będą godni cudów łask Bożych, otrzymają je wyłącznie dla doskonałego posłuszeństwa wobec Maryi".</i>
 św. Ludwik Maria Grignion de Montfort, <i>Traktat o prawdziwym nabożeństwie do Najświętszej Maryi Panny</i>, 198<br>
 <b>Zadanie</b>
-Zaproszę Pana Jezusa do natrudniejszych sytuacji mojego życia z prośbą, aby je przemienił swoją wszechmocną <b>MIŁOŚCIĄ.</b><br>
-${ThirdWeekTexts.modlitwaZawierzenia}`;
+Zaproszę Pana Jezusa do natrudniejszych sytuacji mojego życia z prośbą, aby je przemienił swoją wszechmocną <b>MIŁOŚCIĄ.</b><br>`;
 
-static dzien6: string = `<b>${ThirdWeekTexts.tytul} Dzień 6</b><br>
+static trescDzien6: string = ``;
+static trescDzien7: string = ``;
 
-${ThirdWeekTexts.modlitwaDoDuchaSw} 
 
-${ThirdWeekTexts.modlitwaZawierzenia}`;
-
-static dzien7: string = `<b>${ThirdWeekTexts.tytul} Dzień 7</b><br>
-
-${ThirdWeekTexts.modlitwaDoDuchaSw} 
-
-${ThirdWeekTexts.modlitwaZawierzenia}`;
+// bierze stały fragment tytuł rozdziłu dzien podtytuł,dodaje modlitwe do Ducha św, potem bierze tresc danego dnia  i true dodaje modlitwe zawierzenia
+static dzien1: string = ThirdWeekTexts.getDayText(1, ThirdWeekTexts.trescDzien1, true);
+static dzien2: string = ThirdWeekTexts.getDayText(2, ThirdWeekTexts.trescDzien2, true);
+static dzien3: string = ThirdWeekTexts.getDayText(3, ThirdWeekTexts.trescDzien3, true);
+static dzien4: string = ThirdWeekTexts.getDayText(4, ThirdWeekTexts.trescDzien4, true);
+static dzien5: string = ThirdWeekTexts.getDayText(5, ThirdWeekTexts.trescDzien5, true);
+static dzien6: string = ThirdWeekTexts.getDayText(6, ThirdWeekTexts.trescDzien6, true);
+static dzien7: string = ThirdWeekTexts.getDayText(7, ThirdWeekTexts.trescDzien7, true);
 }
