@@ -17,7 +17,7 @@ static getDayText(nr: number, body: string = '', withZawierzenie: boolean = fals
   const label = FirstWeekTexts.dayTitles[nr] || `Dzień ${nr}`;
   let result = `${FirstWeekTexts.tytul}<b>${label}</b><br><br>${FirstWeekTexts.modlitwaDoDuchaSw}<br>${body}`;
   if (withZawierzenie) {
-    result += `<br><br>${FirstWeekTexts.modlitwaZawierzenia}`;
+    result += `<br>${FirstWeekTexts.modlitwaZawierzenia}`;
   }
   return result;
 }

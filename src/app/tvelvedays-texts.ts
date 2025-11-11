@@ -22,7 +22,7 @@ static getDayText(nr: number, body: string = '', withZawierzenie: boolean = fals
   const label = TvelveDaysTexts.dayTitles[nr] || `Dzień ${nr}`;
   let result = `${TvelveDaysTexts.tytul}<b>${label}</b><br><br>${TvelveDaysTexts.modlitwaDoDuchaSw}<br>${body}`;
   if (withZawierzenie) {
-    result += `<br><br>${TvelveDaysTexts.modlitwaZawierzenia}`;
+    result += `<br>${TvelveDaysTexts.modlitwaZawierzenia}`;
   }
   return result;
 }
