@@ -906,6 +906,20 @@ items: Item[] = [
     
     // Zwykłe przełączanie widoczności
     groupToOpen.show = !groupToOpen.show;
+    // Jeśli właśnie otwieramy podfolder, przewiń do jego góry
+    if (groupToOpen.show) {
+      setTimeout(() => {
+        // Spróbuj znaleźć element DOM podfolderu
+        const groupElems = document.querySelectorAll('.group-container');
+        for (let elem of Array.from(groupElems)) {
+          // Sprawdź czy tekst grupy zgadza się z nazwą
+          if (elem.textContent && groupToOpen.name && elem.textContent.includes(groupToOpen.name)) {
+            (elem as HTMLElement).scrollIntoView({ behavior: 'smooth', block: 'start' });
+            break;
+          }
+        }
+      }, 300);
+    }
   }
 
     // NOWA METODA: BEZPIECZNY GŁÓWNY LINK
@@ -1097,7 +1111,31 @@ items: Item[] = [
   // ----------------------
   toggleTextVisibility(linkItem: any) {
     if (linkItem.type === 'opis') {
-      linkItem.show = !linkItem.show;
+      // Jeśli zamykamy tekst (był otwarty, teraz zamykamy)
+      if (linkItem.show) {
+        linkItem.show = false;
+        // Przewiń do kolejnego folderu (ale nie otwieraj go)
+        setTimeout(() => {
+          // Znajdź najbliższy widoczny folder na liście
+          const folderElems = Array.from(document.querySelectorAll('.event-card'));
+          // Znajdź folder, który jest poniżej obecnego scrolla
+          const currentScroll = window.scrollY;
+          let nextFolder: HTMLElement | null = null;
+          for (let i = 0; i < folderElems.length; i++) {
+            const rect = (folderElems[i] as HTMLElement).getBoundingClientRect();
+            const absTop = rect.top + window.scrollY;
+            if (absTop > currentScroll + 50) { // 50px margines
+              nextFolder = folderElems[i] as HTMLElement;
+              break;
+            }
+          }
+          if (nextFolder) {
+            nextFolder.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          }
+        }, 300);
+      } else {
+        linkItem.show = true;
+      }
     }
   }
 
