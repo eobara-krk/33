@@ -87,17 +87,24 @@ export class AppComponent implements OnInit {
     return `<b>${date}</b><br>${text}`;
   }
 
-  // Kopiowanie tekstu audio wraz z linkiem do schowka (dla przycisku przy audio)
-    // Kopiowanie tekstu + linku audio z grupy linków
-    copyAudioTextToClipboard(links: SingleLink[]) {
-      const textObj = links.find(l => l.type === 'opis' && l.text);
-      const audioObj = links.find(l => l.type === 'audio' && l.url);
-      let text = textObj?.text || '';
-      if (audioObj?.url) {
-        text += `\n\n${audioObj.url}`;
-      }
-      this.copyTextToClipboard(text);
+  // Kopiowanie tekstu + linku audio w formacie WhatsApp
+  copyAudioTextToClipboard(links: SingleLink[]) {
+    const textObj = links.find(l => l.type === 'opis' && l.text);
+    const audioObj = links.find(l => l.type === 'audio' && l.url);
+    let text = textObj?.text || '';
+    let audioUrl = audioObj?.url || '';
+    // Upewnij się, że link audio jest pełnym URL-em
+    if (audioUrl && !/^https?:\/\//.test(audioUrl)) {
+      audioUrl = window.location.origin + '/' + audioUrl.replace(/^\/*/, '');
     }
+    if (audioUrl) {
+      text += `\n\n${audioUrl}`;
+    }
+    // Sformatuj tekst pod WhatsApp
+    const whatsappText = this.whatsappFormatter.formatForWhatsApp(text);
+    navigator.clipboard.writeText(whatsappText);
+    alert('✅ Skopiowano tekst i link audio w formacie WhatsApp!');
+  }
   constructor(private whatsappFormatter: WhatsAppFormatterService) {}
   // Funkcja konwertująca tekst na format WhatsApp
   whatsappFormatText(text: string): string {
