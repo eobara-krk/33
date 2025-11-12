@@ -1111,26 +1111,30 @@ items: Item[] = [
   // ----------------------
   toggleTextVisibility(linkItem: any) {
     if (linkItem.type === 'opis') {
-      // Jeśli zamykamy tekst (był otwarty, teraz zamykamy)
       if (linkItem.show) {
         linkItem.show = false;
-        // Przewiń do kolejnego folderu (ale nie otwieraj go)
+        // Przewiń do góry podfolderu, w którym był tekst
         setTimeout(() => {
-          // Znajdź najbliższy widoczny folder na liście
-          const folderElems = Array.from(document.querySelectorAll('.event-card'));
-          // Znajdź folder, który jest poniżej obecnego scrolla
-          const currentScroll = window.scrollY;
-          let nextFolder: HTMLElement | null = null;
-          for (let i = 0; i < folderElems.length; i++) {
-            const rect = (folderElems[i] as HTMLElement).getBoundingClientRect();
-            const absTop = rect.top + window.scrollY;
-            if (absTop > currentScroll + 50) { // 50px margines
-              nextFolder = folderElems[i] as HTMLElement;
-              break;
+          // Spróbuj znaleźć najbliższy kontener podfolderu w DOM
+          let parentElem = null;
+          if (linkItem.label) {
+            const allGroups = document.querySelectorAll('.group-container');
+            for (let elem of Array.from(allGroups)) {
+              if (elem.textContent && elem.textContent.includes(linkItem.label)) {
+                parentElem = elem;
+                break;
+              }
             }
           }
-          if (nextFolder) {
-            nextFolder.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          // Fallback: przewiń do najbliższego folderu
+          if (!parentElem) {
+            const allFolders = document.querySelectorAll('[id^="folder-"]');
+            if (allFolders.length > 0) {
+              parentElem = allFolders[0];
+            }
+          }
+          if (parentElem) {
+            (parentElem as HTMLElement).scrollIntoView({ behavior: 'smooth', block: 'start' });
           }
         }, 300);
       } else {
