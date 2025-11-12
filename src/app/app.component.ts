@@ -332,7 +332,7 @@ items: Item[] = [
           { image: 'assets/12dni/05.jpg',type:'foto' },
           { text: this.prependDateFromName(`05: ${this.getDatePlusDays(this.startDate, 13)}`, this.tvelveDay5), type:'opis', label: 'Błogosławieni ubodzy w duchu' },
          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/12-dni-dzien-5/audio', type:'audio', label:'audio' },
-         { url:'assets/12dni/05dzien.mp3', type:'audio', label:'Ela' }
+         //{ url:'assets/12dni/05dzien.mp3', type:'audio', label:'Ela' }
         ]
       },
       {
@@ -352,7 +352,7 @@ items: Item[] = [
           { image: 'assets/12dni/07.jpg',type:'foto' },
           { text: this.prependDateFromName(`07: ${this.getDatePlusDays(this.startDate, 15)}`, this.tvelveDay7), type:'opis', label: 'Błogosławieni cisi' },
           { url:'https://drogamaryi.pl/edycje/5-listopada-2025/12-dni-dzien-7/audio', type:'audio', label:'audio' },
-          { url:'assets/12dni/07dzien.mp3', type:'audio', label:'Ela' }
+          //{ url:'assets/12dni/07dzien.mp3', type:'audio', label:'Ela' }
         ]
       },
       {
@@ -683,7 +683,7 @@ items: Item[] = [
   // ----------------------
   // ROZWIJANIE/ZWIJANIE EVENTÓW
   // ----------------------
-  toggle(obj: { show: boolean }) {
+  toggle(obj: Item) {
     // Zamknij wszystkie inne główne foldery i ich podkatalogi
     this.items.forEach(item => {
       if (item !== obj) {
@@ -710,6 +710,22 @@ items: Item[] = [
       }
     }
     obj.show = !obj.show;
+    // Przewiń do trzeciego podfolderu, jeśli jest ich więcej niż 3, ale go nie rozwijaj
+    if (obj.show) {
+      const index = this.items.indexOf(obj);
+      const folderElem = document.getElementById('folder-' + index);
+      if (folderElem && obj.links && obj.links.length > 0) {
+        // Znajdź pierwszy podfolder w DOM
+        const groups = folderElem.querySelectorAll('.groups-container .group-container');
+        if (groups.length > 0) {
+          groups[0].scrollIntoView({ behavior: 'smooth', block: 'center' });
+        } else {
+          folderElem.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        }
+      } else if (folderElem) {
+        folderElem.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }
+    }
   }
 
   // ----------------------

@@ -52,7 +52,7 @@
     <div class="divider"></div>
 
     <!-- EVENTY -->
-    <div *ngFor="let item of items; trackBy: trackByTitle" class="event-card">
+  <div *ngFor="let item of items; let i = index; trackBy: trackByTitle" class="event-card" [attr.id]="'folder-' + i">
 
       <!-- Nagłówek wydarzenia -->
       <div class="event-header" (click)="toggle(item)">
@@ -211,7 +211,7 @@
                     </div>
 
                     <!-- Element tekstowy (opis w podlinku) -->
-                    <div *ngIf="l.type==='opis' && l.text" class="grid-link sub-link text-item">
+                    <div *ngIf="l.type==='opis' && l.text" class="grid-link sub-link text-item" style="position:relative;">
                       
                       <!-- Etykieta gdy tekst jest zwinięty -->
                       <div *ngIf="!l.show" class="text-collapsed-header" (click)="toggleTextVisibility(l); $event.stopPropagation();">
@@ -229,8 +229,9 @@
                       </div>
                       
                       <!-- Zawartość tekstowa -->
-                      <div *ngIf="l.show" class="sub-text" [innerHTML]="processTextWithLinks(l.text)">
-                      </div>
+                      <div *ngIf="l.show" class="sub-text" [innerHTML]="processTextWithLinks(l.text)"></div>
+                      <!-- Przycisk zamykania na samym dole okienka tekstu (absolute bottom right) -->
+                      <button *ngIf="l.show" (click)="toggleTextVisibility(l); $event.stopPropagation();" class="close-text-btn" title="Zamknij tekst" style="position:absolute; bottom:8px; right:8px; background:none; border:none; font-size:1.3em; cursor:pointer; color:#888; z-index:2;">✖</button>
                     </div>
 
                     <!-- Zwykły link (z URL) -->
