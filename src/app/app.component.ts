@@ -97,16 +97,10 @@ export class AppComponent implements OnInit {
     if (audioUrl && !/^https?:\/\//.test(audioUrl)) {
       audioUrl = window.location.origin + '/' + audioUrl.replace(/^\/*/, '');
     }
-    // Dodaj pustą linię przed linkiem audio
-    if (audioUrl) {
-      text += `\n\n${audioUrl}`;
-    }
-    // WhatsApp automatycznie zamienia pełny URL na klikalny link
-    // Sformatuj tekst pod WhatsApp
-    const whatsappText = this.whatsappFormatter.formatForWhatsApp(text);
-    // Kopiuj do schowka
+    // Dodaj link audio na samą górę, potem pustą linię, potem tekst
+    let whatsappText = audioUrl ? `${audioUrl.trim()}\n\n${this.whatsappFormatter.formatForWhatsApp(text)}` : this.whatsappFormatter.formatForWhatsApp(text);
     navigator.clipboard.writeText(whatsappText);
-    alert('✅ Skopiowano tekst i link audio w formacie WhatsApp! Link będzie klikalny po wklejeniu.');
+    alert('✅ Skopiowano link audio na górze! Wklej do WhatsApp – link będzie klikalny.');
   }
   constructor(private whatsappFormatter: WhatsAppFormatterService) {}
   // Funkcja konwertująca tekst na format WhatsApp
