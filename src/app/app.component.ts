@@ -99,8 +99,8 @@ export class AppComponent implements OnInit {
     }
     // Dodaj link audio na samą górę, potem pustą linię, potem tekst
     let whatsappText = audioUrl ? `${audioUrl.trim()}\n\n${this.whatsappFormatter.formatForWhatsApp(text)}` : this.whatsappFormatter.formatForWhatsApp(text);
-    navigator.clipboard.writeText(whatsappText);
-    alert('✅ Skopiowano link audio na górze! Wklej do WhatsApp – link będzie klikalny.');
+  navigator.clipboard.writeText(whatsappText);
+  alert(`✅ Skopiowano tekst oraz link audio do schowka!\n\nDługość: ${whatsappText.length} znaków\n\n📱 Ten tekst jest sformatowany pod WhatsApp.`);
   }
   constructor(private whatsappFormatter: WhatsAppFormatterService) {}
   // Funkcja konwertująca tekst na format WhatsApp
