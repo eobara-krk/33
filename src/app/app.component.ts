@@ -1,3 +1,4 @@
+  // Kopiowanie tekstu audio wraz z linkiem do schowka (dla przycisku przy audio)
 import { Component, OnInit } from '@angular/core';
 import { CommonModule, NgFor, NgIf, NgSwitch, NgSwitchCase, NgSwitchDefault } from '@angular/common';
 import { RouterModule } from '@angular/router';
@@ -65,6 +66,10 @@ interface Item {
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit {
+  // Sprawdza czy w tablicy linków jest audio z url
+  hasAudioLink(links: SingleLink[]): boolean {
+    return Array.isArray(links) && links.some(x => x.type === 'audio' && !!x.url);
+  }
   // Licznik dni do 8 grudnia
   get daysToDecember8(): number {
     const today = new Date();
@@ -81,6 +86,18 @@ export class AppComponent implements OnInit {
     const date = match ? match[1] : name;
     return `<b>${date}</b><br>${text}`;
   }
+
+  // Kopiowanie tekstu audio wraz z linkiem do schowka (dla przycisku przy audio)
+    // Kopiowanie tekstu + linku audio z grupy linków
+    copyAudioTextToClipboard(links: SingleLink[]) {
+      const textObj = links.find(l => l.type === 'opis' && l.text);
+      const audioObj = links.find(l => l.type === 'audio' && l.url);
+      let text = textObj?.text || '';
+      if (audioObj?.url) {
+        text += `\n\n${audioObj.url}`;
+      }
+      this.copyTextToClipboard(text);
+    }
   constructor(private whatsappFormatter: WhatsAppFormatterService) {}
   // Funkcja konwertująca tekst na format WhatsApp
   whatsappFormatText(text: string): string {
@@ -1145,7 +1162,7 @@ items: Item[] = [
 
   // KOPIOWANIE TEKSTU DO SCHOWKA Z FORMATOWANIEM WHATSAPP
   // ----------------------
-  async copyTextToClipboard(text: string) {
+  async copyTextToClipboard(text: string, linkItem?: SingleLink) {
     if (!text) {
       alert('Brak tekstu do skopiowania.');
       return;
@@ -1168,23 +1185,25 @@ items: Item[] = [
       
       // Usuń oryginalny link źródła z tekstu do formatowania
       let cleanText = text.replace(/\s*Źródło:\s+https?:\/\/[^\s<>]+/g, '');
-      
-    // Sformatuj tekst dla WhatsApp z HTML
-    const whatsappText = this.whatsappFormatter.formatForWhatsApp(cleanText);
 
-    // Skopiuj do schowka
-    await navigator.clipboard.writeText(whatsappText);
+      // Dodaj URL audio jeśli istnieje
+      if (linkItem && linkItem.type === 'audio' && linkItem.url) {
+        cleanText += `\n${linkItem.url}`;
+      }
 
-    console.log('✅ Tekst skopiowany:', whatsappText.length, 'znaków');
-    alert(`✅ Tekst został skopiowany do schowka!\n\nDługość: ${whatsappText.length} znaków\n\n📱 Ten tekst jest sformatowany pod WhatsApp.`);
-      
+      // Sformatuj tekst dla WhatsApp z HTML
+      const whatsappText = this.whatsappFormatter.formatForWhatsApp(cleanText);
+
+      // Skopiuj do schowka
+      await navigator.clipboard.writeText(whatsappText);
+
+      console.log('✅ Tekst skopiowany:', whatsappText.length, 'znaków');
+      alert(`✅ Tekst został skopiowany do schowka!\n\nDługość: ${whatsappText.length} znaków\n\n📱 Ten tekst jest sformatowany pod WhatsApp.`);
     } catch (error) {
       console.error('❌ BŁĄD kopiowania tekstu:', error);
-      
       // Fallback - pokaż tekst do ręcznego skopiowania
       const whatsappText = this.formatTextForWhatsApp(text);
       const result = prompt('⚠️ Nie udało się automatycznie skopiować tekstu.\n\nSkopiuj go ręcznie (Ctrl+C):', whatsappText);
-      
       if (result !== null) {
         alert('✅ Tekst gotowy do wklejenia!');
       }

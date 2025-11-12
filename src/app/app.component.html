@@ -212,7 +212,6 @@
 
                     <!-- Element tekstowy (opis w podlinku) -->
                     <div *ngIf="l.type==='opis' && l.text" class="grid-link sub-link text-item" style="position:relative;">
-                      
                       <!-- Etykieta gdy tekst jest zwinięty -->
                       <div *ngIf="!l.show" class="text-collapsed-header" (click)="toggleTextVisibility(l); $event.stopPropagation();">
                         <div class="text-collapsed-left">
@@ -221,13 +220,14 @@
                         </div>
                         <span class="text-toggle-icon">▼</span>
                       </div>
-                      
                       <!-- Przycisk toggle w prawym górnym rogu gdy tekst jest rozwinięty -->
                       <div *ngIf="l.show" class="text-toggle-container">
                         <span class="text-toggle-icon" (click)="toggleTextVisibility(l); $event.stopPropagation();">▲</span>
-                        <span class="copy-text-icon" (click)="copyTextToClipboard(l.text); $event.stopPropagation();" title="Skopiuj tekst">📋</span>
+                        <!-- Przycisk kopiowania tekstu + linku audio -->
+                        <span *ngIf="hasAudioLink(links)" class="copy-text-icon" (click)="copyAudioTextToClipboard(links); $event.stopPropagation();" title="Skopiuj tekst i link audio">🎵📋</span>
+                        <!-- Przycisk kopiowania samego tekstu -->
+                        <span *ngIf="!hasAudioLink(links)" class="copy-text-icon" (click)="copyTextToClipboard(l.text); $event.stopPropagation();" title="Skopiuj tekst">📋</span>
                       </div>
-                      
                       <!-- Zawartość tekstowa -->
                       <div *ngIf="l.show" class="sub-text" [innerHTML]="processTextWithLinks(l.text)"></div>
                       <!-- Przycisk zamykania na samym dole okienka tekstu (absolute bottom right) -->
