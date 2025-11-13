@@ -70,7 +70,7 @@ export class AppComponent implements OnInit {
   
 
     currentDateTime: Date = new Date(); // data biezaca
-    //currentDateTime: Date | null = new Date(2026, 4, 2); // (2026, 4, 2) = 2 maj
+    //currentDateTime: Date | null = new Date(2026, 10, 5); // (2025, 4, 2) = 2 maj
 
 
       // KONFIGURACJA DAT - tutaj ustawiasz datę startu
@@ -88,10 +88,6 @@ export class AppComponent implements OnInit {
     }
   }
 
-
-
-  
-  
   
   // Zarządzanie odtwarzaniem lokalnych audio dla 12 dni
   // Player do lokalnego pliku mp3 (12 dni wprowadzenie)
@@ -133,14 +129,27 @@ export class AppComponent implements OnInit {
   hasAudioLink(links: SingleLink[]): boolean {
     return Array.isArray(links) && links.some(x => x.type === 'audio' && !!x.url);
   }
-  // Licznik dni do 8 grudnia
-  get daysToDecember8(): number {
-    const today = new Date();
-    today.setHours(0,0,0,0);
-    const year = today.getMonth() > 10 ? today.getFullYear() + 1 : today.getFullYear();
-    const target = new Date(year, 11, 8); // 8 grudnia
-    const diff = target.getTime() - today.getTime();
-    return Math.max(0, Math.ceil(diff / (1000 * 60 * 60 * 24)));
+  // Licznik dni do 8 grudnia lub 3 maja
+  get daysToEnd(): string {
+  const today = this.currentDateTime ?? new Date();
+  today.setHours(0,0,0,0);
+  const year = today.getMonth() > 10 ? today.getFullYear() + 1 : today.getFullYear();
+  const marzec20 = new Date(year, 2, 20); // 20 marca
+  const maj10 = new Date(year, 4, 10); // 10 maja
+  let target: Date;
+  let targetLabel: string;
+  if (today > marzec20 && today < maj10) {
+    target = new Date(year, 4, 3); // 3 maja
+    targetLabel = '3 maja';
+  } else {
+    target = new Date(year, 11, 8); // 8 grudnia
+    targetLabel = '8 grudnia';
+  }
+  const diff = target.getTime() - today.getTime();
+  const days = Math.max(0, Math.ceil(diff / (1000 * 60 * 60 * 24)));
+  const dniTxt = days === 1 ? 'dzień' : 'dni';
+  const dniPozostałoTxt = days === 1 ? 'Pozostał' : 'Pozostało';
+  return `Pozostało ${days} ${dniTxt} do ${targetLabel}!`;
   }
   // Pomocnicza metoda: wstawia datę z pola name na początek tekstu
   prependDateFromName(name: string, text: string): string {
@@ -738,6 +747,7 @@ items: Item[] = [
       }]
 }
 ];
+
 
  private readonly summaryPassword = 'syn';
 
