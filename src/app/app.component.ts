@@ -67,6 +67,32 @@ interface Item {
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit {
+  
+
+    currentDateTime: Date = new Date(); // data biezaca
+    //currentDateTime: Date | null = new Date(2026, 4, 2); // (2026, 4, 2) = 2 maj
+
+
+      // KONFIGURACJA DAT - tutaj ustawiasz datę startu
+   
+ get startDate(): Date {
+    const today = this.currentDateTime ?? new Date();
+    today.setHours(0,0,0,0);
+    const year = today.getFullYear();
+    const marzec20 = new Date(year, 2, 20); // 20 marca
+    const maj10 = new Date(year, 4, 10); // 10 maja
+    if (today > marzec20 && today < maj10) {
+      return new Date(year, 2, 22); // 22 marca
+    } else {
+      return new Date(year, 9, 27); // 27 października
+    }
+  }
+
+
+
+  
+  
+  
   // Zarządzanie odtwarzaniem lokalnych audio dla 12 dni
   // Player do lokalnego pliku mp3 (12 dni wprowadzenie)
   isLocalIntroAudioPlaying = false;
@@ -214,12 +240,11 @@ readonly oddanieDay0 = OddanieTexts.dzien0;
     const formatted = this.whatsappFormatText(text);
     navigator.clipboard.writeText(formatted);
   }
-  currentDateTime: Date = new Date(); // <-- dodaj to
+
   fullscreenImage: string | null = null; // <-- globalny fullscreen
   private hasScrolledToToday: boolean = false; // Flaga czy już przewinięto do dzisiejszej daty
 
-  // KONFIGURACJA DAT - tutaj ustawiasz datę startu
-  readonly startDate = new Date(new Date().getFullYear(), 9, 27); // zawsze 27 października bieżącego roku
+
 
   // Metoda pomocnicza do generowania nazwy dnia z datą
   private getDayName(date: Date): string {
@@ -955,7 +980,7 @@ isLocalAudioPlaying(url: string): boolean {
 
     const start = new Date(matches[0]);
     const end = new Date(matches[1]);
-    const today = new Date();
+    const today = this.currentDateTime ?? new Date();
     today.setHours(0,0,0,0);
 
     return today >= start && today <= end;
@@ -963,30 +988,24 @@ isLocalAudioPlaying(url: string): boolean {
 
   isToday(name: string): boolean {
     if (!name) return false;
-    
     // Sprawdzamy nowy format dd.MM.yyyy
     const newFormatMatch = name.match(/(\d{2})\.(\d{2})\.(\d{4})/);
+    const today = this.currentDateTime ?? new Date();
     if (newFormatMatch) {
       const [, day, month, year] = newFormatMatch;
       const date = new Date(parseInt(year), parseInt(month) - 1, parseInt(day));
-      const today = new Date();
-      
       return date.getFullYear() === today.getFullYear() &&
              date.getMonth() === today.getMonth() &&
              date.getDate() === today.getDate();
     }
-    
     // Fallback na stary format YYYY-MM-DD (jeśli gdzieś jeszcze zostały)
     const oldFormatMatch = name.match(/\d{4}-\d{2}-\d{2}/);
     if (oldFormatMatch) {
       const date = new Date(oldFormatMatch[0]);
-      const today = new Date();
-
       return date.getFullYear() === today.getFullYear() &&
              date.getMonth() === today.getMonth() &&
              date.getDate() === today.getDate();
     }
-    
     return false;
   }
 
