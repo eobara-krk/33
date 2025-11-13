@@ -1,4 +1,4 @@
-  // Kopiowanie tekstu audio wraz z linkiem do schowka (dla przycisku przy audio)
+// Kopiowanie tekstu audio wraz z linkiem do schowka (dla przycisku przy audio)
 import { Component, OnInit } from '@angular/core';
 import { CommonModule, NgFor, NgIf, NgSwitch, NgSwitchCase, NgSwitchDefault } from '@angular/common';
 import { RouterModule } from '@angular/router';
@@ -67,6 +67,7 @@ interface Item {
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit {
+  // Zarządzanie odtwarzaniem lokalnych audio dla 12 dni
   // Player do lokalnego pliku mp3 (12 dni wprowadzenie)
   isLocalIntroAudioPlaying = false;
   localIntroAudioElement: HTMLAudioElement | null = null;
@@ -349,7 +350,8 @@ items: Item[] = [
         links: [
           { image: 'assets/12dni/01.jpg',type:'foto'},
           { text: this.prependDateFromName(`01: ${this.getDatePlusDays(this.startDate, 9)}`, this.tvelveDay1), type:'opis', label: 'Odkryj łaskę Bożej miłości' },
-          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/12-dni-dzien-1/audio', type:'audio', label:'audio' }
+  { url:'https://drogamaryi.pl/edycje/5-listopada-2025/12-dni-dzien-1/audio', type:'audio', label:'audio (online)', hidden: true },
+  { url:'assets/12dni/Droga_Maryi_12_dni_dzien_1.mp3', type:'audio', label:'12 dni/1 : Odkryj łaskę Bożej miłości' }
         ]
       },
       {
@@ -358,7 +360,8 @@ items: Item[] = [
         links: [
           { image: 'assets/12dni/02.jpg',type:'foto' },
           { text: this.prependDateFromName(`02: ${this.getDatePlusDays(this.startDate, 10)}`, this.tvelveDay2), type:'opis', label: 'Odkryj łaskę poznania prawdy o grzechu' },
-          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/12-dni-dzien-2/audio', type:'audio', label:'audio' }
+  { url:'https://drogamaryi.pl/edycje/5-listopada-2025/12-dni-dzien-2/audio', type:'audio', label:'audio (online)', hidden: true },
+  { url:'assets/12dni/Droga_Maryi_12_dni_dzien_2.mp3', type:'audio', label:'12 dni/2 : Odkryj łaskę poznania prawdy o grzechu' }
         ]
       },
       {
@@ -367,8 +370,8 @@ items: Item[] = [
         links: [
           { image: 'assets/12dni/03.jpg',type:'foto' },
           { text: this.prependDateFromName(`03: ${this.getDatePlusDays(this.startDate, 11)}`, this.tvelveDay3), type:'opis', label: 'Odkryj łaskę zbawienia' },
-     
-         { url:'https://drogamaryi.pl/edycje/5-listopada-2025/12-dni-dzien-3/audio', type:'audio', label:'audio'  }
+  { url:'https://drogamaryi.pl/edycje/5-listopada-2025/12-dni-dzien-3/audio', type:'audio', label:'audio (online)', hidden: true },
+  { url:'assets/12dni/Droga_Maryi_12_dni_dzien_3.mp3', type:'audio', label:'12 dni/3 : Odkryj łaskę zbawienia' }
         ]
       },
       {
@@ -377,7 +380,8 @@ items: Item[] = [
         links: [
           { image: 'assets/12dni/04.jpg',type:'foto' },
           { text: this.prependDateFromName(`04: ${this.getDatePlusDays(this.startDate, 12)}`, this.tvelveDay4), type:'opis', label: 'Odkryj łaskę nawrócenia i oddania życia Panu Jezusowi' },
-          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/12-dni-dzien-4/audio', type:'audio', label:'audio'  }
+  { url:'https://drogamaryi.pl/edycje/5-listopada-2025/12-dni-dzien-4/audio', type:'audio', label:'audio (online)', hidden: true },
+  { url:'assets/12dni/Droga_Maryi_12_dni_dzien_4.mp3', type:'audio', label:'12 dni/4 : Odkryj łaskę nawrócenia i oddania życia Panu Jezusowi' }
 
          
         ]
@@ -388,8 +392,8 @@ items: Item[] = [
         links: [
           { image: 'assets/12dni/05.jpg',type:'foto' },
           { text: this.prependDateFromName(`05: ${this.getDatePlusDays(this.startDate, 13)}`, this.tvelveDay5), type:'opis', label: 'Błogosławieni ubodzy w duchu' },
-         { url:'https://drogamaryi.pl/edycje/5-listopada-2025/12-dni-dzien-5/audio', type:'audio', label:'audio' },
-         //{ url:'assets/12dni/05dzien.mp3', type:'audio', label:'Ela' }
+  { url:'https://drogamaryi.pl/edycje/5-listopada-2025/12-dni-dzien-5/audio', type:'audio', label:'audio (online)', hidden: true },
+  { url:'assets/12dni/Droga_Maryi_12_dni_dzien_5.mp3', type:'audio', label:'12 dni/5 : Błogosławieni ubodzy w duchu' }
         ]
       },
       {
@@ -398,7 +402,8 @@ items: Item[] = [
         links: [
           { image: 'assets/12dni/06.jpg',type:'foto' },
           { text: this.prependDateFromName(`06: ${this.getDatePlusDays(this.startDate, 14)}`, this.tvelveDay6), type:'opis', label: 'Błogosławieni, którzy się smucą' },
-          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/12-dni-dzien-6/audio', type:'audio', label:'audio' }
+  { url:'https://drogamaryi.pl/edycje/5-listopada-2025/12-dni-dzien-6/audio', type:'audio', label:'audio (online)', hidden: true },
+  { url:'assets/12dni/Droga_Maryi_12_dni_dzien_6.mp3', type:'audio', label:'12 dni/6 : Błogosławieni, którzy się smucą' }
         ]
       },
       {
@@ -408,8 +413,8 @@ items: Item[] = [
 
           { image: 'assets/12dni/07.jpg',type:'foto' },
           { text: this.prependDateFromName(`07: ${this.getDatePlusDays(this.startDate, 15)}`, this.tvelveDay7), type:'opis', label: 'Błogosławieni cisi' },
-          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/12-dni-dzien-7/audio', type:'audio', label:'audio' },
-          //{ url:'assets/12dni/07dzien.mp3', type:'audio', label:'Ela' }
+  { url:'https://drogamaryi.pl/edycje/5-listopada-2025/12-dni-dzien-7/audio', type:'audio', label:'audio (online)', hidden: true },
+  { url:'assets/12dni/Droga_Maryi_12_dni_dzien_7.mp3', type:'audio', label:'12 dni/7 : Błogosławieni cisi' }
         ]
       },
       {
@@ -418,7 +423,8 @@ items: Item[] = [
         links: [
           { image: 'assets/12dni/08.jpg',type:'foto' },
           { text: this.prependDateFromName(`08: ${this.getDatePlusDays(this.startDate, 16)}`, this.tvelveDay8), type:'opis', label: 'Błogosławieni, którzy łakną i pragną sprawiedliwości.' },
-          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/12-dni-dzien-8/audio', type:'audio', label:'audio' }
+  { url:'https://drogamaryi.pl/edycje/5-listopada-2025/12-dni-dzien-8/audio', type:'audio', label:'audio (online)', hidden: true },
+  { url:'assets/12dni/Droga_Maryi_12_dni_dzien_8.mp3', type:'audio', label:'12 dni/8 : Błogosławieni, którzy łakną i pragną sprawiedliwości.' }
         ]
       },
       {
@@ -427,7 +433,8 @@ items: Item[] = [
         links: [
            { image: 'assets/12dni/09.jpg',type:'foto' },
            { text: this.prependDateFromName(`09: ${this.getDatePlusDays(this.startDate, 17)}`, this.tvelveDay9), type:'opis', label: 'Błogosławieni miłosierni' },
-          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/12-dni-dzien-9/audio', type:'audio', label:'audio' }
+          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/12-dni-dzien-9/audio', type:'audio', label:'audio (online)', hidden: true },
+  { url:'assets/12dni/Droga_Maryi_12_dni_dzien_9.mp3', type:'audio', label:'12 dni/9 : Błogosławieni miłosierni' }
         ]
       },
       {
@@ -436,7 +443,8 @@ items: Item[] = [
         links: [
           { image: 'assets/12dni/10.jpg',type:'foto' },
           { text: this.prependDateFromName(`10: ${this.getDatePlusDays(this.startDate, 18)}`, this.tvelveDay10), type:'opis', label: 'Błogosławieni czystego serca' },
-          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/12-dni-dzien-10/audio', type:'audio', label:'audio' }
+          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/12-dni-dzien-10/audio', type:'audio', label:'audio (online)', hidden: true },
+  { url:'assets/12dni/Droga_Maryi_12_dni_dzien_10.mp3', type:'audio', label:'12 dni/10 : Błogosławieni czystego serca' }
         ]
       },
       {
@@ -445,7 +453,8 @@ items: Item[] = [
         links: [
           { image: 'assets/12dni/11.jpg',type:'foto' },
           { text: this.prependDateFromName(`11: ${this.getDatePlusDays(this.startDate, 19)}`, this.tvelveDay11), type:'opis', label: 'Błogosławieni, którzy wprowadzają pokój' },
-          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/12-dni-dzien-11/audio', type:'audio', label:'audio' }
+          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/12-dni-dzien-11/audio', type:'audio', label:'audio (online)', hidden: true },
+  { url:'assets/12dni/Droga_Maryi_12_dni_dzien_11.mp3', type:'audio', label:'12 dni/11 : Błogosławieni, którzy wprowadzają pokój' }
         ]
       },
       {
@@ -454,7 +463,8 @@ items: Item[] = [
         links: [
           { image: 'assets/12dni/12.jpg',type:'foto' },
           { text: this.prependDateFromName(`12: ${this.getDatePlusDays(this.startDate, 20)}`, this.tvelveDay12), type:'opis', label: 'Błogosławieni, którzy cierpią prześladowanie dla sprawiedliwości' },
-          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/12-dni-dzien-12/audio', type:'audio', label:'audio' }
+          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/12-dni-dzien-12/audio', type:'audio', label:'audio (online)', hidden: true },
+  { url:'assets/12dni/Droga_Maryi_12_dni_dzien_12.mp3', type:'audio', label:'12 dni/12 : Błogosławieni, którzy cierpią prześladowanie dla sprawiedliwości' }
         ]
       },
     ]
@@ -676,6 +686,7 @@ items: Item[] = [
           { text: this.prependDateFromName(`${this.getDatePlusDays(this.startDate, 42)}`, this.oddanieDay0), type:'opis', label: 'Dzień oddania się Panu Jezusowi przez Maryję w Niewolę Miłości' },
           { text: this.prependDateFromName(`${this.getDatePlusDays(this.startDate, 42)}`, this.oddanieDayAkt), type:'opis', label: 'Akt oddania siebie Jezusowi Chrystusowi, Mądrości Wcielonej, przez ręce Maryi' },
           { url: 'assets/akt.pdf',type:'pdf', label:'Pobierz Akt oddania (PDF)'},
+          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/dzien-oddania/audio', type:'audio', label:'audio' }
         ]
       }]
 }
@@ -696,6 +707,50 @@ items: Item[] = [
     console.log('Tekst pierwszego dnia:', this.nowenna1);
     console.log('Tekst drugiego dnia:', this.nowenna2);
   }
+
+  // Zarządzanie odtwarzaniem lokalnych audio dla 12 dni
+localAudioElements: { [url: string]: HTMLAudioElement } = {};
+localAudioPlayingUrl: string | null = null;
+
+playLocalAudio(url: string) {
+  // Jeśli kliknięto na już grający audio, zatrzymaj tylko ten
+  if (this.localAudioPlayingUrl === url && this.localAudioElements[url]) {
+    this.localAudioElements[url].pause();
+    this.localAudioElements[url].currentTime = 0;
+    this.localAudioPlayingUrl = null;
+    return;
+  }
+  // Zatrzymaj wszystkie inne audio
+  this.stopAllAudio();
+  // Utwórz element jeśli nie istnieje
+  if (!this.localAudioElements[url]) {
+    this.localAudioElements[url] = new Audio(url);
+    this.localAudioElements[url].volume = 0.8;
+    this.localAudioElements[url].addEventListener('ended', () => {
+      if (this.localAudioPlayingUrl === url) {
+        this.localAudioPlayingUrl = null;
+      }
+    });
+    this.localAudioElements[url].addEventListener('error', () => {
+      alert('Nie można odtworzyć pliku audio.');
+      if (this.localAudioPlayingUrl === url) {
+        this.localAudioPlayingUrl = null;
+      }
+    });
+  }
+  this.localAudioElements[url].play()
+    .then(() => {
+      this.localAudioPlayingUrl = url;
+    })
+    .catch(() => {
+      alert('Nie można odtworzyć pliku audio.');
+      this.localAudioPlayingUrl = null;
+    });
+}
+
+isLocalAudioPlaying(url: string): boolean {
+  return this.localAudioPlayingUrl === url;
+}
 
   // Automatyczne otwieranie folderów z dzisiejszą datą
   openTodayFolders() {
@@ -796,7 +851,14 @@ items: Item[] = [
       this.localIntroAudioElement.currentTime = 0;
       this.isLocalIntroAudioPlaying = false;
     }
-    // Możesz tu dodać zatrzymanie innych audio, jeśli są
+    // Zatrzymaj wszystkie lokalne audio dla 12 dni
+    if (this.localAudioElements) {
+      Object.values(this.localAudioElements).forEach(audio => {
+        audio.pause();
+        audio.currentTime = 0;
+      });
+      this.localAudioPlayingUrl = null;
+    }
   }
 
   // ----------------------

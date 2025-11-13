@@ -235,40 +235,56 @@
                     </div>
 
                     <!-- Zwykły link (z URL) lub odtwarzacz audio dla Wprowadzenia (lokalny) -->
-                    <ng-container *ngIf="l.type === 'audio' && l.url === 'assets/12dni/Droga_Maryi_12_dni_wprowadzenie.mp3' && !l.hidden; else normalLink">
-                      <div class="grid-link sub-link audio-section" style="margin-bottom:8px;">
-                        <button (click)="toggleLocalIntroAudio()"
+                    <ng-container *ngIf="l.type === 'audio' && l.url && l.url.startsWith('assets/12dni/Droga_Maryi_12_dni_dzien_') && !l.hidden; else audioOrNormalLink">
+                      <div class="grid-link sub-link audio-section" style="margin-bottom:8px; display: flex; justify-content: flex-start; align-items: center;">
+                        <button (click)="playLocalAudio(l.url)"
                                 class="audio-toggle-btn"
-                                [class.playing]="isLocalIntroAudioPlaying"
-                                title="{{isLocalIntroAudioPlaying ? 'Zatrzymaj' : 'Odtwórz'}} Wprowadzenie 12 dni">
-                          <span class="play-icon">{{isLocalIntroAudioPlaying ? '⏸️' : '▶️'}}</span>
-                          <span class="audio-title">Wprowadzenie 12 dni</span>
-                          <span class="audio-status">{{isLocalIntroAudioPlaying ? 'Odtwarzanie...' : 'Naciśnij aby odtworzyć'}}</span>
+                                [class.playing]="isLocalAudioPlaying(l.url)"
+                                title="{{isLocalAudioPlaying(l.url) ? 'Zatrzymaj' : 'Odtwórz'}} {{ l.label }}"
+                                style="margin-left: 0;">
+                          <span class="play-icon">{{isLocalAudioPlaying(l.url) ? '⏸️' : '▶️'}}</span>
+                          <span class="audio-title">{{ l.label }}</span>
+                          <span class="audio-status">{{isLocalAudioPlaying(l.url) ? 'Odtwarzanie...' : 'Naciśnij aby odtworzyć'}}</span>
                         </button>
                       </div>
                     </ng-container>
-                    <ng-template #normalLink>
-                      <a *ngIf="l.type!=='foto' && l.type!=='opis' && !l.hidden"
-                         class="grid-link sub-link"
-                         [class.today-highlight]="(l.label || l.url) ? isToday(l.label || l.url || '') : false"
-                         [href]="l.url || null"
-                         target="_blank"
-                         rel="noopener"
-                         (click)="$event.stopPropagation()">
-                        <span *ngIf="(l.label || l.url) && isToday(l.label || l.url || '')">👉</span>
-                        <span class="sub-icon">➤</span>
-                        <span [ngSwitch]="l.type">
-                          <span *ngSwitchCase="'film'">🎬</span>        
-                          <span *ngSwitchCase="'pdf'">📕</span>
-                          <span *ngSwitchCase="'exec'">💿</span>
-                          <span *ngSwitchCase="'foto'">📷</span>
-                          <span *ngSwitchCase="'audio'">🎵</span>
-                          <span *ngSwitchCase="'youtube'">📺</span>
-                          <span *ngSwitchCase="'html'">🌐</span>
-                          <span *ngSwitchDefault>📁</span>
-                        </span>
-                        {{ l.label || l.url }}
-                      </a>
+                    <ng-template #audioOrNormalLink>
+                      <ng-container *ngIf="l.type === 'audio' && l.url === 'assets/12dni/Droga_Maryi_12_dni_wprowadzenie.mp3' && !l.hidden; else normalLink">
+                        <div class="grid-link sub-link audio-section" style="margin-bottom:8px; display: flex; justify-content: flex-start; align-items: center;">
+                          <button (click)="toggleLocalIntroAudio()"
+                                  class="audio-toggle-btn"
+                                  [class.playing]="isLocalIntroAudioPlaying"
+                                  title="{{isLocalIntroAudioPlaying ? 'Zatrzymaj' : 'Odtwórz'}} Wprowadzenie 12 dni"
+                                  style="margin-left: 0;">
+                            <span class="play-icon">{{isLocalIntroAudioPlaying ? '⏸️' : '▶️'}}</span>
+                            <span class="audio-title">Wprowadzenie 12 dni</span>
+                            <span class="audio-status">{{isLocalIntroAudioPlaying ? 'Odtwarzanie...' : 'Naciśnij aby odtworzyć'}}</span>
+                          </button>
+                        </div>
+                      </ng-container>
+                      <ng-template #normalLink>
+                        <a *ngIf="l.type!=='foto' && l.type!=='opis' && !l.hidden"
+                           class="grid-link sub-link"
+                           [class.today-highlight]="(l.label || l.url) ? isToday(l.label || l.url || '') : false"
+                           [href]="l.url || null"
+                           target="_blank"
+                           rel="noopener"
+                           (click)="$event.stopPropagation()">
+                          <span *ngIf="(l.label || l.url) && isToday(l.label || l.url || '')">👉</span>
+                          <span class="sub-icon">➤</span>
+                          <span [ngSwitch]="l.type">
+                            <span *ngSwitchCase="'film'">🎬</span>        
+                            <span *ngSwitchCase="'pdf'">📕</span>
+                            <span *ngSwitchCase="'exec'">💿</span>
+                            <span *ngSwitchCase="'foto'">📷</span>
+                            <span *ngSwitchCase="'audio'">🎵</span>
+                            <span *ngSwitchCase="'youtube'">📺</span>
+                            <span *ngSwitchCase="'html'">🌐</span>
+                            <span *ngSwitchDefault>📁</span>
+                          </span>
+                          {{ l.label || l.url }}
+                        </a>
+                      </ng-template>
                     </ng-template>
                   </ng-container>
                 </ng-container>
