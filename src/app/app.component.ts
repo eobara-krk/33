@@ -9,7 +9,9 @@ import  {SecondWeekTexts } from './secondWeek-texts';
 import {ThirdWeekTexts} from './thirdWeek-texts';  
 import {OddanieTexts} from './oddanie-texts';
 import { WhatsAppFormatterService } from './whatsapp-formatter.service';
+import { getDaysToEnd, getDaysRangeLabel } from './cycle-utils';
 import { DynamicTitles } from './dynamic-titles';
+import { AudioPlayerService } from './audio-player.service';
 
 // Typy dla linków i itemów
 interface LinkGroup {
@@ -90,40 +92,20 @@ export class AppComponent implements OnInit {
   }
 
   
-  // Zarządzanie odtwarzaniem lokalnych audio dla 12 dni
-  // Player do lokalnego pliku mp3 (12 dni wprowadzenie)
-  isLocalIntroAudioPlaying = false;
-  localIntroAudioElement: HTMLAudioElement | null = null;
-  private localIntroAudioUrl = 'assets/12dni/Droga_Maryi_12_dni_wprowadzenie.mp3';
+  // Zarządzanie odtwarzaniem lokalnych audio dla 12 dni przez serwis
+  public localIntroAudioUrl = 'assets/12dni/Droga_Maryi_12_dni_wprowadzenie.mp3';
 
   toggleLocalIntroAudio() {
-    if (this.isLocalIntroAudioPlaying) {
-      // Zatrzymaj lokalne audio
-      this.localIntroAudioElement?.pause();
-      this.localIntroAudioElement!.currentTime = 0;
-      this.isLocalIntroAudioPlaying = false;
+    if (this.audioPlayer.isPlaying(this.localIntroAudioUrl)) {
+      this.audioPlayer.pause(this.localIntroAudioUrl);
     } else {
-      // Zatrzymaj inne audio
-      this.stopAllAudio();
-      if (!this.localIntroAudioElement) {
-        this.localIntroAudioElement = new Audio(this.localIntroAudioUrl);
-        this.localIntroAudioElement.volume = 0.8;
-        this.localIntroAudioElement.addEventListener('ended', () => {
-          this.isLocalIntroAudioPlaying = false;
-        });
-        this.localIntroAudioElement.addEventListener('error', (e) => {
-          alert('Nie można odtworzyć pliku audio.');
-          this.isLocalIntroAudioPlaying = false;
-        });
-      }
-      this.localIntroAudioElement.play()
-        .then(() => {
-          this.isLocalIntroAudioPlaying = true;
-        })
-        .catch(() => {
-          alert('Nie można odtworzyć pliku audio.');
-          this.isLocalIntroAudioPlaying = false;
-        });
+      this.audioPlayer.stopAll();
+      this.audioPlayer.play(
+        this.localIntroAudioUrl,
+        0.8,
+        () => {},
+        () => alert('Nie można odtworzyć pliku audio.')
+      );
     }
   }
   // Sprawdza czy w tablicy linków jest audio z url
@@ -132,42 +114,12 @@ export class AppComponent implements OnInit {
   }
   // Licznik dni do 8 grudnia lub 3 maja
   get daysToEnd(): string {
-  const today = this.currentDateTime ?? new Date();
-  today.setHours(0,0,0,0);
-  const year = today.getMonth() > 10 ? today.getFullYear() + 1 : today.getFullYear();
-  const marzec20 = new Date(year, 2, 20); // 20 marca
-  const maj10 = new Date(year, 4, 10); // 10 maja
-  let target: Date;
-  let targetLabel: string;
-  if (today > marzec20 && today < maj10) {
-    target = new Date(year, 4, 3); // 3 maja
-    targetLabel = '3 maja';
-  } else {
-    target = new Date(year, 11, 8); // 8 grudnia
-    targetLabel = '8 grudnia';
-  }
-  const diff = target.getTime() - today.getTime();
-  const days = Math.max(0, Math.ceil(diff / (1000 * 60 * 60 * 24)));
-  const dniTxt = days === 1 ? 'dzień' : 'dni';
-  const dniPozostałoTxt = days === 1 ? 'Pozostał' : 'Pozostało';
-  return `Pozostało ${days} ${dniTxt} do ${targetLabel}!`;
+    return getDaysToEnd(this.currentDateTime);
   }
 
-
-   get daysRangeLabel(): string {
-      const today = this.currentDateTime ?? new Date();
-      today.setHours(0,0,0,0);
-      const year = today.getMonth() > 10 ? today.getFullYear() + 1 : today.getFullYear();
-      const marzec20 = new Date(year, 2, 20); // 20 marca
-      const maj10 = new Date(year, 4, 10); // 10 maja
-      if (today > marzec20 && today < maj10) {
-        // Cykl wiosenny
-        return `22 III do 3 V`;
-      } else {
-        // Cykl zimowy
-        return `5 XI do 8 XII`;
-      }
-    }
+  get daysRangeLabel(): string {
+    return getDaysRangeLabel(this.currentDateTime);
+  }
 
 
   // Pomocnicza metoda: wstawia datę z pola name na początek tekstu
@@ -193,7 +145,7 @@ export class AppComponent implements OnInit {
   navigator.clipboard.writeText(whatsappText);
   alert(`✅ Skopiowano tekst oraz link audio do schowka!\n\nDługość: ${whatsappText.length} znaków\n\n📱 Ten tekst jest sformatowany pod WhatsApp.`);
   }
-  constructor(private whatsappFormatter: WhatsAppFormatterService) {}
+  // ...existing code...
   // Funkcja konwertująca tekst na format WhatsApp
   whatsappFormatText(text: string): string {
     // Przykład: zamiana podwójnych nowych linii na pojedyncze, dodanie gwiazdek do nagłówków
@@ -784,49 +736,24 @@ items: Item[] = [
     console.log('Tekst drugiego dnia:', this.nowenna2);
   }
 
-  // Zarządzanie odtwarzaniem lokalnych audio dla 12 dni
-localAudioElements: { [url: string]: HTMLAudioElement } = {};
-localAudioPlayingUrl: string | null = null;
-
-playLocalAudio(url: string) {
-  // Jeśli kliknięto na już grający audio, zatrzymaj tylko ten
-  if (this.localAudioPlayingUrl === url && this.localAudioElements[url]) {
-    this.localAudioElements[url].pause();
-    this.localAudioElements[url].currentTime = 0;
-    this.localAudioPlayingUrl = null;
-    return;
+  // Odtwarzanie lokalnych audio przez serwis
+  playLocalAudio(url: string) {
+    if (this.audioPlayer.isPlaying(url)) {
+      this.audioPlayer.pause(url);
+    } else {
+      this.audioPlayer.stopAll();
+      this.audioPlayer.play(
+        url,
+        0.8,
+        undefined,
+        () => alert('Nie można odtworzyć pliku audio.')
+      );
+    }
   }
-  // Zatrzymaj wszystkie inne audio
-  this.stopAllAudio();
-  // Utwórz element jeśli nie istnieje
-  if (!this.localAudioElements[url]) {
-    this.localAudioElements[url] = new Audio(url);
-    this.localAudioElements[url].volume = 0.8;
-    this.localAudioElements[url].addEventListener('ended', () => {
-      if (this.localAudioPlayingUrl === url) {
-        this.localAudioPlayingUrl = null;
-      }
-    });
-    this.localAudioElements[url].addEventListener('error', () => {
-      alert('Nie można odtworzyć pliku audio.');
-      if (this.localAudioPlayingUrl === url) {
-        this.localAudioPlayingUrl = null;
-      }
-    });
-  }
-  this.localAudioElements[url].play()
-    .then(() => {
-      this.localAudioPlayingUrl = url;
-    })
-    .catch(() => {
-      alert('Nie można odtworzyć pliku audio.');
-      this.localAudioPlayingUrl = null;
-    });
-}
 
-isLocalAudioPlaying(url: string): boolean {
-  return this.localAudioPlayingUrl === url;
-}
+  isLocalAudioPlaying(url: string): boolean {
+    return this.audioPlayer.isPlaying(url);
+  }
 
   // Automatyczne otwieranie folderów z dzisiejszą datą
   openTodayFolders() {
@@ -913,28 +840,11 @@ isLocalAudioPlaying(url: string): boolean {
     }
   }
 
-  // Zatrzymuje wszystkie odtwarzane audio
+  // Zatrzymuje wszystkie odtwarzane audio przez serwis
   stopAllAudio() {
-    // Zatrzymaj Totus Tuus
-    if (this.audioElement && this.isAudioPlaying) {
-      this.audioElement.pause();
-      this.audioElement.currentTime = 0;
-      this.isAudioPlaying = false;
-    }
-    // Zatrzymaj lokalne Wprowadzenie
-    if (this.localIntroAudioElement && this.isLocalIntroAudioPlaying) {
-      this.localIntroAudioElement.pause();
-      this.localIntroAudioElement.currentTime = 0;
-      this.isLocalIntroAudioPlaying = false;
-    }
-    // Zatrzymaj wszystkie lokalne audio dla 12 dni
-    if (this.localAudioElements) {
-      Object.values(this.localAudioElements).forEach(audio => {
-        audio.pause();
-        audio.currentTime = 0;
-      });
-      this.localAudioPlayingUrl = null;
-    }
+    this.audioPlayer.stopAll();
+    this.isAudioPlaying = false;
+  // this.audioElement = null; // Usunięto, bo audioElement nie jest już używany
   }
 
   // ----------------------
@@ -1185,45 +1095,32 @@ isLocalAudioPlaying(url: string): boolean {
   }
 
   // ----------------------
-  // AUDIO PLAYER TOTUS TUUS
-  // ----------------------
+  // AUDIO PLAYER TOTUS TUUS przez serwis
   isAudioPlaying = false;
-  audioElement: HTMLAudioElement | null = null;
-  // Lokalny plik MP3 w assets
   private audioUrl = 'assets/totus_tuus.mp3';
 
   toggleAudio() {
-    if (this.isAudioPlaying) {
-      // Zatrzymaj Totus Tuus
-      this.audioElement?.pause();
-      this.audioElement!.currentTime = 0;
+    if (this.audioPlayer.isPlaying(this.audioUrl)) {
+      this.audioPlayer.pause(this.audioUrl);
       this.isAudioPlaying = false;
     } else {
-      // Zatrzymaj inne audio
       this.stopAllAudio();
-      if (!this.audioElement) {
-        this.audioElement = new Audio(this.audioUrl);
-        this.audioElement.volume = 0.7; // 70% głośności
-        this.audioElement.addEventListener('ended', () => {
-          this.isAudioPlaying = false;
-        });
-        this.audioElement.addEventListener('error', (e) => {
-          console.error('Błąd odtwarzania audio:', e);
+      this.audioPlayer.play(
+        this.audioUrl,
+        0.7,
+        () => { this.isAudioPlaying = false; },
+        () => {
           alert('Nie można odtworzyć pliku audio. Sprawdź połączenie internetowe.');
           this.isAudioPlaying = false;
-        });
-      }
-      this.audioElement.play()
-        .then(() => {
-          this.isAudioPlaying = true;
-        })
-        .catch((error) => {
-          console.error('Błąd odtwarzania:', error);
-          alert('Nie można odtworzyć audio. Sprawdź połączenie internetowe.');
-          this.isAudioPlaying = false;
-        });
+        }
+      );
+      this.isAudioPlaying = true;
     }
   }
+  constructor(
+    private whatsappFormatter: WhatsAppFormatterService,
+    public audioPlayer: AudioPlayerService
+  ) {}
 
   // ----------------------
   // AUTOMATYCZNE PRZEWIJANIE DO DZISIEJSZEGO ELEMENTU

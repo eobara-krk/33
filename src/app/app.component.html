@@ -254,12 +254,12 @@
                         <div class="grid-link sub-link audio-section" style="margin-bottom:8px; display: flex; justify-content: flex-start; align-items: center;">
                           <button (click)="toggleLocalIntroAudio()"
                                   class="audio-toggle-btn"
-                                  [class.playing]="isLocalIntroAudioPlaying"
-                                  title="{{isLocalIntroAudioPlaying ? 'Zatrzymaj' : 'Odtwórz'}} Wprowadzenie 12 dni"
+                                  [class.playing]="isLocalAudioPlaying(localIntroAudioUrl)"
+                                  title="{{isLocalAudioPlaying(localIntroAudioUrl) ? 'Zatrzymaj' : 'Odtwórz'}} Wprowadzenie 12 dni"
                                   style="margin-left: 0;">
-                            <span class="play-icon">{{isLocalIntroAudioPlaying ? '⏸️' : '▶️'}}</span>
+                            <span class="play-icon">{{isLocalAudioPlaying(localIntroAudioUrl) ? '⏸️' : '▶️'}}</span>
                             <span class="audio-title">Wprowadzenie 12 dni</span>
-                            <span class="audio-status">{{isLocalIntroAudioPlaying ? 'Odtwarzanie...' : 'Naciśnij aby odtworzyć'}}</span>
+                            <span class="audio-status">{{isLocalAudioPlaying(localIntroAudioUrl) ? 'Odtwarzanie...' : 'Naciśnij aby odtworzyć'}}</span>
                           </button>
                         </div>
                       </ng-container>
