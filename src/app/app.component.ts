@@ -480,7 +480,8 @@ items: Item[] = [
         links: [
           { image: 'assets/tydzien1/1.jpg',type:'foto' },
           { text: this.prependDateFromName(`${this.getDatePlusDays(this.startDate, 21)}`, this.firstWeekDay1), type:'opis', label: 'Pożądliwość ciała' },
-          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/tydzien-pierwszy-dzien-1/audio', type:'audio', label:'audio' }
+          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/tydzien-pierwszy-dzien-1/audio', type:'audio', label:'audio (online)', hidden: true },
+          { url:'assets/tydzien1/Droga_Maryi_tydzien_pierwszy_dzien_1.mp3', type:'audio', label:'1/ tydz. 1 : Pożądliwość ciała' }
         ]
       },
         {
@@ -489,7 +490,8 @@ items: Item[] = [
         links: [
           { image: 'assets/tydzien1/2.jpg',type:'foto' },
           { text: this.prependDateFromName(`${this.getDatePlusDays(this.startDate, 22)}`, this.firstWeekDay2), type:'opis', label: 'Emocje' },
-          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/tydzien-pierwszy-dzien-2/audio', type:'audio', label:'audio' }
+          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/tydzien-pierwszy-dzien-2/audio', type:'audio', label:'audio (online)', hidden: true },
+          { url:'assets/tydzien1/Droga_Maryi_tydzien_pierwszy_dzien_2.mp3', type:'audio', label:'2/ tydz. 1 : Emocje' }
         ]
       },
        {
@@ -498,7 +500,8 @@ items: Item[] = [
         links: [
           { image: 'assets/tydzien1/3.jpg',type:'foto' },
           { text: this.prependDateFromName(`${this.getDatePlusDays(this.startDate, 23)}`, this.firstWeekDay3), type:'opis', label: 'Wyobraźnia i obraz samego siebie' },
-          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/tydzien-pierwszy-dzien-3/audio', type:'audio', label:'audio' }
+          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/tydzien-pierwszy-dzien-3/audio', type:'audio', label:'audio (online)', hidden: true },
+          { url:'assets/tydzien1/Droga_Maryi_tydzien_pierwszy_dzien_3.mp3', type:'audio', label:'3/ tydz. 1 : Wyobraźnia i obraz samego siebie' }
         ]
       },
        {
@@ -507,7 +510,8 @@ items: Item[] = [
         links: [
           { image: 'assets/tydzien1/4.jpg',type:'foto' },
           { text: this.prependDateFromName(`${this.getDatePlusDays(this.startDate, 24)}`, this.firstWeekDay4), type:'opis', label: 'Pamięć' },
-          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/tydzien-pierwszy-dzien-4/audio', type:'audio', label:'audio' }
+          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/tydzien-pierwszy-dzien-4/audio', type:'audio', label:'audio (online)', hidden: true },
+          { url:'assets/tydzien1/Droga_Maryi_tydzien_pierwszy_dzien_4.mp3', type:'audio', label:'4/ tydz. 1 : Pamięć' }
         ]
       },
        {
@@ -516,7 +520,8 @@ items: Item[] = [
         links: [
           { image: 'assets/tydzien1/5.jpg',type:'foto' },
           { text: this.prependDateFromName(`${this.getDatePlusDays(this.startDate, 25)}`, this.firstWeekDay5), type:'opis', label: 'Lęki' },
-          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/tydzien-pierwszy-dzien-5/audio', type:'audio', label:'audio' }
+          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/tydzien-pierwszy-dzien-5/audio', type:'audio', label:'audio (online)', hidden: true },
+          { url:'assets/tydzien1/Droga_Maryi_tydzien_pierwszy_dzien_5.mp3', type:'audio', label:'5/ tydz. 1 : Lęki' }
         ]
       },
        {
@@ -525,7 +530,8 @@ items: Item[] = [
         links: [
           { image: 'assets/tydzien1/6.jpg',type:'foto' },
           { text: this.prependDateFromName(`${this.getDatePlusDays(this.startDate, 26)}`, this.firstWeekDay6), type:'opis', label: 'Pycha życiowa' },
-          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/tydzien-pierwszy-dzien-6/audio', type:'audio', label:'audio' }
+          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/tydzien-pierwszy-dzien-6/audio', type:'audio', label:'audio (online)', hidden: true },
+          { url:'assets/tydzien1/Droga_Maryi_tydzien_pierwszy_dzien_6.mp3', type:'audio', label:'6/ tydz. 1 : Pycha życiowa' }
         ]
       },
        {
@@ -534,7 +540,8 @@ items: Item[] = [
         links: [
           { image: 'assets/tydzien1/7.jpg',type:'foto' },
           { text: this.prependDateFromName(`${this.getDatePlusDays(this.startDate, 27)}`, this.firstWeekDay7), type:'opis', label: 'Przebaczenie' },
-          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/tydzien-pierwszy-dzien-7/audio', type:'audio', label:'audio' }
+          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/tydzien-pierwszy-dzien-7/audio', type:'audio', label:'audio (online)', hidden: true },
+          { url:'assets/tydzien1/Droga_Maryi_tydzien_pierwszy_dzien_7.mp3', type:'audio', label:'7/ tydz. 1 : Przebaczenie' }
         ]
       },
     ] 

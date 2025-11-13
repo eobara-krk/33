@@ -235,7 +235,7 @@
                     </div>
 
                     <!-- Zwykły link (z URL) lub odtwarzacz audio dla Wprowadzenia (lokalny) -->
-                    <ng-container *ngIf="l.type === 'audio' && l.url && l.url.startsWith('assets/12dni/Droga_Maryi_12_dni_dzien_') && !l.hidden; else audioOrNormalLink">
+                    <ng-container *ngIf="l.type === 'audio' && l.url && ((l.url.startsWith('assets/12dni/Droga_Maryi_12_dni_dzien_') || l.url.startsWith('assets/tydzien1/Droga_Maryi_tydzien_pierwszy_dzien_')) && !l.hidden); else audioOrNormalLink">
                       <div class="grid-link sub-link audio-section" style="margin-bottom:8px; display: flex; justify-content: flex-start; align-items: center;">
                         <button (click)="playLocalAudio(l.url)"
                                 class="audio-toggle-btn"
