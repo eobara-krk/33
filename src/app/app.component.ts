@@ -556,7 +556,8 @@ items: Item[] = [
         links: [
           { image: 'assets/tydzien2/1.jpg',type:'foto' },
           { text: this.prependDateFromName(`${this.getDatePlusDays(this.startDate, 28)}`, this.secondWeekDay1), type:'opis', label: 'Maryja Nowa Ewa' },
-          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/tydzien-drugi-dzien-1/audio', type:'audio', label:'audio' }
+          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/tydzien-drugi-dzien-1/audio', type:'audio', label:'audio (online)', hidden: true },
+          { url:'assets/tydzien2/Droga_Maryi_tydzien_drugi_dzien_1.mp3', type:'audio', label:'1/ tydz. 2 : Maryja Nowa Ewa' }
         ]
       },
         {
@@ -565,7 +566,8 @@ items: Item[] = [
         links: [
           { image: 'assets/tydzien2/2.jpg',type:'foto' },
           { text: this.prependDateFromName(`${this.getDatePlusDays(this.startDate, 29)}`, this.secondWeekDay2), type:'opis', label: 'Dziewictwo i macierzyństwo Maryi' },
-          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/tydzien-drugi-dzien-2/audio', type:'audio', label:'audio' }
+          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/tydzien-drugi-dzien-2/audio', type:'audio', label:'audio (online)', hidden: true },
+          { url:'assets/tydzien2/Droga_Maryi_tydzien_drugi_dzien_2.mp3', type:'audio', label:'2/ tydz. 2 : Dziewictwo i macierzyństwo Maryi' }
         ]
       },
        {
@@ -574,7 +576,8 @@ items: Item[] = [
         links: [
           { image: 'assets/tydzien2/3.jpg',type:'foto' },
           { text: this.prependDateFromName(`${this.getDatePlusDays(this.startDate, 30)}`, this.secondWeekDay3), type:'opis', label: 'Niepokalane Poczęcie' },
-          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/tydzien-drugi-dzien-3/audio', type:'audio', label:'audio' }
+          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/tydzien-drugi-dzien-3/audio', type:'audio', label:'audio (online)', hidden: true },
+          { url:'assets/tydzien2/Droga_Maryi_tydzien_drugi_dzien_3.mp3', type:'audio', label:'3/ tydz. 2 : Niepokalane Poczęcie' }
         ]
       },
        {
@@ -583,7 +586,8 @@ items: Item[] = [
         links: [
           { image: 'assets/tydzien2/4.jpg',type:'foto' },
           { text: this.prependDateFromName(`${this.getDatePlusDays(this.startDate, 31)}`, this.secondWeekDay4), type:'opis', label: 'Wniebowzięcie Najświętszej Maryi Panny' },
-          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/tydzien-drugi-dzien-4/audio', type:'audio', label:'audio' }
+          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/tydzien-drugi-dzien-4/audio', type:'audio', label:'audio (online)', hidden: true },
+          { url:'assets/tydzien2/Droga_Maryi_tydzien_drugi_dzien_4.mp3', type:'audio', label:'4/ tydz. 2 : Wniebowzięcie Najświętszej Maryi Panny' }
         ]
       },
        {
@@ -592,7 +596,8 @@ items: Item[] = [
         links: [
           { image: 'assets/tydzien2/5.jpg',type:'foto' },
           { text: this.prependDateFromName(`${this.getDatePlusDays(this.startDate, 32)}`, this.secondWeekDay5), type:'opis', label: 'Maryja Niewiasta Eucharystii' },
-          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/tydzien-drugi-dzien-5/audio', type:'audio', label:'audio' }
+          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/tydzien-drugi-dzien-5/audio', type:'audio', label:'audio (online)', hidden: true },
+          { url:'assets/tydzien2/Droga_Maryi_tydzien_drugi_dzien_5.mp3', type:'audio', label:'5/ tydz. 2 : Maryja Niewiasta Eucharystii' }
         ]
       },
        {
@@ -601,7 +606,8 @@ items: Item[] = [
         links: [
           { image: 'assets/tydzien2/6.jpg',type:'foto' },
           { text: this.prependDateFromName(`${this.getDatePlusDays(this.startDate, 33)}`, this.secondWeekDay6), type:'opis', label: 'Niepokalane Serce Maryi – naszym schronieniem' },
-          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/tydzien-drugi-dzien-6/audio', type:'audio', label:'audio' }
+          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/tydzien-drugi-dzien-6/audio', type:'audio', label:'audio (online)', hidden: true },
+          { url:'assets/tydzien2/Droga_Maryi_tydzien_drugi_dzien_6.mp3', type:'audio', label:'6/ tydz. 2 : Niepokalane Serce Maryi – naszym schronieniem' }
         ]
       },
        {
@@ -610,7 +616,8 @@ items: Item[] = [
         links: [
           { image: 'assets/tydzien2/7.jpg',type:'foto' },
           { text: this.prependDateFromName(`${this.getDatePlusDays(this.startDate, 34)}`, this.secondWeekDay7), type:'opis', label: 'Apostołowie Tryumfu Niepokalanego Serca Maryi' },
-          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/tydzien-drugi-dzien-7/audio', type:'audio', label:'audio' }
+          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/tydzien-drugi-dzien-7/audio', type:'audio', label:'audio (online)', hidden: true },
+          { url:'assets/tydzien2/Droga_Maryi_tydzien_drugi_dzien_7.mp3', type:'audio', label:'7/ tydz. 2 : Apostołowie Tryumfu Niepokalanego Serca Maryi' }
         ]
       },
   ] 
