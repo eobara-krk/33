@@ -235,7 +235,7 @@
                     </div>
 
                     <!-- Zwykły link (z URL) lub odtwarzacz audio dla Wprowadzenia (lokalny) -->
-                    <ng-container *ngIf="l.type === 'audio' && l.url && ((l.url.startsWith('assets/12dni/Droga_Maryi_12_dni_dzien_') || l.url.startsWith('assets/tydzien1/Droga_Maryi_tydzien_pierwszy_dzien_') || l.url.startsWith('assets/tydzien2/Droga_Maryi_tydzien_drugi_dzien_')) && !l.hidden); else audioOrNormalLink">
+                    <ng-container *ngIf="l.type === 'audio' && l.url && ((l.url.startsWith('assets/12dni/Droga_Maryi_12_dni_dzien_') || l.url.startsWith('assets/tydzien1/Droga_Maryi_tydzien_pierwszy_dzien_') || l.url.startsWith('assets/tydzien2/Droga_Maryi_tydzien_drugi_dzien_') || l.url.startsWith('assets/tydzien3/Droga_Maryi_tydzien_trzeci_dzien_')) && !l.hidden); else audioOrNormalLink">
                       <div class="grid-link sub-link audio-section" style="margin-bottom:8px; display: flex; justify-content: flex-start; align-items: center;">
                         <button (click)="playLocalAudio(l.url)"
                                 class="audio-toggle-btn"
@@ -246,6 +246,7 @@
                           <span class="audio-title">{{ l.label }}</span>
                           <span class="audio-status">{{isLocalAudioPlaying(l.url) ? 'Odtwarzanie...' : 'Naciśnij aby odtworzyć'}}</span>
                         </button>
+                        <button *ngIf="isLocalAudioPlaying(l.url)" (click)="playLocalAudio(l.url)" class="close-audio-btn" title="Wyłącz dźwięk" style="margin-left:8px; background:none; border:none; font-size:1.3em; cursor:pointer; color:#888;">✖</button>
                       </div>
                     </ng-container>
                     <ng-template #audioOrNormalLink>

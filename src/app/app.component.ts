@@ -631,7 +631,8 @@ items: Item[] = [
         links: [
           { image: 'assets/tydzien3/1.jpg',type:'foto' },
           { text: this.prependDateFromName(`${this.getDatePlusDays(this.startDate, 35)}`, this.thirdWeekDay1), type:'opis', label: 'Zwiastowanie. Jezus-Słowo Boże. Jezus-Ewangelia.' },
-          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/tydzien-trzeci-dzien-1/audio', type:'audio', label:'audio' }
+          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/tydzien-trzeci-dzien-1/audio', type:'audio', label:'audio (online)', hidden: true },
+          { url:'assets/tydzien3/Droga_Maryi_tydzien_trzeci_dzien_1.mp3', type:'audio', label:'1/ tydz. 3 : Zwiastowanie. Jezus-Słowo Boże. Jezus-Ewangelia.' }
         ]
       },
         {
@@ -640,7 +641,8 @@ items: Item[] = [
         links: [
           { image: 'assets/tydzien3/2.jpg',type:'foto' },
           { text: this.prependDateFromName(`${this.getDatePlusDays(this.startDate, 36)}`, this.thirdWeekDay2), type:'opis', label: 'Boże Narodzenie. Jezus-Dziecko. Jezus-Chleb' },
-          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/tydzien-trzeci-dzien-2/audio', type:'audio', label:'audio' }
+          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/tydzien-trzeci-dzien-2/audio', type:'audio', label:'audio (online)', hidden: true },
+          { url:'assets/tydzien3/Droga_Maryi_tydzien_trzeci_dzien_2.mp3', type:'audio', label:'2/ tydz. 3 : Boże Narodzenie. Jezus-Dziecko. Jezus-Chleb' }
         ]
       },
        {
@@ -649,7 +651,8 @@ items: Item[] = [
         links: [
           { image: 'assets/tydzien3/3.jpg',type:'foto' },
           { text: this.prependDateFromName(`${this.getDatePlusDays(this.startDate, 37)}`, this.thirdWeekDay3), type:'opis', label: 'Ofiarowanie w świątyni. Jezus-Prawo Miłości. Jezus-droga do Nieba.' },
-          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/tydzien-trzeci-dzien-3/audio', type:'audio', label:'audio' }
+          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/tydzien-trzeci-dzien-3/audio', type:'audio', label:'audio (online)', hidden: true },
+          { url:'assets/tydzien3/Droga_Maryi_tydzien_trzeci_dzien_3.mp3', type:'audio', label:'3/ tydz. 3 : Ofiarowanie w świątyni. Jezus-Prawo Miłości. Jezus-droga do Nieba.' }
         ]
       },
        {
@@ -657,35 +660,39 @@ items: Item[] = [
        show: false,
         links: [
           { image: 'assets/tydzien3/4.jpg',type:'foto' },
-          { text: this.prependDateFromName(`${this.getDatePlusDays(this.startDate, 31)}`, this.thirdWeekDay4), type:'opis', label: 'Znalezienie w świątyni. Jezus szukany i znaleziony. Jezus zjednoczony z Ojcem' },
-          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/tydzien-trzeci-dzien-4/audio', type:'audio', label:'audio' }
+          { text: this.prependDateFromName(`${this.getDatePlusDays(this.startDate, 38)}`, this.thirdWeekDay4), type:'opis', label: 'Znalezienie w świątyni. Jezus szukany i znaleziony. Jezus zjednoczony z Ojcem' },
+          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/tydzien-trzeci-dzien-4/audio', type:'audio', label:'audio (online)', hidden: true },
+          { url:'assets/tydzien3/Droga_Maryi_tydzien_trzeci_dzien_4.mp3', type:'audio', label:'4/ tydz. 3 : Znalezienie w świątyni. Jezus szukany i znaleziony. Jezus zjednoczony z Ojcem' }
         ]
       },
        {
-        name: `05: ${this.getDatePlusDays(this.startDate, 32)}`,
+        name: `05: ${this.getDatePlusDays(this.startDate, 39)}`,
        show: false,
         links: [
           { image: 'assets/tydzien3/5.jpg',type:'foto' },
-          { text: this.prependDateFromName(`${this.getDatePlusDays(this.startDate, 32)}`, this.thirdWeekDay5), type:'opis', label: 'Cud przemiany wody wino w Kanie Galilejskiej. Jezus Zbawiciel. Jezus Źródło przemiany' },
-          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/tydzien-trzeci-dzien-5/audio', type:'audio', label:'audio' }
+          { text: this.prependDateFromName(`${this.getDatePlusDays(this.startDate, 39)}`, this.thirdWeekDay5), type:'opis', label: 'Cud przemiany wody w wino w Kanie Galilejskiej. Jezus Zbawiciel. Jezus Źródło przemiany' },
+          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/tydzien-trzeci-dzien-5/audio', type:'audio', label:'audio (online)', hidden: true },
+          { url:'assets/tydzien3/Droga_Maryi_tydzien_trzeci_dzien_5.mp3', type:'audio', label:'5/ tydz. 3 : Cud przemiany wody w wino w Kanie Galilejskiej. Jezus Zbawiciel. Jezus Źródło przemiany' }
         ]
       },
        {
-        name: `06: ${this.getDatePlusDays(this.startDate, 33)}`,
+        name: `06: ${this.getDatePlusDays(this.startDate, 40)}`,
        show: false,
         links: [
           { image: 'assets/tydzien3/6.jpg',type:'foto' },
-          { text: this.prependDateFromName(`${this.getDatePlusDays(this.startDate, 33)}`, this.thirdWeekDay6), type:'opis', label: 'Ukrzyżowanie. Jezus Król. Jezus MIŁOŚĆ' },
-          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/tydzien-trzeci-dzien-6/audio', type:'audio', label:'audio' }
+          { text: this.prependDateFromName(`${this.getDatePlusDays(this.startDate, 40)}`, this.thirdWeekDay6), type:'opis', label: 'Ukrzyżowanie. Jezus Król. Jezus MIŁOŚĆ' },
+          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/tydzien-trzeci-dzien-6/audio', type:'audio', label:'audio (online)', hidden: true },
+          { url:'assets/tydzien3/Droga_Maryi_tydzien_trzeci_dzien_6.mp3', type:'audio', label:'6/ tydz. 3 : Ukrzyżowanie. Jezus Król. Jezus MIŁOŚĆ' }
         ]
       },
        {
-        name: `07: ${this.getDatePlusDays(this.startDate, 34)}`,
+        name: `07: ${this.getDatePlusDays(this.startDate, 41)}`,
        show: false,
         links: [
           { image: 'assets/tydzien3/7.jpg',type:'foto' },
-          { text: this.prependDateFromName(`${this.getDatePlusDays(this.startDate, 34)}`, this.thirdWeekDay7), type:'opis', label: 'Zesłanie Ducha Świętego. Jezus Kościół. Jezus Chrzczący Duchem Świętym.' },
-          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/tydzien-trzeci-dzien-7/audio', type:'audio', label:'audio' }
+          { text: this.prependDateFromName(`${this.getDatePlusDays(this.startDate, 41)}`, this.thirdWeekDay7), type:'opis', label: 'Zesłanie Ducha Świętego. Jezus Kościół. Jezus Chrzczący Duchem Świętym.' },
+          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/tydzien-trzeci-dzien-7/audio', type:'audio', label:'audio (online)', hidden: true },
+          { url:'assets/tydzien3/Droga_Maryi_tydzien_trzeci_dzien_7.mp3', type:'audio', label:'7/ tydz. 3 : Zesłanie Ducha Świętego. Jezus Kościół. Jezus Chrzczący Duchem Świętym.' }
         ]
       },]
 },
@@ -699,8 +706,8 @@ items: Item[] = [
         links: [        
           { text: this.prependDateFromName(`${this.getDatePlusDays(this.startDate, 42)}`, this.oddanieDay0), type:'opis', label: 'Dzień oddania się Panu Jezusowi przez Maryję w Niewolę Miłości' },
           { text: this.prependDateFromName(`${this.getDatePlusDays(this.startDate, 42)}`, this.oddanieDayAkt), type:'opis', label: 'Akt oddania siebie Jezusowi Chrystusowi, Mądrości Wcielonej, przez ręce Maryi' },
-          { url: 'assets/akt.pdf',type:'pdf', label:'Pobierz Akt oddania (PDF)'},
-          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/dzien-oddania/audio', type:'audio', label:'audio' }
+          { url: 'assets/oddanie/akt.pdf',type:'pdf', label:'Pobierz Akt oddania (PDF)'},
+          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/dzien-oddania/audio', type:'audio', label:'audio (online)', hidden: true  }
         ]
       }]
 }
