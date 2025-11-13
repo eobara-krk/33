@@ -9,6 +9,7 @@ import  {SecondWeekTexts } from './secondWeek-texts';
 import {ThirdWeekTexts} from './thirdWeek-texts';  
 import {OddanieTexts} from './oddanie-texts';
 import { WhatsAppFormatterService } from './whatsapp-formatter.service';
+import { DynamicTitles } from './dynamic-titles';
 
 // Typy dla linków i itemów
 interface LinkGroup {
@@ -67,10 +68,10 @@ interface Item {
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit {
-  
+  title = '33';
 
     currentDateTime: Date = new Date(); // data biezaca
-    //currentDateTime: Date | null = new Date(2026, 10, 5); // (2025, 4, 2) = 2 maj
+    //currentDateTime: Date | null = new Date(2026, 4, 1); // (2025, 4, 2) = 2 maj
 
 
       // KONFIGURACJA DAT - tutaj ustawiasz datę startu
@@ -151,6 +152,24 @@ export class AppComponent implements OnInit {
   const dniPozostałoTxt = days === 1 ? 'Pozostał' : 'Pozostało';
   return `Pozostało ${days} ${dniTxt} do ${targetLabel}!`;
   }
+
+
+   get daysRangeLabel(): string {
+      const today = this.currentDateTime ?? new Date();
+      today.setHours(0,0,0,0);
+      const year = today.getMonth() > 10 ? today.getFullYear() + 1 : today.getFullYear();
+      const marzec20 = new Date(year, 2, 20); // 20 marca
+      const maj10 = new Date(year, 4, 10); // 10 maja
+      if (today > marzec20 && today < maj10) {
+        // Cykl wiosenny
+        return `22 III do 3 V`;
+      } else {
+        // Cykl zimowy
+        return `5 XI do 8 XII`;
+      }
+    }
+
+
   // Pomocnicza metoda: wstawia datę z pola name na początek tekstu
   prependDateFromName(name: string, text: string): string {
     // Wyciągnij datę z pola name (po dwukropku i spacji)
@@ -274,7 +293,7 @@ readonly oddanieDay0 = OddanieTexts.dzien0;
 
 items: Item[] = [
   { 
-    title: 'Nowenna do św. Ludwika <br><b>27 X - 04 XI</b>', 
+  title: DynamicTitles.getNovenaTitle(this.startDate),
     show: false,
     links: [
       {
@@ -365,7 +384,7 @@ items: Item[] = [
     ]
   },
   { 
-    title: 'Wyzbycie się ducha tego świata 12 dni <br><i><b>05 XI - 16 XI</b></i>', 
+  title: DynamicTitles.getTwelveDaysTitle(this.startDate),
     show: false,
     links: [
       {
@@ -505,7 +524,7 @@ items: Item[] = [
   },
 
 {
-  title: 'Tydzień pierwszy - Poznanie samego siebie <br><i><b>17 XI - 23 XI</b></i>',
+  title: DynamicTitles.getFirstWeekTitle(this.startDate),
   show: false, // opcjonalnie, żeby nie był od razu rozwinięty
   links: [
     {
@@ -581,7 +600,7 @@ items: Item[] = [
     ] 
 },
 {
-  title: 'Tydzień drugi - Poznanie Najświętszej Maryi Panny <br><i><b>24 XI - 30 XI</b></i>',
+  title: DynamicTitles.getSecondWeekTitle(this.startDate),
   show: false,
   links: [
      {
@@ -657,7 +676,7 @@ items: Item[] = [
   ] 
 },
 {
-  title: `Tydzień trzeci - Poznanie Jezusa Chrystusa <br><i><b>01 XII - 07 XII</b></i>`,
+  title: DynamicTitles.getThirdWeekTitle(this.startDate),
   show: false,
   links: [{
         name: `01: ${this.getDatePlusDays(this.startDate, 35)}`,
@@ -731,7 +750,7 @@ items: Item[] = [
       },]
 },
 {
-  title: `Dzień oddania <br><i><b>08 XII</b></i>`,
+  title: DynamicTitles.getDedicationDayTitle(this.startDate),
   show: false,
   links: [
       {
