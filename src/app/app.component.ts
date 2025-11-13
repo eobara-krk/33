@@ -32,6 +32,7 @@ interface SingleLink {
   show?: boolean; // czy grupa zagnieżdżona jest rozwinięta
   links?: SingleLink[]; // zagnieżdżone linki
   text?: string; // 🆕 tekst do wyświetlenia jako podlink
+  hidden?: boolean; // ukrywa link w aplikacji
 }
 
 interface Meeting {
@@ -66,6 +67,41 @@ interface Item {
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit {
+  // Player do lokalnego pliku mp3 (12 dni wprowadzenie)
+  isLocalIntroAudioPlaying = false;
+  localIntroAudioElement: HTMLAudioElement | null = null;
+  private localIntroAudioUrl = 'assets/12dni/Droga_Maryi_12_dni_wprowadzenie.mp3';
+
+  toggleLocalIntroAudio() {
+    if (this.isLocalIntroAudioPlaying) {
+      // Zatrzymaj lokalne audio
+      this.localIntroAudioElement?.pause();
+      this.localIntroAudioElement!.currentTime = 0;
+      this.isLocalIntroAudioPlaying = false;
+    } else {
+      // Zatrzymaj inne audio
+      this.stopAllAudio();
+      if (!this.localIntroAudioElement) {
+        this.localIntroAudioElement = new Audio(this.localIntroAudioUrl);
+        this.localIntroAudioElement.volume = 0.8;
+        this.localIntroAudioElement.addEventListener('ended', () => {
+          this.isLocalIntroAudioPlaying = false;
+        });
+        this.localIntroAudioElement.addEventListener('error', (e) => {
+          alert('Nie można odtworzyć pliku audio.');
+          this.isLocalIntroAudioPlaying = false;
+        });
+      }
+      this.localIntroAudioElement.play()
+        .then(() => {
+          this.isLocalIntroAudioPlaying = true;
+        })
+        .catch(() => {
+          alert('Nie można odtworzyć pliku audio.');
+          this.isLocalIntroAudioPlaying = false;
+        });
+    }
+  }
   // Sprawdza czy w tablicy linków jest audio z url
   hasAudioLink(links: SingleLink[]): boolean {
     return Array.isArray(links) && links.some(x => x.type === 'audio' && !!x.url);
@@ -302,9 +338,9 @@ items: Item[] = [
         show: false,
         links: [
           { image: 'assets/wprowadzenie/01.jpg',type:'foto' },
-           { text: this.tvelveDay0, type:'opis', label: 'Wprowadzenie' },
-
-          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/12-dni-wprowadzenie/audio', type:'audio', label:'audio Wprowadzenia' }
+          { text: this.tvelveDay0, type:'opis', label: 'Wprowadzenie' },
+          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/12-dni-wprowadzenie/audio', type:'audio', label:'audio Wprowadzenia (online)', hidden: true },
+          { url:'assets/12dni/Droga_Maryi_12_dni_wprowadzenie.mp3', type:'audio', label:'audio Wprowadzenia (lokalny)' }
         ]
       },
       {
@@ -717,36 +753,50 @@ items: Item[] = [
             if (nestedLink.show !== undefined) nestedLink.show = false;
           });
         });
+      } else {
+        // Jeśli klikamy na już otwarty folder, zamknij wszystkie jego podgrupy
+        if (item.show) {
+          item.links?.forEach(group => {
+            group.show = false;
+            group.links?.forEach(nestedLink => {
+              if (nestedLink.show !== undefined) nestedLink.show = false;
+            });
+          });
+        }
       }
     });
-    // Zamknij wszystkie podkatalogi w otwieranym folderze
-    if (!obj.show) {
-      if ('links' in obj && Array.isArray(obj['links'])) {
-        obj['links'].forEach((group: any) => {
-          group.show = false;
-          group.links?.forEach((nestedLink: any) => {
-            if (nestedLink.show !== undefined) nestedLink.show = false;
-          });
-        });
-      }
+    // Jeśli zamykamy sekcję, zatrzymaj audio
+    if (obj.show) {
+      // Sekcja była otwarta, teraz ją zamykamy
+      this.stopAllAudio();
     }
+    // Przełącz widoczność klikniętego folderu
     obj.show = !obj.show;
-    // Przewiń do trzeciego podfolderu, jeśli jest ich więcej niż 3, ale go nie rozwijaj
+    // Przewiń do folderu po otwarciu
     if (obj.show) {
       const index = this.items.indexOf(obj);
       const folderElem = document.getElementById('folder-' + index);
-      if (folderElem && obj.links && obj.links.length > 0) {
-        // Znajdź pierwszy podfolder w DOM
-        const groups = folderElem.querySelectorAll('.groups-container .group-container');
-        if (groups.length > 0) {
-          groups[0].scrollIntoView({ behavior: 'smooth', block: 'center' });
-        } else {
-          folderElem.scrollIntoView({ behavior: 'smooth', block: 'center' });
-        }
-      } else if (folderElem) {
+      if (folderElem) {
         folderElem.scrollIntoView({ behavior: 'smooth', block: 'center' });
       }
     }
+  }
+
+  // Zatrzymuje wszystkie odtwarzane audio
+  stopAllAudio() {
+    // Zatrzymaj Totus Tuus
+    if (this.audioElement && this.isAudioPlaying) {
+      this.audioElement.pause();
+      this.audioElement.currentTime = 0;
+      this.isAudioPlaying = false;
+    }
+    // Zatrzymaj lokalne Wprowadzenie
+    if (this.localIntroAudioElement && this.isLocalIntroAudioPlaying) {
+      this.localIntroAudioElement.pause();
+      this.localIntroAudioElement.currentTime = 0;
+      this.isLocalIntroAudioPlaying = false;
+    }
+    // Możesz tu dodać zatrzymanie innych audio, jeśli są
   }
 
   // ----------------------
@@ -1011,26 +1061,26 @@ items: Item[] = [
   private audioUrl = 'assets/totus_tuus.mp3';
 
   toggleAudio() {
-    if (!this.audioElement) {
-      this.audioElement = new Audio(this.audioUrl);
-      this.audioElement.volume = 0.7; // 70% głośności
-      
-      this.audioElement.addEventListener('ended', () => {
-        this.isAudioPlaying = false;
-      });
-
-      this.audioElement.addEventListener('error', (e) => {
-        console.error('Błąd odtwarzania audio:', e);
-        alert('Nie można odtworzyć pliku audio. Sprawdź połączenie internetowe.');
-        this.isAudioPlaying = false;
-      });
-    }
-
     if (this.isAudioPlaying) {
-      this.audioElement.pause();
-      this.audioElement.currentTime = 0; // Resetuj do początku
+      // Zatrzymaj Totus Tuus
+      this.audioElement?.pause();
+      this.audioElement!.currentTime = 0;
       this.isAudioPlaying = false;
     } else {
+      // Zatrzymaj inne audio
+      this.stopAllAudio();
+      if (!this.audioElement) {
+        this.audioElement = new Audio(this.audioUrl);
+        this.audioElement.volume = 0.7; // 70% głośności
+        this.audioElement.addEventListener('ended', () => {
+          this.isAudioPlaying = false;
+        });
+        this.audioElement.addEventListener('error', (e) => {
+          console.error('Błąd odtwarzania audio:', e);
+          alert('Nie można odtworzyć pliku audio. Sprawdź połączenie internetowe.');
+          this.isAudioPlaying = false;
+        });
+      }
       this.audioElement.play()
         .then(() => {
           this.isAudioPlaying = true;

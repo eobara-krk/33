@@ -234,31 +234,42 @@
                       <button *ngIf="l.show" (click)="toggleTextVisibility(l); $event.stopPropagation();" class="close-text-btn" title="Zamknij tekst" style="position:absolute; bottom:8px; right:8px; background:none; border:none; font-size:1.3em; cursor:pointer; color:#888; z-index:2;">✖</button>
                     </div>
 
-                    <!-- Zwykły link (z URL) -->
-                    <a *ngIf="l.type!=='foto' && l.type!=='opis'"
-                       class="grid-link sub-link"
-                       [class.today-highlight]="(l.label || l.url) ? isToday(l.label || l.url || '') : false"
-                       [href]="l.url || null"
-                       target="_blank"
-                       rel="noopener"
-                       (click)="$event.stopPropagation()">
-
-                      <span *ngIf="(l.label || l.url) && isToday(l.label || l.url || '')">👉</span>
-                      <span class="sub-icon">➤</span>
-
-                      <span [ngSwitch]="l.type">
-                        <span *ngSwitchCase="'film'">🎬</span>        
-                        <span *ngSwitchCase="'pdf'">📕</span>
-                        <span *ngSwitchCase="'exec'">💿</span>
-                        <span *ngSwitchCase="'foto'">📷</span>
-                        <span *ngSwitchCase="'audio'">🎵</span>
-                        <span *ngSwitchCase="'youtube'">📺</span>
-                        <span *ngSwitchCase="'html'">🌐</span>
-                        <span *ngSwitchDefault>📁</span>
-                      </span>
-
-                      {{ l.label || l.url }}
-                    </a>
+                    <!-- Zwykły link (z URL) lub odtwarzacz audio dla Wprowadzenia (lokalny) -->
+                    <ng-container *ngIf="l.type === 'audio' && l.url === 'assets/12dni/Droga_Maryi_12_dni_wprowadzenie.mp3' && !l.hidden; else normalLink">
+                      <div class="grid-link sub-link audio-section" style="margin-bottom:8px;">
+                        <button (click)="toggleLocalIntroAudio()"
+                                class="audio-toggle-btn"
+                                [class.playing]="isLocalIntroAudioPlaying"
+                                title="{{isLocalIntroAudioPlaying ? 'Zatrzymaj' : 'Odtwórz'}} Wprowadzenie 12 dni">
+                          <span class="play-icon">{{isLocalIntroAudioPlaying ? '⏸️' : '▶️'}}</span>
+                          <span class="audio-title">Wprowadzenie 12 dni</span>
+                          <span class="audio-status">{{isLocalIntroAudioPlaying ? 'Odtwarzanie...' : 'Naciśnij aby odtworzyć'}}</span>
+                        </button>
+                      </div>
+                    </ng-container>
+                    <ng-template #normalLink>
+                      <a *ngIf="l.type!=='foto' && l.type!=='opis' && !l.hidden"
+                         class="grid-link sub-link"
+                         [class.today-highlight]="(l.label || l.url) ? isToday(l.label || l.url || '') : false"
+                         [href]="l.url || null"
+                         target="_blank"
+                         rel="noopener"
+                         (click)="$event.stopPropagation()">
+                        <span *ngIf="(l.label || l.url) && isToday(l.label || l.url || '')">👉</span>
+                        <span class="sub-icon">➤</span>
+                        <span [ngSwitch]="l.type">
+                          <span *ngSwitchCase="'film'">🎬</span>        
+                          <span *ngSwitchCase="'pdf'">📕</span>
+                          <span *ngSwitchCase="'exec'">💿</span>
+                          <span *ngSwitchCase="'foto'">📷</span>
+                          <span *ngSwitchCase="'audio'">🎵</span>
+                          <span *ngSwitchCase="'youtube'">📺</span>
+                          <span *ngSwitchCase="'html'">🌐</span>
+                          <span *ngSwitchDefault>📁</span>
+                        </span>
+                        {{ l.label || l.url }}
+                      </a>
+                    </ng-template>
                   </ng-container>
                 </ng-container>
                   </div>
