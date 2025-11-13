@@ -705,6 +705,7 @@ items: Item[] = [
         show: false,
         links: [        
           { text: this.prependDateFromName(`${this.getDatePlusDays(this.startDate, 42)}`, this.oddanieDay0), type:'opis', label: 'Dzień oddania się Panu Jezusowi przez Maryję w Niewolę Miłości' },
+          { url:'assets/oddanie/Droga_Maryi_dzien_oddania_sie_panu_Jezusowi_przez_Maryje_w_niewole_milosci.mp3', type:'audio', label:'Dzień oddania się Panu Jezusowi przez Maryję w Niewolę Miłości' },
           { text: this.prependDateFromName(`${this.getDatePlusDays(this.startDate, 42)}`, this.oddanieDayAkt), type:'opis', label: 'Akt oddania siebie Jezusowi Chrystusowi, Mądrości Wcielonej, przez ręce Maryi' },
           { url: 'assets/oddanie/akt.pdf',type:'pdf', label:'Pobierz Akt oddania (PDF)'},
           { url:'https://drogamaryi.pl/edycje/5-listopada-2025/dzien-oddania/audio', type:'audio', label:'audio (online)', hidden: true  }
