@@ -607,13 +607,13 @@ main {
 .play-icon.playing {
   color: #fff;
   font-size: 1.35rem;
-  text-shadow: 0 2px 8px rgba(40,49,147,0.18), 0 0 2px #b39ddb;
+  /* text-shadow usunięty */
 }
 /* Poprawka: lepsza widoczność statusu w trybie play */
 .audio-status.playing {
   color: #fff;
   font-weight: 700;
-  text-shadow: 0 2px 8px rgba(40,49,147,0.18), 0 0 2px #b39ddb;
+  /* text-shadow usunięty */
 }
 }
 
