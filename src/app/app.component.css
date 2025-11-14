@@ -573,49 +573,47 @@ main {
   flex-direction: column;
   gap: 0.2rem;
   padding: 0.6rem 1rem;
-  background: #7e57c2;
-  border: 1px solid #7e57c2;
-  border-radius: 12px;
-  color: #fff;
-  font-size: 1rem;
+  background: linear-gradient(135deg, #ede7f6 0%, #fff 100%);
+  border: 1px solid #b39ddb;
+  border-radius: 20px;
+  color: #283593;
+  font-size: 1.08rem;
   font-weight: 600;
   cursor: pointer;
-  transition: all 0.3s ease;
-  box-shadow: 
-    0 2px 8px rgba(0, 0, 0, 0.1),
-    inset 0 1px 0 rgba(255, 255, 255, 0.2);
+  transition: none;
+  box-shadow: 0 2px 12px rgba(40,49,147,0.08), 0 1px 2px rgba(179,157,219,0.10);
   min-width: 120px;
 }
 
 .audio-toggle-btn:hover {
-  background: #b39ddb;
+  background: linear-gradient(135deg, #ede7f6 0%, #fff 100%);
   border-color: #b39ddb;
   transform: none;
-  box-shadow: none;
+  box-shadow: 0 2px 12px rgba(40,49,147,0.08), 0 1px 2px rgba(179,157,219,0.10);
 }
 
 .audio-toggle-btn.playing {
-  background: linear-gradient(90deg, #fce4ec 0%, #f8bbd0 100%);
-  border-color: #f8bbd0;
-  color: #6a1b9a;
-  font-size: 1rem;
+  background: linear-gradient(135deg, #ede7f6 0%, #fff 100%);
+  border-color: #b39ddb;
+  color: #283593;
+  font-size: 1.08rem;
   font-weight: 600;
 }
 
 .audio-toggle-btn.playing:hover {
-  background: linear-gradient(90deg, #fce4ec 0%, #f8bbd0 100%);
-  border-color: #f8bbd0;
+  background: linear-gradient(135deg, #ede7f6 0%, #fff 100%);
+  border-color: #b39ddb;
 /* Poprawka: lepsza widoczność ikony w trybie play */
 .play-icon.playing {
   color: #fff;
-  font-weight: 700;
-  text-shadow: 0 2px 8px rgba(0,0,0,0.45), 0 0 2px #d1c4e9;
+  font-size: 1.35rem;
+  text-shadow: 0 2px 8px rgba(40,49,147,0.18), 0 0 2px #b39ddb;
 }
 /* Poprawka: lepsza widoczność statusu w trybie play */
 .audio-status.playing {
   color: #fff;
   font-weight: 700;
-  text-shadow: 0 2px 8px rgba(0,0,0,0.45), 0 0 2px #d1c4e9;
+  text-shadow: 0 2px 8px rgba(40,49,147,0.18), 0 0 2px #b39ddb;
 }
 }
 
