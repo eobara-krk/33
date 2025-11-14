@@ -604,8 +604,7 @@ main {
   background: linear-gradient(135deg, #ede7f6 0%, #fff 100%);
   border-color: #b39ddb;
 /* Poprawka: lepsza widoczność ikony w trybie play */
-.play-icon.playing {
-  color: #fff;
+  color: #3b82f6;
   font-size: 1.35rem;
   text-shadow: 0 2px 8px rgba(40,49,147,0.18), 0 0 2px #b39ddb;
 }
@@ -614,7 +613,6 @@ main {
   color: #fff;
   font-weight: 700;
   text-shadow: 0 2px 8px rgba(40,49,147,0.18), 0 0 2px #b39ddb;
-}
 }
 
 .play-icon {
