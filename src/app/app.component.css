@@ -573,13 +573,12 @@ main {
   flex-direction: column;
   gap: 0.2rem;
   padding: 0.6rem 1rem;
-  background: rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(20px);
-  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: #7e57c2;
+  border: 1px solid #7e57c2;
   border-radius: 12px;
-  color: #374151;
-  font-size: 0.8rem;
-  font-weight: 500;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 600;
   cursor: pointer;
   transition: all 0.3s ease;
   box-shadow: 
@@ -589,12 +588,10 @@ main {
 }
 
 .audio-toggle-btn:hover {
-  background: rgba(255, 255, 255, 0.15);
-  border-color: rgba(255, 255, 255, 0.3);
-  transform: translateY(-1px);
-  box-shadow: 
-    0 4px 12px rgba(0, 0, 0, 0.15),
-    inset 0 1px 0 rgba(255, 255, 255, 0.3);
+  background: #b39ddb;
+  border-color: #b39ddb;
+  transform: none;
+  box-shadow: none;
 }
 
 .audio-toggle-btn.playing {
