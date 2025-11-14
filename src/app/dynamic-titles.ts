@@ -38,8 +38,8 @@ export class DynamicTitles {
 
   static getNovenaTitle(startDate: Date): string {
     if (startDate.getMonth() === 2 && startDate.getDate() === 22) {
-      return 'Nowenna do św. Ludwika <br><b>22 III - 30 III</b>';
+      return 'Nowenna do św. Ludwika <br><i><b>22 III - 30 III</b>';
     }
-    return 'Nowenna do św. Ludwika <br><b>27 X - 04 XI</b>';
+    return 'Nowenna do św. Ludwika <br><i><b>27 X - 04 XI</b></i>';
   }
 }

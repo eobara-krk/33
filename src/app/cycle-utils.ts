@@ -1,14 +1,14 @@
-// cycle-utils.ts
+import { getWiosnaStart, getWiosnaStop } from './constants';
 
 export function getDaysToEnd(currentDateTime: Date | null): string {
   const today = currentDateTime ?? new Date();
   today.setHours(0,0,0,0);
   const year = today.getMonth() > 10 ? today.getFullYear() + 1 : today.getFullYear();
-  const marzec20 = new Date(year, 2, 20); // 20 marca
-  const maj10 = new Date(year, 4, 10); // 10 maja
+  const wiosnaStart = getWiosnaStart(year);
+  const wiosnaStop = getWiosnaStop(year);
   let target: Date;
   let targetLabel: string;
-  if (today > marzec20 && today < maj10) {
+  if (today >  wiosnaStart && today < wiosnaStop) {
     target = new Date(year, 4, 3); // 3 maja
     targetLabel = '3 maja';
   } else {
@@ -25,9 +25,9 @@ export function getDaysRangeLabel(currentDateTime: Date | null): string {
   const today = currentDateTime ?? new Date();
   today.setHours(0,0,0,0);
   const year = today.getMonth() > 10 ? today.getFullYear() + 1 : today.getFullYear();
-  const marzec20 = new Date(year, 2, 20); // 20 marca
-  const maj10 = new Date(year, 4, 10); // 10 maja
-  if (today > marzec20 && today < maj10) {
+  const wiosnaStart = getWiosnaStart(year);
+  const wiosnaStop = getWiosnaStop(year);
+  if (today >  wiosnaStart && today < wiosnaStop) {
     // Cykl wiosenny
     return `22 III do 3 V`;
   } else {

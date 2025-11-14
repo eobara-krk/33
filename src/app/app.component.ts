@@ -1,4 +1,3 @@
-// Kopiowanie tekstu audio wraz z linkiem do schowka (dla przycisku przy audio)
 import { Component, OnInit } from '@angular/core';
 import { CommonModule, NgFor, NgIf, NgSwitch, NgSwitchCase, NgSwitchDefault } from '@angular/common';
 import { RouterModule } from '@angular/router';
@@ -12,6 +11,7 @@ import { WhatsAppFormatterService } from './whatsapp-formatter.service';
 import { getDaysToEnd, getDaysRangeLabel } from './cycle-utils';
 import { DynamicTitles } from './dynamic-titles';
 import { AudioPlayerService } from './audio-player.service';
+import { getWiosnaStart, getWiosnaStop } from './constants';
 
 // Typy dla linków i itemów
 interface LinkGroup {
@@ -82,9 +82,9 @@ export class AppComponent implements OnInit {
     const today = this.currentDateTime ?? new Date();
     today.setHours(0,0,0,0);
     const year = today.getFullYear();
-    const marzec20 = new Date(year, 2, 20); // 20 marca
-    const maj10 = new Date(year, 4, 10); // 10 maja
-    if (today > marzec20 && today < maj10) {
+    const wiosnaStart = getWiosnaStart(year);
+    const wiosnaStop = getWiosnaStop(year);
+    if (today >  wiosnaStart && today < wiosnaStop) {
       return new Date(year, 2, 22); // 22 marca
     } else {
       return new Date(year, 9, 27); // 27 października
