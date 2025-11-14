@@ -603,18 +603,7 @@ main {
 .audio-toggle-btn.playing:hover {
   background: linear-gradient(135deg, #ede7f6 0%, #fff 100%);
   border-color: #b39ddb;
-/* Poprawka: lepsza widoczność ikony w trybie play */
-.play-icon.playing {
-  color: #fff;
-  font-size: 1.35rem;
-  /* text-shadow usunięty */
-}
-/* Poprawka: lepsza widoczność statusu w trybie play */
-.audio-status.playing {
-  color: #fff;
-  font-weight: 700;
-  /* text-shadow usunięty */
-}
+/* Ikona i status w trybie play wyglądają identycznie jak w stanie czuwania */
 }
 
 .play-icon {
