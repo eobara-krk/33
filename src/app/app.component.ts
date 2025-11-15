@@ -70,6 +70,50 @@ interface Item {
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit {
+  // Zatrzymuje i resetuje audio Totus Tuus
+  stopAudio() {
+    this.audioPlayer.pause('assets/totus_tuus.mp3');
+    this.isAudioPlaying = false;
+  }
+
+
+
+  // Dynamiczny play/pauza dla dowolnego lokalnego audio
+  toggleLocalAudio(url: string) {
+    const audioEl = (this.audioPlayer as any).audioElements?.[url];
+    // Jeśli odtwarzacz lokalny jest wznawiany z pauzy
+    if (audioEl && audioEl.paused && audioEl.currentTime > 0 && (this.audioPlayer.getCurrentUrl() === null)) {
+      audioEl.play();
+      (this.audioPlayer as any).playingUrl = url;
+    } else if (this.audioPlayer.isPlaying(url)) {
+      this.audioPlayer.pauseOnly(url);
+    } else {
+      // Zatrzymaj wszystkie inne audio
+      this.audioPlayer.stopAll();
+      // Dodatkowo zatrzymaj Totus Tuus (reset czasu)
+      this.audioPlayer.pause('assets/totus_tuus.mp3');
+      this.isAudioPlaying = false; // Synchronizuj flagę Totus Tuus z rzeczywistym stanem
+      this.audioPlayer.play(
+        url,
+        0.8,
+        () => {},
+        () => alert('Nie można odtworzyć pliku audio.')
+      );
+    }
+  }
+
+  // Stop/reset dla dowolnego lokalnego audio
+  stopLocalAudio(url: string) {
+    this.audioPlayer.pause(url);
+  }
+  // Zatrzymuje i resetuje audio Wprowadzenie 12 dni
+  stopLocalIntroAudio() {
+    this.audioPlayer.pause(this.localIntroAudioUrl);
+  }
+  // Pauza audio bez resetowania czasu
+  pauseLocalIntroAudio() {
+    this.audioPlayer.pauseOnly(this.localIntroAudioUrl);
+  }
   title = '33';
 
     currentDateTime: Date = new Date(); // data biezaca
@@ -96,8 +140,13 @@ export class AppComponent implements OnInit {
   public localIntroAudioUrl = 'assets/12dni/Droga_Maryi_12_dni_wprowadzenie.mp3';
 
   toggleLocalIntroAudio() {
-    if (this.audioPlayer.isPlaying(this.localIntroAudioUrl)) {
-      this.audioPlayer.pause(this.localIntroAudioUrl);
+    const audioEl = (this.audioPlayer as any).audioElements?.[this.localIntroAudioUrl];
+    // Jeśli audio istnieje i jest zatrzymane (pauza), wznowienie bez resetowania czasu
+    if (audioEl && audioEl.paused && audioEl.currentTime > 0 && (this.audioPlayer.getCurrentUrl() === null)) {
+      audioEl.play();
+      (this.audioPlayer as any).playingUrl = this.localIntroAudioUrl;
+    } else if (this.audioPlayer.isPlaying(this.localIntroAudioUrl)) {
+      this.audioPlayer.pauseOnly(this.localIntroAudioUrl);
     } else {
       this.audioPlayer.stopAll();
       this.audioPlayer.play(
@@ -843,7 +892,10 @@ items: Item[] = [
 
   // Zatrzymuje wszystkie odtwarzane audio przez serwis
   stopAllAudio() {
+    // Zatrzymaj wszystkie audio
     this.audioPlayer.stopAll();
+    // Zresetuj flagę i czas dla Totus Tuus
+    this.audioPlayer.pause(this.audioUrl);
     this.isAudioPlaying = false;
   // this.audioElement = null; // Usunięto, bo audioElement nie jest już używany
   }
@@ -1101,13 +1153,24 @@ items: Item[] = [
   private audioUrl = 'assets/totus_tuus.mp3';
 
   toggleAudio() {
-    if (this.audioPlayer.isPlaying(this.audioUrl)) {
-      this.audioPlayer.pause(this.audioUrl);
+    const url = this.audioUrl;
+    const audioEl = (this.audioPlayer as any).audioElements?.[url];
+    // Jeśli Totus Tuus jest zatrzymywany przez inny player, resetuj flagę
+    if (!this.audioPlayer.isPlaying(url)) {
+      this.isAudioPlaying = false;
+    }
+    if (audioEl && audioEl.paused && audioEl.currentTime > 0 && (this.audioPlayer.getCurrentUrl() === null)) {
+      audioEl.play();
+      (this.audioPlayer as any).playingUrl = url;
+      this.isAudioPlaying = true;
+    } else if (this.audioPlayer.isPlaying(url)) {
+      this.audioPlayer.pauseOnly(url);
       this.isAudioPlaying = false;
     } else {
-      this.stopAllAudio();
+      // Zatrzymaj wszystkie inne audio (tak jak w innych playerach)
+      this.audioPlayer.stopAll();
       this.audioPlayer.play(
-        this.audioUrl,
+        url,
         0.7,
         () => { this.isAudioPlaying = false; },
         () => {

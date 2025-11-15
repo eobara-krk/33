@@ -560,6 +560,7 @@ main {
   filter: grayscale(100%);
 }
 
+
 /* TOTUS MUSIC LINK */
 .totus-audio-player {
   margin-top: 0.5rem;
@@ -603,7 +604,6 @@ main {
 .audio-toggle-btn.playing:hover {
   background: linear-gradient(135deg, #ede7f6 0%, #fff 100%);
   border-color: #b39ddb;
-/* Po kliknięciu play litery i ikony nie zmieniają stylu, są jak w stanie czuwania */
 }
 
 .play-icon {
@@ -620,6 +620,42 @@ main {
   font-size: 0.7rem;
   opacity: 0.8;
   text-align: center;
+}
+
+/* NOWY STYL PRZYCISKU STOP TOTUS TUUS */
+.audio-stop-btn {
+  margin-top: 8px;
+  background: rgba(255,255,255,0.8);
+  color: #222 !important;
+  border: 1px solid #d1d5db;
+  font-size: 0.7rem;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  opacity: 0.8;
+  cursor: pointer;
+  padding: 4px 14px;
+  border-radius: 12px;
+  box-shadow: 0 1px 4px rgba(59,130,246,0.07);
+  letter-spacing: 0.01em;
+  transition: background 0.18s, box-shadow 0.18s, color 0.18s;
+  align-self: flex-start;
+  outline: none;
+  display: inline-block;
+  text-shadow: 0 1px 4px rgba(255,255,255,0.5), 0 0 2px rgba(0,0,0,0.08);
+}
+.audio-stop-btn:hover {
+  background: rgba(255,255,255,0.98);
+  color: #283593 !important;
+  box-shadow: 0 2px 8px rgba(102,126,234,0.13);
+  border-color: #b39ddb;
+  opacity: 1;
+}
+.audio-stop-btn:active {
+  background: rgba(255,255,255,0.88);
+  color: #3b82f6 !important;
+  box-shadow: 0 1px 4px rgba(59,130,246,0.09);
+  border-color: #b39ddb;
+  opacity: 0.97;
 }
 
 /* MOBILE CONTROLS */
