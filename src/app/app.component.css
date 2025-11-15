@@ -1034,6 +1034,7 @@ main {
   
   .audio-section {
     justify-content: flex-end;
+    align-items: flex-end;
     width: 100%; /* Pełna szerokość */
   }
   

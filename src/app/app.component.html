@@ -29,7 +29,7 @@
                    loading="lazy" />
             </div>
           </div>
-          <div class="audio-section" style="display: flex; flex-direction: column; align-items: flex-start;">
+          <div class="audio-section" style="display: flex; flex-direction: column; align-items: flex-end; width: 100%;">
             <button (click)="toggleAudio()" 
                     class="audio-toggle-btn"
                     [class.playing]="isAudioPlaying"
@@ -38,11 +38,13 @@
               <span class="audio-title">Totus Tuus</span>
               <span class="audio-status">{{isAudioPlaying ? 'Odtwarzanie...' : 'Naciśnij aby odtworzyć'}}</span>
             </button>
-            <button *ngIf="isAudioPlaying" (click)="stopAudio()"
-                    class="audio-stop-btn"
-                    title="Stop Totus Tuus">
-              ⏹️ Stop
-            </button>
+            <div *ngIf="isAudioPlaying" style="width: 100%; display: flex; justify-content: flex-end;">
+              <button (click)="stopAudio()"
+                      class="audio-stop-btn"
+                      title="Stop Totus Tuus">
+                ⏹️ Stop
+              </button>
+            </div>
           </div>
         </div>
       </div>
@@ -260,21 +262,22 @@
                     </ng-container>
                     <ng-template #audioOrNormalLink>
                       <ng-container *ngIf="l.type === 'audio' && l.url === 'assets/12dni/Droga_Maryi_12_dni_wprowadzenie.mp3' && !l.hidden; else normalLink">
-                        <div class="grid-link sub-link audio-section" style="margin-bottom:8px; display: flex; justify-content: flex-start; align-items: center;">
-                          <button (click)="toggleLocalIntroAudio()"
-                                  class="audio-toggle-btn"
-                                  [class.playing]="isLocalAudioPlaying(localIntroAudioUrl)"
-                                  title="{{isLocalAudioPlaying(localIntroAudioUrl) ? 'Pauza' : 'Odtwórz'}} Wprowadzenie 12 dni"
-                                  style="margin-left: 0;">
-                            <span class="play-icon">{{isLocalAudioPlaying(localIntroAudioUrl) ? '⏸️' : '▶️'}}</span>
-                            <span class="audio-title">Wprowadzenie 12 dni</span>
-                            <span class="audio-status">{{isLocalAudioPlaying(localIntroAudioUrl) ? 'Odtwarzanie...' : 'Naciśnij aby odtworzyć'}}</span>
-                          </button>
-                          <button (click)="stopLocalIntroAudio()"
-                                  class="audio-stop-btn"
-                                  title="Stop Wprowadzenie 12 dni">
-                            ⏹️ Stop
-                          </button>
+                        <div class="grid-link sub-link audio-section">
+                          <div style="display: flex; flex-direction: column; align-items: flex-start; width: 100%;">
+                            <button (click)="toggleLocalIntroAudio()"
+                                    class="audio-toggle-btn"
+                                    [class.playing]="isLocalAudioPlaying(localIntroAudioUrl)"
+                                    title="{{isLocalAudioPlaying(localIntroAudioUrl) ? 'Pauza' : 'Odtwórz'}} Wprowadzenie 12 dni">
+                              <span class="play-icon">{{isLocalAudioPlaying(localIntroAudioUrl) ? '⏸️' : '▶️'}}</span>
+                              <span class="audio-title">Wprowadzenie 12 dni</span>
+                              <span class="audio-status">{{isLocalAudioPlaying(localIntroAudioUrl) ? 'Odtwarzanie...' : 'Naciśnij aby odtworzyć'}}</span>
+                            </button>
+                            <button *ngIf="isLocalAudioPlaying(localIntroAudioUrl)" (click)="stopLocalIntroAudio()"
+                                    class="audio-stop-btn"
+                                    title="Stop Wprowadzenie 12 dni">
+                              ⏹️ Stop
+                            </button>
+                          </div>
                         </div>
                       </ng-container>
                       <ng-template #normalLink>
