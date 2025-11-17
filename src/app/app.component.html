@@ -242,68 +242,25 @@
                     </div>
 
                     <!-- Zwykły link (z URL) lub odtwarzacz audio dla Wprowadzenia (lokalny) -->
-                    <ng-container *ngIf="l.type === 'audio' && l.url && ((l.url.startsWith('assets/12dni/Droga_Maryi_12_dni_dzien_') || l.url.startsWith('assets/tydzien1/Droga_Maryi_tydzien_pierwszy_dzien_') || l.url.startsWith('assets/tydzien2/Droga_Maryi_tydzien_drugi_dzien_') || l.url.startsWith('assets/tydzien3/Droga_Maryi_tydzien_trzeci_dzien_') || l.url.startsWith('assets/oddanie/Droga_Maryi_dzien_oddania_sie_panu_Jezusowi_przez_Maryje_w_niewole_milosci')) && !l.hidden); else audioOrNormalLink">
-                      <div class="grid-link sub-link audio-section" style="margin-bottom:8px; display: flex; flex-direction: column; align-items: flex-start;">
+                    <ng-container *ngIf="l.type === 'audio' && l.url && !l.hidden">
+                      <div class="grid-link sub-link audio-section" style="margin-bottom:8px; display: flex; flex-direction: column; align-items: flex-start; width: 100%;">
                         <button (click)="toggleLocalAudio(l.url)"
                                 class="audio-toggle-btn"
                                 [class.playing]="isLocalAudioPlaying(l.url)"
-                                title="{{isLocalAudioPlaying(l.url) ? 'Pauza' : 'Odtwórz'}} {{ l.label }}"
-                                style="margin-left: 0;">
+                                title="{{isLocalAudioPlaying(l.url) ? 'Pauza' : 'Odtwórz'}} {{ l.label }}">
                           <span class="play-icon">{{isLocalAudioPlaying(l.url) ? '⏸️' : '▶️'}}</span>
                           <span class="audio-title">{{ l.label }}</span>
                           <span class="audio-status">{{isLocalAudioPlaying(l.url) ? 'Odtwarzanie...' : 'Naciśnij aby odtworzyć'}}</span>
                         </button>
-                        <button *ngIf="isLocalAudioPlaying(l.url)" (click)="stopLocalAudio(l.url)"
-                                class="audio-stop-btn"
-                                title="Stop {{ l.label }}">
-                          ⏹️ Stop
-                        </button>
+                        <div *ngIf="isLocalAudioPlaying(l.url)" style="width: 100%; display: flex; justify-content: flex-end;">
+                          <button (click)="stopLocalAudio(l.url)"
+                                  class="audio-stop-btn"
+                                  title="Stop {{ l.label }}">
+                            ⏹️ Stop
+                          </button>
+                        </div>
                       </div>
                     </ng-container>
-                    <ng-template #audioOrNormalLink>
-                      <ng-container *ngIf="l.type === 'audio' && l.url === 'assets/12dni/Droga_Maryi_12_dni_wprowadzenie.mp3' && !l.hidden; else normalLink">
-                        <div class="grid-link sub-link audio-section">
-                          <div style="display: flex; flex-direction: column; align-items: flex-start; width: 100%;">
-                            <button (click)="toggleLocalIntroAudio()"
-                                    class="audio-toggle-btn"
-                                    [class.playing]="isLocalAudioPlaying(localIntroAudioUrl)"
-                                    title="{{isLocalAudioPlaying(localIntroAudioUrl) ? 'Pauza' : 'Odtwórz'}} Wprowadzenie 12 dni">
-                              <span class="play-icon">{{isLocalAudioPlaying(localIntroAudioUrl) ? '⏸️' : '▶️'}}</span>
-                              <span class="audio-title">Wprowadzenie 12 dni</span>
-                              <span class="audio-status">{{isLocalAudioPlaying(localIntroAudioUrl) ? 'Odtwarzanie...' : 'Naciśnij aby odtworzyć'}}</span>
-                            </button>
-                            <button *ngIf="isLocalAudioPlaying(localIntroAudioUrl)" (click)="stopLocalIntroAudio()"
-                                    class="audio-stop-btn"
-                                    title="Stop Wprowadzenie 12 dni">
-                              ⏹️ Stop
-                            </button>
-                          </div>
-                        </div>
-                      </ng-container>
-                      <ng-template #normalLink>
-                        <a *ngIf="l.type!=='foto' && l.type!=='opis' && !l.hidden"
-                           class="grid-link sub-link"
-                           [class.today-highlight]="(l.label || l.url) ? isToday(l.label || l.url || '') : false"
-                           [href]="l.url || null"
-                           target="_blank"
-                           rel="noopener"
-                           (click)="$event.stopPropagation()">
-                          <span *ngIf="(l.label || l.url) && isToday(l.label || l.url || '')">👉</span>
-                          <span class="sub-icon">➤</span>
-                          <span [ngSwitch]="l.type">
-                            <span *ngSwitchCase="'film'">🎬</span>        
-                            <span *ngSwitchCase="'pdf'">📕</span>
-                            <span *ngSwitchCase="'exec'">💿</span>
-                            <span *ngSwitchCase="'foto'">📷</span>
-                            <span *ngSwitchCase="'audio'">🎵</span>
-                            <span *ngSwitchCase="'youtube'">📺</span>
-                            <span *ngSwitchCase="'html'">🌐</span>
-                            <span *ngSwitchDefault>📁</span>
-                          </span>
-                          {{ l.label || l.url }}
-                        </a>
-                      </ng-template>
-                    </ng-template>
                   </ng-container>
                 </ng-container>
                   </div>

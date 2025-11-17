@@ -232,6 +232,7 @@ readonly tvelveDay10 = TvelveDaysTexts.dzien10;
 readonly tvelveDay11 = TvelveDaysTexts.dzien11;
 readonly tvelveDay12 = TvelveDaysTexts.dzien12;
 
+readonly firstWeekDay0 = FirstWeekTexts.dzien0;
 readonly firstWeekDay1 = FirstWeekTexts.dzien1;
 readonly firstWeekDay2 = FirstWeekTexts.dzien2;
 readonly firstWeekDay3 = FirstWeekTexts.dzien3;
@@ -240,6 +241,7 @@ readonly firstWeekDay5 = FirstWeekTexts.dzien5;
 readonly firstWeekDay6 = FirstWeekTexts.dzien6;
 readonly firstWeekDay7 = FirstWeekTexts.dzien7;
 
+readonly secondWeekDay0 = SecondWeekTexts.dzien0;
 readonly secondWeekDay1 = SecondWeekTexts.dzien1;
 readonly secondWeekDay2 = SecondWeekTexts.dzien2
 readonly secondWeekDay3 = SecondWeekTexts.dzien3;
@@ -248,6 +250,7 @@ readonly secondWeekDay5 = SecondWeekTexts.dzien5;
 readonly secondWeekDay6 = SecondWeekTexts.dzien6;
 readonly secondWeekDay7 = SecondWeekTexts.dzien7;
 
+readonly thirdWeekDay0 = ThirdWeekTexts.dzien0;
 readonly thirdWeekDay1 = ThirdWeekTexts.dzien1;
 readonly thirdWeekDay2 = ThirdWeekTexts.dzien2;
 readonly thirdWeekDay3 = ThirdWeekTexts.dzien3;
@@ -392,10 +395,10 @@ items: Item[] = [
         name: 'Wprowadzenie',
         show: false,
         links: [
-          { image: 'assets/wprowadzenie/01.jpg',type:'foto' },
+          { image: 'assets/12dni/00.jpg',type:'foto' },
           { text: this.tvelveDay0, type:'opis', label: 'Wprowadzenie' },
           { url:'https://drogamaryi.pl/edycje/5-listopada-2025/12-dni-wprowadzenie/audio', type:'audio', label:'audio Wprowadzenia (online)', hidden: true },
-          { url:'assets/12dni/Droga_Maryi_12_dni_wprowadzenie.mp3', type:'audio', label:'audio Wprowadzenia (lokalny)' }
+          { url:'assets/12dni/Droga_Maryi_12_dni_wprowadzenie.mp3', type:'audio', label:'12 dni: Wprowadzenie' }
         ]
       },
       {
@@ -529,6 +532,16 @@ items: Item[] = [
   show: false, // opcjonalnie, żeby nie był od razu rozwinięty
   links: [
     {
+        name: 'Wprowadzenie',
+        show: false,
+        links: [
+          { image: 'assets/tydzien1/0.jpg',type:'foto' },
+          { text: this.firstWeekDay0, type:'opis', label: 'Wprowadzenie' },
+          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/tydzien-pierwszy-wprowadzenie/audio', type:'audio', label:'audio Wprowadzenia (online)', hidden: true },
+          { url:'assets/tydzien1/Droga_Maryi_tydzien_pierwszy_wprowadzenie.mp3', type:'audio', label:'tydz.1: Wprowadzenie' }
+        ]
+      },
+    {
         name: `01: ${this.getDatePlusDays(this.startDate, 21)}`,
         show: false,
         links: [
@@ -604,6 +617,16 @@ items: Item[] = [
   title: DynamicTitles.getSecondWeekTitle(this.startDate),
   show: false,
   links: [
+        {
+        name: 'Wprowadzenie',
+        show: false,
+        links: [
+          { image: 'assets/tydzien2/0.jpg',type:'foto' },
+          { text: this.secondWeekDay0, type:'opis', label: 'Wprowadzenie' },
+          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/tydzien-drugi-wprowadzenie/audio', type:'audio', label:'audio Wprowadzenia (online)', hidden: true },
+          { url:'assets/tydzien2/Droga_Maryi_tydzien_drugi_wprowadzenie.mp3', type:'audio', label:'tydz. 2: Wprowadzenie' }
+        ]
+      },
      {
         name: `01: ${this.getDatePlusDays(this.startDate, 28)}`,
         show: false,
@@ -679,7 +702,18 @@ items: Item[] = [
 {
   title: DynamicTitles.getThirdWeekTitle(this.startDate),
   show: false,
-  links: [{
+  links: [
+        {
+        name: 'Wprowadzenie',
+        show: false,
+        links: [
+          { image: 'assets/tydzien3/0.jpg',type:'foto' },
+          { text: this.thirdWeekDay0, type:'opis', label: 'Wprowadzenie' },
+          { url:'https://drogamaryi.pl/edycje/5-listopada-2025/tydzien-trzeci-wprowadzenie/audio', type:'audio', label:'audio Wprowadzenia (online)', hidden: true },
+          { url:'assets/tydzien3/Droga_Maryi_tydzien_trzeci_wprowadzenie.mp3', type:'audio', label:'tydz. 3: Wprowadzenie' }
+        ]
+      },
+    {
         name: `01: ${this.getDatePlusDays(this.startDate, 35)}`,
         show: false,
         links: [
