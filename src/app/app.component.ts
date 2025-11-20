@@ -118,6 +118,25 @@ export class AppComponent implements OnInit {
     return getDaysRangeLabel(this.currentDateTime);
   }
 
+
+  // Metoda pomocnicza do generowania nazwy dnia z datą
+  private getDayName(date: Date): string {
+    const dayNames = ['niedziela', 'poniedziałek', 'wtorek', 'środa', 'czwartek', 'piątek', 'sobota'];
+    const dayName = dayNames[date.getDay()];
+    const day = date.getDate().toString().padStart(2, '0');
+    const month = (date.getMonth() + 1).toString().padStart(2, '0');
+    const year = date.getFullYear();
+    return `${dayName} ${day}.${month}.${year} r.`;
+  }
+
+  // Metoda do generowania daty o N dni później
+  getDatePlusDays(startDate: Date, days: number): string {
+    const newDate = new Date(startDate);
+    newDate.setDate(startDate.getDate() + days);
+    return this.getDayName(newDate);
+  }
+
+
     // ----------------------
   // AUDIO PLAYER TOTUS TUUS przez serwis
   audioUrl = 'assets/totus_tuus.mp3';
@@ -155,7 +174,200 @@ export class AppComponent implements OnInit {
   }
 
 
-  // Pomocnicza metoda: wstawia datę z pola name na początek tekstu
+  // Kopiowanie tekstu + linku audio w formacie WhatsApp
+  copyAudioTextToClipboard(links: SingleLink[]) {
+    this.whatsappCopyService.copyAudioTextToClipboard(links, this.whatsappFormatter);
+  }
+
+  copyAsWhatsapp(text: string) {
+    const formatted = this.whatsappFormatter.simpleFormatForWhatsApp(text);
+    navigator.clipboard.writeText(formatted);
+  }
+
+  fullscreenImage: string | null = null; // <-- globalny fullscreen
+  private hasScrolledToToday: boolean = false; // Flaga czy już przewinięto do dzisiejszej daty
+
+
+  
+
+ private readonly summaryPassword = 'syn';
+
+  // ----------------------
+  // INICJALIZACJA - AUTOMATYCZNE OTWIERANIE DZISIEJSZYCH FOLDERÓW
+  // ----------------------
+  ngOnInit() {
+    this.openTodayFolders();
+    setTimeout(() => {
+      this.scrollToToday();
+    }, 2000);
+
+    // Dodano: podgląd tekstów nowenny w konsoli
+    console.log('Tekst pierwszego dnia:', this.nowenna1);
+    console.log('Tekst drugiego dnia:', this.nowenna2);
+  }
+
+  // Odtwarzanie lokalnych audio przez serwis
+  playLocalAudio(url: string, volume = 1, onEnd?: () => void, onError?: () => void) {
+    this.audioPlayer.play(url, volume, onEnd, onError);
+  }
+
+  isLocalAudioPlaying(url: string): boolean {
+    return this.audioPlayer.isPlaying(url);
+  }
+
+  // Automatyczne otwieranie folderów z dzisiejszą datą
+  openTodayFolders = () => this.folderVisibilityService.openTodayFolders(
+    this.items,
+    (title: string) => this.dateUtilsService.isTodayInTitleRange(title, this.currentDateTime),
+    (name: string) => this.dateUtilsService.isToday(name, this.currentDateTime)
+  );
+
+   // ----------------------
+  // OTWIERANIE LINKÓW
+  // ----------------------
+  openLink(linkOrGroup: SingleLink | SingleLink[]) {
+    this.linkService.openLink(linkOrGroup);
+  }
+
+  // ----------------------
+  // ROZWIJANIE/ZWIJANIE EVENTÓW
+  // ----------------------
+  toggle = (obj: Item) => this.folderVisibilityService.toggle(this.items, obj, () => this.stopAllAudio());
+
+  // Zatrzymuje wszystkie odtwarzane audio przez serwis
+  stopAllAudio = () => {
+  this.audioPlayer.stopAll();
+  this.audioPlayer.pause(this.audioUrl);
+  };
+
+  // ----------------------
+  // CHRONIONE TEKSTY
+  // ----------------------
+  toggleLink = (group: LinkGroup) => this.folderVisibilityService.toggleLink(group, this.summaryPassword);
+
+  // Metoda do przełączania zagnieżdżonych grup
+  toggleNestedGroup = (nestedGroup: SingleLink) => this.folderVisibilityService.toggleNestedGroup(nestedGroup);
+
+  // ----------------------
+  // TRACKBY dla *ngFor
+  // ----------------------
+  trackByTitle(index: number, item: Item) {
+    return item.title;
+  }
+
+  trackByName(index: number, group: LinkGroup) {
+    return group.name;
+  }
+
+  // ----------------------
+  // TRYB PEŁNOEKRANOWY OBRAZKA
+  // ----------------------
+  toggleFullscreen = (url?: string) => {
+    this.fullscreenImage = this.imageService.toggleFullscreen(this.fullscreenImage, url);
+  };
+
+  // Obsługa ładowania obrazka
+  onImageLoad = (event: Event) => this.imageService.onImageLoad(event);
+  onImageError = (event: Event) => this.imageService.onImageError(event);
+
+
+  // ----------------------
+  // CZY DANA DATA JEST DZISIAJ
+  // ----------------------
+  isTodayInTitleRange = (title: string) => this.dateUtilsService.isTodayInTitleRange(title, this.currentDateTime);
+  isToday = (name: string) => this.dateUtilsService.isToday(name, this.currentDateTime);
+  hasInnerTodayElements = (group: LinkGroup) => this.dateUtilsService.hasInnerTodayElements(group, this.currentDateTime);
+  hasInnerTodayGroups = (item: Item) => this.dateUtilsService.hasInnerTodayGroups(item, this.currentDateTime);
+
+  // ----------------------
+  // OTWIERANIE TYLKO JEDNEJ GRUPY
+  // ----------------------
+  openOnly = (groupToOpen: LinkGroup, item: Item) => {
+    this.folderVisibilityService.openOnly(this.items, groupToOpen, item, this.summaryPassword);
+    if (groupToOpen.show) {
+      setTimeout(() => {
+        const groupElems = document.querySelectorAll('.group-container');
+        for (let elem of Array.from(groupElems)) {
+          if (elem.textContent && groupToOpen.name && elem.textContent.includes(groupToOpen.name)) {
+            (elem as HTMLElement).scrollIntoView({ behavior: 'smooth', block: 'start' });
+            break;
+          }
+        }
+      }, 300);
+    }
+  };
+
+    // NOWA METODA: BEZPIECZNY GŁÓWNY LINK
+  // ----------------------
+  getMainLink = (group: LinkGroup): string | null => this.linkService.getMainLink(group);
+
+  // ----------------------
+  // KONTROLKI NAWIGACJI MOBILE
+  // ----------------------
+  collapseAll = () => this.folderVisibilityService.collapseAll(this.items);
+
+  expandToday = () => this.folderVisibilityService.expandToday(this.items, (items: Item[]) => this.openTodayFolders());
+
+  // ----------------------
+  // ZAMYKANIE STRONY
+  // ----------------------
+  closePage() {
+    // Sprawdź czy można zamknąć okno (działa gdy strona została otwarta przez JavaScript)
+    const canClose = window.opener !== null || window.history.length <= 1;
+    if (canClose) {
+      window.close();
+      // Jeśli okno się nie zamknęło, przekieruj na about:blank
+      setTimeout(() => {
+        if (!window.closed) {
+          window.location.href = 'about:blank';
+        }
+      }, 50);
+    } else {
+      // Jeśli nie można zamknąć, od razu przekieruj na about:blank
+      window.location.href = 'about:blank';
+    }
+  }
+
+
+
+
+
+  // ----------------------
+  // AUTOMATYCZNE PRZEWIJANIE DO DZISIEJSZEGO ELEMENTU
+  // ----------------------
+  scrollToToday() {
+    // Przewijaj tylko jeśli jeszcze tego nie robiono
+    if (this.hasScrolledToToday) {
+      return;
+    }
+
+    // Znajdź pierwszy element z dzisiejszą datą
+    const todayElement = document.querySelector('.today-highlight');
+    
+    if (todayElement) {
+      // Proste przewijanie do dzisiejszego elementu z małym offsetem od góry
+      const elementTop = todayElement.getBoundingClientRect().top + window.pageYOffset;
+      const offset = 150; // Stały offset żeby zostawić miejsce na header
+      
+      window.scrollTo({
+        top: Math.max(0, elementTop - offset),
+        behavior: 'smooth'
+      });
+      
+      // Oznacz że przewijanie już się odbyło
+      this.hasScrolledToToday = true;
+    }
+  // Jeśli nie ma dzisiejszego elementu - pozostaw stronę na górze i oznacz jako wykonane
+  this.hasScrolledToToday = true;
+  }
+
+  // ----------------------
+  // SPRAWDZANIE CZY GRUPA MA ELEMENTY FOTO
+  // ----------------------
+  hasPhotoElements = (links: any[]): boolean => this.imageService.hasPhotoElements(links);
+
+
+    // Pomocnicza metoda: wstawia datę z pola name na początek tekstu
   prependDateFromName(name: string, text: string): string {
     // Wyciągnij datę z pola name (po dwukropku i spacji)
     const match = name.match(/\d{2}: (.+)/);
@@ -163,11 +375,6 @@ export class AppComponent implements OnInit {
     return `<b>${date}</b><br>${text}`;
   }
 
-  // Kopiowanie tekstu + linku audio w formacie WhatsApp
-  copyAudioTextToClipboard(links: SingleLink[]) {
-    this.whatsappCopyService.copyAudioTextToClipboard(links, this.whatsappFormatter);
-  }
-  // ...existing code...
 
 readonly litania = NovenaTexts.litania;
 readonly nowenna0 = NovenaTexts.dzien0;
@@ -223,35 +430,8 @@ readonly thirdWeekDay6 = ThirdWeekTexts.dzien6;
 readonly thirdWeekDay7 = ThirdWeekTexts.dzien7;
 
 readonly oddanieDayAkt = OddanieTexts.dzienAkt;
-readonly oddanieDay0 = OddanieTexts.dzien0;
+readonly oddanieDay0 = OddanieTexts.dzien0;  
 
-
-  copyAsWhatsapp(text: string) {
-    const formatted = this.whatsappFormatter.simpleFormatForWhatsApp(text);
-    navigator.clipboard.writeText(formatted);
-  }
-
-  fullscreenImage: string | null = null; // <-- globalny fullscreen
-  private hasScrolledToToday: boolean = false; // Flaga czy już przewinięto do dzisiejszej daty
-
-
-
-  // Metoda pomocnicza do generowania nazwy dnia z datą
-  private getDayName(date: Date): string {
-    const dayNames = ['niedziela', 'poniedziałek', 'wtorek', 'środa', 'czwartek', 'piątek', 'sobota'];
-    const dayName = dayNames[date.getDay()];
-    const day = date.getDate().toString().padStart(2, '0');
-    const month = (date.getMonth() + 1).toString().padStart(2, '0');
-    const year = date.getFullYear();
-    return `${dayName} ${day}.${month}.${year} r.`;
-  }
-
-  // Metoda do generowania daty o N dni później
-  getDatePlusDays(startDate: Date, days: number): string {
-    const newDate = new Date(startDate);
-    newDate.setDate(startDate.getDate() + days);
-    return this.getDayName(newDate);
-  }
 
 items: Item[] = [
   { 
@@ -761,190 +941,4 @@ items: Item[] = [
 }
 ];
 
-
- private readonly summaryPassword = 'syn';
-
-  // ----------------------
-  // INICJALIZACJA - AUTOMATYCZNE OTWIERANIE DZISIEJSZYCH FOLDERÓW
-  // ----------------------
-  ngOnInit() {
-    this.openTodayFolders();
-    setTimeout(() => {
-      this.scrollToToday();
-    }, 2000);
-
-    // Dodano: podgląd tekstów nowenny w konsoli
-    console.log('Tekst pierwszego dnia:', this.nowenna1);
-    console.log('Tekst drugiego dnia:', this.nowenna2);
-  }
-
-  // Odtwarzanie lokalnych audio przez serwis
-  playLocalAudio(url: string, volume = 1, onEnd?: () => void, onError?: () => void) {
-    this.audioPlayer.play(url, volume, onEnd, onError);
-  }
-
-  isLocalAudioPlaying(url: string): boolean {
-    return this.audioPlayer.isPlaying(url);
-  }
-
-  // Automatyczne otwieranie folderów z dzisiejszą datą
-  openTodayFolders = () => this.folderVisibilityService.openTodayFolders(
-    this.items,
-    (title: string) => this.dateUtilsService.isTodayInTitleRange(title, this.currentDateTime),
-    (name: string) => this.dateUtilsService.isToday(name, this.currentDateTime)
-  );
-
-   // ----------------------
-  // OTWIERANIE LINKÓW
-  // ----------------------
-  openLink(linkOrGroup: SingleLink | SingleLink[]) {
-    this.linkService.openLink(linkOrGroup);
-  }
-
-  // ----------------------
-  // ROZWIJANIE/ZWIJANIE EVENTÓW
-  // ----------------------
-  toggle = (obj: Item) => this.folderVisibilityService.toggle(this.items, obj, () => this.stopAllAudio());
-
-  // Zatrzymuje wszystkie odtwarzane audio przez serwis
-  stopAllAudio = () => {
-  this.audioPlayer.stopAll();
-  this.audioPlayer.pause(this.audioUrl);
-  };
-
-  // ----------------------
-  // CHRONIONE TEKSTY
-  // ----------------------
-  toggleLink = (group: LinkGroup) => this.folderVisibilityService.toggleLink(group, this.summaryPassword);
-
-  // Metoda do przełączania zagnieżdżonych grup
-  toggleNestedGroup = (nestedGroup: SingleLink) => this.folderVisibilityService.toggleNestedGroup(nestedGroup);
-
-  // ----------------------
-  // TRACKBY dla *ngFor
-  // ----------------------
-  trackByTitle(index: number, item: Item) {
-    return item.title;
-  }
-
-  trackByName(index: number, group: LinkGroup) {
-    return group.name;
-  }
-
-  // ----------------------
-  // TRYB PEŁNOEKRANOWY OBRAZKA
-  // ----------------------
-  toggleFullscreen = (url?: string) => {
-    this.fullscreenImage = this.imageService.toggleFullscreen(this.fullscreenImage, url);
-  };
-
-  // Obsługa ładowania obrazka
-  onImageLoad = (event: Event) => this.imageService.onImageLoad(event);
-  onImageError = (event: Event) => this.imageService.onImageError(event);
-
-
-  // ----------------------
-  // CZY DANA DATA JEST DZISIAJ
-  // ----------------------
-  isTodayInTitleRange = (title: string) => this.dateUtilsService.isTodayInTitleRange(title, this.currentDateTime);
-  isToday = (name: string) => this.dateUtilsService.isToday(name, this.currentDateTime);
-  hasInnerTodayElements = (group: LinkGroup) => this.dateUtilsService.hasInnerTodayElements(group, this.currentDateTime);
-  hasInnerTodayGroups = (item: Item) => this.dateUtilsService.hasInnerTodayGroups(item, this.currentDateTime);
-
-  // ----------------------
-  // OTWIERANIE TYLKO JEDNEJ GRUPY
-  // ----------------------
-  openOnly = (groupToOpen: LinkGroup, item: Item) => {
-    this.folderVisibilityService.openOnly(this.items, groupToOpen, item, this.summaryPassword);
-    if (groupToOpen.show) {
-      setTimeout(() => {
-        const groupElems = document.querySelectorAll('.group-container');
-        for (let elem of Array.from(groupElems)) {
-          if (elem.textContent && groupToOpen.name && elem.textContent.includes(groupToOpen.name)) {
-            (elem as HTMLElement).scrollIntoView({ behavior: 'smooth', block: 'start' });
-            break;
-          }
-        }
-      }, 300);
-    }
-  };
-
-    // NOWA METODA: BEZPIECZNY GŁÓWNY LINK
-  // ----------------------
-  getMainLink = (group: LinkGroup): string | null => this.linkService.getMainLink(group);
-
-  // ----------------------
-  // KONTROLKI NAWIGACJI MOBILE
-  // ----------------------
-  collapseAll = () => this.folderVisibilityService.collapseAll(this.items);
-
-  expandToday = () => this.folderVisibilityService.expandToday(this.items, (items: Item[]) => this.openTodayFolders());
-
-  // ----------------------
-  // ZAMYKANIE STRONY
-  // ----------------------
-  closePage() {
-    // Sprawdź czy można zamknąć okno (działa gdy strona została otwarta przez JavaScript)
-    const canClose = window.opener !== null || window.history.length <= 1;
-    
-    if (canClose) {
-      // Spróbuj zamknąć okno
-      window.close();
-    }
-    
-    // Sprawdź po krótkim czasie czy okno się zamknęło
-    setTimeout(() => {
-      if (!window.closed) {
-        // Okno się nie zamknęło - pokaż instrukcje
-        const isMac = navigator.platform.toUpperCase().indexOf('MAC') >= 0;
-        const shortcut = isMac ? '⌘+W' : 'Ctrl+W';
-        
-        const message = `🔒 Przeglądarka blokuje automatyczne zamykanie kart ze względów bezpieczeństwa.\n\n` +
-                       `✨ Aby zamknąć kartę:\n` +
-                       `• Użyj skrótu: ${shortcut}\n` +
-                       `• lub kliknij ✕ na karcie\n` +
-                       `• lub zamknij całe okno przeglądarki`;
-                       
-        alert(message);
-      }
-    }, 50);
-  }
-
-
-
-
-
-  // ----------------------
-  // AUTOMATYCZNE PRZEWIJANIE DO DZISIEJSZEGO ELEMENTU
-  // ----------------------
-  scrollToToday() {
-    // Przewijaj tylko jeśli jeszcze tego nie robiono
-    if (this.hasScrolledToToday) {
-      return;
-    }
-
-    // Znajdź pierwszy element z dzisiejszą datą
-    const todayElement = document.querySelector('.today-highlight');
-    
-    if (todayElement) {
-      // Proste przewijanie do dzisiejszego elementu z małym offsetem od góry
-      const elementTop = todayElement.getBoundingClientRect().top + window.pageYOffset;
-      const offset = 150; // Stały offset żeby zostawić miejsce na header
-      
-      window.scrollTo({
-        top: Math.max(0, elementTop - offset),
-        behavior: 'smooth'
-      });
-      
-      // Oznacz że przewijanie już się odbyło
-      this.hasScrolledToToday = true;
-    }
-  // Jeśli nie ma dzisiejszego elementu - pozostaw stronę na górze i oznacz jako wykonane
-  this.hasScrolledToToday = true;
-  }
-
-  // ----------------------
-  // SPRAWDZANIE CZY GRUPA MA ELEMENTY FOTO
-  // ----------------------
-  hasPhotoElements = (links: any[]): boolean => this.imageService.hasPhotoElements(links);
 }
