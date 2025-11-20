@@ -91,6 +91,11 @@ export class AppComponent implements OnInit {
   
   title = '33';
 
+  // AUDIO PLAYER TOTUS TUUS przez serwis
+  audioUrl = 'assets/totus_tuus.mp3';
+
+  private readonly summaryPassword = 'syn';
+
   currentDateTime: Date = new Date(); // data biezaca
    //currentDateTime: Date | null = new Date(2026, 4, 1); // (2025, 4, 2) = 2 maj
 
@@ -137,12 +142,6 @@ export class AppComponent implements OnInit {
   }
 
 
-    // ----------------------
-  // AUDIO PLAYER TOTUS TUUS przez serwis
-  audioUrl = 'assets/totus_tuus.mp3';
-
-  
-
   // Unified audio toggle for any audio file (Totus Tuus or local)
   toggleAudio(url: string = this.audioUrl) {
     const audioEl = (this.audioPlayer as any).audioElements?.[url];
@@ -187,10 +186,6 @@ export class AppComponent implements OnInit {
   fullscreenImage: string | null = null; // <-- globalny fullscreen
   private hasScrolledToToday: boolean = false; // Flaga czy już przewinięto do dzisiejszej daty
 
-
-  
-
- private readonly summaryPassword = 'syn';
 
   // ----------------------
   // INICJALIZACJA - AUTOMATYCZNE OTWIERANIE DZISIEJSZYCH FOLDERÓW
@@ -327,10 +322,6 @@ export class AppComponent implements OnInit {
       window.location.href = 'about:blank';
     }
   }
-
-
-
-
 
   // ----------------------
   // AUTOMATYCZNE PRZEWIJANIE DO DZISIEJSZEGO ELEMENTU
