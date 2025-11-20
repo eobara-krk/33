@@ -233,7 +233,7 @@
                         <!-- Przycisk kopiowania tekstu + linku audio -->
                         <span *ngIf="hasAudioLink(links)" class="copy-text-icon" (click)="copyAudioTextToClipboard(links); $event.stopPropagation();" title="Skopiuj tekst i link audio">🎵📋</span>
                         <!-- Przycisk kopiowania samego tekstu -->
-                        <span *ngIf="!hasAudioLink(links)" class="copy-text-icon" (click)="copyTextToClipboard(l.text); $event.stopPropagation();" title="Skopiuj tekst">📋</span>
+                        <span *ngIf="!hasAudioLink(links)" class="copy-text-icon" (click)="copyAudioTextToClipboard([l]); $event.stopPropagation();" title="Skopiuj tekst">📋</span>
                       </div>
                       <!-- Zawartość tekstowa -->
                       <div *ngIf="l.show" class="sub-text" [innerHTML]="processTextWithLinks(l.text)"></div>

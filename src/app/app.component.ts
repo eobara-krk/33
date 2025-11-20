@@ -1231,27 +1231,6 @@ items: Item[] = [
     return processedText;
   }
 
-  // FORMATOWANIE TEKSTU DLA WHATSAPP (MARKDOWN)
-  // ----------------------
-  private formatTextForWhatsApp(text: string): string {
-    if (!text) return '';
-    
-    return text
-      // USUŃ WSZYSTKIE wcięcia z początku każdej linii - WhatsApp zaczyna od lewej
-      .replace(/^\s+/gm, '') 
-      // Zachowaj formatowanie WhatsApp (kombinacje najpierw!)
-      .replace(/\*_([^_*]+)_\*/g, '*_$1_*') // *_tekst_* → zachowaj dla WhatsApp
-      .replace(/_\*([^*_]+)\*_/g, '_*$1*_') // _*tekst*_ → zachowaj dla WhatsApp
-      .replace(/\*([^*]+)\*/g, '*$1*') // *bold* dla WhatsApp
-      .replace(/_([^_]+)_/g, '_$1_') // _italic_ dla WhatsApp (zachowaj)
-      .replace(/\n{3,}/g, '\n\n') // zmniejsz nadmierne nowe linie
-      // Dodaj emotikony do sekcji
-      .replace(/(\*Modlitwa:\*)/g, '\n🙏 $1')
-      .replace(/(\*Dzień [^:]+:\*)/g, '📿 $1')
-      // Kursywa dla cytatów
-      .replace(/^"([^"]+)"$/gm, '_"$1"_');
-      // Link źródła jest obsługiwany osobno w copyTextToClipboard()
-  }
 
   // ZARZĄDZANIE WIDOCZNOŚCIĄ TEKSTU
   // ----------------------
@@ -1285,56 +1264,6 @@ items: Item[] = [
         }, 300);
       } else {
         linkItem.show = true;
-      }
-    }
-  }
-
-  // KOPIOWANIE TEKSTU DO SCHOWKA Z FORMATOWANIEM WHATSAPP
-  // ----------------------
-  async copyTextToClipboard(text: string, linkItem?: SingleLink) {
-    if (!text) {
-      alert('Brak tekstu do skopiowania.');
-      return;
-    }
-
-    try {
-      // ZAWSZE wyczyść schowek przed kopiowaniem nowego tekstu
-      try {
-        await navigator.clipboard.writeText('');
-        console.log('🧹 Schowek wyczyszczony');
-        // Krótkie opóźnienie żeby mieć pewność że czyszczenie się wykonało
-        await new Promise(resolve => setTimeout(resolve, 100));
-      } catch (clearError) {
-        console.warn('⚠️ Nie udało się wyczyścić schowka:', clearError);
-      }
-      
-      // Wyciągnij link źródła jeśli istnieje
-      const sourceMatch = text.match(/\s*Źródło:\s+(https?:\/\/[^\s<>]+)/);
-      const sourceUrl = sourceMatch ? sourceMatch[1] : null;
-      
-      // Usuń oryginalny link źródła z tekstu do formatowania
-      let cleanText = text.replace(/\s*Źródło:\s+https?:\/\/[^\s<>]+/g, '');
-
-      // Dodaj URL audio jeśli istnieje
-      if (linkItem && linkItem.type === 'audio' && linkItem.url) {
-        cleanText += `\n${linkItem.url}`;
-      }
-
-      // Sformatuj tekst dla WhatsApp z HTML
-      const whatsappText = this.whatsappFormatter.formatForWhatsApp(cleanText);
-
-      // Skopiuj do schowka
-      await navigator.clipboard.writeText(whatsappText);
-
-      console.log('✅ Tekst skopiowany:', whatsappText.length, 'znaków');
-      alert(`✅ Tekst został skopiowany do schowka!\n\nDługość: ${whatsappText.length} znaków\n\n📱 Ten tekst jest sformatowany pod WhatsApp.`);
-    } catch (error) {
-      console.error('❌ BŁĄD kopiowania tekstu:', error);
-      // Fallback - pokaż tekst do ręcznego skopiowania
-      const whatsappText = this.formatTextForWhatsApp(text);
-      const result = prompt('⚠️ Nie udało się automatycznie skopiować tekstu.\n\nSkopiuj go ręcznie (Ctrl+C):', whatsappText);
-      if (result !== null) {
-        alert('✅ Tekst gotowy do wklejenia!');
       }
     }
   }
