@@ -87,7 +87,7 @@ Dziewicze macierzyństwo Maryi rozciąga się na cały Kościół, który w ból
 - karmiła się mlekiem Jej łaski i macierzyńskiego miłosierdzia;
 - uwolniona była od niepokojów, obaw i wątpliwości;
 - była bezpieczna od wszystkich swych nieprzyjaciół, od szatana, świata i grzechu, co nigdy tu nie mieli dostępu; dlatego sama Maryja zapewnia nas, że ci, którzy w Niej swe uczynki spełniają, nie grzeszą (zob. Syr 24,22), to znaczy, że duchowo mieszkający w Najświętszej Dziewicy nie popełniają grzechu ciężkiego;
--była ukształtowana w Jezusie Chrystusie, a Jezus Chrystus w Niej. Albowiem, według Ojców Kościoła, łono Maryi jest Przybytkiem boskich sakramentów, w którym zostali ukształtowani Jezus Chrystus i wszyscy wybrani".
+- była ukształtowana w Jezusie Chrystusie, a Jezus Chrystus w Niej. Albowiem, według Ojców Kościoła, łono Maryi jest Przybytkiem boskich sakramentów, w którym zostali ukształtowani Jezus Chrystus i wszyscy wybrani".
 św. Ludwik Maria Grignion de Montfort, <i>Traktat o prawdziwym nabożeństwie do Najświętszej Maryi Panny</i>, 263-264<br>
 <b>Zadanie</b>
 Podziękuje Bogu za Maryję. Oddam Jej swoje serce i całe ciało. Z pomocą Maryi strzec będę godności mojego człowieczeństwa.<br>`;
