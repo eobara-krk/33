@@ -15,33 +15,9 @@ import { Injectable } from '@angular/core';
 
 @Injectable({ providedIn: 'root' })
 export class WhatsappCopyService {
-  // Formatowanie tekstu pod WhatsApp (markdown)
-  formatTextForWhatsApp(text: string): string {
-    if (!text) return '';
-    return text
-      .replace(/^\s+/gm, '')
-      .replace(/\*_([^_*]+)_\*/g, '*_$1_*')
-      .replace(/_\*([^*_]+)\*_/g, '_*$1*_')
-      .replace(/\*([^*]+)\*/g, '*$1*')
-      .replace(/_([^_]+)_/g, '_$1_')
-      .replace(/\n{3,}/g, '\n\n')
-      .replace(/(\*Modlitwa:\*)/g, '\n🙏 $1')
-      .replace(/(\*Dzień [^:]+:\*)/g, '📿 $1')
-      .replace(/^"([^"]+)"$/gm, '_"$1"_');
-  }
-
-  // Proste formatowanie tekstu (np. nagłówki)
-  whatsappFormatText(text: string): string {
-    let formatted = text
-      .replace(/\n\n/g, '\n')
-      .replace(/^(Dzień \w+: .+)/gm, '*$1*')
-      .replace(/_/g, '')
-      .replace(/\n/g, '\n');
-    return formatted;
-  }
 
   // Kopiowanie tekstu + linku audio w formacie WhatsApp
-  copyAudioTextToClipboard(links: SingleLink[], formatter?: any) {
+  copyAudioTextToClipboard(links: SingleLink[], formatter: { formatForWhatsApp: (text: string) => string }) {
     const textObj = links.find(l => l.type === 'opis' && l.text);
     const audioObj = links.find(l => l.type === 'audio' && l.url);
     let text = textObj?.text || '';
@@ -49,15 +25,14 @@ export class WhatsappCopyService {
     if (audioUrl && !/^https?:\/\//.test(audioUrl)) {
       audioUrl = window.location.origin + '/' + audioUrl.replace(/^\/*/, '');
     }
-    // Użyj formattera jeśli przekazany, w przeciwnym razie domyślna metoda
-    const formatFn = formatter ? formatter.formatForWhatsApp : this.whatsappFormatText;
-    let whatsappText = audioUrl ? `${audioUrl.trim()}\n\n${formatFn(text)}` : formatFn(text);
+    // Użyj zawsze formattera przekazanego z WhatsAppFormatterService
+    let whatsappText = audioUrl ? `${audioUrl.trim()}\n\n${formatter.formatForWhatsApp(text)}` : formatter.formatForWhatsApp(text);
     navigator.clipboard.writeText(whatsappText);
     alert(`✅ Skopiowano tekst oraz link audio do schowka!\n\nDługość: ${whatsappText.length} znaków\n\n📱 Ten tekst jest sformatowany pod WhatsApp.`);
   }
 
   // Kopiowanie dowolnego tekstu do schowka z formatowaniem WhatsApp
-  async copyTextToClipboard(text: string, linkItem?: any, formatter?: any) {
+  async copyTextToClipboard(formatter: { formatForWhatsApp: (text: string) => string }, text: string, linkItem?: any) {
     if (!text) {
       alert('Brak tekstu do skopiowania.');
       return;
@@ -74,7 +49,7 @@ export class WhatsappCopyService {
     if (linkItem && linkItem.type === 'audio' && linkItem.url) {
       cleanText += `\n${linkItem.url}`;
     }
-    const whatsappText = formatter ? formatter.formatForWhatsApp(cleanText) : this.formatTextForWhatsApp(cleanText);
+    const whatsappText = formatter.formatForWhatsApp(cleanText);
     await navigator.clipboard.writeText(whatsappText);
     alert(`✅ Tekst został skopiowany do schowka!\n\nDługość: ${whatsappText.length} znaków\n\n📱 Ten tekst jest sformatowany pod WhatsApp.`);
   }

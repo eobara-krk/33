@@ -1,4 +1,3 @@
-import { WhatsappCopyService } from './whatsapp-copy.service';
 import { Component, OnInit } from '@angular/core';
 import { CommonModule, NgFor, NgIf, NgSwitch, NgSwitchCase, NgSwitchDefault } from '@angular/common';
 import { RouterModule } from '@angular/router';
@@ -9,6 +8,7 @@ import  {SecondWeekTexts } from './secondWeek-texts';
 import {ThirdWeekTexts} from './thirdWeek-texts';  
 import {OddanieTexts} from './oddanie-texts';
 import { WhatsAppFormatterService } from './whatsapp-formatter.service';
+import { WhatsappCopyService } from './whatsapp-copy.service';
 import { getDaysToEnd, getDaysRangeLabel } from './cycle-utils';
 import { DynamicTitles } from './dynamic-titles';
 import { AudioPlayerService } from './audio-player.service';
@@ -161,16 +161,6 @@ export class AppComponent implements OnInit {
     this.whatsappCopyService.copyAudioTextToClipboard(links, this.whatsappFormatter);
   }
   // ...existing code...
-  // Funkcja konwertująca tekst na format WhatsApp
-  whatsappFormatText(text: string): string {
-    // Przykład: zamiana podwójnych nowych linii na pojedyncze, dodanie gwiazdek do nagłówków
-    let formatted = text
-      .replace(/\n\n/g, '\n') // uproszczenie akapitów
-      .replace(/^(Dzień \w+: .+)/gm, '*$1*') // pogrubienie nagłówków
-      .replace(/_/g, '') // usunięcie podkreśleń jeśli są
-      .replace(/\n/g, '\n'); // zachowanie nowych linii
-    return formatted;
-  }
 
 readonly litania = NovenaTexts.litania;
 readonly nowenna0 = NovenaTexts.dzien0;
@@ -228,14 +218,9 @@ readonly thirdWeekDay7 = ThirdWeekTexts.dzien7;
 readonly oddanieDayAkt = OddanieTexts.dzienAkt;
 readonly oddanieDay0 = OddanieTexts.dzien0;
 
-  // Przykład użycia przy kopiowaniu
-  // Przykład: dynamiczne wyświetlanie tekstu z datą
-  getDzien0TekstZData(): string {
-    return `${this.getDatePlusDays(this.startDate, 0)}<br>${NovenaTexts.dzien0}`;
-  }
 
   copyAsWhatsapp(text: string) {
-    const formatted = this.whatsappFormatText(text);
+    const formatted = this.whatsappFormatter.simpleFormatForWhatsApp(text);
     navigator.clipboard.writeText(formatted);
   }
 

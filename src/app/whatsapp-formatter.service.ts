@@ -4,6 +4,14 @@ import { Injectable } from '@angular/core';
   providedIn: 'root'
 })
 export class WhatsAppFormatterService {
+  // Proste formatowanie tekstu pod WhatsApp (bez HTML)
+  simpleFormatForWhatsApp(text: string): string {
+    return text
+      .replace(/\n\n/g, '\n') // uproszczenie akapitów
+      .replace(/^(Dzień \w+: .+)/gm, '*$1*') // pogrubienie nagłówków
+      .replace(/_/g, '') // usunięcie podkreśleń jeśli są
+      .replace(/\n/g, '\n'); // zachowanie nowych linii
+  }
 
   // Funkcja: konwertuje HTML na format WhatsApp
   formatForWhatsApp(inputHtml: string): string {
