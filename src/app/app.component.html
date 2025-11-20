@@ -119,7 +119,7 @@
               {{ group.name }}
 
               <div *ngIf="group.show && group.text" class="event-description">
-                <div class="justified-text" [innerHTML]="processTextWithLinks(group.text)"></div>
+                <div class="justified-text" [innerHTML]="textFormatService.processTextWithLinks(group.text)"></div>
               </div>
             </div>
 
@@ -220,7 +220,7 @@
                     <!-- Element tekstowy (opis w podlinku) -->
                     <div *ngIf="l.type==='opis' && l.text" class="grid-link sub-link text-item" style="position:relative;">
                       <!-- Etykieta gdy tekst jest zwinięty -->
-                      <div *ngIf="!l.show" class="text-collapsed-header" (click)="toggleTextVisibility(l); $event.stopPropagation();">
+                      <div *ngIf="!l.show" class="text-collapsed-header" (click)="textVisibilityService.toggleTextVisibility(l); $event.stopPropagation();">
                         <div class="text-collapsed-left">
                           <span class="text-icon">📝</span>
                           <span class="text-toggle-label">{{ l.label || 'Czułe serce św. Ludwika' }}</span>
@@ -229,16 +229,16 @@
                       </div>
                       <!-- Przycisk toggle w prawym górnym rogu gdy tekst jest rozwinięty -->
                       <div *ngIf="l.show" class="text-toggle-container">
-                        <span class="text-toggle-icon" (click)="toggleTextVisibility(l); $event.stopPropagation();">▲</span>
+                        <span class="text-toggle-icon" (click)="textVisibilityService.toggleTextVisibility(l); $event.stopPropagation();">▲</span>
                         <!-- Przycisk kopiowania tekstu + linku audio -->
                         <span *ngIf="hasAudioLink(links)" class="copy-text-icon" (click)="copyAudioTextToClipboard(links); $event.stopPropagation();" title="Skopiuj tekst i link audio">🎵📋</span>
                         <!-- Przycisk kopiowania samego tekstu -->
                         <span *ngIf="!hasAudioLink(links)" class="copy-text-icon" (click)="copyAudioTextToClipboard([l]); $event.stopPropagation();" title="Skopiuj tekst">📋</span>
                       </div>
                       <!-- Zawartość tekstowa -->
-                      <div *ngIf="l.show" class="sub-text" [innerHTML]="processTextWithLinks(l.text)"></div>
+                      <div *ngIf="l.show" class="sub-text" [innerHTML]="textFormatService.processTextWithLinks(l.text)"></div>
                       <!-- Przycisk zamykania na samym dole okienka tekstu (absolute bottom right) -->
-                      <button *ngIf="l.show" (click)="toggleTextVisibility(l); $event.stopPropagation();" class="close-text-btn" title="Zamknij tekst" style="position:absolute; bottom:8px; right:8px; background:none; border:none; font-size:1.3em; cursor:pointer; color:#888; z-index:2;">✖</button>
+                      <button *ngIf="l.show" (click)="textVisibilityService.toggleTextVisibility(l); $event.stopPropagation();" class="close-text-btn" title="Zamknij tekst" style="position:absolute; bottom:8px; right:8px; background:none; border:none; font-size:1.3em; cursor:pointer; color:#888; z-index:2;">✖</button>
                     </div>
 
                     <!-- Zwykły link (z URL) lub odtwarzacz audio dla Wprowadzenia (lokalny) -->

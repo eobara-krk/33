@@ -8,6 +8,8 @@ import  {SecondWeekTexts } from './secondWeek-texts';
 import {ThirdWeekTexts} from './thirdWeek-texts';  
 import {OddanieTexts} from './oddanie-texts';
 import { WhatsAppFormatterService } from './whatsapp-formatter.service';
+import { TextFormatService } from './text-format.service';
+import { TextVisibilityService } from './text-visibility.service';
 import { WhatsappCopyService } from './whatsapp-copy.service';
 import { getDaysToEnd, getDaysRangeLabel } from './cycle-utils';
 import { DynamicTitles } from './dynamic-titles';
@@ -74,7 +76,9 @@ export class AppComponent implements OnInit {
   constructor(
     private whatsappCopyService: WhatsappCopyService,
     private whatsappFormatter: WhatsAppFormatterService,
-    public audioPlayer: AudioPlayerService
+    public audioPlayer: AudioPlayerService,
+    public textVisibilityService: TextVisibilityService,
+    public textFormatService: TextFormatService
   ) {}
   
   title = '33';
@@ -1166,7 +1170,7 @@ items: Item[] = [
       this.isAudioPlaying = true;
     }
   }
-  // usunięto duplikat
+
 
   // ----------------------
   // AUTOMATYCZNE PRZEWIJANIE DO DZISIEJSZEGO ELEMENTU
@@ -1202,69 +1206,5 @@ items: Item[] = [
   // ----------------------
   hasPhotoElements(links: any[]): boolean {
     return links && links.some(link => link.type === 'foto');
-  }
-
-  // ----------------------
-  // PRZETWARZANIE TEKSTU NA HTML Z KLIKALNYMI LINKAMI
-  // ----------------------
-  processTextWithLinks(text: string): string {
-    if (!text) return '';
-    
-    // Formatowanie HTML dla wyświetlania na stronie
-    let processedText = text
-      // Konwertuj formatowanie na HTML (kombinacje najpierw!)
-      .replace(/\*_([^_*]+)_\*/g, '<strong><em>$1</em></strong>') // *_tekst_* → <strong><em>
-      .replace(/_\*([^*_]+)\*_/g, '<em><strong>$1</strong></em>') // _*tekst*_ → <em><strong>
-      .replace(/\*([^*]+)\*/g, '<strong>$1</strong>') // *tekst* → <strong>
-      .replace(/_([^_]+)_/g, '<em>$1</em>') // _tekst_ → <em>
-      .replace(/\n/g, '<br>') // nowe linie
-      // Cytaty kursywą
-      .replace(/^"([^"]+)"$/gm, '<em>"$1"</em>') // "cytat" → <em>
-      // Specjalne sekcje
-      .replace(/(\*Modlitwa:\*)/g, '<br><strong>🙏 Modlitwa:</strong>')
-      .replace(/(\*Dzień [^:]+:\*)/g, '<strong>📿 $1</strong>');
-    
-    // Zamieniamy URL-e na klikalny linki
-    const urlRegex = /(https?:\/\/[^\s<>]+)/g;
-    processedText = processedText.replace(urlRegex, '<a href="$1" target="_blank" rel="noopener" class="inline-link">$1</a>');
-    
-    return processedText;
-  }
-
-
-  // ZARZĄDZANIE WIDOCZNOŚCIĄ TEKSTU
-  // ----------------------
-  toggleTextVisibility(linkItem: any) {
-    if (linkItem.type === 'opis') {
-      if (linkItem.show) {
-        linkItem.show = false;
-        // Przewiń do góry podfolderu, w którym był tekst
-        setTimeout(() => {
-          // Spróbuj znaleźć najbliższy kontener podfolderu w DOM
-          let parentElem = null;
-          if (linkItem.label) {
-            const allGroups = document.querySelectorAll('.group-container');
-            for (let elem of Array.from(allGroups)) {
-              if (elem.textContent && elem.textContent.includes(linkItem.label)) {
-                parentElem = elem;
-                break;
-              }
-            }
-          }
-          // Fallback: przewiń do najbliższego folderu
-          if (!parentElem) {
-            const allFolders = document.querySelectorAll('[id^="folder-"]');
-            if (allFolders.length > 0) {
-              parentElem = allFolders[0];
-            }
-          }
-          if (parentElem) {
-            (parentElem as HTMLElement).scrollIntoView({ behavior: 'smooth', block: 'start' });
-          }
-        }, 300);
-      } else {
-        linkItem.show = true;
-      }
-    }
   }
 }
