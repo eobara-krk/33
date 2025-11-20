@@ -30,20 +30,27 @@
             </div>
           </div>
           <div class="audio-section" style="display: flex; flex-direction: column; align-items: flex-end; width: 100%;">
-            <button (click)="toggleAudio()" 
-                    class="audio-toggle-btn"
-                    [class.playing]="isAudioPlaying"
-                    title="{{isAudioPlaying ? 'Pauza' : 'Odtwórz'}} melodię Totus Tuus">
-              <span class="play-icon">{{isAudioPlaying ? '⏸️' : '▶️'}}</span>
-              <span class="audio-title">Totus Tuus</span>
-              <span class="audio-status">{{isAudioPlaying ? 'Odtwarzanie...' : 'Naciśnij aby odtworzyć'}}</span>
-            </button>
-            <div *ngIf="isAudioPlaying" style="width: 100%; display: flex; justify-content: flex-end;">
-              <button (click)="stopAudio()"
-                      class="audio-stop-btn"
-                      title="Stop Totus Tuus">
-                ⏹️ Stop
-              </button>
+            <div style="display: flex; flex-direction: column; align-items: flex-end; width: 100%;">
+              <div style="display: flex; gap: 8px; align-items: center; justify-content: flex-end; width: 100%;">
+                <button (click)="toggleAudio()" 
+                        class="audio-toggle-btn"
+                        title="Odtwórz/Pauza melodię Totus Tuus">
+                  <span class="play-icon" *ngIf="!audioPlayer.isPlaying(audioUrl)">▶️</span>
+                  <span class="play-icon" *ngIf="audioPlayer.isPlaying(audioUrl)">⏸️</span>
+                  <span class="audio-title">Totus Tuus</span>
+                  <span class="audio-status" *ngIf="!audioPlayer.isPlaying(audioUrl)">Naciśnij aby odtworzyć</span>
+                  <span class="audio-status" *ngIf="audioPlayer.isPlaying(audioUrl)">Odtwarzanie...</span>
+                </button>
+              </div>
+              <div style="display: flex; justify-content: flex-end; width: 100%;">
+                <button *ngIf="audioPlayer.isPlaying(audioUrl)"
+                        (click)="stopAudio()"
+                        class="audio-stop-btn"
+                        style="margin-top: 8px;"
+                        title="Stop Totus Tuus">
+                  ⏹️ Stop
+                </button>
+              </div>
             </div>
           </div>
         </div>
@@ -244,7 +251,7 @@
                     <!-- Zwykły link (z URL) lub odtwarzacz audio dla Wprowadzenia (lokalny) -->
                     <ng-container *ngIf="l.type === 'audio' && l.url && !l.hidden">
                       <div class="grid-link sub-link audio-section" style="margin-bottom:8px; display: flex; flex-direction: column; align-items: flex-start; width: 100%;">
-                        <button (click)="toggleLocalAudio(l.url)"
+                        <button (click)="toggleAudio(l.url)"
                                 class="audio-toggle-btn"
                                 [class.playing]="isLocalAudioPlaying(l.url)"
                                 title="{{isLocalAudioPlaying(l.url) ? 'Pauza' : 'Odtwórz'}} {{ l.label }}">
@@ -253,7 +260,7 @@
                           <span class="audio-status">{{isLocalAudioPlaying(l.url) ? 'Odtwarzanie...' : 'Naciśnij aby odtworzyć'}}</span>
                         </button>
                         <div *ngIf="isLocalAudioPlaying(l.url)" style="width: 100%; display: flex; justify-content: flex-end;">
-                          <button (click)="stopLocalAudio(l.url)"
+                          <button (click)="stopAudio(l.url)"
                                   class="audio-stop-btn"
                                   title="Stop {{ l.label }}">
                             ⏹️ Stop

@@ -15,6 +15,10 @@ import { getDaysToEnd, getDaysRangeLabel } from './cycle-utils';
 import { DynamicTitles } from './dynamic-titles';
 import { AudioPlayerService } from './audio-player.service';
 import { getWiosnaStart, getWiosnaStop } from './constants';
+import { FolderVisibilityService } from './folder-visibility.service';
+import { DateUtilsService } from './date-utils.service';
+import { LinkService } from './link.service';
+import { ImageService } from './image.service';
 
 // Typy dla linków i itemów
 interface LinkGroup {
@@ -78,7 +82,11 @@ export class AppComponent implements OnInit {
     private whatsappFormatter: WhatsAppFormatterService,
     public audioPlayer: AudioPlayerService,
     public textVisibilityService: TextVisibilityService,
-    public textFormatService: TextFormatService
+    public textFormatService: TextFormatService,
+    public folderVisibilityService: FolderVisibilityService,
+    public dateUtilsService: DateUtilsService,
+    public linkService: LinkService,
+    public imageService: ImageService
   ) {}
   
   title = '33';
@@ -110,40 +118,35 @@ export class AppComponent implements OnInit {
     return getDaysRangeLabel(this.currentDateTime);
   }
 
-  
-  // Zatrzymuje i resetuje audio Totus Tuus
-  stopAudio() {
-    this.audioPlayer.pause('assets/totus_tuus.mp3');
-    this.isAudioPlaying = false;
-  }
+    // ----------------------
+  // AUDIO PLAYER TOTUS TUUS przez serwis
+  audioUrl = 'assets/totus_tuus.mp3';
 
-  // Dynamiczny play/pauza dla dowolnego lokalnego audio
-  toggleLocalAudio(url: string) {
+  
+
+  // Unified audio toggle for any audio file (Totus Tuus or local)
+  toggleAudio(url: string = this.audioUrl) {
     const audioEl = (this.audioPlayer as any).audioElements?.[url];
-    // Jeśli odtwarzacz lokalny jest wznawiany z pauzy
     if (audioEl && audioEl.paused && audioEl.currentTime > 0 && (this.audioPlayer.getCurrentUrl() === null)) {
       audioEl.play();
       (this.audioPlayer as any).playingUrl = url;
     } else if (this.audioPlayer.isPlaying(url)) {
       this.audioPlayer.pauseOnly(url);
     } else {
-      // Zatrzymaj wszystkie inne audio
+      // Stop all other audio
       this.audioPlayer.stopAll();
-      // Dodatkowo zatrzymaj Totus Tuus (reset czasu)
-      this.audioPlayer.pause('assets/totus_tuus.mp3');
-      this.isAudioPlaying = false; // Synchronizuj flagę Totus Tuus z rzeczywistym stanem
       this.audioPlayer.play(
         url,
         0.8,
         () => {},
-        () => alert('Nie można odtworzyć pliku audio.')
+        () => {}
       );
     }
   }
 
-
-  stopLocalAudio(url: string) {
-    this.audioPlayer.pause(url);
+  // Stop any audio by url
+  stopAudio(url: string = this.audioUrl) {
+  this.audioPlayer.pause(url);
   }
  
   // Sprawdza czy w tablicy linków jest audio z url
@@ -776,18 +779,8 @@ items: Item[] = [
   }
 
   // Odtwarzanie lokalnych audio przez serwis
-  playLocalAudio(url: string) {
-    if (this.audioPlayer.isPlaying(url)) {
-      this.audioPlayer.pause(url);
-    } else {
-      this.audioPlayer.stopAll();
-      this.audioPlayer.play(
-        url,
-        0.8,
-        undefined,
-        () => alert('Nie można odtworzyć pliku audio.')
-      );
-    }
+  playLocalAudio(url: string, volume = 1, onEnd?: () => void, onError?: () => void) {
+    this.audioPlayer.play(url, volume, onEnd, onError);
   }
 
   isLocalAudioPlaying(url: string): boolean {
@@ -795,122 +788,37 @@ items: Item[] = [
   }
 
   // Automatyczne otwieranie folderów z dzisiejszą datą
-  openTodayFolders() {
-    this.items.forEach(item => {
-      // Sprawdzamy czy tytuł zawiera dzisiejszą datę w zakresie
-      if (this.isTodayInTitleRange(item.title)) {
-        item.show = true;
-      }
-
-      // Sprawdzamy grupy w każdym elemencie
-      item.links?.forEach(group => {
-        // Otwieramy grupę jeśli jej nazwa zawiera dzisiejszą datę
-        if (group.name && this.isToday(group.name)) {
-          group.show = true;
-          // Otwieramy też główny element jeśli grupa się otworzyła
-          item.show = true;
-        }
-
-        // Sprawdzamy zagnieżdżone linki
-        group.links?.forEach(nestedLink => {
-          if (nestedLink.name && this.isToday(nestedLink.name)) {
-            nestedLink.show = true;
-            group.show = true;
-            item.show = true;
-          }
-        });
-      });
-    });
-  }
+  openTodayFolders = () => this.folderVisibilityService.openTodayFolders(
+    this.items,
+    (title: string) => this.dateUtilsService.isTodayInTitleRange(title, this.currentDateTime),
+    (name: string) => this.dateUtilsService.isToday(name, this.currentDateTime)
+  );
 
    // ----------------------
   // OTWIERANIE LINKÓW
   // ----------------------
   openLink(linkOrGroup: SingleLink | SingleLink[]) {
-    if (Array.isArray(linkOrGroup)) {
-      if (linkOrGroup.length > 0) window.open(linkOrGroup[0].url, '_blank');
-      return;
-    }
-    if (linkOrGroup.url) window.open(linkOrGroup.url, '_blank');
+    this.linkService.openLink(linkOrGroup);
   }
 
   // ----------------------
   // ROZWIJANIE/ZWIJANIE EVENTÓW
   // ----------------------
-  toggle(obj: Item) {
-    // Zamknij wszystkie inne główne foldery i ich podkatalogi
-    this.items.forEach(item => {
-      if (item !== obj) {
-        item.show = false;
-        // Zamknij wszystkie grupy w tym folderze
-        item.links?.forEach(group => {
-          group.show = false;
-          // Zamknij wszystkie zagnieżdżone linki
-          group.links?.forEach(nestedLink => {
-            if (nestedLink.show !== undefined) nestedLink.show = false;
-          });
-        });
-      } else {
-        // Jeśli klikamy na już otwarty folder, zamknij wszystkie jego podgrupy
-        if (item.show) {
-          item.links?.forEach(group => {
-            group.show = false;
-            group.links?.forEach(nestedLink => {
-              if (nestedLink.show !== undefined) nestedLink.show = false;
-            });
-          });
-        }
-      }
-    });
-    // Jeśli zamykamy sekcję, zatrzymaj audio
-    if (obj.show) {
-      // Sekcja była otwarta, teraz ją zamykamy
-      this.stopAllAudio();
-    }
-    // Przełącz widoczność klikniętego folderu
-    obj.show = !obj.show;
-    // Przewiń do folderu po otwarciu
-    if (obj.show) {
-      const index = this.items.indexOf(obj);
-      const folderElem = document.getElementById('folder-' + index);
-      if (folderElem) {
-        folderElem.scrollIntoView({ behavior: 'smooth', block: 'center' });
-      }
-    }
-  }
+  toggle = (obj: Item) => this.folderVisibilityService.toggle(this.items, obj, () => this.stopAllAudio());
 
   // Zatrzymuje wszystkie odtwarzane audio przez serwis
-  stopAllAudio() {
-    // Zatrzymaj wszystkie audio
-    this.audioPlayer.stopAll();
-    // Zresetuj flagę i czas dla Totus Tuus
-    this.audioPlayer.pause(this.audioUrl);
-    this.isAudioPlaying = false;
-  // this.audioElement = null; // Usunięto, bo audioElement nie jest już używany
-  }
+  stopAllAudio = () => {
+  this.audioPlayer.stopAll();
+  this.audioPlayer.pause(this.audioUrl);
+  };
 
   // ----------------------
   // CHRONIONE TEKSTY
   // ----------------------
-  toggleLink(group: LinkGroup) {
-    if (group.links && group.links.length === 1) {
-      window.open(group.links[0].url, '_blank');
-      return;
-    }
-    if (group.protected) {
-      if (group.show) { group.show = false; return; }
-      const password = prompt('Podaj hasło, aby odczytać podsumowanie:');
-      if (password === this.summaryPassword) group.show = true;
-      else alert('Błędne hasło!');
-      return;
-    }
-    group.show = !group.show;
-  }
+  toggleLink = (group: LinkGroup) => this.folderVisibilityService.toggleLink(group, this.summaryPassword);
 
   // Metoda do przełączania zagnieżdżonych grup
-  toggleNestedGroup(nestedGroup: SingleLink) {
-    nestedGroup.show = !nestedGroup.show;
-  }
+  toggleNestedGroup = (nestedGroup: SingleLink) => this.folderVisibilityService.toggleNestedGroup(nestedGroup);
 
   // ----------------------
   // TRACKBY dla *ngFor
@@ -926,148 +834,32 @@ items: Item[] = [
   // ----------------------
   // TRYB PEŁNOEKRANOWY OBRAZKA
   // ----------------------
-  toggleFullscreen(url?: string) {
-    if (url) {
-      this.fullscreenImage = this.fullscreenImage === url ? null : url;
-    } else {
-      this.fullscreenImage = null; // Zamknij fullscreen
-    }
-  }
+  toggleFullscreen = (url?: string) => {
+    this.fullscreenImage = this.imageService.toggleFullscreen(this.fullscreenImage, url);
+  };
 
   // Obsługa ładowania obrazka
-  onImageLoad(event: Event) {
-    const img = event.target as HTMLImageElement;
-    console.log('Obrazek załadowany:', img.src);
-    img.style.opacity = '1';
-    img.classList.add('loaded');
-  }
-
-  // Obsługa błędu ładowania obrazka
-  onImageError(event: Event) {
-    const img = event.target as HTMLImageElement;
-    img.style.opacity = '0.5';
-    img.classList.add('error');
-    console.warn('Błąd ładowania obrazka:', img.src);
-  }
+  onImageLoad = (event: Event) => this.imageService.onImageLoad(event);
+  onImageError = (event: Event) => this.imageService.onImageError(event);
 
 
   // ----------------------
   // CZY DANA DATA JEST DZISIAJ
   // ----------------------
-  isTodayInTitleRange(title: string): boolean {
-    if (!title) return false;
-    const matches = title.match(/\d{4}-\d{2}-\d{2}/g);
-    if (!matches || matches.length < 2) return false;
-
-    const start = new Date(matches[0]);
-    const end = new Date(matches[1]);
-    const today = this.currentDateTime ?? new Date();
-    today.setHours(0,0,0,0);
-
-    return today >= start && today <= end;
-  }
-
-  isToday(name: string): boolean {
-    if (!name) return false;
-    // Sprawdzamy nowy format dd.MM.yyyy
-    const newFormatMatch = name.match(/(\d{2})\.(\d{2})\.(\d{4})/);
-    const today = this.currentDateTime ?? new Date();
-    if (newFormatMatch) {
-      const [, day, month, year] = newFormatMatch;
-      const date = new Date(parseInt(year), parseInt(month) - 1, parseInt(day));
-      return date.getFullYear() === today.getFullYear() &&
-             date.getMonth() === today.getMonth() &&
-             date.getDate() === today.getDate();
-    }
-    // Fallback na stary format YYYY-MM-DD (jeśli gdzieś jeszcze zostały)
-    const oldFormatMatch = name.match(/\d{4}-\d{2}-\d{2}/);
-    if (oldFormatMatch) {
-      const date = new Date(oldFormatMatch[0]);
-      return date.getFullYear() === today.getFullYear() &&
-             date.getMonth() === today.getMonth() &&
-             date.getDate() === today.getDate();
-    }
-    return false;
-  }
-
-  // Sprawdza czy grupa ma wewnętrzne elementy z dzisiejszą datą
-  hasInnerTodayElements(group: LinkGroup): boolean {
-    if (!group.links) return false;
-    
-    return group.links.some(link => {
-      // Sprawdzamy czy link ma dzisiejszą datę w nazwie
-      if (link.name && this.isToday(link.name)) return true;
-      if (link.label && this.isToday(link.label)) return true;
-      if (link.url && this.isToday(link.url)) return true;
-      
-      // Sprawdzamy zagnieżdżone linki
-      if (link.links) {
-        return link.links.some(nestedLink => {
-          return (nestedLink.label && this.isToday(nestedLink.label)) ||
-                 (nestedLink.url && this.isToday(nestedLink.url)) ||
-                 (nestedLink.name && this.isToday(nestedLink.name));
-        });
-      }
-      
-      return false;
-    });
-  }
-
-  // Sprawdza czy główny element (Item) ma wewnętrzne grupy z dzisiejszą datą
-  hasInnerTodayGroups(item: Item): boolean {
-    if (!item.links) return false;
-    
-    return item.links.some(group => {
-      // Sprawdzamy czy sama grupa ma dzisiejszą datę w nazwie
-      if (group.name && this.isToday(group.name)) return true;
-      
-      // Sprawdzamy czy grupa ma wewnętrzne elementy z dzisiejszą datą
-      return this.hasInnerTodayElements(group);
-    });
-  }
+  isTodayInTitleRange = (title: string) => this.dateUtilsService.isTodayInTitleRange(title, this.currentDateTime);
+  isToday = (name: string) => this.dateUtilsService.isToday(name, this.currentDateTime);
+  hasInnerTodayElements = (group: LinkGroup) => this.dateUtilsService.hasInnerTodayElements(group, this.currentDateTime);
+  hasInnerTodayGroups = (item: Item) => this.dateUtilsService.hasInnerTodayGroups(item, this.currentDateTime);
 
   // ----------------------
   // OTWIERANIE TYLKO JEDNEJ GRUPY
   // ----------------------
-  openOnly(groupToOpen: LinkGroup, item: Item) {
-    // Zamykamy wszystkie inne główne foldery
-    this.items.forEach(i => {
-      if (i !== item) i.show = false;
-      i.links?.forEach(g => g.show = false);
-    });
-    // Zamykamy wszystkie inne grupy w tym elemencie
-    item.links?.forEach(g => { if (g !== groupToOpen) g.show = false; });
-    
-    // Sprawdzamy czy to jest pojedynczy link - jeśli tak, otwieramy go
-    if (groupToOpen.links && groupToOpen.links.length === 1) {
-      window.open(groupToOpen.links[0].url, '_blank');
-      return;
-    }
-    
-    // Obsługa chronionych tekstów
-    if (groupToOpen.protected) {
-      if (groupToOpen.show) { 
-        groupToOpen.show = false; 
-        return; 
-      }
-      const password = prompt('Podaj hasło, aby odczytać podsumowanie:');
-      if (password === this.summaryPassword) {
-        groupToOpen.show = true;
-      } else {
-        alert('Błędne hasło!');
-      }
-      return;
-    }
-    
-    // Zwykłe przełączanie widoczności
-    groupToOpen.show = !groupToOpen.show;
-    // Jeśli właśnie otwieramy podfolder, przewiń do jego góry
+  openOnly = (groupToOpen: LinkGroup, item: Item) => {
+    this.folderVisibilityService.openOnly(this.items, groupToOpen, item, this.summaryPassword);
     if (groupToOpen.show) {
       setTimeout(() => {
-        // Spróbuj znaleźć element DOM podfolderu
         const groupElems = document.querySelectorAll('.group-container');
         for (let elem of Array.from(groupElems)) {
-          // Sprawdź czy tekst grupy zgadza się z nazwą
           if (elem.textContent && groupToOpen.name && elem.textContent.includes(groupToOpen.name)) {
             (elem as HTMLElement).scrollIntoView({ behavior: 'smooth', block: 'start' });
             break;
@@ -1075,36 +867,18 @@ items: Item[] = [
         }
       }, 300);
     }
-  }
+  };
 
     // NOWA METODA: BEZPIECZNY GŁÓWNY LINK
   // ----------------------
-  getMainLink(group: LinkGroup): string | null {
-    if (!group.links || group.links.length === 0) return null;
-    return group.links.length === 1 ? group.links[0]?.url || null : null;
-  }
+  getMainLink = (group: LinkGroup): string | null => this.linkService.getMainLink(group);
 
   // ----------------------
   // KONTROLKI NAWIGACJI MOBILE
   // ----------------------
-  collapseAll() {
-    this.items.forEach(item => {
-      item.show = false;
-      item.links?.forEach(group => {
-        group.show = false;
-        group.links?.forEach(nestedLink => {
-          if (nestedLink.show !== undefined) nestedLink.show = false;
-        });
-      });
-    });
-  }
+  collapseAll = () => this.folderVisibilityService.collapseAll(this.items);
 
-  expandToday() {
-    // Najpierw zwiń wszystko
-    this.collapseAll();
-    // Potem otwórz tylko dzisiejsze elementy
-    this.openTodayFolders();
-  }
+  expandToday = () => this.folderVisibilityService.expandToday(this.items, (items: Item[]) => this.openTodayFolders());
 
   // ----------------------
   // ZAMYKANIE STRONY
@@ -1136,40 +910,8 @@ items: Item[] = [
     }, 50);
   }
 
-  // ----------------------
-  // AUDIO PLAYER TOTUS TUUS przez serwis
-  isAudioPlaying = false;
-  private audioUrl = 'assets/totus_tuus.mp3';
 
-  toggleAudio() {
-    const url = this.audioUrl;
-    const audioEl = (this.audioPlayer as any).audioElements?.[url];
-    // Jeśli Totus Tuus jest zatrzymywany przez inny player, resetuj flagę
-    if (!this.audioPlayer.isPlaying(url)) {
-      this.isAudioPlaying = false;
-    }
-    if (audioEl && audioEl.paused && audioEl.currentTime > 0 && (this.audioPlayer.getCurrentUrl() === null)) {
-      audioEl.play();
-      (this.audioPlayer as any).playingUrl = url;
-      this.isAudioPlaying = true;
-    } else if (this.audioPlayer.isPlaying(url)) {
-      this.audioPlayer.pauseOnly(url);
-      this.isAudioPlaying = false;
-    } else {
-      // Zatrzymaj wszystkie inne audio (tak jak w innych playerach)
-      this.audioPlayer.stopAll();
-      this.audioPlayer.play(
-        url,
-        0.7,
-        () => { this.isAudioPlaying = false; },
-        () => {
-          alert('Nie można odtworzyć pliku audio. Sprawdź połączenie internetowe.');
-          this.isAudioPlaying = false;
-        }
-      );
-      this.isAudioPlaying = true;
-    }
-  }
+
 
 
   // ----------------------
@@ -1197,14 +939,12 @@ items: Item[] = [
       // Oznacz że przewijanie już się odbyło
       this.hasScrolledToToday = true;
     }
-    // Jeśli nie ma dzisiejszego elementu - pozostaw stronę na górze i oznacz jako wykonane
-    this.hasScrolledToToday = true;
+  // Jeśli nie ma dzisiejszego elementu - pozostaw stronę na górze i oznacz jako wykonane
+  this.hasScrolledToToday = true;
   }
 
   // ----------------------
   // SPRAWDZANIE CZY GRUPA MA ELEMENTY FOTO
   // ----------------------
-  hasPhotoElements(links: any[]): boolean {
-    return links && links.some(link => link.type === 'foto');
-  }
+  hasPhotoElements = (links: any[]): boolean => this.imageService.hasPhotoElements(links);
 }
