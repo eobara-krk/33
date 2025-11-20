@@ -55,12 +55,25 @@ export class AudioPlayerService {
         if (onError) onError();
       });
   }
+  /**
+   * Usuwa nieużywane elementy audio z pamięci (nie są odtwarzane i currentTime = 0)
+   */
+  cleanUnusedAudio() {
+    Object.keys(this.audioElements).forEach(url => {
+      const audio = this.audioElements[url];
+      if (audio && audio.paused && audio.currentTime === 0) {
+        audio.src = '';
+        delete this.audioElements[url];
+      }
+    });
+  }
 
   pause(url: string) {
     if (this.audioElements[url]) {
       this.audioElements[url].pause();
       this.audioElements[url].currentTime = 0;
       if (this.playingUrl === url) this.playingUrl = null;
+      this.cleanUnusedAudio();
     }
   }
 
@@ -70,6 +83,7 @@ export class AudioPlayerService {
       audio.currentTime = 0;
     });
     this.playingUrl = null;
+    this.cleanUnusedAudio();
   }
 
   isPlaying(url: string): boolean {
