@@ -1,3 +1,16 @@
+// Minimalna definicja typu SingleLink
+export interface SingleLink {
+  url?: string;
+  type?: string;
+  label?: string;
+  fullscreen?: boolean;
+  image?: string;
+  name?: string;
+  show?: boolean;
+  links?: SingleLink[];
+  text?: string;
+  hidden?: boolean;
+}
 import { Injectable } from '@angular/core';
 
 @Injectable({ providedIn: 'root' })
@@ -28,16 +41,18 @@ export class WhatsappCopyService {
   }
 
   // Kopiowanie tekstu + linku audio w formacie WhatsApp
-  async copyAudioTextToClipboard(links: any[], formatter: any) {
-    const textObj = links.find((l: any) => l.type === 'opis' && l.text);
-    const audioObj = links.find((l: any) => l.type === 'audio' && l.url);
+  copyAudioTextToClipboard(links: SingleLink[], formatter?: any) {
+    const textObj = links.find(l => l.type === 'opis' && l.text);
+    const audioObj = links.find(l => l.type === 'audio' && l.url);
     let text = textObj?.text || '';
     let audioUrl = audioObj?.url || '';
     if (audioUrl && !/^https?:\/\//.test(audioUrl)) {
       audioUrl = window.location.origin + '/' + audioUrl.replace(/^\/*/, '');
     }
-    let whatsappText = audioUrl ? `${audioUrl.trim()}\n\n${formatter.formatForWhatsApp(text)}` : formatter.formatForWhatsApp(text);
-    await navigator.clipboard.writeText(whatsappText);
+    // Użyj formattera jeśli przekazany, w przeciwnym razie domyślna metoda
+    const formatFn = formatter ? formatter.formatForWhatsApp : this.whatsappFormatText;
+    let whatsappText = audioUrl ? `${audioUrl.trim()}\n\n${formatFn(text)}` : formatFn(text);
+    navigator.clipboard.writeText(whatsappText);
     alert(`✅ Skopiowano tekst oraz link audio do schowka!\n\nDługość: ${whatsappText.length} znaków\n\n📱 Ten tekst jest sformatowany pod WhatsApp.`);
   }
 

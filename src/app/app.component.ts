@@ -1,3 +1,4 @@
+import { WhatsappCopyService } from './whatsapp-copy.service';
 import { Component, OnInit } from '@angular/core';
 import { CommonModule, NgFor, NgIf, NgSwitch, NgSwitchCase, NgSwitchDefault } from '@angular/common';
 import { RouterModule } from '@angular/router';
@@ -70,13 +71,47 @@ interface Item {
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit {
+  constructor(
+    private whatsappCopyService: WhatsappCopyService,
+    private whatsappFormatter: WhatsAppFormatterService,
+    public audioPlayer: AudioPlayerService
+  ) {}
+  
+  title = '33';
+
+  currentDateTime: Date = new Date(); // data biezaca
+   //currentDateTime: Date | null = new Date(2026, 4, 1); // (2025, 4, 2) = 2 maj
+
+
+  // KONFIGURACJA DAT - tutaj ustawiasz datę startu 
+ get startDate(): Date {
+    const today = this.currentDateTime ?? new Date();
+    today.setHours(0,0,0,0);
+    const year = today.getFullYear();
+    const wiosnaStart = getWiosnaStart(year);
+    const wiosnaStop = getWiosnaStop(year);
+    if (today >  wiosnaStart && today < wiosnaStop) {
+      return new Date(year, 2, 22); // 22 marca
+    } else {
+      return new Date(year, 9, 27); // 27 października
+    }
+  }
+
+    // Licznik dni do 8 grudnia lub 3 maja
+  get daysToEnd(): string {
+    return getDaysToEnd(this.currentDateTime);
+  }
+
+  get daysRangeLabel(): string {
+    return getDaysRangeLabel(this.currentDateTime);
+  }
+
+  
   // Zatrzymuje i resetuje audio Totus Tuus
   stopAudio() {
     this.audioPlayer.pause('assets/totus_tuus.mp3');
     this.isAudioPlaying = false;
   }
-
-
 
   // Dynamiczny play/pauza dla dowolnego lokalnego audio
   toggleLocalAudio(url: string) {
@@ -102,72 +137,14 @@ export class AppComponent implements OnInit {
     }
   }
 
-  // Stop/reset dla dowolnego lokalnego audio
+
   stopLocalAudio(url: string) {
     this.audioPlayer.pause(url);
   }
-  // Zatrzymuje i resetuje audio Wprowadzenie 12 dni
-  stopLocalIntroAudio() {
-    this.audioPlayer.pause(this.localIntroAudioUrl);
-  }
-  // Pauza audio bez resetowania czasu
-  pauseLocalIntroAudio() {
-    this.audioPlayer.pauseOnly(this.localIntroAudioUrl);
-  }
-  title = '33';
-
-    currentDateTime: Date = new Date(); // data biezaca
-    //currentDateTime: Date | null = new Date(2026, 4, 1); // (2025, 4, 2) = 2 maj
-
-
-      // KONFIGURACJA DAT - tutaj ustawiasz datę startu
-   
- get startDate(): Date {
-    const today = this.currentDateTime ?? new Date();
-    today.setHours(0,0,0,0);
-    const year = today.getFullYear();
-    const wiosnaStart = getWiosnaStart(year);
-    const wiosnaStop = getWiosnaStop(year);
-    if (today >  wiosnaStart && today < wiosnaStop) {
-      return new Date(year, 2, 22); // 22 marca
-    } else {
-      return new Date(year, 9, 27); // 27 października
-    }
-  }
-
-  
-  // Zarządzanie odtwarzaniem lokalnych audio dla 12 dni przez serwis
-  public localIntroAudioUrl = 'assets/12dni/Droga_Maryi_12_dni_wprowadzenie.mp3';
-
-  toggleLocalIntroAudio() {
-    const audioEl = (this.audioPlayer as any).audioElements?.[this.localIntroAudioUrl];
-    // Jeśli audio istnieje i jest zatrzymane (pauza), wznowienie bez resetowania czasu
-    if (audioEl && audioEl.paused && audioEl.currentTime > 0 && (this.audioPlayer.getCurrentUrl() === null)) {
-      audioEl.play();
-      (this.audioPlayer as any).playingUrl = this.localIntroAudioUrl;
-    } else if (this.audioPlayer.isPlaying(this.localIntroAudioUrl)) {
-      this.audioPlayer.pauseOnly(this.localIntroAudioUrl);
-    } else {
-      this.audioPlayer.stopAll();
-      this.audioPlayer.play(
-        this.localIntroAudioUrl,
-        0.8,
-        () => {},
-        () => alert('Nie można odtworzyć pliku audio.')
-      );
-    }
-  }
+ 
   // Sprawdza czy w tablicy linków jest audio z url
   hasAudioLink(links: SingleLink[]): boolean {
     return Array.isArray(links) && links.some(x => x.type === 'audio' && !!x.url);
-  }
-  // Licznik dni do 8 grudnia lub 3 maja
-  get daysToEnd(): string {
-    return getDaysToEnd(this.currentDateTime);
-  }
-
-  get daysRangeLabel(): string {
-    return getDaysRangeLabel(this.currentDateTime);
   }
 
 
@@ -181,18 +158,7 @@ export class AppComponent implements OnInit {
 
   // Kopiowanie tekstu + linku audio w formacie WhatsApp
   copyAudioTextToClipboard(links: SingleLink[]) {
-    const textObj = links.find(l => l.type === 'opis' && l.text);
-    const audioObj = links.find(l => l.type === 'audio' && l.url);
-    let text = textObj?.text || '';
-    let audioUrl = audioObj?.url || '';
-    // Upewnij się, że link audio jest pełnym URL-em
-    if (audioUrl && !/^https?:\/\//.test(audioUrl)) {
-      audioUrl = window.location.origin + '/' + audioUrl.replace(/^\/*/, '');
-    }
-    // Dodaj link audio na samą górę, potem pustą linię, potem tekst
-    let whatsappText = audioUrl ? `${audioUrl.trim()}\n\n${this.whatsappFormatter.formatForWhatsApp(text)}` : this.whatsappFormatter.formatForWhatsApp(text);
-  navigator.clipboard.writeText(whatsappText);
-  alert(`✅ Skopiowano tekst oraz link audio do schowka!\n\nDługość: ${whatsappText.length} znaków\n\n📱 Ten tekst jest sformatowany pod WhatsApp.`);
+    this.whatsappCopyService.copyAudioTextToClipboard(links, this.whatsappFormatter);
   }
   // ...existing code...
   // Funkcja konwertująca tekst na format WhatsApp
@@ -1215,10 +1181,7 @@ items: Item[] = [
       this.isAudioPlaying = true;
     }
   }
-  constructor(
-    private whatsappFormatter: WhatsAppFormatterService,
-    public audioPlayer: AudioPlayerService
-  ) {}
+  // usunięto duplikat
 
   // ----------------------
   // AUTOMATYCZNE PRZEWIJANIE DO DZISIEJSZEGO ELEMENTU
