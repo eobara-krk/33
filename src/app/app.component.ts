@@ -142,8 +142,18 @@ export class AppComponent implements OnInit {
   }
 
 
-  // Unified audio toggle for any audio file (Totus Tuus or local)
+  // Debounce helper
+  private lastAudioToggle = 0;
+  private debounceMs = 400;
+
+  // Unified audio toggle for any audio file (Totus Tuus or local) with debounce
   toggleAudio(url: string = this.audioUrl) {
+    const now = Date.now();
+    if (now - this.lastAudioToggle < this.debounceMs) {
+      return;
+    }
+    this.lastAudioToggle = now;
+
     const audioEl = (this.audioPlayer as any).audioElements?.[url];
     if (audioEl && audioEl.paused && audioEl.currentTime > 0 && (this.audioPlayer.getCurrentUrl() === null)) {
       audioEl.play();
