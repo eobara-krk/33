@@ -259,6 +259,20 @@
                           <span class="audio-title">{{ l.label }}</span>
                           <span class="audio-status">{{isLocalAudioPlaying(l.url) ? 'Odtwarzanie...' : 'Naciśnij aby odtworzyć'}}</span>
                         </button>
+                        <!-- Pasek postępu dla każdego lokalnego audio -->
+                        <div *ngIf="audioPlayer.getAudioReady(l.url)" style="margin: 8px auto 0; max-width: 320px; width:100%;">
+                          <div style="display:flex;align-items:center;gap:8px;">
+                            <span style="font-size:0.95em;min-width:48px;">{{ formatTime(audioPlayer.getAudioCurrentTime(l.url)) }}</span>
+                            <input type="range"
+                                   [min]="0"
+                                   [max]="audioPlayer.getAudioDuration(l.url) || 1"
+                                   [value]="audioPlayer.getAudioCurrentTime(l.url)"
+                                   (input)="audioPlayer.setAudioCurrentTime(l.url, getInputValue($event))"
+                                   style="flex:1;"
+                            />
+                            <span style="font-size:0.95em;min-width:48px;">{{ formatTime(audioPlayer.getAudioDuration(l.url)) }}</span>
+                          </div>
+                        </div>
                         <div *ngIf="isLocalAudioPlaying(l.url)" style="width: 100%; display: flex; justify-content: flex-end;">
                           <button (click)="stopAudio(l.url)"
                                   class="audio-stop-btn"
@@ -293,6 +307,20 @@
         <span class="audio-status" *ngIf="!audioPlayer.isPlaying('assets/ave.mp3')">Naciśnij aby odtworzyć</span>
         <span class="audio-status" *ngIf="audioPlayer.isPlaying('assets/ave.mp3')">Odtwarzanie...</span>
       </button>
+      <!-- Pasek postępu utworu -->
+      <div *ngIf="audioPlayer.getAudioReady('assets/ave.mp3')" style="margin: 8px auto 0; max-width: 320px;">
+        <div style="display:flex;align-items:center;gap:8px;">
+          <span style="font-size:0.95em;min-width:48px;">{{ formatTime(audioPlayer.getAudioCurrentTime('assets/ave.mp3')) }}</span>
+          <input type="range"
+                 [min]="0"
+                 [max]="audioPlayer.getAudioDuration('assets/ave.mp3') || 1"
+                 [value]="audioPlayer.getAudioCurrentTime('assets/ave.mp3')"
+                 (input)="audioPlayer.setAudioCurrentTime('assets/ave.mp3', getInputValue($event))"
+                 style="flex:1;"
+          />
+          <span style="font-size:0.95em;min-width:48px;">{{ formatTime(audioPlayer.getAudioDuration('assets/ave.mp3')) }}</span>
+        </div>
+      </div>
       <div style="display: flex; justify-content: center; width: 100%;">
         <button *ngIf="audioPlayer.isPlaying('assets/ave.mp3')"
                 (click)="stopAudio('assets/ave.mp3')"

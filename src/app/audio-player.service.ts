@@ -1,7 +1,35 @@
 import { Injectable } from '@angular/core';
+import { Subject } from 'rxjs';
 
 @Injectable({ providedIn: 'root' })
 export class AudioPlayerService {
+      /** Emits url on every timeupdate for any audio */
+      public timeUpdate$ = new Subject<string>();
+    /** Zwraca aktualny czas odtwarzania dla danego url (w sekundach) */
+    getAudioCurrentTime(url: string): number {
+      const audio = this.audioElements[url];
+      return audio ? audio.currentTime : 0;
+    }
+
+    /** Zwraca długość utworu dla danego url (w sekundach) */
+    getAudioDuration(url: string): number {
+      const audio = this.audioElements[url];
+      return audio && audio.duration ? audio.duration : 0;
+    }
+
+    /** Ustawia aktualny czas odtwarzania dla danego url */
+    setAudioCurrentTime(url: string, value: number): void {
+      const audio = this.audioElements[url];
+      if (audio) {
+        audio.currentTime = value;
+      }
+    }
+
+    /** Czy audio jest gotowe do odczytu czasu/długości */
+    getAudioReady(url: string): boolean {
+      const audio = this.audioElements[url];
+      return !!(audio && audio.readyState > 0);
+    }
   /** Pauza bez resetowania czasu - zatrzymuje audio, ale można wznowić od miejsca zatrzymania */
   pauseOnly(url: string) {
     if (this.audioElements[url]) {
@@ -31,6 +59,9 @@ export class AudioPlayerService {
     if (!this.audioElements[url]) {
       this.audioElements[url] = new Audio(url);
       this.audioElements[url].volume = volume;
+      this.audioElements[url].addEventListener('timeupdate', () => {
+        this.timeUpdate$.next(url);
+      });
       this.audioElements[url].addEventListener('ended', () => {
         if (this.playingUrl === url) {
           this.playingUrl = null;

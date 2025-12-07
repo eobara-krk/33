@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ChangeDetectorRef } from '@angular/core';
 import { CommonModule, NgFor, NgIf, NgSwitch, NgSwitchCase, NgSwitchDefault } from '@angular/common';
 import { RouterModule } from '@angular/router';
 import { NovenaTexts } from './novena-texts';
@@ -77,6 +78,22 @@ interface Item {
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit {
+      /**
+       * Format seconds to mm:ss
+       */
+      formatTime(seconds: number): string {
+        if (!isFinite(seconds) || seconds < 0) return '0:00';
+        const m = Math.floor(seconds / 60);
+        const s = Math.floor(seconds % 60);
+        return `${m}:${s.toString().padStart(2, '0')}`;
+      }
+    /**
+     * Helper to safely extract value from input event (for range inputs)
+     */
+    getInputValue(event: Event): number {
+      const target = event.target as HTMLInputElement | null;
+      return target && target.value ? Number(target.value) : 0;
+    }
   constructor(
     private whatsappCopyService: WhatsappCopyService,
     private whatsappFormatter: WhatsAppFormatterService,
@@ -86,7 +103,8 @@ export class AppComponent implements OnInit {
     public folderVisibilityService: FolderVisibilityService,
     public dateUtilsService: DateUtilsService,
     public linkService: LinkService,
-    public imageService: ImageService
+    public imageService: ImageService,
+    private cdr: ChangeDetectorRef
   ) {}
   
   title = '33';
@@ -229,6 +247,12 @@ get daysToEnd(): string {
     // Dodano: podgląd tekstów nowenny w konsoli
     console.log('Tekst pierwszego dnia:', this.nowenna1);
     console.log('Tekst drugiego dnia:', this.nowenna2);
+    // Subskrybuj timeupdate z serwisu audio, by odświeżać UI
+    if (this.audioPlayer.timeUpdate$) {
+      this.audioPlayer.timeUpdate$.subscribe(() => {
+        this.cdr.detectChanges();
+      });
+    }
   }
 
   // Odtwarzanie lokalnych audio przez serwis
