@@ -101,23 +101,43 @@ export class AppComponent implements OnInit {
 
 
   // KONFIGURACJA DAT - tutaj ustawiasz datę startu 
- get startDate(): Date {
-    const today = this.currentDateTime ?? new Date();
-    today.setHours(0,0,0,0);
-    const year = today.getFullYear();
-    const wiosnaStart = getWiosnaStart(year);
-    const wiosnaStop = getWiosnaStop(year);
-    if (today >  wiosnaStart && today < wiosnaStop) {
-      return new Date(year, 2, 22); // 22 marca
-    } else {
-      return new Date(year, 9, 27); // 27 października
-    }
-  }
 
-    // Licznik dni do 8 grudnia lub 3 maja
-  get daysToEnd(): string {
-    return getDaysToEnd(this.currentDateTime);
+get startDate(): Date {
+  const today = this.currentDateTime ?? new Date();
+  today.setHours(0,0,0,0);
+  const year = today.getFullYear();
+  const wiosnaStart = getWiosnaStart(year);
+  const jesienStart = new Date(year, 9, 27); // 27 października
+
+  if (today < wiosnaStart) {
+    return new Date(year, 2, 22);
   }
+  if (today >= wiosnaStart && today < jesienStart) {
+    return new Date(year, 2, 22);
+  }
+  if (today >= jesienStart) {
+    return jesienStart;
+  }
+  return new Date(year, 2, 22);
+}
+
+get daysToEnd(): string {
+  const today = this.currentDateTime ?? new Date();
+  today.setHours(0,0,0,0);
+  let year = today.getFullYear();
+  let target = new Date(year, 11, 8); // 8 grudnia
+  if (today > target) {
+    target = new Date(year + 1, 11, 8);
+  }
+  const diff = Math.ceil((target.getTime() - today.getTime()) / (1000 * 60 * 60 * 24));
+  if (diff === 1) {
+    return `Pozostał 1 dzień do 8 grudnia!`;
+  }
+  if (diff % 10 === 1 && diff !== 11) {
+    return `Pozostał ${diff} dzień do 8 grudnia!`;
+  }
+  return `Pozostało ${diff} dni do 8 grudnia!`;
+}
 
   get daysRangeLabel(): string {
     return getDaysRangeLabel(this.currentDateTime);
