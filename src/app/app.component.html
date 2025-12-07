@@ -282,6 +282,27 @@
     </div>
 
     <!-- Stopka z przyciskiem -->
+    <!-- Odtwarzacz Ave Maria nad stopką -->
+    <div class="ave-maria-player" style="width:100%;text-align:center;margin-bottom:16px;">
+      <button (click)="toggleAudio('assets/ave.mp3')"
+              class="audio-toggle-btn"
+              style="font-size:1.1em;padding:8px 16px;min-width:180px;">
+        <span class="play-icon" *ngIf="!audioPlayer.isPlaying('assets/ave.mp3')">▶️</span>
+        <span class="play-icon" *ngIf="audioPlayer.isPlaying('assets/ave.mp3')">⏸️</span>
+        <span class="audio-title">Ave Maria</span>
+        <span class="audio-status" *ngIf="!audioPlayer.isPlaying('assets/ave.mp3')">Naciśnij aby odtworzyć</span>
+        <span class="audio-status" *ngIf="audioPlayer.isPlaying('assets/ave.mp3')">Odtwarzanie...</span>
+      </button>
+      <div style="display: flex; justify-content: center; width: 100%;">
+        <button *ngIf="audioPlayer.isPlaying('assets/ave.mp3')"
+                (click)="stopAudio('assets/ave.mp3')"
+                class="audio-stop-btn"
+                style="margin-top: 8px;"
+                title="Stop Ave Maria">
+          ⏹️ Stop
+        </button>
+      </div>
+    </div>
     <div class="footer-section">
       <div style="display: flex; justify-content: space-between; align-items: center; width: 100%;">
   <div style="font-size: 0.95em; color: #666;">Na podstawie <a href='https://drogamaryi.pl/' target='_blank' rel='noopener'>drogamaryi.pl</a> – do użytku wspólnoty.</div>
