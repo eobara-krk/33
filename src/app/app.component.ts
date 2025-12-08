@@ -140,21 +140,24 @@ get startDate(): Date {
 }
 
 get daysToEnd(): string {
-  const today = this.currentDateTime ?? new Date();
-  today.setHours(0,0,0,0);
-  let year = today.getFullYear();
-  let target = new Date(year, 11, 8); // 8 grudnia
-  if (today > target) {
-    target = new Date(year + 1, 11, 8);
-  }
-  const diff = Math.ceil((target.getTime() - today.getTime()) / (1000 * 60 * 60 * 24));
-  if (diff === 1) {
-    return `Pozostał 1 dzień do 8 grudnia!`;
-  }
-  if (diff % 10 === 1 && diff !== 11) {
-    return `Pozostał ${diff} dzień do 8 grudnia!`;
-  }
-  return `Pozostało ${diff} dni do 8 grudnia!`;
+    const today = this.currentDateTime ?? new Date();
+    today.setHours(0,0,0,0);
+    let year = today.getFullYear();
+    let target = new Date(year, 11, 8); // 8 grudnia
+    if (today > target) {
+      target = new Date(year + 1, 11, 8);
+    }
+    const diff = Math.ceil((target.getTime() - today.getTime()) / (1000 * 60 * 60 * 24));
+    if (diff === 0) {
+      return 'Dziś jest dzień Oddania Jezusowi przez ręce Maryi!';
+    }
+    if (diff === 1) {
+      return `Pozostał 1 dzień do 8 grudnia!`;
+    }
+    if (diff % 10 === 1 && diff !== 11) {
+      return `Pozostał ${diff} dzień do 8 grudnia!`;
+    }
+    return `Pozostało ${diff} dni do 8 grudnia!`;
 }
 
   get daysRangeLabel(): string {
