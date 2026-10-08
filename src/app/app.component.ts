@@ -125,18 +125,13 @@ get startDate(): Date {
   today.setHours(0,0,0,0);
   const year = today.getFullYear();
   const wiosnaStart = getWiosnaStart(year);
+  const wiosnaStop = new Date(year, 4, 3); // 3 maja
   const jesienStart = new Date(year, 9, 27); // 27 października
 
-  if (today < wiosnaStart) {
+  if (today < wiosnaStart || (today >= wiosnaStart && today <= wiosnaStop)) {
     return new Date(year, 2, 22);
   }
-  if (today >= wiosnaStart && today < jesienStart) {
-    return new Date(year, 2, 22);
-  }
-  if (today >= jesienStart) {
-    return jesienStart;
-  }
-  return new Date(year, 2, 22);
+  return jesienStart;
 }
 
 get daysToEnd(): string {
